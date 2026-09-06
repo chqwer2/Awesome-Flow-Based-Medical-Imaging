@@ -110,6 +110,8 @@ A('')
 # still says it has code and one that says nothing at all.
 CODEBADGE = ('https://img.shields.io/badge/code-181717?'
              'style=flat-square&logo=github&logoColor=white')
+GONEBADGE = ('https://img.shields.io/badge/code-removed-9e9e9e?'
+             'style=flat-square&logo=github&logoColor=white')
 A('**Paper** links to the preprint where the bibliography carries one; `--` means '
   'there is none to link to, not that one was withheld.')
 A('')
@@ -118,7 +120,9 @@ A('**Code** &nbsp; [![code](' + CODEBADGE + ')](#implementations) a repository i
   '`code promised` promised without a link &nbsp;&middot;&nbsp; '
   '`no code` neither &nbsp;&middot;&nbsp; '
   '`no preprint` the full text could not be reached, so neither presence nor '
-  'absence of code is claimed')
+  'absence of code is claimed &nbsp;&middot;&nbsp; '
+  '[![code removed](' + GONEBADGE + ')](#contents) the paper prints a path that '
+  'no longer resolves')
 A('')
 
 def cell(t):
@@ -139,6 +143,12 @@ def badge(r):
     # text: a badge that goes nowhere reads as a broken one.
     i = arx.get(r['key'], '')
     if CD.CODE.get(i):
+        # A path the paper prints that no longer answers. It stays a link, because a
+        # reader may want to see for themselves and because the paper did provide it,
+        # but the badge says so first: an Awesome list whose badges 404 silently is
+        # worse than one that admits which ones have gone.
+        if i in getattr(CD, 'GONE', {}):
+            return '[![code removed](' + GONEBADGE + ')](' + CD.CODE[i] + ')'
         return '[![code](' + CODEBADGE + ')](' + CD.CODE[i] + ')'
     if i in getattr(CD, 'PROMISED', {}):
         return '`code promised`'

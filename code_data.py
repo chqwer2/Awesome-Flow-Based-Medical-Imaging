@@ -100,3 +100,18 @@ RESOLVED = {
     "selvan2020uncertainty": "2006.02683",
     "valiuddin2021improving": "2108.02155",
 }
+
+# Repository paths the papers print that no longer resolve. Probed with
+# check_repository_links.py on 2026-09-06: 33 of the 34 answered, this one did not.
+#
+# It stays in CODE, because that dictionary records what the paper provides and the
+# paper does provide it -- the source PDF prints exactly this path, and the owner
+# account exists with four other public repositories. What changed is the world, not
+# the bibliography. But a reader of the link list clicks it and gets a 404 with no way
+# to tell whether the link was mistyped or the code was withdrawn, so the list says so.
+#
+# Re-probe before submission and at proof; a path leaving this set is as likely as one
+# joining it.
+GONE = {
+    "2605.16469": "checked 2026-09-06: 404, owner account live, repository removed",
+}
