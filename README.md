@@ -101,7 +101,7 @@ from, so the repository and the manuscript cannot drift apart. Run
   <br/><sub>Flow matching &nbsp;|&nbsp; CBCT $\rightarrow$ CT</sub>
 - **Human-guided bridge** &mdash; *Human-Guided Shading Artifact Suppression in CBCT-to-MDCT Translation via Schrödinger Bridge with Conditional Diffusion* &mdash; IEEE Trans. Radiation and Plasma Medical Sciences, 2026 `no code`
   <br/><sub>Schrodinger bridge &nbsp;|&nbsp; CBCT $\rightarrow$ MDCT</sub>
-- **RAFM** &mdash; *RAFM: Retrieval-Augmented Flow Matching for Unpaired CBCT-to-CT Translation* &mdash; arXiv, 2026 **[`code`](https://github.com/HiLab-git/RAFM.git)**
+- **RAFM** &mdash; *RAFM: Retrieval-Augmented Flow Matching for Unpaired CBCT-to-CT Translation* &mdash; arXiv, 2026 **[`code`](https://github.com/HiLab-git/RAFM)**
   <br/><sub>Rectified flow &nbsp;|&nbsp; MRI $\rightarrow$ CT</sub>
 - **Anatomy-conserving bridge** &mdash; *Anatomy-Conserving Unpaired CBCT-to-CT Translation via Schrödinger Bridge* &mdash; MICCAI, 2025 `no preprint`
   <br/><sub>Schrodinger bridge &nbsp;|&nbsp; CBCT $\rightarrow$ CT</sub>
@@ -314,7 +314,7 @@ The 34 works that publish a repository, grouped by the transport they learn.
 | DermaFlux | 2026 | [dermaflux.github.io](https://dermaflux.github.io) |
 | DRIFT | 2026 | [yoonseokchoi-ai.github.io/drift-eccv2026/](https://yoonseokchoi-ai.github.io/drift-eccv2026/) |
 | MPFlow | 2026 | [github.com/edshkim98/MPFlow](https://github.com/edshkim98/MPFlow) |
-| RAFM | 2026 | [github.com/HiLab-git/RAFM.git](https://github.com/HiLab-git/RAFM.git) |
+| RAFM | 2026 | [github.com/HiLab-git/RAFM](https://github.com/HiLab-git/RAFM) |
 | Sparse-view reconstruction | 2026 | [github.com/EFMCT/EFMCT](https://github.com/EFMCT/EFMCT) |
 | ViCTr | 2025 | [github.com/Onkarsus13/ViCTr-2D](https://github.com/Onkarsus13/ViCTr-2D) |
 

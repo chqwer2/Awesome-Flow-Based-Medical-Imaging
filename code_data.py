@@ -26,7 +26,7 @@ CODE = {
     "2601.19498": "https://github.com/ai-med/Cor2Vox",
     "2602.21536": "https://github.com/Idea89560041/IHF-Harmony",
     "2603.00205": "https://github.com/EFMCT/EFMCT",
-    "2603.00535": "https://github.com/HiLab-git/RAFM.git",
+    "2603.00535": "https://github.com/HiLab-git/RAFM",
     "2603.03710": "https://github.com/edshkim98/MPFlow",
     "2603.13967": "https://github.com/EngEmmanuel/EchoLVFM",
     "2603.16392": "https://dermaflux.github.io",
