@@ -20,11 +20,15 @@ for m in re.finditer(r'@(\w+)\{([^,]+),(.*?)\n\}', bib, re.S):
 
 
 ACC = {}
-for _a, _c in ((chr(92) + chr(34) + "o", chr(246)), (chr(92) + chr(34) + "u", chr(252)),
-               (chr(92) + chr(34) + "a", chr(228)), (chr(92) + chr(39) + "e", chr(233)),
-               (chr(92) + chr(39) + 'a', chr(225)), (chr(92) + chr(39) + 'o', chr(243)),
-               (chr(92) + chr(96) + "e", chr(232)), (chr(92) + "^o", chr(244)),
-               (chr(92) + "~n", chr(241))):
+for _a, _c in ((chr(92) + chr(34) + 'o', chr(246)),
+               (chr(92) + chr(34) + 'u', chr(252)),
+               (chr(92) + chr(34) + 'a', chr(228)),
+               (chr(92) + chr(39) + 'e', chr(233)),
+               (chr(92) + chr(39) + 'a', chr(225)),
+               (chr(92) + chr(39) + 'o', chr(243)),
+               (chr(92) + chr(96) + 'e', chr(232)),
+               (chr(92) + '^o', chr(244)),
+               (chr(92) + '~n', chr(241))):
     ACC[_a] = _c
 
 VENUE = [
@@ -99,17 +103,23 @@ A('- [What the literature measures](#what-the-literature-measures)')
 A('- [Citation](#citation)')
 A('- [Contributing](#contributing)')
 A('')
-A('Legend: :octocat: code available &nbsp;&nbsp; :hourglass: code promised &nbsp;&nbsp; '
-  ':heavy_minus_sign: none found')
+A('**[`code`]** a repository is printed &nbsp;&middot;&nbsp; '
+  '`code promised` promised without a link &nbsp;&middot;&nbsp; '
+  '`no code` neither &nbsp;&middot;&nbsp; '
+  '`no preprint` full text could not be reached, so nothing is claimed either way')
 A('')
 
 def badge(r):
+    # three near-identical emoji did not scan; a visible word does. A link that is
+    # there reads as a link, and one that is not says why in plain text.
     i = arx.get(r['key'], '')
     if CD.CODE.get(i):
-        return '[:octocat:](%s)' % CD.CODE[i]
+        return '**[`code`](%s)**' % CD.CODE[i]
     if i in getattr(CD, 'PROMISED', {}):
-        return ':hourglass:'
-    return ':heavy_minus_sign:'
+        return '`code promised`'
+    if i not in MW:
+        return '`no preprint`'
+    return '`no code`'
 
 for app in ORDER:
     if app not in groups:
