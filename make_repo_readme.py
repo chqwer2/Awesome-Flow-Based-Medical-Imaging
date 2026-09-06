@@ -112,8 +112,8 @@ CODEBADGE = ('https://img.shields.io/badge/code-181717?'
              'style=flat-square&logo=github&logoColor=white')
 GONEBADGE = ('https://img.shields.io/badge/code-removed-9e9e9e?'
              'style=flat-square&logo=github&logoColor=white')
-A('**Paper** links to the preprint where the bibliography carries one; `--` means '
-  'there is none to link to, not that one was withheld.')
+A('**Venue** is a link where the bibliography carries a preprint, and plain text '
+  'where it does not -- nothing to link to, rather than a link withheld.')
 A('')
 A('**Code** &nbsp; [![code](' + CODEBADGE + ')](#implementations) a repository is '
   'printed, and the badge links to it &nbsp;&middot;&nbsp; '
@@ -125,16 +125,53 @@ A('**Code** &nbsp; [![code](' + CODEBADGE + ')](#implementations) a repository i
   'no longer resolves')
 A('')
 
+# fam() returns ASCII names because it is shared with the manuscript checkers, where a
+# bare umlaut in a .tex source would be a defect. This file is UTF-8 markdown read in a
+# browser, and the titles beside it already print Schrodinger correctly, so the family
+# label was the one place the name appeared without its diaeresis.
+FAMNAME = {'Schrodinger bridge': 'Schr\u00f6dinger bridge'}
+
+
+def famshow(t):
+    n = fam(t)
+    return FAMNAME.get(n, n)
+
+
+# The corpus cells are written for LaTeX, and three constructs were reaching the page
+# as source: $\rightarrow$ between the endpoints of a translation, \& in H\&E, and the
+# non-breaking ~. A browser prints those literally, so "MRI $\rightarrow$ CT" appeared
+# in a column whose whole job is to be read at a glance.
+DELATEX = [
+    (r'\$\\rightarrow\$', '\u2192'),
+    (r'\$\\to\$', '\u2192'),
+    (r'\\&', '&'),
+    (r'\\%', '%'),
+    (r'\\,', ' '),
+    (r'~', ' '),
+    (r'\{|\}', ''),
+]
+
+
 def cell(t):
-    """A table cell. A pipe inside one ends the column, so it has to be escaped."""
-    return str(t).replace('|', r'\|')
+    """A table cell: LaTeX turned into what a browser shows, then the pipe escaped.
+
+    A pipe inside a cell ends the column, so it is escaped last -- after the
+    substitutions, in case one of them ever introduces its own.
+    """
+    t = str(t)
+    for pat, rep in DELATEX:
+        t = re.sub(pat, rep, t)
+    return re.sub(r'\s{2,}', ' ', t).strip().replace('|', r'\|')
 
 
-def paper(r):
-    # The arXiv identifier is what the bibliography carries; 30 of the 89 works have
-    # none, and for those there is nothing to link to rather than a link withheld.
+def venue_link(r, v):
+    # The venue carries the link rather than a column of its own. Where the bibliography
+    # holds an arXiv identifier the venue name becomes the link; 30 of the 89 works have
+    # none, and those keep the venue as plain text -- nothing to link to, not a link
+    # withheld. A reader can tell the two apart at a glance, which is the point.
+    name = cell(venue(v) or 'arXiv')
     i = arx.get(r['key'], '')
-    return '[arXiv](https://arxiv.org/abs/%s)' % i if i else '--'
+    return '[%s](https://arxiv.org/abs/%s)' % (name, i) if i else name
 
 
 def badge(r):
@@ -168,18 +205,20 @@ for app in ORDER:
     # usually filtering -- by task, by formulation, by whether there is anything to run --
     # and a column is the thing you can run an eye down. The task group is our own
     # category from the survey, so the list and the paper cut the corpus the same way.
-    A('| Method | Task | Family | Modality | Venue | Year | Paper | Code |')
-    A('|:--|:--|:--|:--|:--|:--:|:--:|:--:|')
+    # The title is the thing a reader scans for, so it gets its own column at full size
+    # rather than a <sub> under the method name, where it was set smaller than everything
+    # around it. The link rides on the venue -- one column doing both jobs, since "where
+    # it was published" and "where to read it" are the same question.
+    A('| Method | Title | Task | Family | Modality | Venue | Year | Code |')
+    A('|:--|:--|:--|:--|:--|:--|:--:|:--:|')
     for g in sorted(groups[app]):
         rs = sorted(groups[app][g], key=lambda r: (-(year(r['key']) or 0), r['name'].lower()))
         for r in rs:
             t, v = meta.get(r['key'], ('', ''))
-            name = '**%s**' % cell(r['name'])
-            if t:
-                name += '<br/><sub>%s</sub>' % cell(tidy(t))
             A('| %s | %s | %s | %s | %s | %s | %s | %s |'
-              % (name, cell(g), cell(fam(r['family'])), cell(r.get('modality', '') or '--'),
-                 cell(venue(v) or '--'), year(r['key']) or '--', paper(r), badge(r)))
+              % ('**%s**' % cell(r['name']), cell(tidy(t)) if t else '--',
+                 cell(g), cell(famshow(r['family'])), cell(r.get('modality', '') or '--'),
+                 venue_link(r, v), year(r['key']) or '--', badge(r)))
     A('')
 
 # ---- implementations ----
