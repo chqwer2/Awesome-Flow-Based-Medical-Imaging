@@ -25,255 +25,126 @@ from, so the repository and the manuscript cannot drift apart. Run
 - [Citation](#citation)
 - [Contributing](#contributing)
 
-**[`code`]** a repository is printed &nbsp;&middot;&nbsp; `code promised` promised without a link &nbsp;&middot;&nbsp; `no code` neither &nbsp;&middot;&nbsp; `no preprint` full text could not be reached, so nothing is claimed either way
+**Paper** links to the preprint where the bibliography carries one; `--` means there is none to link to, not that one was withheld.
+
+**Code** &nbsp; [![code](https://img.shields.io/badge/code-181717?style=flat-square&logo=github&logoColor=white)](#implementations) a repository is printed, and the badge links to it &nbsp;&middot;&nbsp; `code promised` promised without a link &nbsp;&middot;&nbsp; `no code` neither &nbsp;&middot;&nbsp; `no preprint` the full text could not be reached, so neither presence nor absence of code is claimed
 
 ## Image Processing and Restoration
 
 *21 works.*
 
-### Reconstruction
-
-- **FlowPET** &mdash; *FlowPET: Physics-Informed Symplectic Flow Matching for Low-Count PET Reconstruction* &mdash; arXiv, 2026 **[`code`](https://github.com/xiaochaorouz/FlowPET)**
-  <br/><sub>Flow matching &nbsp;|&nbsp; PET</sub>
-- **MicroFM** &mdash; *MicroFM: Physics-guided Flow Matching for Isotropic Microscopy Reconstruction* &mdash; CVPR, 2026 `no preprint`
-  <br/><sub>Flow matching &nbsp;|&nbsp; Microscopy</sub>
-- **MPFlow** &mdash; *MPFlow: Multi-modal Posterior-Guided Flow Matching for Zero-Shot MRI Reconstruction* &mdash; arXiv, 2026 **[`code`](https://github.com/edshkim98/MPFlow)**
-  <br/><sub>Rectified flow &nbsp;|&nbsp; MRI</sub>
-- **Sparse-view reconstruction** &mdash; *Efficient Flow Matching for Sparse-View CT Reconstruction* &mdash; arXiv, 2026 **[`code`](https://github.com/EFMCT/EFMCT)**
-  <br/><sub>Rectified flow &nbsp;|&nbsp; CT</sub>
-- **Field-of-view extension** &mdash; *Efficient Image-to-Image Schrödinger Bridge for CT Field of View Extension* &mdash; arXiv, 2025 `no code`
-  <br/><sub>Schrodinger bridge &nbsp;|&nbsp; CT</sub>
-- **One-way conditional flow** &mdash; *Unsupervised low-dose CT reconstruction with one-way conditional normalizing flows* &mdash; IEEE Trans. Computational Imaging, 2025 `no code`
-  <br/><sub>Normalizing flow &nbsp;|&nbsp; CT</sub>
-- **Guided reconstruction** &mdash; *Guided MRI Reconstruction via Schrödinger Bridge* &mdash; arXiv, 2024 **[`code`](https://github.com/zhyjSIAT/I2SB-Inversion)**
-  <br/><sub>Schrodinger bridge &nbsp;|&nbsp; MRI</sub>
-- **AmbientFlow** &mdash; *AmbientFlow: Invertible generative models from incomplete, noisy measurements* &mdash; arXiv, 2023 `no code`
-  <br/><sub>Normalizing flow &nbsp;|&nbsp; General</sub>
-- **Conditional NF** &mdash; *Conditional normalizing flows for low-dose computed tomography image reconstruction* &mdash; arXiv, 2020 **[`code`](https://github.com/VLL-HD/FrEIA)**
-  <br/><sub>Normalizing flow &nbsp;|&nbsp; CT</sub>
-
-### Restoration
-
-- **RelativeFlow** &mdash; *RelativeFlow: Taming Medical Image Denoising Learning with Noisy Reference* &mdash; CVPR, 2026 **[`code`](https://github.com/Deliver0/RelativeFlow)**
-  <br/><sub>Flow matching &nbsp;|&nbsp; General</sub>
-- **Restora-Flow** &mdash; *Restora-Flow: Mask-Guided Image Restoration with Flow Matching* &mdash; Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision, 2026 **[`code`](https://github.com/imigraz/Restora-Flow)**
-  <br/><sub>Flow matching &nbsp;|&nbsp; General</sub>
-- **3T-to-7T recovery** &mdash; *Schrödinger Diffusion Driven Signal Recovery in 3T BOLD fMRI Using Unmatched 7T Observations* &mdash; arXiv, 2025 `no code`
-  <br/><sub>Schrodinger bridge &nbsp;|&nbsp; BOLD fMRI</sub>
-- **Low-field enhancement** &mdash; *Low-Field Magnetic Resonance Image Quality Enhancement using a Conditional Flow Matching Model* &mdash; arXiv, 2025 `no code`
-  <br/><sub>Flow matching &nbsp;|&nbsp; MRI</sub>
-- **PFCM** &mdash; *PFCM: Poisson flow consistency models for low-dose CT image denoising* &mdash; IEEE Trans. Medical Imaging, 2025 `no code`
-  <br/><sub>Diffusion or hybrid &nbsp;|&nbsp; CT</sub>
-- **AF2R** &mdash; *Realistic Restorer: artifact-free flow restorer (AF2R) for MRI motion artifact removal* &mdash; arXiv, 2023 `no code`
-  <br/><sub>Normalizing flow &nbsp;|&nbsp; MRI</sub>
-- **MRI-derived prior** &mdash; *Ultrasound speckle suppression and denoising using MRI-derived normalizing flow priors* &mdash; arXiv, 2021 `no code`
-  <br/><sub>Normalizing flow &nbsp;|&nbsp; Ultrasound</sub>
-
-### Super-resolution
-
-- **CAFlow** &mdash; *CAFlow: Adaptive-Depth Single-Step Flow Matching for Efficient Histopathology Super-Resolution* &mdash; arXiv, 2026 `no code`
-  <br/><sub>Flow matching &nbsp;|&nbsp; Histopathology</sub>
-- **DRIFT** &mdash; *DRIFT: Difficulty-aware Rectified Flows for Through-plane MRI Super-Resolution* &mdash; ECCV, 2026 **[`code`](https://yoonseokchoi-ai.github.io/drift-eccv2026/)**
-  <br/><sub>Rectified flow &nbsp;|&nbsp; MRI</sub>
-- **FTDDM** &mdash; *A flow-based truncated denoising diffusion model for super-resolution magnetic resonance spectroscopic imaging* &mdash; Medical Image Analysis, 2025 `code promised`
-  <br/><sub>Diffusion or hybrid &nbsp;|&nbsp; MR spectroscopic imaging</sub>
-- **Conditional stochastic NF** &mdash; *Simultaneous super-resolution and denoising on MRI via conditional stochastic normalizing flow* &mdash; IEEE International Conference on Bioinformatics and Biomedicine, 2023 `no preprint`
-  <br/><sub>Normalizing flow &nbsp;|&nbsp; MRI</sub>
-- **MRIFlow** &mdash; *MRIFlow: Magnetic resonance image super-resolution based on normalizing flow and frequency prior* &mdash; Journal of Magnetic Resonance, 2023 `no preprint`
-  <br/><sub>Normalizing flow &nbsp;|&nbsp; MRI</sub>
+| Method | Task | Family | Modality | Venue | Year | Paper | Code |
+|:--|:--|:--|:--|:--|:--:|:--:|:--:|
+| **FlowPET**<br/><sub>FlowPET: Physics-Informed Symplectic Flow Matching for Low-Count PET Reconstruction</sub> | Reconstruction | Flow matching | PET | arXiv | 2026 | [arXiv](https://arxiv.org/abs/2607.11104) | [![code](https://img.shields.io/badge/code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/xiaochaorouz/FlowPET) |
+| **MicroFM**<br/><sub>MicroFM: Physics-guided Flow Matching for Isotropic Microscopy Reconstruction</sub> | Reconstruction | Flow matching | Microscopy | CVPR | 2026 | -- | `no preprint` |
+| **MPFlow**<br/><sub>MPFlow: Multi-modal Posterior-Guided Flow Matching for Zero-Shot MRI Reconstruction</sub> | Reconstruction | Rectified flow | MRI | arXiv | 2026 | [arXiv](https://arxiv.org/abs/2603.03710) | [![code](https://img.shields.io/badge/code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/edshkim98/MPFlow) |
+| **Sparse-view reconstruction**<br/><sub>Efficient Flow Matching for Sparse-View CT Reconstruction</sub> | Reconstruction | Rectified flow | CT | arXiv | 2026 | [arXiv](https://arxiv.org/abs/2603.00205) | [![code](https://img.shields.io/badge/code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/EFMCT/EFMCT) |
+| **Field-of-view extension**<br/><sub>Efficient Image-to-Image Schrödinger Bridge for CT Field of View Extension</sub> | Reconstruction | Schrodinger bridge | CT | arXiv | 2025 | [arXiv](https://arxiv.org/abs/2508.11211) | `no code` |
+| **One-way conditional flow**<br/><sub>Unsupervised low-dose CT reconstruction with one-way conditional normalizing flows</sub> | Reconstruction | Normalizing flow | CT | IEEE Trans. Computational Imaging | 2025 | [arXiv](https://arxiv.org/abs/2410.17543) | `no code` |
+| **Guided reconstruction**<br/><sub>Guided MRI Reconstruction via Schrödinger Bridge</sub> | Reconstruction | Schrodinger bridge | MRI | arXiv | 2024 | [arXiv](https://arxiv.org/abs/2411.14269) | [![code](https://img.shields.io/badge/code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/zhyjSIAT/I2SB-Inversion) |
+| **AmbientFlow**<br/><sub>AmbientFlow: Invertible generative models from incomplete, noisy measurements</sub> | Reconstruction | Normalizing flow | General | arXiv | 2023 | [arXiv](https://arxiv.org/abs/2309.04856) | `no code` |
+| **Conditional NF**<br/><sub>Conditional normalizing flows for low-dose computed tomography image reconstruction</sub> | Reconstruction | Normalizing flow | CT | arXiv | 2020 | [arXiv](https://arxiv.org/abs/2006.06270) | [![code](https://img.shields.io/badge/code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/VLL-HD/FrEIA) |
+| **RelativeFlow**<br/><sub>RelativeFlow: Taming Medical Image Denoising Learning with Noisy Reference</sub> | Restoration | Flow matching | General | CVPR | 2026 | [arXiv](https://arxiv.org/abs/2604.15459) | [![code](https://img.shields.io/badge/code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Deliver0/RelativeFlow) |
+| **Restora-Flow**<br/><sub>Restora-Flow: Mask-Guided Image Restoration with Flow Matching</sub> | Restoration | Flow matching | General | Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision | 2026 | [arXiv](https://arxiv.org/abs/2511.20152) | [![code](https://img.shields.io/badge/code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/imigraz/Restora-Flow) |
+| **3T-to-7T recovery**<br/><sub>Schrödinger Diffusion Driven Signal Recovery in 3T BOLD fMRI Using Unmatched 7T Observations</sub> | Restoration | Schrodinger bridge | BOLD fMRI | arXiv | 2025 | [arXiv](https://arxiv.org/abs/2504.01004) | `no code` |
+| **Low-field enhancement**<br/><sub>Low-Field Magnetic Resonance Image Quality Enhancement using a Conditional Flow Matching Model</sub> | Restoration | Flow matching | MRI | arXiv | 2025 | [arXiv](https://arxiv.org/abs/2510.12408) | `no code` |
+| **PFCM**<br/><sub>PFCM: Poisson flow consistency models for low-dose CT image denoising</sub> | Restoration | Diffusion or hybrid | CT | IEEE Trans. Medical Imaging | 2025 | [arXiv](https://arxiv.org/abs/2402.08159) | `no code` |
+| **AF2R**<br/><sub>Realistic Restorer: artifact-free flow restorer (AF2R) for MRI motion artifact removal</sub> | Restoration | Normalizing flow | MRI | arXiv | 2023 | [arXiv](https://arxiv.org/abs/2306.10689) | `no code` |
+| **MRI-derived prior**<br/><sub>Ultrasound speckle suppression and denoising using MRI-derived normalizing flow priors</sub> | Restoration | Normalizing flow | Ultrasound | arXiv | 2021 | [arXiv](https://arxiv.org/abs/2112.13110) | `no code` |
+| **CAFlow**<br/><sub>CAFlow: Adaptive-Depth Single-Step Flow Matching for Efficient Histopathology Super-Resolution</sub> | Super-resolution | Flow matching | Histopathology | arXiv | 2026 | [arXiv](https://arxiv.org/abs/2603.18513) | `no code` |
+| **DRIFT**<br/><sub>DRIFT: Difficulty-aware Rectified Flows for Through-plane MRI Super-Resolution</sub> | Super-resolution | Rectified flow | MRI | ECCV | 2026 | [arXiv](https://arxiv.org/abs/2607.16649) | [![code](https://img.shields.io/badge/code-181717?style=flat-square&logo=github&logoColor=white)](https://yoonseokchoi-ai.github.io/drift-eccv2026/) |
+| **FTDDM**<br/><sub>A flow-based truncated denoising diffusion model for super-resolution magnetic resonance spectroscopic imaging</sub> | Super-resolution | Diffusion or hybrid | MR spectroscopic imaging | Medical Image Analysis | 2025 | [arXiv](https://arxiv.org/abs/2410.19288) | `code promised` |
+| **Conditional stochastic NF**<br/><sub>Simultaneous super-resolution and denoising on MRI via conditional stochastic normalizing flow</sub> | Super-resolution | Normalizing flow | MRI | IEEE International Conference on Bioinformatics and Biomedicine | 2023 | -- | `no preprint` |
+| **MRIFlow**<br/><sub>MRIFlow: Magnetic resonance image super-resolution based on normalizing flow and frequency prior</sub> | Super-resolution | Normalizing flow | MRI | Journal of Magnetic Resonance | 2023 | -- | `no preprint` |
 
 ## Cross-Modal Translation and Harmonization
 
 *23 works.*
 
-### Cross-modal translation: MRI-centred
-
-- **Prob-BBDM** &mdash; *Prob-BBDM: A probabilistic Brownian Bridge Diffusion Model for MRI sequence image-to-image translation* &mdash; Computerized Medical Imaging and Graphics, 2026 **[`code`](https://gitlab.xlim.fr/mvalls/Prob-BBDM)**
-  <br/><sub>Brownian bridge &nbsp;|&nbsp; MRI sequences</sub>
-- **Multi-contrast synthesis** &mdash; *Multi-contrast MR image synthesis with a Brownian diffusion model* &mdash; Signal Processing and Communications Applications Conference, 2024 `no preprint`
-  <br/><sub>Brownian bridge &nbsp;|&nbsp; Multi-contrast MRI</sub>
-- **Slice-consistent BBDM** &mdash; *Slice-consistent 3D volumetric brain CT-to-MRI translation with 2D Brownian bridge diffusion model* &mdash; MICCAI, 2024 **[`code`](https://github.com/MICV-yonsei/CT2MRI)**
-  <br/><sub>Brownian bridge &nbsp;|&nbsp; CT $\rightarrow$ MRI</sub>
-
-### Cross-modal translation: synthetic CT
-
-- **CBCT-conditioned synthesis** &mdash; *CBCT-Based Synthetic CT Generation Using Conditional Flow Matching Model* &mdash; arXiv, 2026 `no code`
-  <br/><sub>Flow matching &nbsp;|&nbsp; CBCT $\rightarrow$ CT</sub>
-- **Human-guided bridge** &mdash; *Human-Guided Shading Artifact Suppression in CBCT-to-MDCT Translation via Schrödinger Bridge with Conditional Diffusion* &mdash; IEEE Trans. Radiation and Plasma Medical Sciences, 2026 `no code`
-  <br/><sub>Schrodinger bridge &nbsp;|&nbsp; CBCT $\rightarrow$ MDCT</sub>
-- **RAFM** &mdash; *RAFM: Retrieval-Augmented Flow Matching for Unpaired CBCT-to-CT Translation* &mdash; arXiv, 2026 **[`code`](https://github.com/HiLab-git/RAFM)**
-  <br/><sub>Rectified flow &nbsp;|&nbsp; MRI $\rightarrow$ CT</sub>
-- **Anatomy-conserving bridge** &mdash; *Anatomy-Conserving Unpaired CBCT-to-CT Translation via Schrödinger Bridge* &mdash; MICCAI, 2025 `no preprint`
-  <br/><sub>Schrodinger bridge &nbsp;|&nbsp; CBCT $\rightarrow$ CT</sub>
-- **Conditional flow matching** &mdash; *Flow Matching for Conditional MRI-CT and CBCT-CT Image Synthesis* &mdash; arXiv, 2025 `no code`
-  <br/><sub>Flow matching &nbsp;|&nbsp; MRI, CBCT $\rightarrow$ CT</sub>
-- **Structure-residual bridge** &mdash; *Structure-Residual Diffusion Bridge Model for MRI-to-CT Image Translation* &mdash; International Conference on Virtual Reality and Visualization, 2025 `no preprint`
-  <br/><sub>Diffusion or hybrid &nbsp;|&nbsp; MRI $\rightarrow$ CT</sub>
-
-### Domain harmonization
-
-- **IHF-Harmony** &mdash; *IHF-Harmony: Multi-Modality Magnetic Resonance Images Harmonization using Invertible Hierarchy Flow Model* &mdash; arXiv, 2026 **[`code`](https://github.com/Idea89560041/IHF-Harmony)**
-  <br/><sub>Normalizing flow &nbsp;|&nbsp; Multi-modal MRI</sub>
-- **LMSB** &mdash; *Optical Coherence Tomography Harmonization with Anatomy-Guided Latent Metric Schrödinger Bridges* &mdash; NeurIPS, 2026 `no preprint`
-  <br/><sub>Schrodinger bridge &nbsp;|&nbsp; OCT</sub>
-- **Trajectory-aligned adaptation** &mdash; *Test-Time Adaptation in Optical Coherence Tomography Using Trajectory-Aligned Time-Independent Flow* &mdash; arXiv, 2026 **[`code`](https://github.com/Veit21/tta-flow)**
-  <br/><sub>Flow matching &nbsp;|&nbsp; OCT</sub>
-- **BlindHarmony** &mdash; *BlindHarmony:" blind" harmonization for MR images via flow model* &mdash; ICCV, 2023 **[`code`](https://github.com/SNU-LIST/BlindHarmony)**
-  <br/><sub>Normalizing flow &nbsp;|&nbsp; MRI</sub>
-- **CTFlow (Wei et~al.)** &mdash; *CTFlow: Mitigating effects of computed tomography acquisition and reconstruction with normalizing flows* &mdash; MICCAI, 2023 `no preprint`
-  <br/><sub>Normalizing flow &nbsp;|&nbsp; CT</sub>
-- **Harmonizing Flows** &mdash; *Harmonizing Flows: Unsupervised MR harmonization based on normalizing flows* &mdash; International Conference on Information Processing in Medical Imaging, 2023 **[`code`](https://github.com/farzad-bz/Harmonizing-Flows)**
-  <br/><sub>Normalizing flow &nbsp;|&nbsp; MRI</sub>
-- **Kernel conversion** &mdash; *CT Kernel Conversion for Quantitative Assessment in Chronic Obstructive Pulmonary Disease Using an Image-to-Image Schrödinger Bridge Model* `no preprint`
-  <br/><sub>Schrodinger bridge &nbsp;|&nbsp; CT</sub>
-
-### Functional-state translation
-
-- **FM-fMRI** &mdash; *FM-fMRI: Event Conditioned Flow Matching for Rest-to-Task fMRI Time-Series Synthesis* &mdash; arXiv, 2026 `code promised`
-  <br/><sub>Flow matching &nbsp;|&nbsp; fMRI time series</sub>
-
-### Missing-modality translation
-
-- **Contrast-X** &mdash; *Contrast-X: A Multi-Modal Contrast Image Synthesis Benchmark and Universal Modality Flow Matching* &mdash; arXiv, 2026 **[`code`](https://github.com/YifanChen02/Contrast-X)**
-  <br/><sub>Flow matching &nbsp;|&nbsp; CT, multi-phase MRI</sub>
-- **WFM** &mdash; *WFM: 3D Wavelet Flow Matching for Ultrafast Multi-Modal MRI Synthesis* &mdash; MIDL, 2026 **[`code`](https://github.com/yalcintur/WFM)**
-  <br/><sub>Flow matching &nbsp;|&nbsp; Multi-modal MRI</sub>
-
-### Virtual staining
-
-- **Topology-aware DSB** &mdash; *Topology-aware Diffusion Schrödinger Bridge for Unpaired H&E-to-IHC Stain Translation* &mdash; IEEE Journal of Biomedical and Health Informatics, 2026 `no preprint`
-  <br/><sub>Schrodinger bridge &nbsp;|&nbsp; H\&E $\rightarrow$ IHC</sub>
-- **PASB** &mdash; *PASB: Pathology-Aware Schrödinger Bridge for Virtual Immunohistochemical Staining* &mdash; Medical Image Analysis, 2025 `no preprint`
-  <br/><sub>Schrodinger bridge &nbsp;|&nbsp; H\&E $\rightarrow$ IHC</sub>
-- **Pixel super-resolved staining** &mdash; *Pixel super-resolved virtual staining of label-free tissue using diffusion models* &mdash; Nature Communications, 2025 `no code`
-  <br/><sub>Diffusion or hybrid &nbsp;|&nbsp; Label-free $\rightarrow$ stained</sub>
-- **StainSB** &mdash; *Weakly Supervised Virtual Immunohistochemistry Staining via Schrödinger Bridge Method* &mdash; IEEE International Conference on Bioinformatics and Biomedicine, 2024 `no preprint`
-  <br/><sub>Schrodinger bridge &nbsp;|&nbsp; H\&E $\rightarrow$ IHC</sub>
+| Method | Task | Family | Modality | Venue | Year | Paper | Code |
+|:--|:--|:--|:--|:--|:--:|:--:|:--:|
+| **Prob-BBDM**<br/><sub>Prob-BBDM: A probabilistic Brownian Bridge Diffusion Model for MRI sequence image-to-image translation</sub> | Cross-modal translation: MRI-centred | Brownian bridge | MRI sequences | Computerized Medical Imaging and Graphics | 2026 | [arXiv](https://arxiv.org/abs/2606.24313) | [![code](https://img.shields.io/badge/code-181717?style=flat-square&logo=github&logoColor=white)](https://gitlab.xlim.fr/mvalls/Prob-BBDM) |
+| **Multi-contrast synthesis**<br/><sub>Multi-contrast MR image synthesis with a Brownian diffusion model</sub> | Cross-modal translation: MRI-centred | Brownian bridge | Multi-contrast MRI | Signal Processing and Communications Applications Conference | 2024 | -- | `no preprint` |
+| **Slice-consistent BBDM**<br/><sub>Slice-consistent 3D volumetric brain CT-to-MRI translation with 2D Brownian bridge diffusion model</sub> | Cross-modal translation: MRI-centred | Brownian bridge | CT $\rightarrow$ MRI | MICCAI | 2024 | [arXiv](https://arxiv.org/abs/2407.05059) | [![code](https://img.shields.io/badge/code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/MICV-yonsei/CT2MRI) |
+| **CBCT-conditioned synthesis**<br/><sub>CBCT-Based Synthetic CT Generation Using Conditional Flow Matching Model</sub> | Cross-modal translation: synthetic CT | Flow matching | CBCT $\rightarrow$ CT | arXiv | 2026 | [arXiv](https://arxiv.org/abs/2603.05796) | `no code` |
+| **Human-guided bridge**<br/><sub>Human-Guided Shading Artifact Suppression in CBCT-to-MDCT Translation via Schrödinger Bridge with Conditional Diffusion</sub> | Cross-modal translation: synthetic CT | Schrodinger bridge | CBCT $\rightarrow$ MDCT | IEEE Trans. Radiation and Plasma Medical Sciences | 2026 | [arXiv](https://arxiv.org/abs/2507.11025) | `no code` |
+| **RAFM**<br/><sub>RAFM: Retrieval-Augmented Flow Matching for Unpaired CBCT-to-CT Translation</sub> | Cross-modal translation: synthetic CT | Rectified flow | MRI $\rightarrow$ CT | arXiv | 2026 | [arXiv](https://arxiv.org/abs/2603.00535) | [![code](https://img.shields.io/badge/code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/HiLab-git/RAFM) |
+| **Anatomy-conserving bridge**<br/><sub>Anatomy-Conserving Unpaired CBCT-to-CT Translation via Schrödinger Bridge</sub> | Cross-modal translation: synthetic CT | Schrodinger bridge | CBCT $\rightarrow$ CT | MICCAI | 2025 | -- | `no preprint` |
+| **Conditional flow matching**<br/><sub>Flow Matching for Conditional MRI-CT and CBCT-CT Image Synthesis</sub> | Cross-modal translation: synthetic CT | Flow matching | MRI, CBCT $\rightarrow$ CT | arXiv | 2025 | [arXiv](https://arxiv.org/abs/2510.04823) | `no code` |
+| **Structure-residual bridge**<br/><sub>Structure-Residual Diffusion Bridge Model for MRI-to-CT Image Translation</sub> | Cross-modal translation: synthetic CT | Diffusion or hybrid | MRI $\rightarrow$ CT | International Conference on Virtual Reality and Visualization | 2025 | -- | `no preprint` |
+| **IHF-Harmony**<br/><sub>IHF-Harmony: Multi-Modality Magnetic Resonance Images Harmonization using Invertible Hierarchy Flow Model</sub> | Domain harmonization | Normalizing flow | Multi-modal MRI | arXiv | 2026 | [arXiv](https://arxiv.org/abs/2602.21536) | [![code](https://img.shields.io/badge/code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Idea89560041/IHF-Harmony) |
+| **LMSB**<br/><sub>Optical Coherence Tomography Harmonization with Anatomy-Guided Latent Metric Schrödinger Bridges</sub> | Domain harmonization | Schrodinger bridge | OCT | NeurIPS | 2026 | -- | `no preprint` |
+| **Trajectory-aligned adaptation**<br/><sub>Test-Time Adaptation in Optical Coherence Tomography Using Trajectory-Aligned Time-Independent Flow</sub> | Domain harmonization | Flow matching | OCT | arXiv | 2026 | [arXiv](https://arxiv.org/abs/2606.18876) | [![code](https://img.shields.io/badge/code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Veit21/tta-flow) |
+| **BlindHarmony**<br/><sub>BlindHarmony:" blind" harmonization for MR images via flow model</sub> | Domain harmonization | Normalizing flow | MRI | ICCV | 2023 | [arXiv](https://arxiv.org/abs/2305.10732) | [![code](https://img.shields.io/badge/code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/SNU-LIST/BlindHarmony) |
+| **CTFlow (Wei et~al.)**<br/><sub>CTFlow: Mitigating effects of computed tomography acquisition and reconstruction with normalizing flows</sub> | Domain harmonization | Normalizing flow | CT | MICCAI | 2023 | -- | `no preprint` |
+| **Harmonizing Flows**<br/><sub>Harmonizing Flows: Unsupervised MR harmonization based on normalizing flows</sub> | Domain harmonization | Normalizing flow | MRI | International Conference on Information Processing in Medical Imaging | 2023 | [arXiv](https://arxiv.org/abs/2301.11551) | [![code](https://img.shields.io/badge/code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/farzad-bz/Harmonizing-Flows) |
+| **Kernel conversion**<br/><sub>CT Kernel Conversion for Quantitative Assessment in Chronic Obstructive Pulmonary Disease Using an Image-to-Image Schrödinger Bridge Model</sub> | Domain harmonization | Schrodinger bridge | CT | -- | -- | -- | `no preprint` |
+| **FM-fMRI**<br/><sub>FM-fMRI: Event Conditioned Flow Matching for Rest-to-Task fMRI Time-Series Synthesis</sub> | Functional-state translation | Flow matching | fMRI time series | arXiv | 2026 | [arXiv](https://arxiv.org/abs/2605.26423) | `code promised` |
+| **Contrast-X**<br/><sub>Contrast-X: A Multi-Modal Contrast Image Synthesis Benchmark and Universal Modality Flow Matching</sub> | Missing-modality translation | Flow matching | CT, multi-phase MRI | arXiv | 2026 | [arXiv](https://arxiv.org/abs/2601.15884) | [![code](https://img.shields.io/badge/code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/YifanChen02/Contrast-X) |
+| **WFM**<br/><sub>WFM: 3D Wavelet Flow Matching for Ultrafast Multi-Modal MRI Synthesis</sub> | Missing-modality translation | Flow matching | Multi-modal MRI | MIDL | 2026 | [arXiv](https://arxiv.org/abs/2604.21146) | [![code](https://img.shields.io/badge/code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/yalcintur/WFM) |
+| **Topology-aware DSB**<br/><sub>Topology-aware Diffusion Schrödinger Bridge for Unpaired H&E-to-IHC Stain Translation</sub> | Virtual staining | Schrodinger bridge | H\&E $\rightarrow$ IHC | IEEE Journal of Biomedical and Health Informatics | 2026 | -- | `no preprint` |
+| **PASB**<br/><sub>PASB: Pathology-Aware Schrödinger Bridge for Virtual Immunohistochemical Staining</sub> | Virtual staining | Schrodinger bridge | H\&E $\rightarrow$ IHC | Medical Image Analysis | 2025 | -- | `no preprint` |
+| **Pixel super-resolved staining**<br/><sub>Pixel super-resolved virtual staining of label-free tissue using diffusion models</sub> | Virtual staining | Diffusion or hybrid | Label-free $\rightarrow$ stained | Nature Communications | 2025 | [arXiv](https://arxiv.org/abs/2410.20073) | `no code` |
+| **StainSB**<br/><sub>Weakly Supervised Virtual Immunohistochemistry Staining via Schrödinger Bridge Method</sub> | Virtual staining | Schrodinger bridge | H\&E $\rightarrow$ IHC | IEEE International Conference on Bioinformatics and Biomedicine | 2024 | -- | `no preprint` |
 
 ## Image Generation and Augmentation
 
 *24 works.*
 
-### Controllable and structure-guided generation
-
-- **Cortex-grounded generation** &mdash; *Cortex-Grounded Diffusion Models for Brain Image Generation* &mdash; arXiv, 2026 **[`code`](https://github.com/ai-med/Cor2Vox)**
-  <br/><sub>Diffusion or hybrid &nbsp;|&nbsp; Brain MRI</sub>
-- **EchoLVFM** &mdash; *EchoLVFM: One-Step Video Generation via Latent Flow Matching for Echocardiogram Synthesis* &mdash; arXiv, 2026 **[`code`](https://github.com/EngEmmanuel/EchoLVFM)**
-  <br/><sub>Flow matching &nbsp;|&nbsp; Echocardiography</sub>
-- **GeneVAR** &mdash; *GeneVAR: Causal MeanFlow for Autoregressive Gene-to-WSI Tile Synthesis* &mdash; CVPR, 2026 `no preprint`
-  <br/><sub>Flow matching &nbsp;|&nbsp; Histopathology</sub>
-- **Multimodal bridge** &mdash; *Multimodal Brownian bridge diffusion model for controllable synthetic medical image generation* &mdash; Biomedical Signal Processing and Control, 2026 `no preprint`
-  <br/><sub>Brownian bridge &nbsp;|&nbsp; General</sub>
-- **Cor2Vox** &mdash; *3D shape-to-image Brownian bridge diffusion for brain MRI synthesis from cortical surfaces* &mdash; International Conference on Information Processing in Medical Imaging, 2025 **[`code`](https://github.com/ai-med/Cor2Vox)**
-  <br/><sub>Brownian bridge &nbsp;|&nbsp; Brain MRI</sub>
-- **CTFlow (Wang et~al.)** &mdash; *CTFlow: Video-Inspired Latent Flow Matching for 3D CT Synthesis* &mdash; ICCV, 2025 `no code`
-  <br/><sub>Flow matching &nbsp;|&nbsp; CT, 3D</sub>
-- **Surf2CT** &mdash; *Surf2CT: Cascaded 3D Flow Matching Models for Torso 3D CT Synthesis from Skin Surface* &mdash; arXiv, 2025 `no code`
-  <br/><sub>Flow matching &nbsp;|&nbsp; Torso CT</sub>
-- **TumorGen** &mdash; *TumorGen: Boundary-Aware Tumor-Mask Synthesis with Rectified Flow Matching* &mdash; arXiv, 2025 `no code`
-  <br/><sub>Rectified flow &nbsp;|&nbsp; Tumor masks</sub>
-- **ViCTr** &mdash; *ViCTr: Vital consistency transfer for pathology aware image synthesis* &mdash; ICCV, 2025 **[`code`](https://github.com/Onkarsus13/ViCTr-2D)**
-  <br/><sub>Rectified flow &nbsp;|&nbsp; Pathology-aware synthesis</sub>
-
-### Data-augmentation-oriented generation
-
-- **DermaFlux** &mdash; *DermaFlux: Synthetic Skin Lesion Generation with Rectified Flows for Enhanced Image Classification* &mdash; arXiv, 2026 **[`code`](https://dermaflux.github.io)**
-  <br/><sub>Rectified flow &nbsp;|&nbsp; Dermoscopy</sub>
-- **Distribution-aligned synthesis** &mdash; *Few-Shot Distribution-Aligned Flow Matching for Data Synthesis in Medical Image Segmentation* &mdash; arXiv, 2026 `no code`
-  <br/><sub>Flow matching &nbsp;|&nbsp; Segmentation datasets</sub>
-- **MammoFlow** &mdash; *MammoFlow: Multiview Mammogram Synthesis with Anatomically Consistent Flow Matching* &mdash; arXiv, 2026 **[`code`](https://github.com/XYPB/MammoFlow)**
-  <br/><sub>Flow matching &nbsp;|&nbsp; Mammography</sub>
-- **MoGen** &mdash; *MoGen: Detailed Neuronal Morphology Generation via Point Cloud Flow Matching* &mdash; The Fourteenth International Conference on Learning Representations, 2026 `no preprint`
-  <br/><sub>Flow matching &nbsp;|&nbsp; Neuronal point clouds</sub>
-- **STREAM** &mdash; *STREAM: Stochastic Riemannian Flow Matching with Anisotropic Decoder for Digital Histopathology Image Generation* &mdash; arXiv, 2026 `code promised`
-  <br/><sub>Flow matching &nbsp;|&nbsp; Histopathology</sub>
-- **Subclass priors** &mdash; *Flow Matching with Optimized Subclass Priors for Medical Image Augmentation* &mdash; arXiv, 2026 **[`code`](https://github.com/Felix-012/OptPriorFM)**
-  <br/><sub>Flow matching &nbsp;|&nbsp; General</sub>
-- **WaveDiT** &mdash; *WaveDiT: Distribution-Aware Wavelet Flow Matching for Efficient 3D Brain MRI Synthesis* &mdash; arXiv, 2026 **[`code`](https://github.com/sisinflab/WaveDiT)**
-  <br/><sub>Flow matching &nbsp;|&nbsp; Brain MRI, 3D</sub>
-- **Landmark-oriented synthesis** &mdash; *Flow matching-based data synthesis for robust anatomical landmark localization* &mdash; IEEE Journal of Biomedical and Health Informatics, 2025 `no preprint`
-  <br/><sub>Flow matching &nbsp;|&nbsp; Landmark datasets</sub>
-- **MOTFM** &mdash; *Flow matching for medical image synthesis: Bridging the gap between speed and quality* &mdash; MICCAI, 2025 **[`code`](https://github.com/milad1378yz/MOTFM)**
-  <br/><sub>Flow matching &nbsp;|&nbsp; General, 2D and 3D</sub>
-- **RealNVP synthesis** &mdash; *Normalizing flow for synthetic medical images generation* &mdash; IEEE Healthcare Innovations and Point of Care Technologies, 2022 `no preprint`
-  <br/><sub>Normalizing flow &nbsp;|&nbsp; Chest X-ray, skin lesion</sub>
-
-### Longitudinal, treatment-conditioned, and counterfactual generation
-
-- **In-context priors** &mdash; *Flow Matching with In-Context Priors for Out-of-Distribution Brain Dynamics* &mdash; arXiv, 2026 **[`code`](https://github.com/SamGijsen/pinc-flows)**
-  <br/><sub>Flow matching &nbsp;|&nbsp; fMRI dynamics</sub>
-- **OsteoFlow** &mdash; *OsteoFlow: Lyapunov-Guided Flow Distillation for Predicting Bone Remodeling after Mandibular Reconstruction* &mdash; arXiv, 2026 **[`code`](https://github.com/hamidreza-aftabi/OsteoFlow)**
-  <br/><sub>Flow matching &nbsp;|&nbsp; Mandibular CT</sub>
-- **Reversed progression** &mdash; *Vector Quantization for Reversed Disease Progression: Further Investigations* &mdash; MIDL, 2026 `no preprint`
-  <br/><sub>Not a flow &nbsp;|&nbsp; Longitudinal imaging</sub>
-- **CRONOS** &mdash; *CRONOS: Continuous Time Reconstruction for 4D Medical Longitudinal Series* &mdash; arXiv, 2025 **[`code`](https://github.com/MIC-DKFZ/Longitudinal4DMed)**
-  <br/><sub>Flow matching &nbsp;|&nbsp; 4D longitudinal series</sub>
-- **Patient-specific dynamics** &mdash; *Learning Patient-Specific Disease Dynamics with Latent Flow Matching for Longitudinal Imaging Generation* &mdash; arXiv, 2025 **[`code`](https://github.com/chqwer2/Delta-LDM-Longitudinal)**
-  <br/><sub>Flow matching &nbsp;|&nbsp; Longitudinal imaging</sub>
+| Method | Task | Family | Modality | Venue | Year | Paper | Code |
+|:--|:--|:--|:--|:--|:--:|:--:|:--:|
+| **Cortex-grounded generation**<br/><sub>Cortex-Grounded Diffusion Models for Brain Image Generation</sub> | Controllable and structure-guided generation | Diffusion or hybrid | Brain MRI | arXiv | 2026 | [arXiv](https://arxiv.org/abs/2601.19498) | [![code](https://img.shields.io/badge/code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/ai-med/Cor2Vox) |
+| **EchoLVFM**<br/><sub>EchoLVFM: One-Step Video Generation via Latent Flow Matching for Echocardiogram Synthesis</sub> | Controllable and structure-guided generation | Flow matching | Echocardiography | arXiv | 2026 | [arXiv](https://arxiv.org/abs/2603.13967) | [![code](https://img.shields.io/badge/code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/EngEmmanuel/EchoLVFM) |
+| **GeneVAR**<br/><sub>GeneVAR: Causal MeanFlow for Autoregressive Gene-to-WSI Tile Synthesis</sub> | Controllable and structure-guided generation | Flow matching | Histopathology | CVPR | 2026 | -- | `no preprint` |
+| **Multimodal bridge**<br/><sub>Multimodal Brownian bridge diffusion model for controllable synthetic medical image generation</sub> | Controllable and structure-guided generation | Brownian bridge | General | Biomedical Signal Processing and Control | 2026 | -- | `no preprint` |
+| **Cor2Vox**<br/><sub>3D shape-to-image Brownian bridge diffusion for brain MRI synthesis from cortical surfaces</sub> | Controllable and structure-guided generation | Brownian bridge | Brain MRI | International Conference on Information Processing in Medical Imaging | 2025 | [arXiv](https://arxiv.org/abs/2502.12742) | [![code](https://img.shields.io/badge/code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/ai-med/Cor2Vox) |
+| **CTFlow (Wang et~al.)**<br/><sub>CTFlow: Video-Inspired Latent Flow Matching for 3D CT Synthesis</sub> | Controllable and structure-guided generation | Flow matching | CT, 3D | ICCV | 2025 | [arXiv](https://arxiv.org/abs/2508.12900) | `no code` |
+| **Surf2CT**<br/><sub>Surf2CT: Cascaded 3D Flow Matching Models for Torso 3D CT Synthesis from Skin Surface</sub> | Controllable and structure-guided generation | Flow matching | Torso CT | arXiv | 2025 | [arXiv](https://arxiv.org/abs/2505.22511) | `no code` |
+| **TumorGen**<br/><sub>TumorGen: Boundary-Aware Tumor-Mask Synthesis with Rectified Flow Matching</sub> | Controllable and structure-guided generation | Rectified flow | Tumor masks | arXiv | 2025 | [arXiv](https://arxiv.org/abs/2505.24687) | `no code` |
+| **ViCTr**<br/><sub>ViCTr: Vital consistency transfer for pathology aware image synthesis</sub> | Controllable and structure-guided generation | Rectified flow | Pathology-aware synthesis | ICCV | 2025 | [arXiv](https://arxiv.org/abs/2505.04963) | [![code](https://img.shields.io/badge/code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Onkarsus13/ViCTr-2D) |
+| **DermaFlux**<br/><sub>DermaFlux: Synthetic Skin Lesion Generation with Rectified Flows for Enhanced Image Classification</sub> | Data-augmentation-oriented generation | Rectified flow | Dermoscopy | arXiv | 2026 | [arXiv](https://arxiv.org/abs/2603.16392) | [![code](https://img.shields.io/badge/code-181717?style=flat-square&logo=github&logoColor=white)](https://dermaflux.github.io) |
+| **Distribution-aligned synthesis**<br/><sub>Few-Shot Distribution-Aligned Flow Matching for Data Synthesis in Medical Image Segmentation</sub> | Data-augmentation-oriented generation | Flow matching | Segmentation datasets | arXiv | 2026 | [arXiv](https://arxiv.org/abs/2604.02868) | `no code` |
+| **MammoFlow**<br/><sub>MammoFlow: Multiview Mammogram Synthesis with Anatomically Consistent Flow Matching</sub> | Data-augmentation-oriented generation | Flow matching | Mammography | arXiv | 2026 | [arXiv](https://arxiv.org/abs/2606.28537) | [![code](https://img.shields.io/badge/code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/XYPB/MammoFlow) |
+| **MoGen**<br/><sub>MoGen: Detailed Neuronal Morphology Generation via Point Cloud Flow Matching</sub> | Data-augmentation-oriented generation | Flow matching | Neuronal point clouds | The Fourteenth International Conference on Learning Representations | 2026 | -- | `no preprint` |
+| **STREAM**<br/><sub>STREAM: Stochastic Riemannian Flow Matching with Anisotropic Decoder for Digital Histopathology Image Generation</sub> | Data-augmentation-oriented generation | Flow matching | Histopathology | arXiv | 2026 | [arXiv](https://arxiv.org/abs/2606.07036) | `code promised` |
+| **Subclass priors**<br/><sub>Flow Matching with Optimized Subclass Priors for Medical Image Augmentation</sub> | Data-augmentation-oriented generation | Flow matching | General | arXiv | 2026 | [arXiv](https://arxiv.org/abs/2605.16469) | [![code](https://img.shields.io/badge/code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Felix-012/OptPriorFM) |
+| **WaveDiT**<br/><sub>WaveDiT: Distribution-Aware Wavelet Flow Matching for Efficient 3D Brain MRI Synthesis</sub> | Data-augmentation-oriented generation | Flow matching | Brain MRI, 3D | arXiv | 2026 | [arXiv](https://arxiv.org/abs/2606.08670) | [![code](https://img.shields.io/badge/code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/sisinflab/WaveDiT) |
+| **Landmark-oriented synthesis**<br/><sub>Flow matching-based data synthesis for robust anatomical landmark localization</sub> | Data-augmentation-oriented generation | Flow matching | Landmark datasets | IEEE Journal of Biomedical and Health Informatics | 2025 | -- | `no preprint` |
+| **MOTFM**<br/><sub>Flow matching for medical image synthesis: Bridging the gap between speed and quality</sub> | Data-augmentation-oriented generation | Flow matching | General, 2D and 3D | MICCAI | 2025 | [arXiv](https://arxiv.org/abs/2503.00266) | [![code](https://img.shields.io/badge/code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/milad1378yz/MOTFM) |
+| **RealNVP synthesis**<br/><sub>Normalizing flow for synthetic medical images generation</sub> | Data-augmentation-oriented generation | Normalizing flow | Chest X-ray, skin lesion | IEEE Healthcare Innovations and Point of Care Technologies | 2022 | -- | `no preprint` |
+| **In-context priors**<br/><sub>Flow Matching with In-Context Priors for Out-of-Distribution Brain Dynamics</sub> | Longitudinal, treatment-conditioned, and counterfactual generation | Flow matching | fMRI dynamics | arXiv | 2026 | [arXiv](https://arxiv.org/abs/2606.11833) | [![code](https://img.shields.io/badge/code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/SamGijsen/pinc-flows) |
+| **OsteoFlow**<br/><sub>OsteoFlow: Lyapunov-Guided Flow Distillation for Predicting Bone Remodeling after Mandibular Reconstruction</sub> | Longitudinal, treatment-conditioned, and counterfactual generation | Flow matching | Mandibular CT | arXiv | 2026 | [arXiv](https://arxiv.org/abs/2603.22421) | [![code](https://img.shields.io/badge/code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/hamidreza-aftabi/OsteoFlow) |
+| **Reversed progression**<br/><sub>Vector Quantization for Reversed Disease Progression: Further Investigations</sub> | Longitudinal, treatment-conditioned, and counterfactual generation | Not a flow | Longitudinal imaging | MIDL | 2026 | -- | `no preprint` |
+| **CRONOS**<br/><sub>CRONOS: Continuous Time Reconstruction for 4D Medical Longitudinal Series</sub> | Longitudinal, treatment-conditioned, and counterfactual generation | Flow matching | 4D longitudinal series | arXiv | 2025 | [arXiv](https://arxiv.org/abs/2512.16577) | [![code](https://img.shields.io/badge/code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/MIC-DKFZ/Longitudinal4DMed) |
+| **Patient-specific dynamics**<br/><sub>Learning Patient-Specific Disease Dynamics with Latent Flow Matching for Longitudinal Imaging Generation</sub> | Longitudinal, treatment-conditioned, and counterfactual generation | Flow matching | Longitudinal imaging | arXiv | 2025 | [arXiv](https://arxiv.org/abs/2512.09185) | [![code](https://img.shields.io/badge/code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/chqwer2/Delta-LDM-Longitudinal) |
 
 ## Analysis: Classification, Segmentation, Detection
 
 *21 works.*
 
-### Classification
-
-- **Flow-MIL** &mdash; *Flow-MIL: Constructing Highly-expressive Latent Feature Space For Whole Slide Image Classification Using Normalizing Flow* &mdash; ICCV, 2025 `no preprint`
-  <br/><sub>Normalizing flow &nbsp;|&nbsp; Histopathology</sub>
-- **MAGIC-Flow** &mdash; *MAGIC-Flow: Multiscale Adaptive Conditional Flows for Generation and Interpretable Classification* &mdash; arXiv, 2025 `no code`
-  <br/><sub>Normalizing flow &nbsp;|&nbsp; General</sub>
-- **MedSymmFlow** &mdash; *MedSymmFlow: Bridging Generative Modeling and Classification in Medical Imaging Through Symmetrical Flow Matching* &mdash; MICCAI Workshop on Deep Generative Models, 2025 **[`code`](https://github.com/caetas/MedSymmFlow)**
-  <br/><sub>Flow matching &nbsp;|&nbsp; 2D benchmarks</sub>
-- **Data-gravity weighting** &mdash; *A weighted flow matching method with data gravity-guided for imbalanced data classification* `no preprint`
-  <br/><sub>Flow matching &nbsp;|&nbsp; Imbalanced data</sub>
-
-### Detection and localization
-
-- **Landmark prior** &mdash; *Landmark localization from medical images with generative distribution prior* &mdash; IEEE Trans. Medical Imaging, 2024 `no preprint`
-  <br/><sub>Normalizing flow &nbsp;|&nbsp; General</sub>
-- **AE-FLOW** &mdash; *AE-FLOW: Autoencoders with normalizing flows for medical images anomaly detection* &mdash; The Eleventh International Conference on Learning Representations, 2023 `no preprint`
-  <br/><sub>Normalizing flow &nbsp;|&nbsp; General</sub>
-
-### Higher-order structural analysis
-
-- **Craniofacial transport** &mdash; *Flow Matching for 3D Craniofacial Skeletal Data Generation* &mdash; MIDL, 2026 `no preprint`
-  <br/><sub>Flow matching &nbsp;|&nbsp; Craniofacial</sub>
-- **MedPCFM** &mdash; *MedPCFM: Improving Medical Point Cloud Completion by Integrating Point Transformers and Flow Matching* &mdash; arXiv, 2026 `no code`
-  <br/><sub>Flow matching &nbsp;|&nbsp; Point clouds</sub>
-- **CardiacFlow** &mdash; *CardiacFlow: 3D+ t Four-Chamber Cardiac Shape Completion and Generation via Flow Matching* &mdash; MICCAI, 2025 **[`code`](https://github.com/m-qiang/CardiacFlow)**
-  <br/><sub>Rectified flow &nbsp;|&nbsp; Cardiac MR</sub>
-- **Invertible brain age** &mdash; *Invertible modeling of bidirectional relationships in neuroimaging with normalizing flows: application to brain aging* &mdash; IEEE Trans. Medical Imaging, 2022 `no preprint`
-  <br/><sub>Normalizing flow &nbsp;|&nbsp; Brain MRI</sub>
-
-### Segmentation: ambiguity and uncertainty
-
-- **Flow SSN** &mdash; *Flow Stochastic Segmentation Networks* &mdash; ICCV, 2025 **[`code`](https://github.com/biomedia-mira/flow-ssn)**
-  <br/><sub>Flow matching &nbsp;|&nbsp; General</sub>
-- **Multi-level posterior** &mdash; *A Multi-Level Probabilistic Deep Learning Network Augmented With Normalizing Flow for Ambiguous Medical Image Segmentation* &mdash; IEEE Access, 2025 `no preprint`
-  <br/><sub>Normalizing flow &nbsp;|&nbsp; General</sub>
-- **Segmentation bridge** &mdash; *Ambiguous Medical Image Segmentation Using Diffusion Schrödinger Bridge* &mdash; MICCAI, 2025 `no preprint`
-  <br/><sub>Schrodinger bridge &nbsp;|&nbsp; General</sub>
-- **Multi-annotator posterior** &mdash; *Improving aleatoric uncertainty quantification in multi-annotated medical image segmentation with normalizing flows* &mdash; International Workshop on Uncertainty for Safe Utilization of Machine Learning in Medical Imaging, 2021 `no code`
-  <br/><sub>Normalizing flow &nbsp;|&nbsp; Multi-annotated</sub>
-- **cFlow Net** &mdash; *Uncertainty quantification in medical image segmentation with normalizing flows* &mdash; International Workshop on Machine Learning in Medical Imaging, 2020 `no code`
-  <br/><sub>Normalizing flow &nbsp;|&nbsp; General</sub>
-
-### Segmentation: continuous mask refinement
-
-- **Semantic bridge** &mdash; *Efficient Breast Cancer Segmentation via Brownian Bridge Diffusion with Semantic Fusion Strategy* &mdash; Pattern Recognition, 2026 `no preprint`
-  <br/><sub>Brownian bridge &nbsp;|&nbsp; Breast</sub>
-- **FlowSDF** &mdash; *FlowSDF: Flow matching for medical image segmentation using distance transforms* &mdash; International Journal of Computer Vision, 2025 **[`code`](https://github.com/leabogensperger/FlowSDF)**
-  <br/><sub>Flow matching &nbsp;|&nbsp; General</sub>
-- **PolypFlow** &mdash; *PolypFlow: Reinforcing polyp segmentation with flow-driven dynamics* &mdash; arXiv, 2025 `no code`
-  <br/><sub>Flow matching &nbsp;|&nbsp; Endoscopy</sub>
-
-### Segmentation: domain and representation transport
-
-- **MixStyleFlow** &mdash; *MixStyleFlow: Domain Generalization in Medical Image Segmentation Using Normalizing Flows* &mdash; MICCAI, 2025 `no preprint`
-  <br/><sub>Normalizing flow &nbsp;|&nbsp; General</sub>
-- **Ventricle segmentation** &mdash; *CT-based brain ventricle segmentation via diffusion Schrödinger Bridge without target domain ground truths* &mdash; MICCAI, 2024 `no preprint`
-  <br/><sub>Schrodinger bridge &nbsp;|&nbsp; MRI $\rightarrow$ CT</sub>
-- **Pancreas generalization** &mdash; *Generalizable pancreas segmentation modeling in CT imaging via meta-learning and latent-space feature flow generation* &mdash; IEEE Journal of Biomedical and Health Informatics, 2022 `no preprint`
-  <br/><sub>Normalizing flow &nbsp;|&nbsp; CT</sub>
+| Method | Task | Family | Modality | Venue | Year | Paper | Code |
+|:--|:--|:--|:--|:--|:--:|:--:|:--:|
+| **Flow-MIL**<br/><sub>Flow-MIL: Constructing Highly-expressive Latent Feature Space For Whole Slide Image Classification Using Normalizing Flow</sub> | Classification | Normalizing flow | Histopathology | ICCV | 2025 | -- | `no preprint` |
+| **MAGIC-Flow**<br/><sub>MAGIC-Flow: Multiscale Adaptive Conditional Flows for Generation and Interpretable Classification</sub> | Classification | Normalizing flow | General | arXiv | 2025 | [arXiv](https://arxiv.org/abs/2510.22070) | `no code` |
+| **MedSymmFlow**<br/><sub>MedSymmFlow: Bridging Generative Modeling and Classification in Medical Imaging Through Symmetrical Flow Matching</sub> | Classification | Flow matching | 2D benchmarks | MICCAI Workshop on Deep Generative Models | 2025 | [arXiv](https://arxiv.org/abs/2507.19098) | [![code](https://img.shields.io/badge/code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/caetas/MedSymmFlow) |
+| **Data-gravity weighting**<br/><sub>A weighted flow matching method with data gravity-guided for imbalanced data classification</sub> | Classification | Flow matching | Imbalanced data | -- | -- | -- | `no preprint` |
+| **Landmark prior**<br/><sub>Landmark localization from medical images with generative distribution prior</sub> | Detection and localization | Normalizing flow | General | IEEE Trans. Medical Imaging | 2024 | -- | `no preprint` |
+| **AE-FLOW**<br/><sub>AE-FLOW: Autoencoders with normalizing flows for medical images anomaly detection</sub> | Detection and localization | Normalizing flow | General | The Eleventh International Conference on Learning Representations | 2023 | -- | `no preprint` |
+| **Craniofacial transport**<br/><sub>Flow Matching for 3D Craniofacial Skeletal Data Generation</sub> | Higher-order structural analysis | Flow matching | Craniofacial | MIDL | 2026 | -- | `no preprint` |
+| **MedPCFM**<br/><sub>MedPCFM: Improving Medical Point Cloud Completion by Integrating Point Transformers and Flow Matching</sub> | Higher-order structural analysis | Flow matching | Point clouds | arXiv | 2026 | [arXiv](https://arxiv.org/abs/2606.24433) | `no code` |
+| **CardiacFlow**<br/><sub>CardiacFlow: 3D+ t Four-Chamber Cardiac Shape Completion and Generation via Flow Matching</sub> | Higher-order structural analysis | Rectified flow | Cardiac MR | MICCAI | 2025 | [arXiv](https://arxiv.org/abs/2509.05754) | [![code](https://img.shields.io/badge/code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/m-qiang/CardiacFlow) |
+| **Invertible brain age**<br/><sub>Invertible modeling of bidirectional relationships in neuroimaging with normalizing flows: application to brain aging</sub> | Higher-order structural analysis | Normalizing flow | Brain MRI | IEEE Trans. Medical Imaging | 2022 | -- | `no preprint` |
+| **Flow SSN**<br/><sub>Flow Stochastic Segmentation Networks</sub> | Segmentation: ambiguity and uncertainty | Flow matching | General | ICCV | 2025 | [arXiv](https://arxiv.org/abs/2507.18838) | [![code](https://img.shields.io/badge/code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/biomedia-mira/flow-ssn) |
+| **Multi-level posterior**<br/><sub>A Multi-Level Probabilistic Deep Learning Network Augmented With Normalizing Flow for Ambiguous Medical Image Segmentation</sub> | Segmentation: ambiguity and uncertainty | Normalizing flow | General | IEEE Access | 2025 | -- | `no preprint` |
+| **Segmentation bridge**<br/><sub>Ambiguous Medical Image Segmentation Using Diffusion Schrödinger Bridge</sub> | Segmentation: ambiguity and uncertainty | Schrodinger bridge | General | MICCAI | 2025 | -- | `no preprint` |
+| **Multi-annotator posterior**<br/><sub>Improving aleatoric uncertainty quantification in multi-annotated medical image segmentation with normalizing flows</sub> | Segmentation: ambiguity and uncertainty | Normalizing flow | Multi-annotated | International Workshop on Uncertainty for Safe Utilization of Machine Learning in Medical Imaging | 2021 | [arXiv](https://arxiv.org/abs/2108.02155) | `no code` |
+| **cFlow Net**<br/><sub>Uncertainty quantification in medical image segmentation with normalizing flows</sub> | Segmentation: ambiguity and uncertainty | Normalizing flow | General | International Workshop on Machine Learning in Medical Imaging | 2020 | [arXiv](https://arxiv.org/abs/2006.02683) | `no code` |
+| **Semantic bridge**<br/><sub>Efficient Breast Cancer Segmentation via Brownian Bridge Diffusion with Semantic Fusion Strategy</sub> | Segmentation: continuous mask refinement | Brownian bridge | Breast | Pattern Recognition | 2026 | -- | `no preprint` |
+| **FlowSDF**<br/><sub>FlowSDF: Flow matching for medical image segmentation using distance transforms</sub> | Segmentation: continuous mask refinement | Flow matching | General | International Journal of Computer Vision | 2025 | [arXiv](https://arxiv.org/abs/2405.18087) | [![code](https://img.shields.io/badge/code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/leabogensperger/FlowSDF) |
+| **PolypFlow**<br/><sub>PolypFlow: Reinforcing polyp segmentation with flow-driven dynamics</sub> | Segmentation: continuous mask refinement | Flow matching | Endoscopy | arXiv | 2025 | [arXiv](https://arxiv.org/abs/2502.19037) | `no code` |
+| **MixStyleFlow**<br/><sub>MixStyleFlow: Domain Generalization in Medical Image Segmentation Using Normalizing Flows</sub> | Segmentation: domain and representation transport | Normalizing flow | General | MICCAI | 2025 | -- | `no preprint` |
+| **Ventricle segmentation**<br/><sub>CT-based brain ventricle segmentation via diffusion Schrödinger Bridge without target domain ground truths</sub> | Segmentation: domain and representation transport | Schrodinger bridge | MRI $\rightarrow$ CT | MICCAI | 2024 | -- | `no preprint` |
+| **Pancreas generalization**<br/><sub>Generalizable pancreas segmentation modeling in CT imaging via meta-learning and latent-space feature flow generation</sub> | Segmentation: domain and representation transport | Normalizing flow | CT | IEEE Journal of Biomedical and Health Informatics | 2022 | -- | `no preprint` |
 
 ## Implementations
 
@@ -408,13 +279,13 @@ Over the 59 works whose full text could be read.
 | IoU | `#####` 8 |
 | MAE | `#####` 8 |
 | RMSE | `####` 7 |
-| MS-SSIM | `####` 6 |
 | HD95 | `####` 6 |
-| NFE | `###` 5 |
-| F1 | `###` 5 |
-| AUC | `###` 5 |
+| MS-SSIM | `####` 6 |
 | Accuracy | `###` 5 |
-| NRMSE | `##` 4 |
+| AUC | `###` 5 |
+| F1 | `###` 5 |
+| NFE | `###` 5 |
+| KID | `##` 4 |
 
 The survey argues that what is *not* measured matters more: no reviewed work reports
 external, prospective or reader-in-the-loop evaluation.

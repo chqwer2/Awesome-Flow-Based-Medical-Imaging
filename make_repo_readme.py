@@ -1,4 +1,4 @@
-import sys, io, contextlib, re, glob, collections
+import sys, os, io, contextlib, re, glob, collections
 sys.path.insert(0, '.')
 src = open('check_manuscript.py', encoding='utf-8').read()
 cut = src.index("check('prose: the task-measure share barely moved between the cohorts'")
@@ -103,18 +103,43 @@ A('- [What the literature measures](#what-the-literature-measures)')
 A('- [Citation](#citation)')
 A('- [Contributing](#contributing)')
 A('')
-A('**[`code`]** a repository is printed &nbsp;&middot;&nbsp; '
+# The mark for a repository carries both a GitHub logo, which a reader recognises
+# without reading, and the word 'code' inside the badge, so the icon is never the
+# only thing saying what it means. Its alt text is 'code' too: that is what shows
+# if the badge image is blocked, which is the difference between an entry that
+# still says it has code and one that says nothing at all.
+CODEBADGE = ('https://img.shields.io/badge/code-181717?'
+             'style=flat-square&logo=github&logoColor=white')
+A('**Paper** links to the preprint where the bibliography carries one; `--` means '
+  'there is none to link to, not that one was withheld.')
+A('')
+A('**Code** &nbsp; [![code](' + CODEBADGE + ')](#implementations) a repository is '
+  'printed, and the badge links to it &nbsp;&middot;&nbsp; '
   '`code promised` promised without a link &nbsp;&middot;&nbsp; '
   '`no code` neither &nbsp;&middot;&nbsp; '
-  '`no preprint` full text could not be reached, so nothing is claimed either way')
+  '`no preprint` the full text could not be reached, so neither presence nor '
+  'absence of code is claimed')
 A('')
 
+def cell(t):
+    """A table cell. A pipe inside one ends the column, so it has to be escaped."""
+    return str(t).replace('|', r'\|')
+
+
+def paper(r):
+    # The arXiv identifier is what the bibliography carries; 30 of the 89 works have
+    # none, and for those there is nothing to link to rather than a link withheld.
+    i = arx.get(r['key'], '')
+    return '[arXiv](https://arxiv.org/abs/%s)' % i if i else '--'
+
+
 def badge(r):
-    # three near-identical emoji did not scan; a visible word does. A link that is
-    # there reads as a link, and one that is not says why in plain text.
+    # Three near-identical emoji did not scan; a visible word does, and the badge
+    # keeps one inside it. The other three states carry no link, so they stay plain
+    # text: a badge that goes nowhere reads as a broken one.
     i = arx.get(r['key'], '')
     if CD.CODE.get(i):
-        return '**[`code`](%s)**' % CD.CODE[i]
+        return '[![code](' + CODEBADGE + ')](' + CD.CODE[i] + ')'
     if i in getattr(CD, 'PROMISED', {}):
         return '`code promised`'
     if i not in MW:
@@ -129,22 +154,23 @@ for app in ORDER:
     A('')
     A('*%d works.*' % n)
     A('')
+    # One table per application rather than a bullet per work. A reader of this list is
+    # usually filtering -- by task, by formulation, by whether there is anything to run --
+    # and a column is the thing you can run an eye down. The task group is our own
+    # category from the survey, so the list and the paper cut the corpus the same way.
+    A('| Method | Task | Family | Modality | Venue | Year | Paper | Code |')
+    A('|:--|:--|:--|:--|:--|:--:|:--:|:--:|')
     for g in sorted(groups[app]):
         rs = sorted(groups[app][g], key=lambda r: (-(year(r['key']) or 0), r['name'].lower()))
-        A('### %s' % g)
-        A('')
         for r in rs:
             t, v = meta.get(r['key'], ('', ''))
-            bits = ['**%s**' % r['name']]
+            name = '**%s**' % cell(r['name'])
             if t:
-                bits.append('*%s*' % tidy(t))
-            tail = ', '.join(x for x in (venue(v), str(year(r['key']) or '')) if x)
-            if tail:
-                bits.append(tail)
-            A('- %s %s' % (' &mdash; '.join(bits), badge(r)))
-            A('  <br/><sub>%s &nbsp;|&nbsp; %s</sub>'
-              % (fam(r['family']), r.get('modality', '')))
-        A('')
+                name += '<br/><sub>%s</sub>' % cell(tidy(t))
+            A('| %s | %s | %s | %s | %s | %s | %s | %s |'
+              % (name, cell(g), cell(fam(r['family'])), cell(r.get('modality', '') or '--'),
+                 cell(venue(v) or '--'), year(r['key']) or '--', paper(r), badge(r)))
+    A('')
 
 # ---- implementations ----
 A('## Implementations')
@@ -212,8 +238,13 @@ A('Over the %d works whose full text could be read.' % len(readable))
 A('')
 A('| Metric | Works reporting it |')
 A('|---|---|')
-for m, n in met.most_common(15):
-    bar = '#' * max(1, round(20.0 * n / met.most_common(1)[0][1]))
+# most_common breaks a tie by insertion order, and this counter is filled from a set,
+# whose order changes between runs because Python randomises string hashing per process.
+# Two runs over identical data therefore produced files that differed by two swapped
+# rows -- enough to make every diff noisy and to leave "is the README current?" with no
+# answer. Ties now break by name, so the same data always gives the same file.
+for m, n in sorted(met.items(), key=lambda kv: (-kv[1], kv[0].lower()))[:15]:
+    bar = '#' * max(1, round(20.0 * n / max(met.values())))
     A('| %s | `%s` %d |' % (m, bar, n))
 A('')
 A('The survey argues that what is *not* measured matters more: no reviewed work reports')
@@ -240,6 +271,12 @@ A('`metrics_data.py` for reported metrics, then run `python3 make_repo_readme.py
 A('This file is generated, so a direct edit to it will be overwritten.')
 A('')
 
-open('/tmp/AWESOME.md', 'w', encoding='utf-8').write('\n'.join(L) + '\n')
-print('generated the head: %d lines, %d applications, %d works'
-      % (len(L), len(groups), len(ROWS)))
+# Written where it is read. This wrote to /tmp and the file was carried across to
+# repository/README.md by hand, which is a second step nobody remembers on the second
+# occasion: the README sat a revision behind its own generator until the difference was
+# noticed. The path is taken from this file's own location, not the working directory,
+# so it lands in the right place whether the script is run from here or from the root.
+_out = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'README.md')
+open(_out, 'w', encoding='utf-8').write('\n'.join(L) + '\n')
+print('wrote %s: %d lines, %d applications, %d works'
+      % (os.path.relpath(_out), len(L), len(groups), len(ROWS)))
