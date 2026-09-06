@@ -279,6 +279,10 @@ from, so the repository and the manuscript cannot drift apart. Run
 
 The 34 works that publish a repository, grouped by the transport they learn.
 
+> **Note** &mdash; checked September 2026: 33 of the 34 resolve. `OptPriorFM`
+> (Subclass priors) is the path its paper prints, but the repository is no longer
+> public. It is listed because this table records what each paper provides.
+
 <details open>
 <summary><b>Flow matching</b> (18)</summary>
 
@@ -404,8 +408,8 @@ Over the 59 works whose full text could be read.
 | IoU | `#####` 8 |
 | MAE | `#####` 8 |
 | RMSE | `####` 7 |
-| HD95 | `####` 6 |
 | MS-SSIM | `####` 6 |
+| HD95 | `####` 6 |
 | NFE | `###` 5 |
 | F1 | `###` 5 |
 | AUC | `###` 5 |

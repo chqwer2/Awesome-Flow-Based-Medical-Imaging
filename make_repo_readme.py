@@ -153,6 +153,10 @@ repo_rows = [r for r in ROWS if CD.CODE.get(arx.get(r['key'], ''))]
 A('The %d works that publish a repository, grouped by the transport they learn.'
   % len(repo_rows))
 A('')
+A('> **Note** &mdash; checked September 2026: 33 of the 34 resolve. `OptPriorFM`')
+A('> (Subclass priors) is the path its paper prints, but the repository is no longer')
+A('> public. It is listed because this table records what each paper provides.')
+A('')
 byfam = collections.defaultdict(list)
 for r in repo_rows:
     byfam[fam(r['family'])].append(r)
