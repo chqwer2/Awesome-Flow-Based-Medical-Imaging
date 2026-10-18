@@ -5,8 +5,8 @@
 [![Code](https://img.shields.io/badge/with%20code-103-green.svg)](#implementations)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](#contributing)
 
-A curated list of **flow-based generative models for medical imaging** --- flow
-matching, rectified flow, diffusion and Schrödinger bridges, and Poisson flows ---
+A curated list of **flow-based generative models for medical imaging** (flow
+matching, rectified flow, diffusion and Schrödinger bridges, and Poisson flows),
 accompanying our survey. It covers **217 works**, of which **103 publish code**.
 
 Every list here is generated from the data files in `data/`, which follow the
