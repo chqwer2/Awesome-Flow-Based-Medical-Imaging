@@ -2,7 +2,7 @@
 
 [Home](../../README.md) · [Model index](index.md)
 
-Studies by the model family they train. 38 studies, 30 marked ★ (discussed in the paper), 6 with code.
+Studies by the model family they train. 34 studies, 29 marked ★ (discussed in the paper), 6 with code.
 
 | Year | Title | Venue | Family | Task | In paper | Code |
 |--:|:--|:--|:--|:--|:--:|:--:|
@@ -36,11 +36,7 @@ Studies by the model family they train. 38 studies, 30 marked ★ (discussed in 
 | 2025 | [R2B-WFC Ultrasound Reconstruction: Wavelet Fourier Convolution-Based Reconstruction from Radio Frequency to Image](https://doi.org/10.1007/978-3-032-05325-1_43) | MICCAI 2025 | SB | Domain harmonization | ★ |  |
 | 2025 | [Schrödinger Diffusion Driven Signal Recovery in 3T BOLD fMRI Using Unmatched 7T Observations](https://arxiv.org/abs/2504.01004) | arXiv | SB | MRI enhancement | ★ |  |
 | 2025 | [Unpaired Synthesis of Contrast-Enhanced Abdominal CT from Non-Contrast Images via Diffusion Models](https://doi.org/10.1109/nss/mic/rtsd57106.2025.11287509) | 2025 IEEE Nuclear Science Symposium (NSS), Medic... | SB | Missing sequences and contrast |  |  |
-| 2025 | [Wavelet Fourier Convolution-Based Deep Learning to Reconstruct from Radio Frequency to B-Mode Image](https://doi.org/10.1109/ius62464.2025.11201641) | IEEE International Ultrasonics Symposium | SB | Other: ultrasound restoration |  |  |
-| 2024 | [526: Geometry-Preserving MR-based Synthetic CT Generation via Diffusion Schrödinger Bridge Models](https://doi.org/10.1016/s0167-8140(24)01118-6) | Radiotherapy and Oncology | SB | Synthetic CT and dose |  |  |
-| 2024 | [Accelerated MRI Reconstruction with Fourier-Constrained Diffusion Schrodinger Bridges](https://doi.org/10.58530/2024/0378) | ISMRM | SB | MRI reconstruction |  |  |
 | 2024 | [CT-based brain ventricle segmentation via diffusion Schrödinger Bridge without target domain ground truths](https://doi.org/10.1007/978-3-031-72111-3_13) | MICCAI 2024 | SB | Segmentation masks | ★ | [code](https://github.com/HealthX-Lab/DiffusionSynCTSeg) |
 | 2024 | [CUNSB-RFIE: Context-Aware Unpaired Neural Schrödinger Bridge in Retinal Fundus Image Enhancement](https://doi.org/10.1109/wacv61041.2025.00442) | WACV 2025 | SB | Microscopy and OCT | ★ |  |
 | 2024 | [Direct Diffusion Bridge for High MB-count Image Generation in Ultrasound Localization Microscopy](https://doi.org/10.1109/uffc-js60046.2024.10793898) | 2024 IEEE Ultrasonics, Ferroelectrics, and Frequ... | SB | Microscopy and OCT | ★ |  |
 | 2024 | [PET Image Denoising based on Diffusion Schrodinger Bridge Model](https://doi.org/10.1109/nss/mic/rtsd57108.2024.10657633) | 2024 IEEE Nuclear Science Symposium (NSS), Medic... | SB | Low-count PET |  |  |
-| 2024 | [Weakly Supervised Virtual Immunohistochemistry Staining via Schrödinger Bridge Method](https://doi.org/10.1109/bibm62325.2024.10822509) | BIBM 2024 | SB | Tissue-image translation | ★ |  |

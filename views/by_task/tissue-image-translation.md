@@ -2,7 +2,7 @@
 
 [Home](../../README.md) · [Task index](index.md)
 
-Studies in the clinical task group “Tissue-image translation” (task family: Translation and harmonization). 41 studies, 36 marked ★ (discussed in the paper), 5 with code.
+Studies in the clinical task group “Tissue-image translation” (task family: Translation and harmonization). 40 studies, 35 marked ★ (discussed in the paper), 5 with code.
 
 | Year | Title | Venue | Family | Task | In paper | Code |
 |--:|:--|:--|:--|:--|:--:|:--:|
@@ -45,5 +45,4 @@ Studies in the clinical task group “Tissue-image translation” (task family: 
 | 2025 | [Pixel super-resolved virtual staining of label-free tissue using diffusion models](https://doi.org/10.1038/s41467-025-60387-z) | Nature Communications | PB | Tissue-image translation | ★ |  |
 | 2025 | [Scalable Generation of Spatial Transcriptomics from Histology Images via Whole-Slide Flow Matching](https://arxiv.org/abs/2506.05361) | ICML 2025 | FM | Tissue-image translation | ★ | [code](https://github.com/Graph-and-Geometric-Learning/STFlow) |
 | 2024 | [Large-scale segmentation model facilitates intraoperative histopathology by third harmonic generation microscopy](https://doi.org/10.21203/rs.3.rs-5247308/v1) | Research Square | PB | Tissue-image translation |  |  |
-| 2024 | [Weakly Supervised Virtual Immunohistochemistry Staining via Schrödinger Bridge Method](https://doi.org/10.1109/bibm62325.2024.10822509) | BIBM 2024 | SB | Tissue-image translation | ★ |  |
 | 2021 | [Unpaired Stain Style Transfer Using Invertible Neural Networks Based on Channel Attention and Long-Range Residual](https://doi.org/10.1109/access.2021.3051188) | IEEE Access | NF | Tissue-image translation |  |  |

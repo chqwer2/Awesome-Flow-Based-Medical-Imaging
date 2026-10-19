@@ -2,7 +2,7 @@
 
 [Home](../../README.md) · [Task index](index.md)
 
-Studies in the clinical task group “Shape and parameter output” (task family: Analysis and segmentation). 30 studies, 12 marked ★ (discussed in the paper), 3 with code.
+Studies in the clinical task group “Shape and parameter output” (task family: Analysis and segmentation). 28 studies, 12 marked ★ (discussed in the paper), 3 with code.
 
 | Year | Title | Venue | Family | Task | In paper | Code |
 |--:|:--|:--|:--|:--|:--:|:--:|
@@ -23,14 +23,12 @@ Studies in the clinical task group “Shape and parameter output” (task family
 | 2025 | [Semi-GDE: generative distribution estimation for semi-supervised medical landmark localization](https://doi.org/10.1016/j.neucom.2025.131095) | Neurocomputing | NF | Shape and parameter output |  |  |
 | 2025 | Weakly-Supervised Midline Shift Quantification through Simulating the Reversed Disease Progression | MIDL | FM | Shape and parameter output |  |  |
 | 2024 | [Landmark Localization From Medical Images With Generative Distribution Prior](https://doi.org/10.1109/tmi.2024.3371948) | IEEE Transactions on Medical Imaging | NF | Shape and parameter output |  |  |
-| 2024 | [Pharmacokinetic Parameters’ Distribution Estimation with Normalizing Flow in Dynamic Contrast-Enhanced Magnetic Resonance Imaging](https://doi.org/10.58530/2023/0985) | ISMRM | NF | Shape and parameter output |  |  |
 | 2024 | [Photoacoustic Quantification of Tissue Oxygenation Using Conditional Invertible Neural Networks.](https://doi.org/10.1109/tmi.2024.3403417) | IEEE transactions on medical imaging | NF | Shape and parameter output |  |  |
 | 2024 | [Transfer learning for non-parametric prediction of joint distributions of g-ratios and axon diameters from MRI](https://doi.org/10.58530/2024/1232) | ISMRM | NF | Shape and parameter output |  |  |
 | 2023 | [Diffusion Model Based Semi-supervised Learning on Brain Hemorrhage Images for Efficient Midline Shift Quantification](https://doi.org/10.1007/978-3-031-34048-2_6) | Lecture Notes in Computer Science | diffusion | Shape and parameter output | ★ |  |
 | 2023 | [Normalizing Flow-Based Distribution Estimation of Pharmacokinetic Parameters in Dynamic Contrast-Enhanced Magnetic Resonance Imaging.](https://doi.org/10.1109/tbme.2023.3318087) | IEEE transactions on bio-medical engineering | NF | Shape and parameter output |  |  |
 | 2022 | [Invertible Modeling of Bidirectional Relationships in Neuroimaging With Normalizing Flows: Application to Brain Aging](https://doi.org/10.1109/tmi.2022.3161947) | IEEE Transactions on Medical Imaging | NF | Shape and parameter output |  |  |
-| 2021 | [Cytoarchitecture Measurements in Brain Gray Matter Using Likelihood-Free Inference](https://doi.org/10.1007/978-3-030-78191-0_15) | Lecture Notes in Computer Science | NF | Shape and parameter output |  |  |
-| 2021 | [Inverting brain grey matter models with likelihood-free inference: a tool for trustable cytoarchitecture measurements](https://doi.org/10.59275/j.melba.2022-a964) | The Journal of Machine Learning for Biomedical I... | NF | Shape and parameter output |  |  |
+| 2021 | [Inverting brain grey matter models with likelihood-free inference: a tool for trustable cytoarchitecture measurements](https://doi.org/10.1007/978-3-030-78191-0_15) | Lecture Notes in Computer Science | NF | Shape and parameter output |  |  |
 | 2020 | [Invertible Neural Networks for Uncertainty Quantification in Photoacoustic Imaging](https://doi.org/10.1007/978-3-658-33198-6_80) | Bildverarbeitung für die Medizin | NF | Shape and parameter output |  |  |
 | 2020 | [Learning Bloch Simulations for MR Fingerprinting by Invertible Neural Networks](https://doi.org/10.1007/978-3-030-61598-7_6) | Lecture Notes in Computer Science | NF | Shape and parameter output |  |  |
 | 2020 | [Representing Ambiguity in Registration Problems with Conditional Invertible Neural Networks](https://arxiv.org/abs/2012.08195) | arXiv | NF | Shape and parameter output | ★ |  |

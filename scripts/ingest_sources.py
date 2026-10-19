@@ -64,6 +64,15 @@ def nz(x):
     return "" if x.lower() in ("nan", "none", "n.r.", "na") else x
 
 
+def split_ids(v):
+    return [i.strip() for i in re.split(r"[;,]", v or "") if i.strip()]
+
+
+def tok(i):
+    """Identifier token: screening / chasing records are m:, bibliography or catalogue keys are k:."""
+    return ("m:" if re.match(r"(M\d+|CC\d+)$", i) else "k:") + i
+
+
 def norm_title(t):
     t = re.sub(r"[{}\\$]", "", t or "").lower()
     return re.sub(r"[^a-z0-9]+", "", t)
@@ -211,9 +220,32 @@ def find_code(*texts):
     return urls
 
 
-def anatomy_of(text):
+# anatomy implied by the clinical task group of the coding
+GROUP_ANATOMY = {"Cardiac and brain dynamics": ["Heart", "Brain"], "Tissue-image translation": ["Cells and tissue"],
+                 "Microscopy and OCT": ["Cells and tissue", "Eye"]}
+# anatomy of widely used datasets named in the coding
+DATASET_ANATOMY = {"brats": "Brain", "adni": "Brain", "ixi": "Brain", "oasis": "Brain", "hcp": "Brain", "isles": "Brain",
+                   "acdc": "Heart", "camus": "Heart", "echonet": "Heart", "lidc": "Chest and lung",
+                   "luna16": "Chest and lung", "nlst": "Chest and lung", "mimic-cxr": "Chest and lung", "ct-rate": "Chest and lung",
+                   "chexpert": "Chest and lung", "chestx-ray14": "Chest and lung", "kits": "Abdomen", "lits": "Abdomen",
+                   "amos": "Abdomen", "btcv": "Abdomen", "chaos": "Abdomen", "msd": "", "prostatex": "Pelvis and prostate",
+                   "promis": "Pelvis and prostate", "isic": "Skin", "drive": "Eye", "octa-500": "Eye", "retouch": "Eye",
+                   "inbreast": "Breast", "csaw": "Breast", "ddsm": "Breast", "hecktor": "Head and neck", "hnscc": "Head and neck",
+                   "bbbc021": "Cells and tissue", "rxrx1": "Cells and tissue", "pannuke": "Cells and tissue", "monuseg": "Cells and tissue",
+                   "tcga": "Cells and tissue", "autopet": "Whole body", "totalsegmentator": "Whole body", "synthrad": ""}
+
+
+def anatomy_of(text, group="", datasets=""):
     t = text.lower()
     hits = [lab for lab, rx in ANATOMY if re.search(rx, t)]
+    for lab in GROUP_ANATOMY.get(group, []):
+        if lab not in hits:
+            hits.append(lab)
+    for d in re.split(r"[;,]", datasets.lower()):
+        d = d.strip()
+        for k, lab in DATASET_ANATOMY.items():
+            if lab and d.startswith(k) and lab not in hits:
+                hits.append(lab)
     return hits or ["Unspecified"]
 
 
@@ -265,6 +297,14 @@ def main():
     dfs = rd(f"{cdir}/diffusion_{ver}.csv")
     dec = rd(f"{cdir}/decisions_all_{ver}.csv")
     listb = rd(os.path.join(S, a.listb))
+    rel_p = os.path.join(cdir, f"related_studies_{ver}.csv")
+    rel_map = {}      # record id (M..., CC...) -> study id, the source of truth for the "related" list
+    if os.path.exists(rel_p):
+        for x in rd(rel_p):
+            for rid in split_ids(x["records"]):
+                rel_map[rid] = x["study"]
+    dup_p = os.path.join(cdir, "duplicates.csv")
+    dups = [x for x in rd(dup_p) if x["verdict"] == "duplicate"] if os.path.exists(dup_p) else []
 
     import bibtexparser
     with open(a.bib, encoding="utf-8") as f:
@@ -348,7 +388,7 @@ def main():
         recs.append(dict(src=src, ids=[i for i in ids if i and not i.endswith(":")], **kw))
 
     for x in cat:
-        add("catalogue", ["k:" + x["key"]], key=x["key"], title=x["title"], year=x["year"], doi=x["doi"], row=x,
+        add("catalogue", ["k:" + x["key"], tok(x["coding_id"]) if nz(x.get("coding_id")) else ""], key=x["key"], title=x["title"], year=x["year"], doi=x["doi"], row=x,
             family=x["method"], group=x["clinical_group"], task=FAM_TASK.get(x["family"], ""), modality=x["modality"])
     for src, rows in (("nf", nfs), ("diffusion", dfs)):
         for x in rows:
@@ -356,16 +396,27 @@ def main():
                 family="NF" if src == "nf" else "diffusion", group=x["clinical_group"], task=FAM_TASK.get(x["family"], ""),
                 modality=x["modality"])
     for x in listb:
-        add("related", ["m:" + x["merged_id"], "k:" + nz(x["catalogue_key"])], key=nz(x["catalogue_key"]), title=x["title"],
-            year=x["year"], doi=x["doi"], arxiv=x["arxiv"], venue=x["venue_best"], family=LISTB_FAM.get(x["family"], "other"),
-            group=x["group"], modality=x["modality"], stream=x["stream"], row=x)
+        if rel_map and x["merged_id"] not in rel_map:
+            continue          # List B record outside the related-studies file
+        st = rel_map.get(x["merged_id"], "")
+        add("related", ["m:" + x["merged_id"], "k:" + nz(x["catalogue_key"]), tok(st) if st else ""], key=nz(x["catalogue_key"]),
+            title=x["title"], year=x["year"], doi=x["doi"], arxiv=x["arxiv"], venue=x["venue_best"],
+            family=LISTB_FAM.get(x["family"], "other"), group=x["group"], modality=x["modality"], stream=x["stream"], row=x)
+    if rel_map:   # related studies that are not List B records (citation chasing) join by study id
+        for st in sorted(set(rel_map.values())):
+            add("relmark", [tok(st)], key="", title="", year="", row={})
+    for x in dups:   # dropped duplicate versions: keep their links on the kept row
+        k_drop, k_keep = x["key_dropped_or_a"], x["key_kept_or_b"]
+        e = bib.get(k_drop, {})
+        add("dup", [tok(k_drop), tok(k_keep)], key="", title=delatex(e.get("title", "")) if e else "", year=e.get("year", ""),
+            doi=e.get("doi", ""), arxiv=e.get("eprint", ""), row={}, dropped_key=k_drop)
     for x in dec:
         sid = x["id"]
         dup = nz(x.get("duplicate_of"))
         dids = []
         if dup:   # record of the same work (preprint + venue version): joins its target
             dids = ["u:" + dup if re.match(r"U\d+$", dup) else ("m:" + dup if re.match(r"M\d+$", dup) else "k:" + dup)]
-        add("decision", ["m:" + nz(x["merged_id"]), "k:" + nz(x["key"]), ("u:" + sid) if re.match(r"U\d+", sid) else ("m:" + sid if re.match(r"M\d+", sid) else "k:" + sid)] + dids,
+        add("decision", ["m:" + nz(x["merged_id"]), "k:" + nz(x["key"]), ("u:" + sid) if re.match(r"U\d+", sid) else ("m:" + sid if re.match(r"M\d+", sid) else tok(sid))] + dids,
             key=nz(x["key"]), title=x["title"], year="", row=x, stream=x["stream"])
 
     # --- identity resolution -----------------------------------------------------------------------------------
@@ -382,12 +433,6 @@ def main():
             uf.u(node, "doi:" + d)
         if ax:
             uf.u(node, "arx:" + ax)
-        e = bib.get(r.get("key") or "", {})
-        bd, bx = norm_doi(e.get("doi")), norm_arxiv(e.get("eprint"))
-        if bd and not bd.startswith("10.48550/arxiv."):
-            uf.u(node, "doi:" + bd)
-        if bx:
-            uf.u(node, "arx:" + bx)
         nt = norm_title(r["title"])
         if len(nt) > 25:
             uf.u(node, "t:" + nt)
@@ -444,11 +489,15 @@ def main():
             sid = sid + "_" + str(idxs[0])
         used_ids.add(sid)
 
-        primary = (by["catalogue"] or by["nf"] or by["diffusion"] or by["related"] or by["decision"])[0]
+        cands = by["catalogue"] or by["nf"] or by["diffusion"] or by["related"] or by["decision"]
+        if not cands:
+            print("WARNING: group without a source record, skipped:", [t for r in rs for t in r["ids"]][:4])
+            continue
+        primary = cands[0]
         lists = []
         if by["catalogue"]:
             lists.append("catalogue")
-        if by["related"] or by["catalogue"]:
+        if by["related"] or by["relmark"] or (by["catalogue"] and not rel_map):
             lists.append("related")
         if by["nf"]:
             lists.append("NF sample")
@@ -517,6 +566,7 @@ def main():
         if ex:
             authors = authors or ex.get("authors", "")
             venue = venue or ex.get("venue", "")
+            year = year or ex.get("year", "")
             for l in (ex.get("link") or "").split(" ; "):
                 if l.startswith("https://doi.org/") and norm_doi(l) not in dois:
                     dois.append(norm_doi(l))
@@ -577,11 +627,12 @@ def main():
             row["datasets"] = "; ".join(x.strip() for x in ds.split(";") if x.strip() and x.strip().lower() not in ("none", "n.r."))
             cs = nz(crow.get("ext_code_shared"))
             row["code_status"] = {"Y": "released", "promised": "promised", "N": "none"}.get(cs, "")
-        row["_text"] = " ".join([title, grp, row["datasets"], (crow.get("evidence", "") if crow else "")[:300]])
-        row["anatomy"] = "; ".join(anatomy_of(row["_text"]))
+        row["_text"] = " ".join([title, grp, row["datasets"], (crow.get("evidence", "") or "")[:600], (crow.get("notes", "") or "")[:300]])
+        row["anatomy"] = "; ".join(anatomy_of(row["_text"], grp, row["datasets"]))
         if row["code"] and not row["code_status"]:
             row["code_status"] = "released"
-        ww = where.get(key, []) if key else []
+        ww = sorted({w for t in [key] + [x[2:] for r in rs for x in r["ids"] if x.startswith("k:")] + [r.get("dropped_key", "") for r in rs] for w in where.get(t, [])},
+                    key=lambda w: ["main text", "Note S1", "Note S2", "Table S3", "Table S4"].index(w))
         if ww:
             row["in_paper"] = "yes"
             order = ["main text", "Note S1", "Note S2", "Table S3", "Table S4"]

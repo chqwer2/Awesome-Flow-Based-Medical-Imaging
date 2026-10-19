@@ -2,7 +2,7 @@
 
 [Home](../../README.md) · [Task index](index.md)
 
-Studies in the clinical task group “Missing sequences and contrast” (task family: Translation and harmonization). 44 studies, 37 marked ★ (discussed in the paper), 11 with code.
+Studies in the clinical task group “Missing sequences and contrast” (task family: Translation and harmonization). 43 studies, 37 marked ★ (discussed in the paper), 11 with code.
 
 | Year | Title | Venue | Family | Task | In paper | Code |
 |--:|:--|:--|:--|:--|:--:|:--:|
@@ -31,7 +31,6 @@ Studies in the clinical task group “Missing sequences and contrast” (task fa
 | 2026 | [Task-Adapted Brownian Bridge Diffusion with Global-Local Feature Enhancement for Contrast-Agent-Free T1CE MRI Synthesis](https://doi.org/10.1109/access.2026.3742887) | IEEE Access | PB | Missing sequences and contrast | ★ |  |
 | 2026 | [TuLaBM: Tumor-Biased Latent Bridge Matching for Contrast-Enhanced MRI Synthesis](https://arxiv.org/abs/2603.19386) | arXiv | PB | Missing sequences and contrast | ★ | [code](https://github.com/Researcher-1042/TuLaBM) |
 | 2026 | [WFM: 3D Wavelet Flow Matching for Ultrafast Multi-Modal MRI Synthesis](https://arxiv.org/abs/2604.21146) | MIDL 2026 | PB | Missing sequences and contrast | ★ | [code](https://github.com/yalcintur/WFM) |
-| 2025 | [A Self-Consistent Diffusion Schrodinger Bridge for Multi-Modal Medical Image Translation](https://doi.org/10.58530/2025/0933) | ISMRM | PB | Missing sequences and contrast |  |  |
 | 2025 | [AngioDiff: Structure-Preserving and 3D-Consistent Diffusion for CT Angiography Synthesis](https://doi.org/10.1109/bibm66473.2025.11356786) | BIBM 2025 | PB | Missing sequences and contrast | ★ |  |
 | 2025 | [Coarse-to-Fine Medical Image Translation by Incorporating Deterministic Guidance and Probabilistic Refinement](https://doi.org/10.1007/978-3-032-04984-1_13) | MICCAI 2025 | PB | Missing sequences and contrast | ★ |  |
 | 2025 | [Conditional Generative Models for Contrast-Enhanced Synthesis of T1W and T1 Maps in Brain MRI](https://doi.org/10.1109/isbi60581.2025.10980893) | ISBI 2025 | FM | Missing sequences and contrast | ★ | [code](https://github.com/MoePien/NeuralContrastEnhancement) |

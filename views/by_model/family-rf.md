@@ -2,13 +2,12 @@
 
 [Home](../../README.md) · [Model index](index.md)
 
-Studies by the model family they train. 57 studies, 50 marked ★ (discussed in the paper), 15 with code.
+Studies by the model family they train. 55 studies, 48 marked ★ (discussed in the paper), 15 with code.
 
 | Year | Title | Venue | Family | Task | In paper | Code |
 |--:|:--|:--|:--|:--|:--:|:--:|
 | 2026 | [An efficient 3D latent diffusion model for T1-contrast enhanced MRI generation](https://doi.org/10.1088/2057-1976/ae3e96) | Biomedical Physics & Engineering Express | RF | Missing sequences and contrast | ★ | [code](https://github.com/zacheidex/An-Efficient-3D-Latent-Diffusion-Model-for-T1-contrast-Enhanced-MRI-Generation) |
 | 2026 | [C^3 M G: Clinically-Controlled Cardiac Mesh Generator Based on Rectified Flow Matching](https://doi.org/10.1109/cbms69103.2026.00117) | 2026 IEEE 39th International Symposium on Comput... | RF | Anatomy and device shapes | ★ |  |
-| 2026 | [Cardiac Mesh Flow: One-Step Generation of 3D+t Cardiac Four-Chamber Meshes via Flow Matching](https://arxiv.org/abs/2605.01884) | arXiv | RF | Cardiac and brain dynamics | ★ |  |
 | 2026 | [CONFLUX: A Latent Diffusion Model for 3D Chest-CT Synthesis with RL Post-Training](https://arxiv.org/abs/2607.02998) | arXiv | RF | Volume and X-ray synthesis | ★ |  |
 | 2026 | [CT-free attenuation and scatter correction of \[11C\]CFT brain PET using a Bi-directional matching network](https://doi.org/10.1016/j.neuroimage.2026.121721) | NeuroImage | RF | Synthetic CT and dose | ★ |  |
 | 2026 | [DermaFlux: Synthetic Skin Lesion Generation with Rectified Flows for Enhanced Image Classification](https://doi.org/10.1007/978-3-032-38091-3_19) | arXiv | RF | Synthetic training data | ★ | [code](https://github.com/dermaflux/dermaflux) |
@@ -29,7 +28,6 @@ Studies by the model family they train. 57 studies, 50 marked ★ (discussed in 
 | 2026 | [MC-GenRef: Annotation-free mammography microcalcification segmentation with generative posterior refinement](https://arxiv.org/abs/2604.04470) | arXiv | RF | Segmentation masks | ★ |  |
 | 2026 | [MPFlow: Multi-modal Posterior-Guided Flow Matching for Zero-Shot MRI Reconstruction](https://doi.org/10.1007/978-3-032-38179-8_31) | arXiv | RF | MRI reconstruction | ★ | [code](https://github.com/edshkim98/MPFlow) |
 | 2026 | [One Frame, Full Heartbeat: ECG-Free 4D Cardiac Cine MRI Synthesis via Radial-Decomposed Flow Matching](https://arxiv.org/abs/2610.09185) | arXiv | RF | Cardiac and brain dynamics | ★ |  |
-| 2026 | [One Frame, Full Heartbeat: ECG-Free Cardiac Cine MRI Synthesis via Phase-Conditioned Flow Matching](https://arxiv.org/abs/2610.09397) | arXiv | RF | Cardiac and brain dynamics | ★ |  |
 | 2026 | [One-Step Is Optimal: Unconditional Rectified Flows are Noise2Noise Denoisers, and Multi-Step Integration Provably Hurts—A Benchmark and Task-Based Detectability Study on Low-Dose CT](https://arxiv.org/abs/2609.31670) | arXiv | RF | CT denoising and artifacts | ★ |  |
 | 2026 | [Pathology Transport: Optimal-Transport Explanations for Clinical Data, and When Their Heatmaps (Fail to) Localize Disease](https://arxiv.org/abs/2608.17370) | arXiv | RF | Anomaly and diagnosis | ★ |  |
 | 2026 | [PETFlux: Taming Natural Foundation Models for Accurate MRI-to-PET Synthesis](https://doi.org/10.1007/978-3-032-38062-3_44) | MICCAI 2026 | RF | Cross-modality synthesis | ★ |  |

@@ -2,13 +2,12 @@
 
 [Home](../../README.md) · [Model index](index.md)
 
-Studies of the catalogue by the state from which sampling begins. 26 studies, 26 marked ★ (discussed in the paper), 8 with code.
+Studies of the catalogue by the state from which sampling begins. 25 studies, 25 marked ★ (discussed in the paper), 8 with code.
 
 | Year | Title | Venue | Family | Task | In paper | Code |
 |--:|:--|:--|:--|:--|:--:|:--:|
 | 2026 | [Ambiguity-aware Truncated Flow Matching for Ambiguous Medical Image Segmentation](https://doi.org/10.1609/aaai.v40i8.37532) | AAAI 2026 | FM | Segmentation uncertainty | ★ | [code](https://github.com/PerceptionComputingLab/ATFM) |
 | 2026 | [BioFlow: A Biologically Valid Support-Preserving Flow for Histology-Conditioned Spatial Transcriptomics Prediction](https://doi.org/10.1007/978-3-032-38224-5_5) | MICCAI 2026 | FM | Tissue-image translation | ★ |  |
-| 2026 | [Cardiac Mesh Flow: One-Step Generation of 3D+t Cardiac Four-Chamber Meshes via Flow Matching](https://arxiv.org/abs/2605.01884) | arXiv | RF | Cardiac and brain dynamics | ★ |  |
 | 2026 | [CellFluxV2: An Image Generative Foundation Model for Virtual Cell Modeling](https://doi.org/10.64898/2026.01.19.696785) | bioRxiv | FM | Tissue-image translation | ★ |  |
 | 2026 | [Correlation-Guided Flow Matching with Annealed Masking for Spatial Transcriptomics Generation](https://arxiv.org/abs/2609.22187) | arXiv | FM | Tissue-image translation | ★ |  |
 | 2026 | [Denoising of ASL Data Using Deep Learning Priors Generated From Distribution Remapping](https://doi.org/10.1002/mrm.70471) | Magnetic Resonance in Medicine | SB | MRI enhancement | ★ |  |

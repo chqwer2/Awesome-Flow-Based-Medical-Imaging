@@ -2,12 +2,11 @@
 
 [Home](../../README.md) · [Modality index](index.md)
 
-Studies by modality; a study with several appears in each. 45 studies, 36 marked ★ (discussed in the paper), 8 with code.
+Studies by modality; a study with several appears in each. 44 studies, 35 marked ★ (discussed in the paper), 8 with code.
 
 | Year | Title | Venue | Family | Task | In paper | Code |
 |--:|:--|:--|:--|:--|:--:|:--:|
 | 2026 | [Conditional Diffusion for 3D CT Volume Reconstruction from 2D X-rays](https://arxiv.org/abs/2603.26509) | arXiv | FM | Incomplete-data CT | ★ | [code](https://github.com/ai-med/AXON) |
-| 2026 | [CurvSegFlow: Time-Conditioned Flow Matching for Robust Segmentation of Curvilinear Structures in Noisy Biomedical Images](https://arxiv.org/abs/2606.21608) | arXiv | FM | Segmentation masks | ★ |  |
 | 2026 | [DeBoneDiT: Depth-Driven Conditional Bridge Diffusion Transformers for Bone Suppression in Chest X-Ray Images](https://arxiv.org/abs/2610.19466) | arXiv | PB | Cross-modality synthesis | ★ |  |
 | 2026 | [Flow Matching with Optimized Subclass Priors for Medical Image Augmentation](https://arxiv.org/abs/2605.16469) | arXiv | FM | Synthetic training data | ★ |  |
 | 2026 | [FlowReg: Reconstruction-Guided Flow Matching for Universal Spinal CT/X-Ray Registration](https://doi.org/10.1007/978-3-032-38186-6_8) | MICCAI 2026 | FM | Shape and parameter output | ★ |  |

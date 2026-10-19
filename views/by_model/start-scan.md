@@ -2,11 +2,11 @@
 
 [Home](../../README.md) · [Model index](index.md)
 
-Studies of the catalogue by the state from which sampling begins. 234 studies, 231 marked ★ (discussed in the paper), 51 with code.
+Studies of the catalogue by the state from which sampling begins. 231 studies, 228 marked ★ (discussed in the paper), 51 with code.
 
 | Year | Title | Venue | Family | Task | In paper | Code |
 |--:|:--|:--|:--|:--|:--:|:--:|
-| 2026 | [3D CT-to-PET Translation via Latent Brownian Bridge Diffusion](https://arxiv.org/abs/2609.12860) | arXiv | PB | Cross-modality synthesis | ★ | [code](https://github.com/arco-group/3D-CT2PET-via-Latent-Brownian-Bridge-Diffusion) |
+| 2026 | [3D CT-to-PET Translation via Latent Brownian Bridge Diffusion](https://doi.org/10.1145/3807503.3816794) | arXiv | PB | Cross-modality synthesis | ★ | [code](https://github.com/arco-group/3D-CT2PET-via-Latent-Brownian-Bridge-Diffusion) |
 | 2026 | [A Denoising Framework for Real-World Ultra-Low-Dose Lung CT Images Based on an Image Purification Strategy](https://doi.org/10.1007/978-981-92-3410-3_7) | ICIC 2026 | FM | CT denoising and artifacts | ★ | [code](https://github.com/MonkeyDadLufy/Image-Purification-Strategy) |
 | 2026 | [A Mean-Reverting Conditional Diffusion Model for Pulmonary LDCT Image Denoising](https://doi.org/10.1109/access.2026.3715887) | IEEE Access | PB | CT denoising and artifacts | ★ |  |
 | 2026 | [A Pilot Study on PET-to-CT Cross-Modal Translation: Systematic Validation of Brownian Bridge Diffusion Models](https://doi.org/10.53941/aim.2026.100009) | AI Medicine | PB | Synthetic CT and dose | ★ |  |
@@ -95,7 +95,6 @@ Studies of the catalogue by the state from which sampling begins. 234 studies, 2
 | 2026 | [NeuroFlow: Toward Unified Visual Encoding and Decoding from Neural Activity](https://arxiv.org/abs/2604.09817) | arXiv | FM | Cross-modality synthesis | ★ |  |
 | 2026 | [One Evaluation, Any Operating Point: Hypernetwork-Amortized MeanFlow for 3D MRI Reconstruction](https://arxiv.org/abs/2609.31655) | arXiv | FM | MRI reconstruction | ★ |  |
 | 2026 | [One Frame, Full Heartbeat: ECG-Free 4D Cardiac Cine MRI Synthesis via Radial-Decomposed Flow Matching](https://arxiv.org/abs/2610.09185) | arXiv | RF | Cardiac and brain dynamics | ★ |  |
-| 2026 | [One Frame, Full Heartbeat: ECG-Free Cardiac Cine MRI Synthesis via Phase-Conditioned Flow Matching](https://arxiv.org/abs/2610.09397) | arXiv | RF | Cardiac and brain dynamics | ★ |  |
 | 2026 | [One-Step Is Optimal: Unconditional Rectified Flows are Noise2Noise Denoisers, and Multi-Step Integration Provably Hurts—A Benchmark and Task-Based Detectability Study on Low-Dose CT](https://arxiv.org/abs/2609.31670) | arXiv | RF | CT denoising and artifacts | ★ |  |
 | 2026 | [Optical coherence tomography harmonization via dual diffusion implicit bridges](https://doi.org/10.1117/12.3086131) | Medical Imaging 2026: Image Processing | PB | Domain harmonization | ★ |  |
 | 2026 | [OsteoFlow: Lyapunov-Guided Flow Distillation for Predicting Bone Remodeling after Mandibular Reconstruction](https://arxiv.org/abs/2603.22421) | arXiv | FM | Longitudinal forecasting | ★ | [code](https://github.com/hamidreza-aftabi/OsteoFlow) |
@@ -209,7 +208,6 @@ Studies of the catalogue by the state from which sampling begins. 234 studies, 2
 | 2025 | [Temporal Flow Matching for Learning Spatio-Temporal Trajectories in 4D Longitudinal Medical Imaging](https://arxiv.org/abs/2508.21580) | arXiv | FM | Longitudinal forecasting | ★ | [code](https://github.com/MIC-DKFZ/Temporal-Flow-Matching) |
 | 2025 | [Towards Prospective Medical Image Reconstruction via Knowledge-Informed Dynamic Optimal Transport](https://doi.org/10.52202/085713-1368) | NeurIPS 2025 | other | MRI reconstruction | ★ |  |
 | 2025 | [Unsupervised Accelerated MRI Reconstruction via Ground-Truth-Free Flow Matching](https://doi.org/10.1007/978-3-031-96628-6_9) | IPMI 2025 | FM | MRI reconstruction | ★ |  |
-| 2025 | [UPMRI: Unsupervised Parallel MRI Reconstruction via Projected Conditional Flow Matching](https://arxiv.org/abs/2512.17493) | arXiv | FM | MRI reconstruction | ★ |  |
 | 2025 | [Wavelet-Optimized Motion Artifact Correction in 3D MRI Using Pre-trained 2D Score Priors](https://arxiv.org/abs/2511.02256) | arXiv | PB | MRI enhancement | ★ |  |
 | 2024 | [A Dual-Domain Diffusion Model for Sparse-View CT Reconstruction](https://doi.org/10.1109/lsp.2024.3392690) | IEEE Signal Processing Letters | diffusion | Incomplete-data CT | ★ |  |
 | 2024 | [Bi-modality medical images synthesis by a bi-directional discrete process matching method](https://arxiv.org/abs/2409.03977) | arXiv | FM | Cross-modality synthesis | ★ |  |
@@ -232,7 +230,6 @@ Studies of the catalogue by the state from which sampling begins. 234 studies, 2
 | 2024 | [Slice-consistent 3D volumetric brain CT-to-MRI translation with 2D Brownian bridge diffusion model](https://doi.org/10.1007/978-3-031-72104-5_63) | MICCAI 2024 | PB | Cross-modality synthesis | ★ | [code](https://github.com/MICV-yonsei/CT2MRI) |
 | 2024 | [Structure-aware diffusion for low-dose CT imaging](https://doi.org/10.1088/1361-6560/ad5d47) | Physics in Medicine & Biology | PB | CT denoising and artifacts | ★ |  |
 | 2024 | [Super Resolution MRI via Upscaling Diffusion Bridges](https://doi.org/10.1109/siu61531.2024.10600909) | 2024 32nd Signal Processing and Communications A... | PB | MRI enhancement | ★ |  |
-| 2024 | [Weakly Supervised Virtual Immunohistochemistry Staining via Schrödinger Bridge Method](https://doi.org/10.1109/bibm62325.2024.10822509) | BIBM 2024 | SB | Tissue-image translation | ★ |  |
 | 2023 | [CoreDiff: Contextual Error-Modulated Generalized Diffusion Model for Low-Dose CT Denoising and Generalization](https://doi.org/10.1109/tmi.2023.3320812) | IEEE Transactions on Medical Imaging | diffusion | CT denoising and artifacts | ★ |  |
 | 2023 | [Diffusion Model Based Semi-supervised Learning on Brain Hemorrhage Images for Efficient Midline Shift Quantification](https://doi.org/10.1007/978-3-031-34048-2_6) | Lecture Notes in Computer Science | diffusion | Shape and parameter output | ★ |  |
 | 2023 | [Self-supervised MRI Reconstruction with Unrolled Diffusion Models](https://doi.org/10.1007/978-3-031-43999-5_47) | Lecture Notes in Computer Science | diffusion | MRI reconstruction | ★ |  |

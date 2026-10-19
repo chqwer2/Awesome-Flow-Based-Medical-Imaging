@@ -2,7 +2,7 @@
 
 [Home](../../README.md) · [Modality index](index.md)
 
-Studies by modality; a study with several appears in each. 60 studies, 45 marked ★ (discussed in the paper), 13 with code.
+Studies by modality; a study with several appears in each. 59 studies, 44 marked ★ (discussed in the paper), 13 with code.
 
 | Year | Title | Venue | Family | Task | In paper | Code |
 |--:|:--|:--|:--|:--|:--:|:--:|
@@ -10,7 +10,6 @@ Studies by modality; a study with several appears in each. 60 studies, 45 marked
 | 2026 | [Beyond Stochastic Diffusion: Trajectory-Consistent Deterministic Flow Matching for Fluorescence Molecular Tomography](https://doi.org/10.1007/978-3-032-38179-8_5) | MICCAI 2026 | FM | Microscopy and OCT | ★ |  |
 | 2026 | [BiT-MoFE: Unified illumination correction in capsule endoscopy](https://doi.org/10.1002/jim4.70034) | Journal of Intelligent Medicine | PB | Multi-modality restoration | ★ |  |
 | 2026 | [Conditional Flow Matching-based Semi-supervised Segmentation for Quality Assessment of Fundus Images](https://doi.org/10.1109/jbhi.2026.3717225) | IEEE Journal of Biomedical and Health Informatic... | FM | Segmentation masks | ★ |  |
-| 2026 | [CurvSegFlow: Time-Conditioned Flow Matching for Robust Segmentation of Curvilinear Structures in Noisy Biomedical Images](https://arxiv.org/abs/2606.21608) | arXiv | FM | Segmentation masks | ★ |  |
 | 2026 | [Deep generative models for enhanced vitreous OCT imaging](https://doi.org/10.1038/s41598-026-68477-8) | Scientific Reports | PB | Microscopy and OCT | ★ | [code](https://github.com/SimoneSarrocco/vitreous_enhancement) |
 | 2026 | [DermaFlux: Synthetic Skin Lesion Generation with Rectified Flows for Enhanced Image Classification](https://doi.org/10.1007/978-3-032-38091-3_19) | arXiv | RF | Synthetic training data | ★ | [code](https://github.com/dermaflux/dermaflux) |
 | 2026 | [Do Not Break the Vessels: Structure-Preserving Mean Flow for Vascular Image Translation](https://doi.org/10.1007/978-3-032-38189-7_15) | arXiv | PB | Cross-modality synthesis | ★ |  |

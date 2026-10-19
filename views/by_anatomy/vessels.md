@@ -2,7 +2,7 @@
 
 [Home](../../README.md) · [Anatomy index](index.md)
 
-Studies by anatomy; a study with several appears in each. 14 studies, 13 marked ★ (discussed in the paper), 1 with code.
+Studies by anatomy; a study with several appears in each. 17 studies, 16 marked ★ (discussed in the paper), 2 with code.
 
 | Year | Title | Venue | Family | Task | In paper | Code |
 |--:|:--|:--|:--|:--|:--:|:--:|
@@ -18,5 +18,8 @@ Studies by anatomy; a study with several appears in each. 14 studies, 13 marked 
 | 2025 | [A flow-matching-based method for retinal vessel segmentation](https://doi.org/10.1117/12.3075554) | Fifth International Conference on Optical Imagin... | FM | Segmentation masks | ★ |  |
 | 2025 | [AngioDiff: Structure-Preserving and 3D-Consistent Diffusion for CT Angiography Synthesis](https://doi.org/10.1109/bibm66473.2025.11356786) | BIBM 2025 | PB | Missing sequences and contrast | ★ |  |
 | 2025 | [Enhanced Photoacoustic Tomography Via Accelerated Mean-Reverting Generative Diffusion Model](https://doi.org/10.2139/ssrn.5223166) | SSRN | PB | Incomplete-data CT | ★ |  |
+| 2025 | [Generative priors-constraint accelerated iterative reconstruction for extremely sparse photoacoustic tomography boosted by mean-reverting diffusion model: Towards 8 projections](https://doi.org/10.1016/j.pacs.2025.100709) | Photoacoustics | PB | Incomplete-data CT | ★ |  |
+| 2025 | [Implicit Image-to-Image Schrödinger Bridge for image restoration](https://doi.org/10.1016/j.patcog.2025.111627) | Pattern Recognition | PB | CT denoising and artifacts | ★ | [code](https://github.com/wangya22/I3SB) |
 | 2025 | [vesselFM: A Foundation Model for Universal 3D Blood Vessel Segmentation](https://doi.org/10.1109/cvpr52734.2025.01944) | CVPR 2025 | FM | Synthetic training data | ★ | [code](https://github.com/bwittmann/vesselFM) |
+| 2024 | [Shape-Guided Conditional Latent Diffusion Models for Synthesising Brain Vasculature](https://doi.org/10.1007/978-3-031-53767-7_16) | Deep Generative Models | diffusion | Anatomy and device shapes | ★ |  |
 | 2022 | [Normalizing Flows for Out-of-Distribution Detection: Application to Coronary Artery Segmentation](https://doi.org/10.3390/app12083839) | Applied Sciences | NF | Segmentation uncertainty |  |  |

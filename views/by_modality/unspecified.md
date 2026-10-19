@@ -2,7 +2,7 @@
 
 [Home](../../README.md) · [Modality index](index.md)
 
-Studies by modality; a study with several appears in each. 31 studies, 2 marked ★ (discussed in the paper), 0 with code.
+Studies by modality; a study with several appears in each. 34 studies, 2 marked ★ (discussed in the paper), 0 with code.
 
 | Year | Title | Venue | Family | Task | In paper | Code |
 |--:|:--|:--|:--|:--|:--:|:--:|
@@ -10,7 +10,10 @@ Studies by modality; a study with several appears in each. 31 studies, 2 marked 
 | 2026 | [Bayesian Deep Learning in a Privacy-Preserving Environment](https://doi.org/10.11588/heidok.00038646) |  | NF | Other: Privacy-preserving image editing |  |  |
 | 2026 | [Conditional Normalizing Flows for Likelihood-Based Medical Image Classification](https://doi.org/10.1007/978-3-032-30877-1_68) | Springer eBooks | NF | Anomaly and diagnosis |  |  |
 | 2026 | [Cross-Harmonic MPI Restoration via Generative Models](https://doi.org/10.1109/isbi61048.2026.11516030) | ISBI 2026 | SB | Multi-modality restoration | ★ |  |
+| 2026 | [DAWN-FM: Data-aware and noise-informed flow matching for solving inverse problems](https://doi.org/10.3934/fods.2026005) | Foundations of Data Science | other | Other |  |  |
 | 2026 | [Deep Computational Anatomy via Latent-Aligned Multiview Normalizing Flows.](https://doi.org/10.64898/2026.05.05.723039) | bioRxiv | NF | Anatomy and device shapes |  |  |
+| 2026 | [Dense Temporal Contrast Synthesis via Conditioned Latent Transport](https://arxiv.org/abs/2607.29394) | arXiv | other | Other |  |  |
+| 2026 | [EndoLIFT: Language-Disambiguated Latent-Conditioned Rectified Flow for Bidirectional Endoscopic Control](https://arxiv.org/abs/2608.20478) | arXiv | other | Other |  |  |
 | 2026 | [FalconBC: Flow matching for Amortized inference of Latent-CONditioned physiologic Boundary Conditions](https://arxiv.org/abs/2603.19331) | arXiv | FM | Shape and parameter output | ★ |  |
 | 2026 | [One Size does not Fit All: Heterogeneous Latent Space Alignment for Unsupervised Domain Adaptation](https://arxiv.org/abs/2606.21415) | arXiv | NF | Domain harmonization |  |  |
 | 2026 | [Temporally Consistent and Controllable Video Generation of 2D Cine CMR via Latent Space Motion Modeling](https://doi.org/10.1109/isbi61048.2026.11515893) | ISBI | FM | Cardiac and brain dynamics |  |  |

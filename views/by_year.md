@@ -2,14 +2,14 @@
 
 [Home](../README.md)
 
-661 studies, newest first.
+647 studies, newest first.
 
 | Year | Studies | ★ | With code |
 |--:|--:|--:|--:|
-| [2026](#2026) | 325 | 282 | 66 |
-| [2025](#2025) | 142 | 93 | 33 |
-| [2024](#2024) | 81 | 42 | 7 |
-| [2023](#2023) | 61 | 30 | 1 |
+| [2026](#2026) | 321 | 277 | 66 |
+| [2025](#2025) | 139 | 92 | 33 |
+| [2024](#2024) | 75 | 41 | 7 |
+| [2023](#2023) | 60 | 30 | 1 |
 | [2022](#2022) | 18 | 0 | 0 |
 | [2021](#2021) | 20 | 3 | 0 |
 | [2020](#2020) | 8 | 2 | 0 |
@@ -20,8 +20,7 @@
 
 | Year | Title | Venue | Family | Task | In paper | Code |
 |--:|:--|:--|:--|:--|:--:|:--:|
-| 2026 | [3D CT-to-PET Translation via Latent Brownian Bridge Diffusion](https://arxiv.org/abs/2609.12860) | arXiv | PB | Cross-modality synthesis | ★ | [code](https://github.com/arco-group/3D-CT2PET-via-Latent-Brownian-Bridge-Diffusion) |
-| 2026 | [3D CT-to-PET Translation via Latent-Guided Contrastive Alignment and Brownian Bridge Diffusion](https://doi.org/10.1145/3807503.3816794) | ACM International Conference on Bioinformatics, ... | PB | Cross-modality synthesis |  |  |
+| 2026 | [3D CT-to-PET Translation via Latent Brownian Bridge Diffusion](https://doi.org/10.1145/3807503.3816794) | arXiv | PB | Cross-modality synthesis | ★ | [code](https://github.com/arco-group/3D-CT2PET-via-Latent-Brownian-Bridge-Diffusion) |
 | 2026 | [3D radiotherapy dose prediction using a vision-language flow-matching stable diffusion model](https://doi.org/10.1117/12.3087897) | Medical Imaging 2026: Imaging Informatics | FM | Synthetic CT and dose | ★ |  |
 | 2026 | [A Denoising Framework for Real-World Ultra-Low-Dose Lung CT Images Based on an Image Purification Strategy](https://doi.org/10.1007/978-981-92-3410-3_7) | ICIC 2026 | FM | CT denoising and artifacts | ★ | [code](https://github.com/MonkeyDadLufy/Image-Purification-Strategy) |
 | 2026 | [A Mean-Reverting Conditional Diffusion Model for Pulmonary LDCT Image Denoising](https://doi.org/10.1109/access.2026.3715887) | IEEE Access | PB | CT denoising and artifacts | ★ |  |
@@ -55,8 +54,6 @@
 | 2026 | [Bridging Modalities on the Cortex: Surface-based MRI to PET Translation with a Diffusion Bridge](https://arxiv.org/abs/2609.20147) | arXiv | PB | Cross-modality synthesis | ★ |  |
 | 2026 | [C^3 M G: Clinically-Controlled Cardiac Mesh Generator Based on Rectified Flow Matching](https://doi.org/10.1109/cbms69103.2026.00117) | 2026 IEEE 39th International Symposium on Comput... | RF | Anatomy and device shapes | ★ |  |
 | 2026 | [CAFlow: Adaptive-Depth Single-Step Flow Matching for Efficient Histopathology Super-Resolution](https://arxiv.org/abs/2603.18513) | arXiv | FM | Microscopy and OCT | ★ |  |
-| 2026 | [Cardiac Mesh Flow: One-Step Generation of 3D+t Cardiac Four-Chamber Meshes via Flow Matching](https://arxiv.org/abs/2605.01884) | arXiv | RF | Cardiac and brain dynamics | ★ |  |
-| 2026 | [CBCT-Based Synthetic CT Generation Using Conditional Flow Matching Model](https://arxiv.org/abs/2603.05796) | arXiv | FM | Synthetic CT and dose | ★ |  |
 | 2026 | [CDSB: accelerating connectomics workflow via Content-Decoupled Schrödinger Bridge](https://doi.org/10.1186/s12915-026-02715-3) | BMC Biology | PB | Tissue-image translation | ★ | [code](https://github.com/lvyanan525/CDSB) |
 | 2026 | [Cell Instance Segmentation via Multi-Task Image-to-Image Schrödinger Bridge](https://arxiv.org/abs/2604.12318) | arXiv | PB | Segmentation masks | ★ |  |
 | 2026 | [Cellflow: Advancing pathological image augmentation from spatial views to temporal trajectories.](https://doi.org/10.1016/j.media.2026.103995) | Medical image analysis | PB | Synthetic training data |  |  |
@@ -82,14 +79,15 @@
 | 2026 | [Cross-Harmonic MPI Restoration via Generative Models](https://doi.org/10.1109/isbi61048.2026.11516030) | ISBI 2026 | SB | Multi-modality restoration | ★ |  |
 | 2026 | [CryoFlow: Prediction of Frozen Region Growth in Kidney Cryoablation Using a 3D Flow-Matching](https://doi.org/10.1007/978-3-032-09784-2_7) | MICCAI COLAS Workshop 2025 | FM | Longitudinal forecasting | ★ |  |
 | 2026 | [CT-free attenuation and scatter correction of \[11C\]CFT brain PET using a Bi-directional matching network](https://doi.org/10.1016/j.neuroimage.2026.121721) | NeuroImage | RF | Synthetic CT and dose | ★ |  |
-| 2026 | [CurvSegFlow: Time-Conditioned Flow Matching for Robust Segmentation of Curvilinear Structures in Noisy Biomedical Images](https://arxiv.org/abs/2606.21608) | arXiv | FM | Segmentation masks | ★ |  |
 | 2026 | [CyFM: Cylindrical Optimal Transport for Few-Step Complex-Valued Flow Matching](https://arxiv.org/abs/2609.14171) | arXiv | other | Volume and X-ray synthesis | ★ |  |
+| 2026 | [DAWN-FM: Data-aware and noise-informed flow matching for solving inverse problems](https://doi.org/10.3934/fods.2026005) | Foundations of Data Science | other | Other |  |  |
 | 2026 | [DeBoneDiT: Depth-Driven Conditional Bridge Diffusion Transformers for Bone Suppression in Chest X-Ray Images](https://arxiv.org/abs/2610.19466) | arXiv | PB | Cross-modality synthesis | ★ |  |
 | 2026 | [Deep Computational Anatomy via Latent-Aligned Multiview Normalizing Flows.](https://doi.org/10.64898/2026.05.05.723039) | bioRxiv | NF | Anatomy and device shapes |  |  |
 | 2026 | [Deep generative models for enhanced vitreous OCT imaging](https://doi.org/10.1038/s41598-026-68477-8) | Scientific Reports | PB | Microscopy and OCT | ★ | [code](https://github.com/SimoneSarrocco/vitreous_enhancement) |
 | 2026 | [DeepBayesFlow: A Bayesian Structured Variational Framework for Generalizable Prostate Segmentation via Expressive Posteriors and SDE-Girsanov Uncertainty Modeling](https://arxiv.org/abs/2603.27263) | arXiv | NF | Segmentation uncertainty |  |  |
 | 2026 | [Delta-Diffusion: Modeling Longitudinal Brain Amyloid-PET Trajectories via Conditional Poisson Diffusion Bridge](https://arxiv.org/abs/2606.22216) | arXiv | PB | Longitudinal forecasting | ★ |  |
 | 2026 | [Denoising of ASL Data Using Deep Learning Priors Generated From Distribution Remapping](https://doi.org/10.1002/mrm.70471) | Magnetic Resonance in Medicine | SB | MRI enhancement | ★ |  |
+| 2026 | [Dense Temporal Contrast Synthesis via Conditioned Latent Transport](https://arxiv.org/abs/2607.29394) | arXiv | other | Other |  |  |
 | 2026 | [DermaFlux: Synthetic Skin Lesion Generation with Rectified Flows for Enhanced Image Classification](https://doi.org/10.1007/978-3-032-38091-3_19) | arXiv | RF | Synthetic training data | ★ | [code](https://github.com/dermaflux/dermaflux) |
 | 2026 | [Design, development, and implementation of an artificial intelligence-based expert system for diagnosing, monitoring, and evaluating treatment in patients with metastatic melanoma using whole-body FDG-PET/CT images](https://doi.org/10.12681/eadd/61552) |  | RF | Synthetic training data |  |  |
 | 2026 | [DiffCAS: Inference-time CT-free diffusion model for physics-aware multi-slice attenuation correction in cardiac SPECT](https://doi.org/10.1016/j.artmed.2026.103511) | Artificial Intelligence in Medicine | PB | Synthetic CT and dose | ★ |  |
@@ -111,8 +109,8 @@
 | 2026 | [Efficient Image-to-Image Schrödinger Bridge for CT Field of View Extension](https://doi.org/10.1109/trpms.2026.3705435) | IEEE Trans. Radiation and Plasma Medical Science... | PB | Incomplete-data CT | ★ |  |
 | 2026 | [Elucidating the Design Space of Arbitrary-Noise-Based Diffusion Models](https://arxiv.org/abs/2507.18534) | arXiv | PB | MRI enhancement | ★ |  |
 | 2026 | [Elucidating the Design Space of Flow Matching for Cellular Microscopy](https://arxiv.org/abs/2603.26790) | arXiv | FM | Synthetic training data | ★ | [code](https://github.com/valence-labs/microscopy-flow-matching) |
+| 2026 | [EndoLIFT: Language-Disambiguated Latent-Conditioned Rectified Flow for Bidirectional Endoscopic Control](https://arxiv.org/abs/2608.20478) | arXiv | other | Other |  |  |
 | 2026 | [Energyflow: A Physically Consistent Learning Framework for 3D Microscopy Deconvolution](https://doi.org/10.1109/isbi61048.2026.11515930) | ISBI 2026 | FM | Microscopy and OCT | ★ |  |
-| 2026 | [Enhancing thyroid scintigraphy classification with diffusion‑based augmentation](https://doi.org/10.1117/12.3084119) | SPIE Medical Imaging | FM | Synthetic training data |  |  |
 | 2026 | [Enhancing Ultra-Low-Field to High-Field MRI Using Multi-cycle GAN and Flow Matching Models](https://doi.org/10.1007/978-3-032-23344-8_19) | Enhancing Ultra-Low-Field MRI with Paired High-F... | FM | MRI enhancement | ★ |  |
 | 2026 | [FACET: Factorized Asymmetric Conditioning for Efficient Transport in High-Fidelity Fluorescence Microscopy Synthesis](https://arxiv.org/abs/2610.05353) | arXiv | FM | Tissue-image translation | ★ |  |
 | 2026 | [FalconBC: Flow matching for Amortized inference of Latent-CONditioned physiologic Boundary Conditions](https://arxiv.org/abs/2603.19331) | arXiv | FM | Shape and parameter output | ★ |  |
@@ -223,7 +221,6 @@
 | 2026 | [OCTFlow: Unified conditional generation for balanced classification and annotated segmentation in retinal OCT](https://doi.org/10.1016/j.media.2026.104322) | Medical Image Analysis | FM | Synthetic training data | ★ |  |
 | 2026 | [One Evaluation, Any Operating Point: Hypernetwork-Amortized MeanFlow for 3D MRI Reconstruction](https://arxiv.org/abs/2609.31655) | arXiv | FM | MRI reconstruction | ★ |  |
 | 2026 | [One Frame, Full Heartbeat: ECG-Free 4D Cardiac Cine MRI Synthesis via Radial-Decomposed Flow Matching](https://arxiv.org/abs/2610.09185) | arXiv | RF | Cardiac and brain dynamics | ★ |  |
-| 2026 | [One Frame, Full Heartbeat: ECG-Free Cardiac Cine MRI Synthesis via Phase-Conditioned Flow Matching](https://arxiv.org/abs/2610.09397) | arXiv | RF | Cardiac and brain dynamics | ★ |  |
 | 2026 | [One Size does not Fit All: Heterogeneous Latent Space Alignment for Unsupervised Domain Adaptation](https://arxiv.org/abs/2606.21415) | arXiv | NF | Domain harmonization |  |  |
 | 2026 | [One-Step Is Optimal: Unconditional Rectified Flows are Noise2Noise Denoisers, and Multi-Step Integration Provably Hurts—A Benchmark and Task-Based Detectability Study on Low-Dose CT](https://arxiv.org/abs/2609.31670) | arXiv | RF | CT denoising and artifacts | ★ |  |
 | 2026 | [Optical coherence tomography harmonization via dual diffusion implicit bridges](https://doi.org/10.1117/12.3086131) | Medical Imaging 2026: Image Processing | PB | Domain harmonization | ★ |  |
@@ -313,7 +310,7 @@
 | 2026 | [Through the Schrödinger Bridge: Benchmarking Antemortem Image Restoration from Postmortem Autolysis to Enhance Forensic Diagnostics](https://doi.org/10.1007/978-3-032-38470-6_32) | arXiv | SB | Microscopy and OCT | ★ | [code](https://github.com/fengluo233/AutolysisBench) |
 | 2026 | [Time Matters: Rethinking Diffusion and Flow Models in One-Step Medical Image Translation](https://doi.org/10.1007/978-3-032-38189-7_54) | Lecture Notes in Computer Science | FM | Cross-modality synthesis | ★ |  |
 | 2026 | [Tomographic Foundation Model—FORCE: Flow-Oriented Reconstruction Conditioning Engine](https://doi.org/10.1109/tmi.2026.3669463) | IEEE Trans. Medical Imaging | PF | Incomplete-data CT | ★ | [code](https://github.com/xiawj-hub/FORCE) |
-| 2026 | Topological Flow Matching | ICLR | FM | Other: graph-signal flow matching |  |  |
+| 2026 | [Topological Flow Matching](https://arxiv.org/abs/2606.15897) | ICLR | FM | Other: graph-signal flow matching |  |  |
 | 2026 | [Topology-Aware Diffusion Schrödinger Bridge for Unpaired H&E-to-IHC Stain Translation](https://doi.org/10.1109/jbhi.2026.3668658) | IEEE Journal of Biomedical and Health Informatic... | SB | Tissue-image translation | ★ |  |
 | 2026 | [Toward robust histopathology imaging: An unsupervised framework for artifact detection, localization, and restoration.](https://doi.org/10.1016/j.media.2026.104215) | Medical image analysis | NF | Anomaly and diagnosis |  |  |
 | 2026 | [Trackerless Ultrasound Pose Estimation via Correspondence-Aware Tokenization and Flow-Matching Transformers](https://doi.org/10.1007/978-3-032-38236-8_53) | MICCAI 2026 | FM | Shape and parameter output | ★ |  |
@@ -325,7 +322,6 @@
 | 2026 | [UIGM: Segmentation-Constrained Flow Matching Model for Ultrasound Data Augmentation](https://doi.org/10.1109/isbi61048.2026.11515412) | ISBI 2026 | FM | Synthetic training data | ★ |  |
 | 2026 | [Uncertainty in a Single Pass: A Closed-Form Identity for One-Step Flow Matching](https://arxiv.org/abs/2605.00941) | arXiv | FM | Segmentation uncertainty | ★ |  |
 | 2026 | [Uncertainty-Aware Distribution-to-Distribution Flow Matching for Scientific Imaging](https://arxiv.org/abs/2603.21717) | arXiv | PB | Segmentation uncertainty | ★ |  |
-| 2026 | [UniField++: A Unified Agentic Framework with Loop Reasoning for MRI Field-Strength Enhancement](https://arxiv.org/abs/2610.22982) | arXiv | FM | MRI enhancement | ★ |  |
 | 2026 | [UniField: A Unified Field-Aware MRI Enhancement Framework](https://doi.org/10.1007/978-3-032-38179-8_58) | arXiv | FM | MRI enhancement | ★ | [code](https://github.com/linyiyang98/UniField) |
 | 2026 | [Unifying VLM-Guided Flow Matching and Spectral Anomaly Detection for Interpretable Veterinary Diagnosis](https://arxiv.org/abs/2604.05482) | arXiv | FM | Segmentation masks | ★ |  |
 | 2026 | [Unpaired Image-to-Image Translation via a Self-Supervised Semantic Bridge](https://arxiv.org/abs/2602.16664) | arXiv | SB | Synthetic CT and dose | ★ |  |
@@ -356,7 +352,6 @@
 | 2025 | [A flow-matching-based method for retinal vessel segmentation](https://doi.org/10.1117/12.3075554) | Fifth International Conference on Optical Imagin... | FM | Segmentation masks | ★ |  |
 | 2025 | [A Multi-Level Probabilistic Deep Learning Network Augmented With Normalizing Flow for Ambiguous Medical Image Segmentation](https://doi.org/10.1109/access.2025.3650056) | IEEE Access | NF | Segmentation uncertainty |  |  |
 | 2025 | [A New One-Shot Federated Learning Framework for Medical Imaging Classification with Feature-Guided Rectified Flow and Knowledge Distillation](https://doi.org/10.3233/faia250805) | ECAI 2025 | RF | Synthetic training data | ★ | [code](https://github.com/LMIAPC/one-shot-fl-medical) |
-| 2025 | [A Self-Consistent Diffusion Schrodinger Bridge for Multi-Modal Medical Image Translation](https://doi.org/10.58530/2025/0933) | ISMRM | PB | Missing sequences and contrast |  |  |
 | 2025 | [A Self-Supervised Diffusion Bridge for MRI Reconstruction](https://doi.org/10.1109/isbi60581.2025.10980710) | ISBI 2025 | PB | MRI reconstruction | ★ |  |
 | 2025 | Advancing brain MRI assessment using generative models | Espace ÉTS (ETS) | NF | Domain harmonization |  |  |
 | 2025 | [Advancing Limited-Angle CT Reconstruction through Diffusion-Based Sinogram Completion](https://doi.org/10.1109/icip55913.2025.11084640) | 2025 IEEE International Conference on Image Proc... | PB | Incomplete-data CT | ★ |  |
@@ -421,7 +416,7 @@
 | 2025 | [Fundus Image Enhancement With Pyramid Conditional Flow.](https://doi.org/10.1109/jbhi.2025.3600277) | IEEE journal of biomedical and health informatic... | NF | Other: Fundus enhancement |  |  |
 | 2025 | [GANs vs. Diffusion Models for Virtual Staining with the HER2match Dataset](https://doi.org/10.1007/978-3-032-05472-2_12) | Lecture Notes in Computer Science | PB | Tissue-image translation |  |  |
 | 2025 | [GeneFlow: Translation of Single-cell Gene Expression to Histopathological Images via Rectified Flow](https://doi.org/10.52202/085713-1512) | NeurIPS 2025 | RF | Tissue-image translation | ★ | [code](https://github.com/wangmengbo/GeneFlow) |
-| 2025 | Generating High-Resolution Brain Counterfactuals via Stacked Autoencoders and Causal Autoregressive Flows | Progress in Biomedical Optics and Imaging Procee... | NF | Other: counterfactual brain generation |  |  |
+| 2025 | [Generating High-Resolution Brain Counterfactuals via Stacked Autoencoders and Causal Autoregressive Flows](https://doi.org/10.1117/12.3047018) | Progress in Biomedical Optics and Imaging Procee... | NF | Other: counterfactual brain generation |  |  |
 | 2025 | [Generating Synthetic Contrast-Enhanced Chest CT Images from Non-Contrast Scans Using Slice-Consistent Brownian Bridge Diffusion Network](https://doi.org/10.1007/978-3-032-17734-6_16) | arXiv | PB | Missing sequences and contrast | ★ |  |
 | 2025 | [Generative priors-constraint accelerated iterative reconstruction for extremely sparse photoacoustic tomography boosted by mean-reverting diffusion model: Towards 8 projections](https://doi.org/10.1016/j.pacs.2025.100709) | Photoacoustics | PB | Incomplete-data CT | ★ |  |
 | 2025 | [Generative super-resolution PET imaging with Fourier diffusion models](https://doi.org/10.1117/12.3048849) | SPIE Medical Imaging 2025 | other | Low-count PET | ★ |  |
@@ -486,10 +481,8 @@
 | 2025 | [Unsupervised Accelerated MRI Reconstruction via Ground-Truth-Free Flow Matching](https://doi.org/10.1007/978-3-031-96628-6_9) | IPMI 2025 | FM | MRI reconstruction | ★ |  |
 | 2025 | [Unsupervised Detection of Post-Stroke Brain Abnormalities](https://doi.org/10.1109/isbi61048.2026.11515504) | ISBI | other | Anomaly and diagnosis |  |  |
 | 2025 | [Unsupervised PET Image Reconstruction using Deep Diffusion Bridge Image Prior](https://doi.org/10.1109/nss/mic/rtsd57106.2025.11287153) | 2025 IEEE Nuclear Science Symposium (NSS), Medic... | PB | Low-count PET |  |  |
-| 2025 | [UPMRI: Unsupervised Parallel MRI Reconstruction via Projected Conditional Flow Matching](https://arxiv.org/abs/2512.17493) | arXiv | FM | MRI reconstruction | ★ |  |
 | 2025 | [vesselFM: A Foundation Model for Universal 3D Blood Vessel Segmentation](https://doi.org/10.1109/cvpr52734.2025.01944) | CVPR 2025 | FM | Synthetic training data | ★ | [code](https://github.com/bwittmann/vesselFM) |
 | 2025 | [ViCTr: Vital consistency transfer for pathology aware image synthesis](https://doi.org/10.1109/iccv51701.2025.02114) | ICCV 2025 | RF | Synthetic training data | ★ |  |
-| 2025 | [Wavelet Fourier Convolution-Based Deep Learning to Reconstruct from Radio Frequency to B-Mode Image](https://doi.org/10.1109/ius62464.2025.11201641) | IEEE International Ultrasonics Symposium | SB | Other: ultrasound restoration |  |  |
 | 2025 | [Wavelet-Optimized Motion Artifact Correction in 3D MRI Using Pre-trained 2D Score Priors](https://arxiv.org/abs/2511.02256) | arXiv | PB | MRI enhancement | ★ |  |
 | 2025 | Weakly-Supervised Midline Shift Quantification through Simulating the Reversed Disease Progression | MIDL | FM | Shape and parameter output |  |  |
 
@@ -497,10 +490,8 @@
 
 | Year | Title | Venue | Family | Task | In paper | Code |
 |--:|:--|:--|:--|:--|:--:|:--:|
-| 2024 | [526: Geometry-Preserving MR-based Synthetic CT Generation via Diffusion Schrödinger Bridge Models](https://doi.org/10.1016/s0167-8140(24)01118-6) | Radiotherapy and Oncology | SB | Synthetic CT and dose |  |  |
 | 2024 | [A Dual-Domain Diffusion Model for Sparse-View CT Reconstruction](https://doi.org/10.1109/lsp.2024.3392690) | IEEE Signal Processing Letters | diffusion | Incomplete-data CT | ★ |  |
 | 2024 | [A Flow-based Truncated Denoising Diffusion Model for super-resolution Magnetic Resonance Spectroscopic Imaging.](https://doi.org/10.1016/j.media.2024.103358) | Medical image analysis | NF | MRI enhancement |  |  |
-| 2024 | [Accelerated MRI Reconstruction with Fourier-Constrained Diffusion Schrodinger Bridges](https://doi.org/10.58530/2024/0378) | ISMRM | SB | MRI reconstruction |  |  |
 | 2024 | [Adaptive Latent Diffusion Model for 3D Medical Image to Image Translation: Multi-modal Magnetic Resonance Imaging Study](https://doi.org/10.1109/wacv57701.2024.00743) | WACV 2024 | diffusion | Missing sequences and contrast | ★ |  |
 | 2024 | [An Optimal Transport-Based Method For Medical Image Generation](https://doi.org/10.1109/icip51287.2024.10647734) | Proceedings - International Conference on Image ... | other | Synthetic training data |  |  |
 | 2024 | [Bi-modality medical images synthesis by a bi-directional discrete process matching method](https://arxiv.org/abs/2409.03977) | arXiv | FM | Cross-modality synthesis | ★ |  |
@@ -541,7 +532,6 @@
 | 2024 | [Metodologia de Geração de Dados aplicada à Geração de Imagens de Exames de Colonoscopia](https://doi.org/10.5753/erigo.2024.4797) | Anais da XII Escola Regional de Informática de G... | PF | Synthetic training data |  |  |
 | 2024 | [Microscopy image reconstruction with physics-informed denoising diffusion probabilistic model](https://doi.org/10.1038/s44172-024-00331-z) | Communications Engineering | diffusion | Microscopy and OCT | ★ |  |
 | 2024 | [MRFlow: Flow-based neural network for MR image harmonization](https://doi.org/10.58530/2023/0161) | ISMRM | NF | Domain harmonization |  |  |
-| 2024 | [MRI Joint Superresolution and Denoising Based on Conditional Stochastic Normalizing Flow](https://doi.org/10.1109/tai.2024.3515936) | IEEE Transactions on Artificial Intelligence | NF | MRI enhancement |  |  |
 | 2024 | [Multi-contrast MR image synthesis with a Brownian diffusion model](https://doi.org/10.1109/siu61531.2024.10601086) | SIU 2024 | PB | Missing sequences and contrast | ★ |  |
 | 2024 | [Multi-Modal Modality-Masked Diffusion Network for Brain MRI Synthesis With Random Modality Missing](https://doi.org/10.1109/tmi.2024.3368664) | IEEE Transactions on Medical Imaging | diffusion | Missing sequences and contrast | ★ |  |
 | 2024 | [Multi-scale tissue fluorescence mapping with fiber optic ultraviolet excitation and generative modeling](https://doi.org/10.1364/optica.515501) | Optica | NF | Microscopy and OCT |  |  |
@@ -550,10 +540,8 @@
 | 2024 | [Normalizing flow regularization for photoacoustic tomography](https://doi.org/10.1088/1361-6420/ad7d30) | Inverse Problems | NF | Other: Photoacoustic reconstruction |  |  |
 | 2024 | [PET image denoising based on denoising diffusion probabilistic model](https://doi.org/10.1007/s00259-023-06417-8) | European Journal of Nuclear Medicine and Molecul... | diffusion | Low-count PET | ★ |  |
 | 2024 | [PET Image Denoising based on Diffusion Schrodinger Bridge Model](https://doi.org/10.1109/nss/mic/rtsd57108.2024.10657633) | 2024 IEEE Nuclear Science Symposium (NSS), Medic... | SB | Low-count PET |  |  |
-| 2024 | [Pharmacokinetic Parameters’ Distribution Estimation with Normalizing Flow in Dynamic Contrast-Enhanced Magnetic Resonance Imaging](https://doi.org/10.58530/2023/0985) | ISMRM | NF | Shape and parameter output |  |  |
 | 2024 | [Photoacoustic Quantification of Tissue Oxygenation Using Conditional Invertible Neural Networks.](https://doi.org/10.1109/tmi.2024.3403417) | IEEE transactions on medical imaging | NF | Shape and parameter output |  |  |
 | 2024 | [Physics-Inspired Generative Models in Medical Imaging: A Review](https://doi.org/10.1146/annurev-bioeng-102723-013922) | arXiv | PF | Other: review |  |  |
-| 2024 | [Posterior Sampling for Accelerated Multicoil MRI Reconstruction using a Conditional Normalizing Flow](https://doi.org/10.58530/2023/2928) | ISMRM | NF | MRI reconstruction |  |  |
 | 2024 | [PPFM: Image Denoising in Photon-Counting CT Using Single-Step Posterior Sampling Poisson Flow Generative Models](https://doi.org/10.1109/trpms.2024.3410092) | IEEE Trans. Radiation and Plasma Medical Science... | PF | CT denoising and artifacts | ★ | [code](https://github.com/dennishein/cpfgmpp_PCCT_denoising) |
 | 2024 | [Probabilistic Bayesian optimal experimental design using conditional normalizing flows](https://arxiv.org/abs/2402.18337) | arXiv | NF | MRI reconstruction |  |  |
 | 2024 | [RadEdit: Stress-Testing Biomedical Vision Models via Diffusion Image Editing](https://doi.org/10.1007/978-3-031-73254-6_21) | Computer Vision – ECCV 2024 | diffusion | Inpainting and editing | ★ |  |
@@ -577,7 +565,6 @@
 | 2024 | [Vision Intelligence Assisted Lung Function Estimation Based on Transformer Encoder–Decoder Network With Invertible Modeling](https://doi.org/10.1109/tai.2023.3348428) | IEEE Transactions on Artificial Intelligence | NF | Anomaly and diagnosis |  |  |
 | 2024 | [Wavelet-Improved Score-Based Generative Model for Medical Imaging](https://doi.org/10.1109/tmi.2023.3325824) | IEEE Transactions on Medical Imaging | diffusion | CT denoising and artifacts | ★ |  |
 | 2024 | [WDM: 3D Wavelet Diffusion Models for High-Resolution Medical Image Synthesis](https://doi.org/10.1007/978-3-031-72744-3_2) | Deep Generative Models | diffusion | Volume and X-ray synthesis | ★ |  |
-| 2024 | [Weakly Supervised Virtual Immunohistochemistry Staining via Schrödinger Bridge Method](https://doi.org/10.1109/bibm62325.2024.10822509) | BIBM 2024 | SB | Tissue-image translation | ★ |  |
 
 ## 2023
 
@@ -585,7 +572,6 @@
 |--:|:--|:--|:--|:--|:--:|:--:|
 | 2023 | [2D medical image synthesis using transformer-based denoising diffusion probabilistic model](https://doi.org/10.1088/1361-6560/acca5c) | Physics in Medicine & Biology | diffusion | Synthetic training data | ★ |  |
 | 2023 | [A Conditional Flow Variational Autoencoder for Controllable Synthesis of Virtual Populations of Anatomy](https://doi.org/10.1007/978-3-031-43990-2_14) | MICCAI | NF | Anatomy and device shapes |  |  |
-| 2023 | [A Conditional Normalizing Flow for Accelerated Multi-Coil MR Imaging.](https://arxiv.org/abs/2306.01630) | ICML | NF | MRI reconstruction |  |  |
 | 2023 | [A Diffusion Model Predicts 3D Shapes from 2D Microscopy Images](https://doi.org/10.1109/isbi53787.2023.10230752) | ISBI 2023 | diffusion | Anatomy and device shapes | ★ |  |
 | 2023 | [A latent space for unsupervised MR image quality control via artifact assessment](https://doi.org/10.1117/12.2652917) | SPIE Medical Imaging: Image Processing | NF | Anomaly and diagnosis |  |  |
 | 2023 | [A multimodal comparison of latent denoising diffusion probabilistic models and generative adversarial networks for medical image synthesis](https://doi.org/10.1038/s41598-023-39278-0) | Scientific Reports | diffusion | Synthetic training data | ★ |  |
@@ -618,7 +604,6 @@
 | 2023 | [DOLCE: A Model-Based Probabilistic Diffusion Framework for Limited-Angle CT Reconstruction](https://doi.org/10.1109/iccv51070.2023.00963) | ICCV 2023 | diffusion | Incomplete-data CT | ★ |  |
 | 2023 | [Fast light-field 3D microscopy with out-of-distribution detection and adaptation through conditional normalizing flows.](https://doi.org/10.1364/boe.504039) | Biomedical optics express | NF | Microscopy and OCT |  |  |
 | 2023 | [Feature-Conditioned Cascaded Video Diffusion Models for Precise Echocardiogram Synthesis](https://doi.org/10.1007/978-3-031-43999-5_14) | MICCAI 2023 | diffusion | Cardiac and brain dynamics | ★ |  |
-| 2023 | [Harmonizing Flows: Unsupervised MR Harmonization Based on Normalizing Flows](https://doi.org/10.1007/978-3-031-34048-2_27) | Lecture Notes in Computer Science | NF | Domain harmonization |  |  |
 | 2023 | Improved multi-site Parkinson's disease classification using neuroimaging data with counterfactual inference | MIDL | NF | Domain harmonization |  |  |
 | 2023 | [JCCS-PFGM: A Novel Circle-Supervision Based Poisson Flow Generative Model for Multiphase CECT Progressive Low-Dose Reconstruction with Joint Condition](https://doi.org/10.1007/978-3-031-43999-5_39) | MICCAI 2023 | PF | CT denoising and artifacts | ★ |  |
 | 2023 | [MRIFlow: Magnetic resonance image super-resolution based on normalizing flow and frequency prior.](https://doi.org/10.1016/j.jmr.2023.107477) | Journal of magnetic resonance (San Diego, Calif. | NF | MRI enhancement |  |  |
@@ -627,6 +612,7 @@
 | 2023 | [OCT Image Synthesis through Deep Generative Models](https://doi.org/10.1109/cbms58004.2023.00279) | 2023 IEEE 36th International Symposium on Comput... | NF | Microscopy and OCT |  |  |
 | 2023 | [PatchNR: learning from very few images by patch normalizing flow regularization](https://doi.org/10.1088/1361-6420/acce5e) | Inverse Problems | NF | CT denoising and artifacts | ★ |  |
 | 2023 | [PET-3DFlow: A Normalizing Flow Based Method for 3D PET Anomaly Detection](https://doi.org/10.1007/978-3-031-45087-7_10) | Lecture Notes in Computer Science | NF | Anomaly and diagnosis |  |  |
+| 2023 | [Posterior Sampling for Accelerated Multicoil MRI Reconstruction using a Conditional Normalizing Flow](https://doi.org/10.58530/2023/2928) | ICML | NF | MRI reconstruction |  |  |
 | 2023 | [Probabilistic 3D segmentation for aleatoric uncertainty quantification in full 3D medical data](https://doi.org/10.1117/12.2654255) | SPIE Medical Imaging | NF | Segmentation uncertainty |  |  |
 | 2023 | [Refining Amortized Posterior Approximations using Gradient-Based Summary Statistics](https://arxiv.org/abs/2305.08733) | arXiv | NF | Other: Ultrasound CT reconstruction |  |  |
 | 2023 | [RetinexFlow for CT metal artifact reduction](https://arxiv.org/abs/2306.10520) | arXiv | NF | CT denoising and artifacts |  |  |
@@ -657,7 +643,7 @@
 | 2022 | [Detecting 3D syndromic faces as outliers using unsupervised normalizing flow models](https://doi.org/10.1016/j.artmed.2022.102425) | Artificial Intelligence in Medicine , 134, 10242... | NF | Anomaly and diagnosis |  |  |
 | 2022 | [Efficient Out-of-Distribution Detection of Melanoma with Wavelet-Based Normalizing Flows](https://doi.org/10.1007/978-3-031-17979-2_10) | Lecture Notes in Computer Science | NF | Anomaly and diagnosis |  |  |
 | 2022 | [EndoBoost: a plug-and-play module for false positive suppression during computer-aided polyp detection in real-world colonoscopy (with dataset)](https://arxiv.org/abs/2212.12204) | arXiv | NF | Anomaly and diagnosis |  |  |
-| 2022 | Flow-Based Visual Quality Enhancer for Super-Resolution Magnetic Resonance Spectroscopic Imaging | Lecture Notes in Computer Science | NF | MRI enhancement |  |  |
+| 2022 | [Flow-Based Visual Quality Enhancer for Super-Resolution Magnetic Resonance Spectroscopic Imaging](https://doi.org/10.1007/978-3-031-18576-2_1) | Lecture Notes in Computer Science | NF | MRI enhancement |  |  |
 | 2022 | [Fusion-Cinn: A Generative Fusion Method for Multimodal Medical Images Based on Conditional Invertible Neural Network](https://doi.org/10.2139/ssrn.4003392) | SSRN | NF | Other: Multimodal image fusion |  |  |
 | 2022 | [Invertible AC-flow: Direct Attenuation Correction Of Pet Images Without Ct Or Mr Images](https://doi.org/10.1109/isbi52829.2022.9761476) | ISBI | NF | Other: PET attenuation correction |  |  |
 | 2022 | [Invertible Modeling of Bidirectional Relationships in Neuroimaging With Normalizing Flows: Application to Brain Aging](https://doi.org/10.1109/tmi.2022.3161947) | IEEE Transactions on Medical Imaging | NF | Shape and parameter output |  |  |
@@ -677,17 +663,17 @@
 | 2021 | Abnormality Detection in Histopathology via Density Estimation with Normalising Flows | arXiv | NF | Anomaly and diagnosis |  |  |
 | 2021 | Apprentissage génératif pour le traitement, l'analyse et la modélisation des données médicales : application à l'imagerie CT de la cochlée | HAL (Le Centre pour la Communication Scientifiqu... | NF | Other: CT representation |  |  |
 | 2021 | [Compressible Latent-Space Invertible Networks for Generative Model-Constrained Image Reconstruction](https://doi.org/10.1109/tci.2021.3049648) | IEEE Transactions on Computational Imaging | NF | MRI reconstruction | ★ |  |
-| 2021 | [Cytoarchitecture Measurements in Brain Gray Matter Using Likelihood-Free Inference](https://doi.org/10.1007/978-3-030-78191-0_15) | Lecture Notes in Computer Science | NF | Shape and parameter output |  |  |
+| 2021 | [Conditional Invertible Neural Networks for Medical Imaging.](https://doi.org/10.3390/jimaging7110243) | Journal of imaging | NF | CT denoising and artifacts |  |  |
 | 2021 | [Data Augmentation in High Dimensional Low Sample Size Setting Using a Geometry-Based Variational Autoencoder.](https://doi.org/10.1109/tpami.2022.3185773) | IEEE transactions on pattern analysis and machin... | NF | Synthetic training data |  |  |
 | 2021 | [Differentiable Gaussianization Layers for Inverse Problems Regularized by Deep Generative Models](https://arxiv.org/abs/2112.03860) | ICLR | NF | MRI reconstruction |  |  |
 | 2021 | [Flow-based Generative Models for Learning Manifold to Manifold Mappings](https://doi.org/10.1609/aaai.v35i12.17318) | AAAI 2021 | NF | Cross-modality synthesis |  |  |
 | 2021 | [GLOWin: A Flow-based Invertible Generative Framework for Learning Disentangled Feature Representations in Medical Images](https://arxiv.org/abs/2103.10868) | arXiv | NF | Volume and X-ray synthesis |  |  |
 | 2021 | [Harmonization with Flow-Based Causal Inference](https://doi.org/10.1007/978-3-030-87199-4_17) | MICCAI 2021 | NF | Domain harmonization | ★ |  |
 | 2021 | [Improving Aleatoric Uncertainty Quantification in Multi-Annotated Medical Image Segmentation with Normalizing Flows](https://doi.org/10.1007/978-3-030-87735-4_8) | Lecture Notes in Computer Science | NF | Segmentation uncertainty |  |  |
-| 2021 | [Inverting brain grey matter models with likelihood-free inference: a tool for trustable cytoarchitecture measurements](https://doi.org/10.59275/j.melba.2022-a964) | The Journal of Machine Learning for Biomedical I... | NF | Shape and parameter output |  |  |
+| 2021 | [Inverting brain grey matter models with likelihood-free inference: a tool for trustable cytoarchitecture measurements](https://doi.org/10.1007/978-3-030-78191-0_15) | Lecture Notes in Computer Science | NF | Shape and parameter output |  |  |
 | 2021 | Photoacoustic Imaging with Conditional Priors from Normalizing Flows |  | NF | Other: photoacoustic reconstruction |  |  |
 | 2021 | [Spectral imaging enables contrast agent–free real-time ischemia monitoring in laparoscopic surgery](https://doi.org/10.1101/2022.03.08.22271465) | Science Advances | NF | Anomaly and diagnosis |  |  |
-| 2021 | [Towards Self-explainable Classifiers and Regressors in Neuroimaging with Normalizing Flows](https://doi.org/10.1007/978-3-030-87586-2_3) | Lecture Notes in Computer Science | NF | Anomaly and diagnosis |  |  |
+| 2021 | Towards Self-explainable Classifiers and Regressors in Neuroimaging with Normalizing Flows | Lecture Notes in Computer Science | NF | Anomaly and diagnosis |  |  |
 | 2021 | [Ultrasound Speckle Suppression and Denoising using MRI-derived Normalizing Flow Priors](https://arxiv.org/abs/2112.13110) | arXiv | NF | Multi-modality restoration |  |  |
 | 2021 | [Unpaired Stain Style Transfer Using Invertible Neural Networks Based on Channel Attention and Long-Range Residual](https://doi.org/10.1109/access.2021.3051188) | IEEE Access | NF | Tissue-image translation |  |  |
 | 2021 | [Versatile anomaly detection method for medical images with semi-supervised flow-based generative models.](https://doi.org/10.1007/s11548-021-02480-4) | International journal of computer assisted radio... | NF | Anomaly and diagnosis |  |  |

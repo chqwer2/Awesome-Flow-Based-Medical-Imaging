@@ -2,11 +2,14 @@
 
 [Home](../../README.md) · [Model index](index.md)
 
-Studies by the model family they train. 17 studies, 11 marked ★ (discussed in the paper), 6 with code.
+Studies by the model family they train. 20 studies, 11 marked ★ (discussed in the paper), 6 with code.
 
 | Year | Title | Venue | Family | Task | In paper | Code |
 |--:|:--|:--|:--|:--|:--:|:--:|
 | 2026 | [CyFM: Cylindrical Optimal Transport for Few-Step Complex-Valued Flow Matching](https://arxiv.org/abs/2609.14171) | arXiv | other | Volume and X-ray synthesis | ★ |  |
+| 2026 | [DAWN-FM: Data-aware and noise-informed flow matching for solving inverse problems](https://doi.org/10.3934/fods.2026005) | Foundations of Data Science | other | Other |  |  |
+| 2026 | [Dense Temporal Contrast Synthesis via Conditioned Latent Transport](https://arxiv.org/abs/2607.29394) | arXiv | other | Other |  |  |
+| 2026 | [EndoLIFT: Language-Disambiguated Latent-Conditioned Rectified Flow for Bidirectional Endoscopic Control](https://arxiv.org/abs/2608.20478) | arXiv | other | Other |  |  |
 | 2026 | [Functional MRI Time Series Generation via Wavelet-Based Image Transform and Spectral Flow Matching for Brain Disorder Identification](https://arxiv.org/abs/2605.30387) | ICLR 2026 | other | Cardiac and brain dynamics | ★ | [code](https://github.com/htew0001/DSFM) |
 | 2026 | [KANResDiff: Learning Local Residual Diffusion via Kolmogorov-Arnold Network for Ambiguous Medical Image Segmentation](https://doi.org/10.1007/978-3-032-38085-2_28) | arXiv | other | Segmentation uncertainty | ★ | [code](https://github.com/PerceptionComputingLab/KANResDiff) |
 | 2026 | [Mean-Reverting Diffusion Bridge with Projection Prior for Sparse CT Reconstruction](https://doi.org/10.15953/j.ctta.2025.356) | CT Theory and Applications | other | Incomplete-data CT | ★ |  |

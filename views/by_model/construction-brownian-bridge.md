@@ -2,11 +2,11 @@
 
 [Home](../../README.md) · [Model index](index.md)
 
-Studies of the catalogue by the probability path that connects the two end states. 117 studies, 117 marked ★ (discussed in the paper), 24 with code.
+Studies of the catalogue by the probability path that connects the two end states. 116 studies, 116 marked ★ (discussed in the paper), 24 with code.
 
 | Year | Title | Venue | Family | Task | In paper | Code |
 |--:|:--|:--|:--|:--|:--:|:--:|
-| 2026 | [3D CT-to-PET Translation via Latent Brownian Bridge Diffusion](https://arxiv.org/abs/2609.12860) | arXiv | PB | Cross-modality synthesis | ★ | [code](https://github.com/arco-group/3D-CT2PET-via-Latent-Brownian-Bridge-Diffusion) |
+| 2026 | [3D CT-to-PET Translation via Latent Brownian Bridge Diffusion](https://doi.org/10.1145/3807503.3816794) | arXiv | PB | Cross-modality synthesis | ★ | [code](https://github.com/arco-group/3D-CT2PET-via-Latent-Brownian-Bridge-Diffusion) |
 | 2026 | [A Pilot Study on PET-to-CT Cross-Modal Translation: Systematic Validation of Brownian Bridge Diffusion Models](https://doi.org/10.53941/aim.2026.100009) | AI Medicine | PB | Synthetic CT and dose | ★ |  |
 | 2026 | [A text-guided Brownian bridge diffusion model for unified multiphase contrast-enhanced CT synthesis](https://doi.org/10.1088/2057-1976/ae7091) | Biomedical Physics &amp; Engineering Express | PB | Missing sequences and contrast | ★ |  |
 | 2026 | [ADOBI: Adaptive Diffusion Bridge for Blind Inverse Problems With Application to MRI Reconstruction](https://doi.org/10.1109/tci.2026.3678407) | IEEE Trans. Computational Imaging | PB | MRI reconstruction | ★ |  |
@@ -121,5 +121,4 @@ Studies of the catalogue by the probability path that connects the two end state
 | 2024 | [Self-Consistent Nested Diffusion Bridge for Accelerated MRI Reconstruction](https://arxiv.org/abs/2412.09998) | arXiv | PB | MRI reconstruction | ★ |  |
 | 2024 | [Slice-consistent 3D volumetric brain CT-to-MRI translation with 2D Brownian bridge diffusion model](https://doi.org/10.1007/978-3-031-72104-5_63) | MICCAI 2024 | PB | Cross-modality synthesis | ★ | [code](https://github.com/MICV-yonsei/CT2MRI) |
 | 2024 | [Structure-aware diffusion for low-dose CT imaging](https://doi.org/10.1088/1361-6560/ad5d47) | Physics in Medicine & Biology | PB | CT denoising and artifacts | ★ |  |
-| 2024 | [Weakly Supervised Virtual Immunohistochemistry Staining via Schrödinger Bridge Method](https://doi.org/10.1109/bibm62325.2024.10822509) | BIBM 2024 | SB | Tissue-image translation | ★ |  |
 | 2023 | [Stage-by-Stage Wavelet Optimization Refinement Diffusion Model for Sparse-View CT Reconstruction](https://doi.org/10.1109/tmi.2024.3355455) | IEEE Transactions on Medical Imaging | diffusion | Incomplete-data CT | ★ | [code](https://github.com/yqx7150/SWORD) |

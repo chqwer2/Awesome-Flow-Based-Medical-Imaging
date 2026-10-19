@@ -2,7 +2,7 @@
 
 [Home](../../README.md) · [Model index](index.md)
 
-Studies of the catalogue by the state from which sampling begins. 199 studies, 193 marked ★ (discussed in the paper), 47 with code.
+Studies of the catalogue by the state from which sampling begins. 196 studies, 190 marked ★ (discussed in the paper), 47 with code.
 
 | Year | Title | Venue | Family | Task | In paper | Code |
 |--:|:--|:--|:--|:--|:--:|:--:|
@@ -14,7 +14,6 @@ Studies of the catalogue by the state from which sampling begins. 199 studies, 1
 | 2026 | [Beyond Stochastic Diffusion: Trajectory-Consistent Deterministic Flow Matching for Fluorescence Molecular Tomography](https://doi.org/10.1007/978-3-032-38179-8_5) | MICCAI 2026 | FM | Microscopy and OCT | ★ |  |
 | 2026 | [BigCell: Generating Gigapixel Whole-Slide Images](https://arxiv.org/abs/2610.14261) | arXiv | FM | Synthetic training data | ★ |  |
 | 2026 | [C^3 M G: Clinically-Controlled Cardiac Mesh Generator Based on Rectified Flow Matching](https://doi.org/10.1109/cbms69103.2026.00117) | 2026 IEEE 39th International Symposium on Comput... | RF | Anatomy and device shapes | ★ |  |
-| 2026 | [CBCT-Based Synthetic CT Generation Using Conditional Flow Matching Model](https://arxiv.org/abs/2603.05796) | arXiv | FM | Synthetic CT and dose | ★ |  |
 | 2026 | [Chain of Flow: ECG-Conditioned 4D Cardiac Cine Generation from Patient-Specific Anatomical Anchor](https://arxiv.org/abs/2602.22919) | arXiv | FM | Cardiac and brain dynamics | ★ |  |
 | 2026 | [Co-MoCo: Collaborative Learning Enabled Motion Compensation for Weight-Bearing CBCT](https://doi.org/10.1007/978-3-032-38179-8_8) | Lecture Notes in Computer Science | FM | CT denoising and artifacts | ★ |  |
 | 2026 | [Compositional Cross-Modality Translation via Whole-Volume Multitask Latent Flow Matching](https://arxiv.org/abs/2608.08135) | arXiv | FM | Missing sequences and contrast | ★ | [code](https://github.com/arco-group/Whole-Volume-Latent-FM) |
@@ -23,7 +22,6 @@ Studies of the catalogue by the state from which sampling begins. 199 studies, 1
 | 2026 | [Conditional flow matching with coordinate-aware patch training for efficient 3D medical image segmentation](https://doi.org/10.1117/12.3119970) | Eighteenth International Conference on Digital I... | FM | Segmentation masks | ★ |  |
 | 2026 | [CONFLUX: A Latent Diffusion Model for 3D Chest-CT Synthesis with RL Post-Training](https://arxiv.org/abs/2607.02998) | arXiv | RF | Volume and X-ray synthesis | ★ |  |
 | 2026 | [Cross-field MRI synthesis using flow matching in multiple sclerosis imaging](https://doi.org/10.1117/12.3085918) | Medical Imaging 2026: Image Processing | FM | MRI enhancement | ★ |  |
-| 2026 | [CurvSegFlow: Time-Conditioned Flow Matching for Robust Segmentation of Curvilinear Structures in Noisy Biomedical Images](https://arxiv.org/abs/2606.21608) | arXiv | FM | Segmentation masks | ★ |  |
 | 2026 | [CyFM: Cylindrical Optimal Transport for Few-Step Complex-Valued Flow Matching](https://arxiv.org/abs/2609.14171) | arXiv | other | Volume and X-ray synthesis | ★ |  |
 | 2026 | [DermaFlux: Synthetic Skin Lesion Generation with Rectified Flows for Enhanced Image Classification](https://doi.org/10.1007/978-3-032-38091-3_19) | arXiv | RF | Synthetic training data | ★ | [code](https://github.com/dermaflux/dermaflux) |
 | 2026 | [Diffusion-based head-and-neck CT synthesis under limited data](https://hdl.handle.net/2117/463321) | Thesis, Universitat Politècnica de Catalunya | RF | Volume and X-ray synthesis | ★ |  |
@@ -122,7 +120,6 @@ Studies of the catalogue by the state from which sampling begins. 199 studies, 1
 | 2026 | [UBone3D: Physics-Rectified Conditional Flow Matching for Anatomical 3D Shape Completion from Ultrasound](https://doi.org/10.1007/978-3-032-37520-9_28) | arXiv | FM | Shape and parameter output | ★ |  |
 | 2026 | [UIGM: Segmentation-Constrained Flow Matching Model for Ultrasound Data Augmentation](https://doi.org/10.1109/isbi61048.2026.11515412) | ISBI 2026 | FM | Synthetic training data | ★ |  |
 | 2026 | [Uncertainty in a Single Pass: A Closed-Form Identity for One-Step Flow Matching](https://arxiv.org/abs/2605.00941) | arXiv | FM | Segmentation uncertainty | ★ |  |
-| 2026 | [UniField++: A Unified Agentic Framework with Loop Reasoning for MRI Field-Strength Enhancement](https://arxiv.org/abs/2610.22982) | arXiv | FM | MRI enhancement | ★ |  |
 | 2026 | [UniField: A Unified Field-Aware MRI Enhancement Framework](https://doi.org/10.1007/978-3-032-38179-8_58) | arXiv | FM | MRI enhancement | ★ | [code](https://github.com/linyiyang98/UniField) |
 | 2026 | [Video frame interpolation for coronary angiography using latent flow matching](https://doi.org/10.1038/s41746-026-02923-9) | npj Digital Medicine | FM | Inpainting and editing | ★ |  |
 | 2026 | [ViT3Flow: A Test-Time Training Transformer MeanFlow for Postoperative Radiograph Synthesis in Scoliosis](https://arxiv.org/abs/2609.05579) | arXiv | FM | Longitudinal forecasting | ★ |  |

@@ -2,7 +2,7 @@
 
 [Home](../../README.md) · [Modality index](index.md)
 
-Studies by modality; a study with several appears in each. 84 studies, 76 marked ★ (discussed in the paper), 18 with code.
+Studies by modality; a study with several appears in each. 82 studies, 74 marked ★ (discussed in the paper), 18 with code.
 
 | Year | Title | Venue | Family | Task | In paper | Code |
 |--:|:--|:--|:--|:--|:--:|:--:|
@@ -14,7 +14,6 @@ Studies by modality; a study with several appears in each. 84 studies, 76 marked
 | 2026 | [Cell Instance Segmentation via Multi-Task Image-to-Image Schrödinger Bridge](https://arxiv.org/abs/2604.12318) | arXiv | PB | Segmentation masks | ★ |  |
 | 2026 | [CellFluxV2: An Image Generative Foundation Model for Virtual Cell Modeling](https://doi.org/10.64898/2026.01.19.696785) | bioRxiv | FM | Tissue-image translation | ★ |  |
 | 2026 | [Correlation-Guided Flow Matching with Annealed Masking for Spatial Transcriptomics Generation](https://arxiv.org/abs/2609.22187) | arXiv | FM | Tissue-image translation | ★ |  |
-| 2026 | [CurvSegFlow: Time-Conditioned Flow Matching for Robust Segmentation of Curvilinear Structures in Noisy Biomedical Images](https://arxiv.org/abs/2606.21608) | arXiv | FM | Segmentation masks | ★ |  |
 | 2026 | [Do Not Break the Vessels: Structure-Preserving Mean Flow for Vascular Image Translation](https://doi.org/10.1007/978-3-032-38189-7_15) | arXiv | PB | Cross-modality synthesis | ★ |  |
 | 2026 | [Elucidating the Design Space of Flow Matching for Cellular Microscopy](https://arxiv.org/abs/2603.26790) | arXiv | FM | Synthetic training data | ★ | [code](https://github.com/valence-labs/microscopy-flow-matching) |
 | 2026 | [Energyflow: A Physically Consistent Learning Framework for 3D Microscopy Deconvolution](https://doi.org/10.1109/isbi61048.2026.11515930) | ISBI 2026 | FM | Microscopy and OCT | ★ |  |
@@ -83,7 +82,6 @@ Studies by modality; a study with several appears in each. 84 studies, 76 marked
 | 2024 | [Microscopy image reconstruction with physics-informed denoising diffusion probabilistic model](https://doi.org/10.1038/s44172-024-00331-z) | Communications Engineering | diffusion | Microscopy and OCT | ★ |  |
 | 2024 | [Multi-scale tissue fluorescence mapping with fiber optic ultraviolet excitation and generative modeling](https://doi.org/10.1364/optica.515501) | Optica | NF | Microscopy and OCT |  |  |
 | 2024 | [RN-SDEs: Limited-Angle CT Reconstruction with Residual Null-Space Diffusion Stochastic Differential Equations](https://doi.org/10.2139/ssrn.5962861) | SSRN | PB | Incomplete-data CT | ★ |  |
-| 2024 | [Weakly Supervised Virtual Immunohistochemistry Staining via Schrödinger Bridge Method](https://doi.org/10.1109/bibm62325.2024.10822509) | BIBM 2024 | SB | Tissue-image translation | ★ |  |
 | 2023 | [A Diffusion Model Predicts 3D Shapes from 2D Microscopy Images](https://doi.org/10.1109/isbi53787.2023.10230752) | ISBI 2023 | diffusion | Anatomy and device shapes | ★ |  |
 | 2023 | [A multimodal comparison of latent denoising diffusion probabilistic models and generative adversarial networks for medical image synthesis](https://doi.org/10.1038/s41598-023-39278-0) | Scientific Reports | diffusion | Synthetic training data | ★ |  |
 | 2023 | [Autoencoder-based conditional optimal transport generative adversarial network for medical image generation](https://doi.org/10.1016/j.visinf.2023.11.001) | Visual Informatics | other | Synthetic training data |  |  |

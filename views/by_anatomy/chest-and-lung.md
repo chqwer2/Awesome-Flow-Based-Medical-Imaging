@@ -2,7 +2,7 @@
 
 [Home](../../README.md) · [Anatomy index](index.md)
 
-Studies by anatomy; a study with several appears in each. 47 studies, 42 marked ★ (discussed in the paper), 14 with code.
+Studies by anatomy; a study with several appears in each. 55 studies, 50 marked ★ (discussed in the paper), 15 with code.
 
 | Year | Title | Venue | Family | Task | In paper | Code |
 |--:|:--|:--|:--|:--|:--:|:--:|
@@ -19,15 +19,20 @@ Studies by anatomy; a study with several appears in each. 47 studies, 42 marked 
 | 2026 | [DS@GT ARC at ImageCLEFmed GANs 2026: Geometric Filtering for Privacy-Preserving CT Slice Generation](https://arxiv.org/abs/2607.20692) | arXiv | FM | Synthetic training data | ★ | [code](https://github.com/dsgt-arc/imageclef-med-gans-2026) |
 | 2026 | [Feature Decoupling Through Random Sampling for High-Fidelity Flow Matching-Based Artifact Removal](https://doi.org/10.1109/tci.2026.3671418) | IEEE Transactions on Computational Imaging | FM | CT denoising and artifacts | ★ |  |
 | 2026 | [Flow Matching with Optimized Subclass Priors for Medical Image Augmentation](https://arxiv.org/abs/2605.16469) | arXiv | FM | Synthetic training data | ★ |  |
+| 2026 | [Flow-Based Synthetic Data Generation: A Unified Approach for Biomedical Tasks](https://doi.org/10.1007/978-3-032-17216-7_12) | Communications in Computer and Information Scien... | FM | Synthetic training data | ★ |  |
 | 2026 | [Generating Chest X-Ray Counterfactuals by Specialising Foundation Image Models](https://arxiv.org/abs/2609.24879) | arXiv | FM | Inpainting and editing | ★ |  |
 | 2026 | [KANResDiff: Learning Local Residual Diffusion via Kolmogorov-Arnold Network for Ambiguous Medical Image Segmentation](https://doi.org/10.1007/978-3-032-38085-2_28) | arXiv | other | Segmentation uncertainty | ★ | [code](https://github.com/PerceptionComputingLab/KANResDiff) |
+| 2026 | [Learned proximal gradient flow matching for limited-angle CT reconstruction](https://doi.org/10.1088/1361-6560/aeb221) | Physics in Medicine & Biology | FM | Incomplete-data CT | ★ |  |
 | 2026 | [MAISI-v2: Accelerated 3D High-Resolution Medical Image Synthesis with Rectified Flow and Region-specific Contrastive Loss](https://doi.org/10.1609/aaai.v40i15.38309) | AAAI 2026 | RF | Volume and X-ray synthesis | ★ | [code](https://github.com/NVIDIA-Medtech/NV-Generate-CTMR) |
+| 2026 | [Making HE Histopathological Images More Colorful by Conditional Flow Matching](https://doi.org/10.1007/978-3-032-38224-5_29) | MICCAI 2026 | FM | Tissue-image translation | ★ |  |
 | 2026 | [Pathology Transport: Optimal-Transport Explanations for Clinical Data, and When Their Heatmaps (Fail to) Localize Disease](https://arxiv.org/abs/2608.17370) | arXiv | RF | Anomaly and diagnosis | ★ |  |
+| 2026 | [Physics-Guided Flow Matching for CT Image Reconstruction](https://arxiv.org/abs/2608.28256) | arXiv | FM | Incomplete-data CT | ★ | [code](https://github.com/devangelista2/physics-guided-flow-matching-ct) |
 | 2026 | [RA-CMF: Region-Adaptive Conditional MeanFlow for CT Image Reconstruction](https://arxiv.org/abs/2605.00901) | arXiv | FM | Domain harmonization | ★ |  |
 | 2026 | [Scaling Generative Foundation Models for Chest Radiography with Rectified Flow Transformers](https://arxiv.org/abs/2606.19460) | arXiv | RF | Volume and X-ray synthesis | ★ |  |
 | 2026 | [SD-S 2 B: Structure-Decomposition Schrödinger Bridge for Semi-Supervised Chest X-Ray Bone Suppression](https://doi.org/10.1109/icipai70034.2026.11605565) | 2026 3rd International Conference on Image Proce... | SB | Cross-modality synthesis | ★ |  |
 | 2026 | [Semantic Latent Alignment for Flow Matching with Invertible Bi-Lipschitz Adapters](https://arxiv.org/abs/2610.21332) | arXiv | FM | Synthetic training data | ★ |  |
 | 2026 | [Stochastic Perturbations Improve Distribution-to-Distribution Generative Models](https://doi.org/10.1109/cvprf71909.2026.00384) | CVPR 2026 | FM | Tissue-image translation | ★ |  |
+| 2026 | [Synthesizing decomposed tumor images to enhance tumor contrast in x-ray-guided radiotherapy and interventions using patient-specific flow matching model](https://doi.org/10.1117/12.3085897) | Medical Imaging 2026: Image-Guided Procedures, R... | FM | Cross-modality synthesis | ★ |  |
 | 2026 | [Unifying VLM-Guided Flow Matching and Spectral Anomaly Detection for Interpretable Veterinary Diagnosis](https://arxiv.org/abs/2604.05482) | arXiv | FM | Segmentation masks | ★ |  |
 | 2026 | [Unpaired Image-to-Image Translation via a Self-Supervised Semantic Bridge](https://arxiv.org/abs/2602.16664) | arXiv | SB | Synthetic CT and dose | ★ |  |
 | 2026 | [Weakly-Supervised Lung Nodule Segmentation via Training-Free Guidance of 3D Rectified Flow](https://arxiv.org/abs/2604.08313) | arXiv | RF | Segmentation masks | ★ |  |
@@ -49,7 +54,10 @@ Studies by anatomy; a study with several appears in each. 47 studies, 42 marked 
 | 2024 | [Vision Intelligence Assisted Lung Function Estimation Based on Transformer Encoder–Decoder Network With Invertible Modeling](https://doi.org/10.1109/tai.2023.3348428) | IEEE Transactions on Artificial Intelligence | NF | Anomaly and diagnosis |  |  |
 | 2024 | [WDM: 3D Wavelet Diffusion Models for High-Resolution Medical Image Synthesis](https://doi.org/10.1007/978-3-031-72744-3_2) | Deep Generative Models | diffusion | Volume and X-ray synthesis | ★ |  |
 | 2023 | [2D medical image synthesis using transformer-based denoising diffusion probabilistic model](https://doi.org/10.1088/1361-6560/acca5c) | Physics in Medicine & Biology | diffusion | Synthetic training data | ★ |  |
+| 2023 | [A multimodal comparison of latent denoising diffusion probabilistic models and generative adversarial networks for medical image synthesis](https://doi.org/10.1038/s41598-023-39278-0) | Scientific Reports | diffusion | Synthetic training data | ★ |  |
+| 2023 | [Ambiguous Medical Image Segmentation Using Diffusion Models](https://doi.org/10.1109/cvpr52729.2023.01110) | CVPR 2023 | diffusion | Segmentation uncertainty | ★ |  |
 | 2023 | [BerDiff: Conditional Bernoulli Diffusion Model for Medical Image Segmentation](https://doi.org/10.1007/978-3-031-43901-8_47) | MICCAI 2023 | diffusion | Segmentation uncertainty | ★ |  |
 | 2023 | [Denoising diffusion probabilistic models for 3D medical image generation](https://doi.org/10.1038/s41598-023-34341-2) | Scientific Reports | diffusion | Volume and X-ray synthesis | ★ |  |
 | 2023 | [Stochastic Segmentation with Conditional Categorical Diffusion Models](https://doi.org/10.1109/iccv51070.2023.00109) | ICCV 2023 | diffusion | Segmentation uncertainty | ★ |  |
+| 2023 | [Zero-Shot Medical Image Translation via Frequency-Guided Diffusion Models](https://doi.org/10.1109/tmi.2023.3325703) | IEEE Transactions on Medical Imaging | diffusion | Domain harmonization | ★ |  |
 | 2021 | [X2CT-FLOW: Reconstruction of multiple volumetric chest computed tomography images with different likelihoods from a uni- or biplanar chest X-ray image using a flow-based generative model.](https://arxiv.org/abs/2104.04179) | arXiv | NF | Volume and X-ray synthesis |  |  |

@@ -2,7 +2,7 @@
 
 [Home](../../README.md) · [Task index](index.md)
 
-Studies in the clinical task group “CT denoising and artifacts” (task family: Restoration). 32 studies, 24 marked ★ (discussed in the paper), 6 with code.
+Studies in the clinical task group “CT denoising and artifacts” (task family: Restoration). 33 studies, 24 marked ★ (discussed in the paper), 6 with code.
 
 | Year | Title | Venue | Family | Task | In paper | Code |
 |--:|:--|:--|:--|:--|:--:|:--:|
@@ -37,4 +37,5 @@ Studies in the clinical task group “CT denoising and artifacts” (task family
 | 2023 | [RetinexFlow for CT metal artifact reduction](https://arxiv.org/abs/2306.10520) | arXiv | NF | CT denoising and artifacts |  |  |
 | 2022 | [Learning low-dose CT degradation from unpaired data with flow-based model.](https://doi.org/10.1002/mp.15886) | Medical physics | NF | CT denoising and artifacts |  |  |
 | 2022 | [Reconstructing invariances of CT image denoising networks using invertible neural networks](https://doi.org/10.1117/12.2647170) | International Conference on Image Formation in X... | NF | CT denoising and artifacts |  |  |
+| 2021 | [Conditional Invertible Neural Networks for Medical Imaging.](https://doi.org/10.3390/jimaging7110243) | Journal of imaging | NF | CT denoising and artifacts |  |  |
 | 2020 | [Conditional Invertible Neural Networks for Medical Imaging](https://doi.org/10.3390/jimaging7110243) | Journal of Imaging | NF | CT denoising and artifacts |  |  |

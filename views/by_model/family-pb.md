@@ -2,12 +2,11 @@
 
 [Home](../../README.md) · [Model index](index.md)
 
-Studies by the model family they train. 114 studies, 99 marked ★ (discussed in the paper), 18 with code.
+Studies by the model family they train. 112 studies, 99 marked ★ (discussed in the paper), 18 with code.
 
 | Year | Title | Venue | Family | Task | In paper | Code |
 |--:|:--|:--|:--|:--|:--:|:--:|
-| 2026 | [3D CT-to-PET Translation via Latent Brownian Bridge Diffusion](https://arxiv.org/abs/2609.12860) | arXiv | PB | Cross-modality synthesis | ★ | [code](https://github.com/arco-group/3D-CT2PET-via-Latent-Brownian-Bridge-Diffusion) |
-| 2026 | [3D CT-to-PET Translation via Latent-Guided Contrastive Alignment and Brownian Bridge Diffusion](https://doi.org/10.1145/3807503.3816794) | ACM International Conference on Bioinformatics, ... | PB | Cross-modality synthesis |  |  |
+| 2026 | [3D CT-to-PET Translation via Latent Brownian Bridge Diffusion](https://doi.org/10.1145/3807503.3816794) | arXiv | PB | Cross-modality synthesis | ★ | [code](https://github.com/arco-group/3D-CT2PET-via-Latent-Brownian-Bridge-Diffusion) |
 | 2026 | [A Mean-Reverting Conditional Diffusion Model for Pulmonary LDCT Image Denoising](https://doi.org/10.1109/access.2026.3715887) | IEEE Access | PB | CT denoising and artifacts | ★ |  |
 | 2026 | [A Pilot Study on PET-to-CT Cross-Modal Translation: Systematic Validation of Brownian Bridge Diffusion Models](https://doi.org/10.53941/aim.2026.100009) | AI Medicine | PB | Synthetic CT and dose | ★ |  |
 | 2026 | [A text-guided Brownian bridge diffusion model for unified multiphase contrast-enhanced CT synthesis](https://doi.org/10.1088/2057-1976/ae7091) | Biomedical Physics &amp; Engineering Express | PB | Missing sequences and contrast | ★ |  |
@@ -72,7 +71,6 @@ Studies by the model family they train. 114 studies, 99 marked ★ (discussed in
 | 2026 | [Virtual multiplex staining of the pancreatic islets across type 1 diabetes progression using a Schrödinger bridge](https://doi.org/10.64898/2026.04.14.718559) | bioRxiv | PB | Tissue-image translation | ★ |  |
 | 2026 | [WBDM-ECRF: A bridge diffusion model with efficient conditional random field for skin lesion segmentation](https://doi.org/10.1016/j.eswa.2025.131000) | Expert Systems with Applications | PB | Segmentation masks | ★ |  |
 | 2026 | [WFM: 3D Wavelet Flow Matching for Ultrafast Multi-Modal MRI Synthesis](https://arxiv.org/abs/2604.21146) | MIDL 2026 | PB | Missing sequences and contrast | ★ | [code](https://github.com/yalcintur/WFM) |
-| 2025 | [A Self-Consistent Diffusion Schrodinger Bridge for Multi-Modal Medical Image Translation](https://doi.org/10.58530/2025/0933) | ISMRM | PB | Missing sequences and contrast |  |  |
 | 2025 | [A Self-Supervised Diffusion Bridge for MRI Reconstruction](https://doi.org/10.1109/isbi60581.2025.10980710) | ISBI 2025 | PB | MRI reconstruction | ★ |  |
 | 2025 | [Advancing Limited-Angle CT Reconstruction through Diffusion-Based Sinogram Completion](https://doi.org/10.1109/icip55913.2025.11084640) | 2025 IEEE International Conference on Image Proc... | PB | Incomplete-data CT | ★ |  |
 | 2025 | [AI-powered 0.3 mm Ultrahigh Resolution MR Brain Imaging](https://doi.org/10.58530/2025/0936) | ISMRM | PB | MRI enhancement |  |  |

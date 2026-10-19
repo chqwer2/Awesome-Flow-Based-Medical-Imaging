@@ -2,7 +2,7 @@
 
 [Home](../../README.md) · [Anatomy index](index.md)
 
-Studies by anatomy; a study with several appears in each. 94 studies, 74 marked ★ (discussed in the paper), 15 with code.
+Studies by anatomy; a study with several appears in each. 101 studies, 81 marked ★ (discussed in the paper), 18 with code.
 
 | Year | Title | Venue | Family | Task | In paper | Code |
 |--:|:--|:--|:--|:--|:--:|:--:|
@@ -15,6 +15,7 @@ Studies by anatomy; a study with several appears in each. 94 studies, 74 marked 
 | 2026 | [Cell Instance Segmentation via Multi-Task Image-to-Image Schrödinger Bridge](https://arxiv.org/abs/2604.12318) | arXiv | PB | Segmentation masks | ★ |  |
 | 2026 | [Cellflow: Advancing pathological image augmentation from spatial views to temporal trajectories.](https://doi.org/10.1016/j.media.2026.103995) | Medical image analysis | PB | Synthetic training data |  |  |
 | 2026 | [CellFluxV2: An Image Generative Foundation Model for Virtual Cell Modeling](https://doi.org/10.64898/2026.01.19.696785) | bioRxiv | FM | Tissue-image translation | ★ |  |
+| 2026 | [Contrast-X: A Multi-Modal Contrast Image Synthesis Benchmark and Universal Modality Flow Matching](https://arxiv.org/abs/2601.15884) | arXiv | FM | Missing sequences and contrast | ★ | [code](https://github.com/YifanChen02/Contrast-X) |
 | 2026 | [Correlation-Guided Flow Matching with Annealed Masking for Spatial Transcriptomics Generation](https://arxiv.org/abs/2609.22187) | arXiv | FM | Tissue-image translation | ★ |  |
 | 2026 | [DeBoneDiT: Depth-Driven Conditional Bridge Diffusion Transformers for Bone Suppression in Chest X-Ray Images](https://arxiv.org/abs/2610.19466) | arXiv | PB | Cross-modality synthesis | ★ |  |
 | 2026 | [Deep generative models for enhanced vitreous OCT imaging](https://doi.org/10.1038/s41598-026-68477-8) | Scientific Reports | PB | Microscopy and OCT | ★ | [code](https://github.com/SimoneSarrocco/vitreous_enhancement) |
@@ -23,13 +24,16 @@ Studies by anatomy; a study with several appears in each. 94 studies, 74 marked 
 | 2026 | [FACET: Factorized Asymmetric Conditioning for Efficient Transport in High-Fidelity Fluorescence Microscopy Synthesis](https://arxiv.org/abs/2610.05353) | arXiv | FM | Tissue-image translation | ★ |  |
 | 2026 | [Fourier Transform Infrared microspectroscopy-based super-resolution virtual staining of unlabeled tissues by pixel Diffusion Transformer](https://arxiv.org/abs/2603.08143) | arXiv | PB | Tissue-image translation | ★ |  |
 | 2026 | [FreeBridge: Variational Schrödinger Bridges for Cellular Transition Dynamics](https://doi.org/10.1007/978-3-032-38224-5_55) | Lecture Notes in Computer Science | SB | Tissue-image translation | ★ |  |
+| 2026 | [From Lightweight Client Models to a Foundation Model in One Shot with Generative Distillation for Medical Image Segmentation](https://doi.org/10.1109/icassp55912.2026.11464658) | ICASSP 2026 | RF | Synthetic training data | ★ |  |
 | 2026 | [Gene-Selective Morphological Conditioning with Heteroscedastic Flow Matching for Spatial Transcriptomics](https://doi.org/10.1007/978-3-032-38224-5_16) | MICCAI 2026 | FM | Tissue-image translation | ★ |  |
 | 2026 | [Generating Joint Transcriptomic and Morphological Responses to Drug Perturbations via Rectified Flow](https://doi.org/10.64898/2026.02.02.703189) | bioRxiv | RF | Tissue-image translation | ★ |  |
 | 2026 | GeneVAR: Causal MeanFlow for Autoregressive Gene-to-WSI Tile Synthesis | CVPR | FM | Tissue-image translation |  |  |
+| 2026 | [GR-FM: Geometrically Regularized Flow Matching for SDF-Based Medical Image Segmentation](https://arxiv.org/abs/2609.35006) | arXiv | FM | Segmentation masks | ★ |  |
 | 2026 | [HazeMatching: Dehazing Light Microscopy Images with Guided Conditional Flow Matching](https://doi.org/10.1109/cvprf71909.2026.00543) | CVPR Findings 2026 | FM | Microscopy and OCT | ★ | [code](https://github.com/juglab/HazeMatching) |
 | 2026 | [Healthy Counterfactual Generation with Denoising Diffusion Bridge Models](https://doi.org/10.1109/isbi61048.2026.11515608) | ISBI 2026 | PB | Anomaly and diagnosis | ★ |  |
 | 2026 | [High-fidelity unsupervised virtual staining for digital pathology via progressive Schrödinger bridge dynamics](https://doi.org/10.1631/eng.itee.2026.0118) | ENGINEERING Information Technology & Electronic ... | SB | Tissue-image translation | ★ |  |
 | 2026 | [Joint Flow Matching Enables Continuous Dose-Conditioned Cell Morphing](https://arxiv.org/abs/2608.16424) | arXiv | FM | Tissue-image translation | ★ |  |
+| 2026 | [Learned proximal gradient flow matching for limited-angle CT reconstruction](https://doi.org/10.1088/1361-6560/aeb221) | Physics in Medicine & Biology | FM | Incomplete-data CT | ★ |  |
 | 2026 | [Making HE Histopathological Images More Colorful by Conditional Flow Matching](https://doi.org/10.1007/978-3-032-38224-5_29) | MICCAI 2026 | FM | Tissue-image translation | ★ |  |
 | 2026 | MicroFM: Physics-guided Flow Matching for Isotropic Microscopy Reconstruction | CVPR 2026 | FM | Microscopy and OCT | ★ |  |
 | 2026 | [MoLF: Mixture-of-Latent-Flow for Pan-Cancer Spatial Gene Expression Prediction from Histology](https://arxiv.org/abs/2602.02282) | arXiv | FM | Tissue-image translation | ★ |  |
@@ -42,10 +46,12 @@ Studies by anatomy; a study with several appears in each. 94 studies, 74 marked 
 | 2026 | [PerturbBridge: Direct Phenotypic Supervision for Cellular Perturbation Generation](https://arxiv.org/abs/2610.17066) | arXiv | PB | Tissue-image translation | ★ |  |
 | 2026 | [PRISM: Distribution-Gated Flow Matching for Controllable Unpaired Image Translation](https://arxiv.org/abs/2608.06240) | arXiv | FM | Tissue-image translation | ★ |  |
 | 2026 | [PSSD: Progressive Spatial-Semantic Decoupling for flow-based gene expression prediction from histology images](https://doi.org/10.1093/bioinformatics/btag598) | Bioinformatics | FM | Tissue-image translation | ★ |  |
+| 2026 | [RARF: Region-Aware Rectified Flows for 3D Brain MRI Inpainting](https://arxiv.org/abs/2609.03956) | arXiv | RF | Inpainting and editing | ★ | [code](https://github.com/TomasGuija/rarf) |
 | 2026 | [Research and application of virtual staining in renal cancer based on controllable Brownian bridge diffusion model](https://doi.org/10.1117/12.3119890) | Eighteenth International Conference on Digital I... | PB | Tissue-image translation | ★ |  |
 | 2026 | [ResMatching: Noise-Resilient Computational Super-Resolution via Guided Conditional Flow Matching](https://doi.org/10.1109/isbi61048.2026.11515435) | ISBI 2026 | FM | Microscopy and OCT | ★ | [code](https://github.com/juglab/resmatching) |
 | 2026 | [RNA-FM: Flow-Matching Generative Model for Genome-wide RNA-Seq Prediction](https://arxiv.org/abs/2605.11622) | arXiv | FM | Tissue-image translation | ★ |  |
 | 2026 | [SD-S 2 B: Structure-Decomposition Schrödinger Bridge for Semi-Supervised Chest X-Ray Bone Suppression](https://doi.org/10.1109/icipai70034.2026.11605565) | 2026 3rd International Conference on Image Proce... | SB | Cross-modality synthesis | ★ |  |
+| 2026 | [SEAL-Flow: Continuous-time flow matching for topologically consistent medical image segmentation](https://doi.org/10.1016/j.knosys.2026.116446) | Knowledge-Based Systems | FM | Segmentation masks | ★ |  |
 | 2026 | [SheafStain: Sheaf-Theoretic Schrödinger Bridge for Spatially and Biologically Coherent Virtual Staining](https://arxiv.org/abs/2606.11846) | arXiv | SB | Tissue-image translation | ★ | [code](https://github.com/deepnoid-ai/SheafStain) |
 | 2026 | [SMLMFlow: Improving Structural Resolution in Single Molecule Localization Microscopy with Flow Matching](https://doi.org/10.64898/2026.06.11.731424) | bioRxiv | FM | Microscopy and OCT | ★ | [code](https://github.com/sebjbauer/SMLMFlow) |
 | 2026 | [SPATIA: Multimodal Generation and Prediction of Spatial Cell Phenotypes](https://arxiv.org/abs/2507.04704) | arXiv | FM | Tissue-image translation | ★ |  |
@@ -66,6 +72,7 @@ Studies by anatomy; a study with several appears in each. 94 studies, 74 marked 
 | 2025 | [CellFlux: Simulating Cellular Morphology Changes via Flow Matching](https://arxiv.org/abs/2502.09775) | arXiv | FM | Tissue-image translation | ★ |  |
 | 2025 | [Diffusion model uniform manifold filtering for classification of small datasets with underrepresented classes: application to chromosomal aberration microscopy detection](https://doi.org/10.1117/12.3055038) | ICMV 2024 | PB | Synthetic training data | ★ |  |
 | 2025 | [Diffusion-Based Virtual Staining from Polarimetric Mueller Matrix Imaging](https://doi.org/10.1007/978-3-032-04927-8_16) | MICCAI 2025 | PB | Tissue-image translation | ★ |  |
+| 2025 | [FlowSDF: Flow Matching for Medical Image Segmentation Using Distance Transforms](https://doi.org/10.1007/s11263-025-02373-y) | International Journal of Computer Vision | FM | Segmentation masks | ★ | [code](https://github.com/leabogensperger/FlowSDF) |
 | 2025 | [GANs vs. Diffusion Models for Virtual Staining with the HER2match Dataset](https://doi.org/10.1007/978-3-032-05472-2_12) | Lecture Notes in Computer Science | PB | Tissue-image translation |  |  |
 | 2025 | [GeneFlow: Translation of Single-cell Gene Expression to Histopathological Images via Rectified Flow](https://doi.org/10.52202/085713-1512) | NeurIPS 2025 | RF | Tissue-image translation | ★ | [code](https://github.com/wangmengbo/GeneFlow) |
 | 2025 | [Generating Synthetic Contrast-Enhanced Chest CT Images from Non-Contrast Scans Using Slice-Consistent Brownian Bridge Diffusion Network](https://doi.org/10.1007/978-3-032-17734-6_16) | arXiv | PB | Missing sequences and contrast | ★ |  |
@@ -91,8 +98,8 @@ Studies by anatomy; a study with several appears in each. 94 studies, 74 marked 
 | 2024 | [Multi-scale tissue fluorescence mapping with fiber optic ultraviolet excitation and generative modeling](https://doi.org/10.1364/optica.515501) | Optica | NF | Microscopy and OCT |  |  |
 | 2024 | [Photoacoustic Quantification of Tissue Oxygenation Using Conditional Invertible Neural Networks.](https://doi.org/10.1109/tmi.2024.3403417) | IEEE transactions on medical imaging | NF | Shape and parameter output |  |  |
 | 2024 | [Slice-consistent 3D volumetric brain CT-to-MRI translation with 2D Brownian bridge diffusion model](https://doi.org/10.1007/978-3-031-72104-5_63) | MICCAI 2024 | PB | Cross-modality synthesis | ★ | [code](https://github.com/MICV-yonsei/CT2MRI) |
-| 2024 | [Weakly Supervised Virtual Immunohistochemistry Staining via Schrödinger Bridge Method](https://doi.org/10.1109/bibm62325.2024.10822509) | BIBM 2024 | SB | Tissue-image translation | ★ |  |
 | 2023 | [A Diffusion Model Predicts 3D Shapes from 2D Microscopy Images](https://doi.org/10.1109/isbi53787.2023.10230752) | ISBI 2023 | diffusion | Anatomy and device shapes | ★ |  |
+| 2023 | [A multimodal comparison of latent denoising diffusion probabilistic models and generative adversarial networks for medical image synthesis](https://doi.org/10.1038/s41598-023-39278-0) | Scientific Reports | diffusion | Synthetic training data | ★ |  |
 | 2023 | [Conditional normalizing flow for variational single image super-resolution on microscopy images](https://doi.org/10.1117/12.2650254) | AI and Optical Data Sciences IV | NF | Microscopy and OCT |  |  |
 | 2023 | [Fast light-field 3D microscopy with out-of-distribution detection and adaptation through conditional normalizing flows.](https://doi.org/10.1364/boe.504039) | Biomedical optics express | NF | Microscopy and OCT |  |  |
 | 2023 | [OCT Image Synthesis through Deep Generative Models](https://doi.org/10.1109/cbms58004.2023.00279) | 2023 IEEE 36th International Symposium on Comput... | NF | Microscopy and OCT |  |  |

@@ -2,7 +2,7 @@
 
 [Home](../../README.md) · [Task index](index.md)
 
-Studies in the clinical task group “MRI reconstruction” (task family: Restoration). 32 studies, 21 marked ★ (discussed in the paper), 4 with code.
+Studies in the clinical task group “MRI reconstruction” (task family: Restoration). 29 studies, 20 marked ★ (discussed in the paper), 4 with code.
 
 | Year | Title | Venue | Family | Task | In paper | Code |
 |--:|:--|:--|:--|:--|:--:|:--:|
@@ -21,19 +21,16 @@ Studies in the clinical task group “MRI reconstruction” (task family: Restor
 | 2025 | [FLAT: FLow-Aligned Training of Unrolled Networks for MRI Reconstruction](https://arxiv.org/abs/2512.03020) | arXiv | FM | MRI reconstruction | ★ |  |
 | 2025 | [Towards Prospective Medical Image Reconstruction via Knowledge-Informed Dynamic Optimal Transport](https://doi.org/10.52202/085713-1368) | NeurIPS 2025 | other | MRI reconstruction | ★ |  |
 | 2025 | [Unsupervised Accelerated MRI Reconstruction via Ground-Truth-Free Flow Matching](https://doi.org/10.1007/978-3-031-96628-6_9) | IPMI 2025 | FM | MRI reconstruction | ★ |  |
-| 2025 | [UPMRI: Unsupervised Parallel MRI Reconstruction via Projected Conditional Flow Matching](https://arxiv.org/abs/2512.17493) | arXiv | FM | MRI reconstruction | ★ |  |
-| 2024 | [Accelerated MRI Reconstruction with Fourier-Constrained Diffusion Schrodinger Bridges](https://doi.org/10.58530/2024/0378) | ISMRM | SB | MRI reconstruction |  |  |
 | 2024 | Consistent Direct Diffusion Bridge with Injection for MRI Reconstruction | MIDL | PB | MRI reconstruction |  |  |
 | 2024 | [Diffusion model based on generalized map for accelerated MRI.](https://doi.org/10.1002/nbm.5232) | NMR in biomedicine | PB | MRI reconstruction |  |  |
 | 2024 | [High-Frequency Space Diffusion Model for Accelerated MRI](https://doi.org/10.1109/tmi.2024.3351702) | IEEE Transactions on Medical Imaging | diffusion | MRI reconstruction | ★ |  |
 | 2024 | [Mutli-modal straight flow matching for accelerated MR imaging](https://doi.org/10.1016/j.compbiomed.2024.108668) | Computers in Biology and Medicine | FM | MRI reconstruction | ★ |  |
-| 2024 | [Posterior Sampling for Accelerated Multicoil MRI Reconstruction using a Conditional Normalizing Flow](https://doi.org/10.58530/2023/2928) | ISMRM | NF | MRI reconstruction |  |  |
 | 2024 | [Probabilistic Bayesian optimal experimental design using conditional normalizing flows](https://arxiv.org/abs/2402.18337) | arXiv | NF | MRI reconstruction |  |  |
 | 2024 | [Self-Consistent Nested Diffusion Bridge for Accelerated MRI Reconstruction](https://arxiv.org/abs/2412.09998) | arXiv | PB | MRI reconstruction | ★ |  |
-| 2023 | [A Conditional Normalizing Flow for Accelerated Multi-Coil MR Imaging.](https://arxiv.org/abs/2306.01630) | ICML | NF | MRI reconstruction |  |  |
 | 2023 | [Adaptive diffusion priors for accelerated MRI reconstruction](https://doi.org/10.1016/j.media.2023.102872) | Medical Image Analysis | diffusion | MRI reconstruction | ★ |  |
 | 2023 | [AmbientFlow: Invertible generative models from incomplete, noisy measurements](https://arxiv.org/abs/2309.04856) | arXiv | NF | MRI reconstruction |  |  |
 | 2023 | [Bayesian MRI reconstruction with joint uncertainty estimation using diffusion models](https://doi.org/10.1002/mrm.29624) | Magnetic Resonance in Medicine | diffusion | MRI reconstruction | ★ |  |
+| 2023 | [Posterior Sampling for Accelerated Multicoil MRI Reconstruction using a Conditional Normalizing Flow](https://doi.org/10.58530/2023/2928) | ICML | NF | MRI reconstruction |  |  |
 | 2023 | [Self-supervised MRI Reconstruction with Unrolled Diffusion Models](https://doi.org/10.1007/978-3-031-43999-5_47) | Lecture Notes in Computer Science | diffusion | MRI reconstruction | ★ |  |
 | 2022 | [Applications of a Bayesian Approach with Deep Learning to Solving Inverse Problems](https://doi.org/10.26686/wgtn.20463138) |  | NF | MRI reconstruction |  |  |
 | 2021 | [Compressible Latent-Space Invertible Networks for Generative Model-Constrained Image Reconstruction](https://doi.org/10.1109/tci.2021.3049648) | IEEE Transactions on Computational Imaging | NF | MRI reconstruction | ★ |  |

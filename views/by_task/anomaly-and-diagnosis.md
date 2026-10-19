@@ -51,6 +51,6 @@ Studies in the clinical task group “Anomaly and diagnosis” (task family: Ana
 | 2022 | [Localized Statistical Shape Models for Large-Scale Problems With Few Training Data.](https://doi.org/10.1109/tbme.2022.3158278) | IEEE transactions on bio-medical engineering | NF | Anomaly and diagnosis |  |  |
 | 2021 | Abnormality Detection in Histopathology via Density Estimation with Normalising Flows | arXiv | NF | Anomaly and diagnosis |  |  |
 | 2021 | [Spectral imaging enables contrast agent–free real-time ischemia monitoring in laparoscopic surgery](https://doi.org/10.1101/2022.03.08.22271465) | Science Advances | NF | Anomaly and diagnosis |  |  |
-| 2021 | [Towards Self-explainable Classifiers and Regressors in Neuroimaging with Normalizing Flows](https://doi.org/10.1007/978-3-030-87586-2_3) | Lecture Notes in Computer Science | NF | Anomaly and diagnosis |  |  |
+| 2021 | Towards Self-explainable Classifiers and Regressors in Neuroimaging with Normalizing Flows | Lecture Notes in Computer Science | NF | Anomaly and diagnosis |  |  |
 | 2021 | [Versatile anomaly detection method for medical images with semi-supervised flow-based generative models.](https://doi.org/10.1007/s11548-021-02480-4) | International journal of computer assisted radio... | NF | Anomaly and diagnosis |  |  |
 | 2019 | [Out of Distribution Detection for Intra-operative Functional Imaging](https://doi.org/10.1007/978-3-030-32689-0_8) | Lecture Notes in Computer Science | NF | Anomaly and diagnosis |  |  |

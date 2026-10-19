@@ -2,7 +2,7 @@
 
 [Home](../../README.md) · [Model index](index.md)
 
-Studies by the model family they train. 210 studies, 189 marked ★ (discussed in the paper), 53 with code.
+Studies by the model family they train. 205 studies, 185 marked ★ (discussed in the paper), 53 with code.
 
 | Year | Title | Venue | Family | Task | In paper | Code |
 |--:|:--|:--|:--|:--|:--:|:--:|
@@ -20,7 +20,6 @@ Studies by the model family they train. 210 studies, 189 marked ★ (discussed i
 | 2026 | [BioFlow: A Biologically Valid Support-Preserving Flow for Histology-Conditioned Spatial Transcriptomics Prediction](https://doi.org/10.1007/978-3-032-38224-5_5) | MICCAI 2026 | FM | Tissue-image translation | ★ |  |
 | 2026 | BioFlow: Conditional Flow Matching for Patient-Specific 3D Medical Image Forecasting from Irregular Histories | NeurIPS | FM | Longitudinal forecasting |  |  |
 | 2026 | [CAFlow: Adaptive-Depth Single-Step Flow Matching for Efficient Histopathology Super-Resolution](https://arxiv.org/abs/2603.18513) | arXiv | FM | Microscopy and OCT | ★ |  |
-| 2026 | [CBCT-Based Synthetic CT Generation Using Conditional Flow Matching Model](https://arxiv.org/abs/2603.05796) | arXiv | FM | Synthetic CT and dose | ★ |  |
 | 2026 | [CellFluxV2: An Image Generative Foundation Model for Virtual Cell Modeling](https://doi.org/10.64898/2026.01.19.696785) | bioRxiv | FM | Tissue-image translation | ★ |  |
 | 2026 | [Chain of Flow: ECG-Conditioned 4D Cardiac Cine Generation from Patient-Specific Anatomical Anchor](https://arxiv.org/abs/2602.22919) | arXiv | FM | Cardiac and brain dynamics | ★ |  |
 | 2026 | [CineGen: Conditional Flow Matching-based Super-Resolution for High-Quality Free-Breathing Real-Time Cartesian Cine MRI](https://doi.org/10.1016/j.jocmr.2025.102656) | Journal of Cardiovascular Magnetic Resonance | FM | MRI enhancement |  |  |
@@ -37,7 +36,6 @@ Studies by the model family they train. 210 studies, 189 marked ★ (discussed i
 | 2026 | [Cross-Distribution Diffusion Priors-Driven Iterative Reconstruction for Sparse-View CT](https://doi.org/10.1109/tmi.2026.3687173) | IEEE Transactions on Medical Imaging | FM | Incomplete-data CT | ★ |  |
 | 2026 | [Cross-field MRI synthesis using flow matching in multiple sclerosis imaging](https://doi.org/10.1117/12.3085918) | Medical Imaging 2026: Image Processing | FM | MRI enhancement | ★ |  |
 | 2026 | [CryoFlow: Prediction of Frozen Region Growth in Kidney Cryoablation Using a 3D Flow-Matching](https://doi.org/10.1007/978-3-032-09784-2_7) | MICCAI COLAS Workshop 2025 | FM | Longitudinal forecasting | ★ |  |
-| 2026 | [CurvSegFlow: Time-Conditioned Flow Matching for Robust Segmentation of Curvilinear Structures in Noisy Biomedical Images](https://arxiv.org/abs/2606.21608) | arXiv | FM | Segmentation masks | ★ |  |
 | 2026 | [DS@GT ARC at ImageCLEFmed GANs 2026: Geometric Filtering for Privacy-Preserving CT Slice Generation](https://arxiv.org/abs/2607.20692) | arXiv | FM | Synthetic training data | ★ | [code](https://github.com/dsgt-arc/imageclef-med-gans-2026) |
 | 2026 | [ECGFlowCMR: Pretraining with ECG-Generated Cine CMR Helps Cardiac Disease Classification and Phenotype Prediction](https://doi.org/10.1145/3770855.3818910) | 32nd ACM SIGKDD Conference on Knowledge Discover... | FM | Cardiac and brain dynamics | ★ |  |
 | 2026 | [EchoLVFM: One-Step Video Generation via Latent Flow Matching for Echocardiogram Synthesis](https://doi.org/10.1007/978-3-032-38189-7_19) | arXiv | FM | Cardiac and brain dynamics | ★ | [code](https://github.com/EngEmmanuel/EchoLVFM) |
@@ -46,7 +44,6 @@ Studies by the model family they train. 210 studies, 189 marked ★ (discussed i
 | 2026 | [Efficient Flow Matching for Sparse-View CT Reconstruction](https://doi.org/10.1007/978-3-032-38179-8_16) | MICCAI 2026 | FM | Incomplete-data CT | ★ | [code](https://github.com/EFMCT/EFMCT) |
 | 2026 | [Elucidating the Design Space of Flow Matching for Cellular Microscopy](https://arxiv.org/abs/2603.26790) | arXiv | FM | Synthetic training data | ★ | [code](https://github.com/valence-labs/microscopy-flow-matching) |
 | 2026 | [Energyflow: A Physically Consistent Learning Framework for 3D Microscopy Deconvolution](https://doi.org/10.1109/isbi61048.2026.11515930) | ISBI 2026 | FM | Microscopy and OCT | ★ |  |
-| 2026 | [Enhancing thyroid scintigraphy classification with diffusion‑based augmentation](https://doi.org/10.1117/12.3084119) | SPIE Medical Imaging | FM | Synthetic training data |  |  |
 | 2026 | [Enhancing Ultra-Low-Field to High-Field MRI Using Multi-cycle GAN and Flow Matching Models](https://doi.org/10.1007/978-3-032-23344-8_19) | Enhancing Ultra-Low-Field MRI with Paired High-F... | FM | MRI enhancement | ★ |  |
 | 2026 | [FACET: Factorized Asymmetric Conditioning for Efficient Transport in High-Fidelity Fluorescence Microscopy Synthesis](https://arxiv.org/abs/2610.05353) | arXiv | FM | Tissue-image translation | ★ |  |
 | 2026 | [FalconBC: Flow matching for Amortized inference of Latent-CONditioned physiologic Boundary Conditions](https://arxiv.org/abs/2603.19331) | arXiv | FM | Shape and parameter output | ★ |  |
@@ -154,13 +151,12 @@ Studies by the model family they train. 210 studies, 189 marked ★ (discussed i
 | 2026 | [Temporally Consistent and Controllable Video Generation of 2D Cine CMR via Latent Space Motion Modeling](https://doi.org/10.1109/isbi61048.2026.11515893) | ISBI | FM | Cardiac and brain dynamics |  |  |
 | 2026 | [Test-Time Adaptation in Optical Coherence Tomography Using Trajectory-Aligned Time-Independent Flow](https://doi.org/10.1007/978-3-032-38072-2_52) | arXiv | FM | Domain harmonization | ★ | [code](https://github.com/Veit21/tta-flow) |
 | 2026 | [Time Matters: Rethinking Diffusion and Flow Models in One-Step Medical Image Translation](https://doi.org/10.1007/978-3-032-38189-7_54) | Lecture Notes in Computer Science | FM | Cross-modality synthesis | ★ |  |
-| 2026 | Topological Flow Matching | ICLR | FM | Other: graph-signal flow matching |  |  |
+| 2026 | [Topological Flow Matching](https://arxiv.org/abs/2606.15897) | ICLR | FM | Other: graph-signal flow matching |  |  |
 | 2026 | [Trackerless Ultrasound Pose Estimation via Correspondence-Aware Tokenization and Flow-Matching Transformers](https://doi.org/10.1007/978-3-032-38236-8_53) | MICCAI 2026 | FM | Shape and parameter output | ★ |  |
 | 2026 | [TriFlow: Triplane Latent Conditional Flow Matching for Efficient 3D Skull Shape Completion](https://doi.org/10.1007/978-3-032-38186-6_61) | MICCAI 2026 | FM | Anatomy and device shapes | ★ |  |
 | 2026 | [UBone3D: Physics-Rectified Conditional Flow Matching for Anatomical 3D Shape Completion from Ultrasound](https://doi.org/10.1007/978-3-032-37520-9_28) | arXiv | FM | Shape and parameter output | ★ |  |
 | 2026 | [UIGM: Segmentation-Constrained Flow Matching Model for Ultrasound Data Augmentation](https://doi.org/10.1109/isbi61048.2026.11515412) | ISBI 2026 | FM | Synthetic training data | ★ |  |
 | 2026 | [Uncertainty in a Single Pass: A Closed-Form Identity for One-Step Flow Matching](https://arxiv.org/abs/2605.00941) | arXiv | FM | Segmentation uncertainty | ★ |  |
-| 2026 | [UniField++: A Unified Agentic Framework with Loop Reasoning for MRI Field-Strength Enhancement](https://arxiv.org/abs/2610.22982) | arXiv | FM | MRI enhancement | ★ |  |
 | 2026 | [UniField: A Unified Field-Aware MRI Enhancement Framework](https://doi.org/10.1007/978-3-032-38179-8_58) | arXiv | FM | MRI enhancement | ★ | [code](https://github.com/linyiyang98/UniField) |
 | 2026 | [Unifying VLM-Guided Flow Matching and Spectral Anomaly Detection for Interpretable Veterinary Diagnosis](https://arxiv.org/abs/2604.05482) | arXiv | FM | Segmentation masks | ★ |  |
 | 2026 | [VarDeFlow: Variational Deformation Learning with Flow Matching for Multi-organ Cross-Modality Medical Image Synthesis](https://doi.org/10.1007/978-3-032-38186-6_36) | MICCAI 2026 | FM | Synthetic CT and dose | ★ |  |
@@ -211,7 +207,6 @@ Studies by the model family they train. 210 studies, 189 marked ★ (discussed i
 | 2025 | [Temporal Flow Matching for Learning Spatio-Temporal Trajectories in 4D Longitudinal Medical Imaging](https://arxiv.org/abs/2508.21580) | arXiv | FM | Longitudinal forecasting | ★ | [code](https://github.com/MIC-DKFZ/Temporal-Flow-Matching) |
 | 2025 | [Total-Body Low-Dose PET Denoising Using 3D Flow-Matching with Self-Conditioned Starting](https://doi.org/10.1109/nss/mic/rtsd57106.2025.11287396) | 2025 IEEE Nuclear Science Symposium (NSS), Medic... | FM | Low-count PET |  |  |
 | 2025 | [Unsupervised Accelerated MRI Reconstruction via Ground-Truth-Free Flow Matching](https://doi.org/10.1007/978-3-031-96628-6_9) | IPMI 2025 | FM | MRI reconstruction | ★ |  |
-| 2025 | [UPMRI: Unsupervised Parallel MRI Reconstruction via Projected Conditional Flow Matching](https://arxiv.org/abs/2512.17493) | arXiv | FM | MRI reconstruction | ★ |  |
 | 2025 | [vesselFM: A Foundation Model for Universal 3D Blood Vessel Segmentation](https://doi.org/10.1109/cvpr52734.2025.01944) | CVPR 2025 | FM | Synthetic training data | ★ | [code](https://github.com/bwittmann/vesselFM) |
 | 2025 | Weakly-Supervised Midline Shift Quantification through Simulating the Reversed Disease Progression | MIDL | FM | Shape and parameter output |  |  |
 | 2024 | [Bi-modality medical images synthesis by a bi-directional discrete process matching method](https://arxiv.org/abs/2409.03977) | arXiv | FM | Cross-modality synthesis | ★ |  |

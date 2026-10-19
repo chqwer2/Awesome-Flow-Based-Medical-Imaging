@@ -2,14 +2,13 @@
 
 [Home](../../README.md) · [Task index](index.md)
 
-Studies in the clinical task group “Segmentation masks” (task family: Analysis and segmentation). 34 studies, 32 marked ★ (discussed in the paper), 6 with code.
+Studies in the clinical task group “Segmentation masks” (task family: Analysis and segmentation). 33 studies, 31 marked ★ (discussed in the paper), 6 with code.
 
 | Year | Title | Venue | Family | Task | In paper | Code |
 |--:|:--|:--|:--|:--|:--:|:--:|
 | 2026 | [Cell Instance Segmentation via Multi-Task Image-to-Image Schrödinger Bridge](https://arxiv.org/abs/2604.12318) | arXiv | PB | Segmentation masks | ★ |  |
 | 2026 | [Conditional flow matching with coordinate-aware patch training for efficient 3D medical image segmentation](https://doi.org/10.1117/12.3119970) | Eighteenth International Conference on Digital I... | FM | Segmentation masks | ★ |  |
 | 2026 | [Conditional Flow Matching-based Semi-supervised Segmentation for Quality Assessment of Fundus Images](https://doi.org/10.1109/jbhi.2026.3717225) | IEEE Journal of Biomedical and Health Informatic... | FM | Segmentation masks | ★ |  |
-| 2026 | [CurvSegFlow: Time-Conditioned Flow Matching for Robust Segmentation of Curvilinear Structures in Noisy Biomedical Images](https://arxiv.org/abs/2606.21608) | arXiv | FM | Segmentation masks | ★ |  |
 | 2026 | [Efficient breast cancer segmentation via Brownian Bridge diffusion with semantic fusion strategy](https://doi.org/10.1016/j.patcog.2025.112993) | Pattern Recognition | PB | Segmentation masks | ★ |  |
 | 2026 | [Flow Matching Meets 3D Curvilinear Structure Segmentation in Medical Imaging](https://arxiv.org/abs/2608.19965) | arXiv | FM | Segmentation masks | ★ |  |
 | 2026 | [FMS^2: Unified Flow Matching for Segmentation and Synthesis of Thin Structures](https://arxiv.org/abs/2603.13659) | arXiv | FM | Segmentation masks | ★ | [code](https://github.com/BabakAsadi94/FMS2) |

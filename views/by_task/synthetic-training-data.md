@@ -2,7 +2,7 @@
 
 [Home](../../README.md) · [Task index](index.md)
 
-Studies in the clinical task group “Synthetic training data” (task family: Generation and forecasting). 46 studies, 32 marked ★ (discussed in the paper), 11 with code.
+Studies in the clinical task group “Synthetic training data” (task family: Generation and forecasting). 45 studies, 32 marked ★ (discussed in the paper), 11 with code.
 
 | Year | Title | Venue | Family | Task | In paper | Code |
 |--:|:--|:--|:--|:--|:--:|:--:|
@@ -14,7 +14,6 @@ Studies in the clinical task group “Synthetic training data” (task family: G
 | 2026 | [Design, development, and implementation of an artificial intelligence-based expert system for diagnosing, monitoring, and evaluating treatment in patients with metastatic melanoma using whole-body FDG-PET/CT images](https://doi.org/10.12681/eadd/61552) |  | RF | Synthetic training data |  |  |
 | 2026 | [DS@GT ARC at ImageCLEFmed GANs 2026: Geometric Filtering for Privacy-Preserving CT Slice Generation](https://arxiv.org/abs/2607.20692) | arXiv | FM | Synthetic training data | ★ | [code](https://github.com/dsgt-arc/imageclef-med-gans-2026) |
 | 2026 | [Elucidating the Design Space of Flow Matching for Cellular Microscopy](https://arxiv.org/abs/2603.26790) | arXiv | FM | Synthetic training data | ★ | [code](https://github.com/valence-labs/microscopy-flow-matching) |
-| 2026 | [Enhancing thyroid scintigraphy classification with diffusion‑based augmentation](https://doi.org/10.1117/12.3084119) | SPIE Medical Imaging | FM | Synthetic training data |  |  |
 | 2026 | [Few-Shot Distribution-Aligned Flow Matching for Data Synthesis in Medical Image Segmentation](https://arxiv.org/abs/2604.02868) | arXiv | FM | Synthetic training data | ★ |  |
 | 2026 | [Flow Matching for 3D Craniofacial Skeletal Data Generation](https://proceedings.mlr.press/v315/melacini26a.html) | MIDL 2026 | FM | Synthetic training data | ★ | [code](https://github.com/Chavelanda/skeletal_fm) |
 | 2026 | [Flow Matching with Optimized Subclass Priors for Medical Image Augmentation](https://arxiv.org/abs/2605.16469) | arXiv | FM | Synthetic training data | ★ |  |

@@ -2,14 +2,13 @@
 
 [Home](../../README.md) · [Task index](index.md)
 
-Studies in the clinical task group “Synthetic CT and dose” (task family: Translation and harmonization). 25 studies, 22 marked ★ (discussed in the paper), 1 with code.
+Studies in the clinical task group “Synthetic CT and dose” (task family: Translation and harmonization). 23 studies, 21 marked ★ (discussed in the paper), 1 with code.
 
 | Year | Title | Venue | Family | Task | In paper | Code |
 |--:|:--|:--|:--|:--|:--:|:--:|
 | 2026 | [3D radiotherapy dose prediction using a vision-language flow-matching stable diffusion model](https://doi.org/10.1117/12.3087897) | Medical Imaging 2026: Imaging Informatics | FM | Synthetic CT and dose | ★ |  |
 | 2026 | [A Pilot Study on PET-to-CT Cross-Modal Translation: Systematic Validation of Brownian Bridge Diffusion Models](https://doi.org/10.53941/aim.2026.100009) | AI Medicine | PB | Synthetic CT and dose | ★ |  |
 | 2026 | [Bridging cone-beam CT and MRI to stopping power ratio maps: a modality-agnostic Brownian bridge approach to support robust adaptive proton therapy](https://arxiv.org/abs/2609.36339) | arXiv | PB | Synthetic CT and dose | ★ |  |
-| 2026 | [CBCT-Based Synthetic CT Generation Using Conditional Flow Matching Model](https://arxiv.org/abs/2603.05796) | arXiv | FM | Synthetic CT and dose | ★ |  |
 | 2026 | [CT-free attenuation and scatter correction of \[11C\]CFT brain PET using a Bi-directional matching network](https://doi.org/10.1016/j.neuroimage.2026.121721) | NeuroImage | RF | Synthetic CT and dose | ★ |  |
 | 2026 | [DiffCAS: Inference-time CT-free diffusion model for physics-aware multi-slice attenuation correction in cardiac SPECT](https://doi.org/10.1016/j.artmed.2026.103511) | Artificial Intelligence in Medicine | PB | Synthetic CT and dose | ★ |  |
 | 2026 | [DoseBridge: Denoising Diffusion Bridge Model for Dose Prediction in Lung Intensity-Modulated Proton Therapy](https://arxiv.org/abs/2608.10173) | arXiv | PB | Synthetic CT and dose | ★ |  |
@@ -26,7 +25,6 @@ Studies in the clinical task group “Synthetic CT and dose” (task family: Tra
 | 2025 | [Diffusion Schrödinger bridge models for high-quality MR-to-CT synthesis for proton treatment planning](https://doi.org/10.1002/mp.17898) | Medical Physics | PB | Synthetic CT and dose | ★ |  |
 | 2025 | [Segmentation-Guided Brownian Bridge Diffusion for CBCT-to-CT Translation](https://doi.org/10.1109/nss/mic/rtsd57106.2025.11287233) | 2025 IEEE Nuclear Science Symposium (NSS), Medic... | PB | Synthetic CT and dose |  |  |
 | 2025 | [Structure-Residual Diffusion Bridge Model for MRI-to-CT Image Translation](https://doi.org/10.1109/icvrv67992.2025.00161) | 2025 International Conference on Virtual Reality... | PB | Synthetic CT and dose | ★ |  |
-| 2024 | [526: Geometry-Preserving MR-based Synthetic CT Generation via Diffusion Schrödinger Bridge Models](https://doi.org/10.1016/s0167-8140(24)01118-6) | Radiotherapy and Oncology | SB | Synthetic CT and dose |  |  |
 | 2024 | [CT-free Attenuation Correction of Whole-body PET Images via Direct Diffusion Bridge](https://doi.org/10.1109/nss/mic/rtsd57108.2024.10658634) | 2024 IEEE Nuclear Science Symposium (NSS), Medic... | PB | Synthetic CT and dose |  |  |
 | 2024 | [Improving Cone-Beam CT Image Quality with Knowledge Distillation-Enhanced Diffusion Model in Imbalanced Data Settings](https://doi.org/10.1007/978-3-031-72378-0_12) | MICCAI 2024 | PB | Synthetic CT and dose | ★ |  |
 | 2023 | [CBCT-Based Synthetic CT Image Generation Using Conditional Denoising Diffusion Probabilistic Model](https://doi.org/10.1002/mp.16704) | Medical Physics | diffusion | Synthetic CT and dose | ★ |  |

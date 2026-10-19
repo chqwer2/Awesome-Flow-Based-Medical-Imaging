@@ -2,25 +2,27 @@
 
 [Home](../../README.md) · [Task index](index.md)
 
-Studies in the clinical task group “Other tasks” (task family: Other). 30 studies, 0 marked ★ (discussed in the paper), 0 with code.
+Studies in the clinical task group “Other tasks” (task family: Other). 32 studies, 0 marked ★ (discussed in the paper), 0 with code.
 
 | Year | Title | Venue | Family | Task | In paper | Code |
 |--:|:--|:--|:--|:--|:--:|:--:|
 | 2026 | [Bayesian Deep Learning in a Privacy-Preserving Environment](https://doi.org/10.11588/heidok.00038646) |  | NF | Other: Privacy-preserving image editing |  |  |
+| 2026 | [DAWN-FM: Data-aware and noise-informed flow matching for solving inverse problems](https://doi.org/10.3934/fods.2026005) | Foundations of Data Science | other | Other |  |  |
+| 2026 | [Dense Temporal Contrast Synthesis via Conditioned Latent Transport](https://arxiv.org/abs/2607.29394) | arXiv | other | Other |  |  |
+| 2026 | [EndoLIFT: Language-Disambiguated Latent-Conditioned Rectified Flow for Bidirectional Endoscopic Control](https://arxiv.org/abs/2608.20478) | arXiv | other | Other |  |  |
 | 2026 | Generative Models for Medical Image Analysis | UCL Discovery (University College London) | FM | Other: registration |  |  |
 | 2026 | [Inference-Time Scaling for Robust and Adaptive Computational Imaging](https://doi.org/10.7936/t283-1553) | Open Scholarship Institutional Repository (Washi... | PB | Other: computational imaging reconstruction |  |  |
 | 2026 | [Physics-informed self-supervised generation of digital brain MRI phantoms from weighted images using differentiable MRI simulation](https://arxiv.org/abs/2609.35273) | arXiv | NF | Other: MRI parametric mapping |  |  |
 | 2026 | [Shortest-Path Flow Matching with Mixture-Conditioned Bases for OOD Generalization to Unseen Conditions](https://arxiv.org/abs/2601.11827) | arXiv | FM | Other: perturbation response prediction |  |  |
 | 2026 | [Synthetic Cardiac MRI Image Generation using Deep Generative Models](https://arxiv.org/abs/2603.24764) | arXiv | FM | Other: review |  |  |
-| 2026 | Topological Flow Matching | ICLR | FM | Other: graph-signal flow matching |  |  |
+| 2026 | [Topological Flow Matching](https://arxiv.org/abs/2606.15897) | ICLR | FM | Other: graph-signal flow matching |  |  |
 | 2025 | [A Flow Model with Low-Rank Transformers for Incomplete Multimodal Survival Analysis](https://doi.org/10.1109/bibm66473.2025.11356098) | BIBM | NF | Other: Survival prediction |  |  |
 | 2025 | [Beyond the Distribution: Perturbation Toward Domain Distribution Boundary for Strengthening Generalizable Semi-Supervised Segmentation](https://doi.org/10.1109/lsp.2025.3601998) | IEEE Signal Processing Letters | NF | Other: Domain-generalizable segmentation |  |  |
 | 2025 | [BrainFlow: A Holistic Pathway of Dynamic Neural System on Manifold](https://doi.org/10.52202/085713-1076) | NeurIPS | FM | Other: brain connectivity SC-FC mapping |  |  |
 | 2025 | [Deep Sylvester Posterior Inference for Adaptive Compressed Sensing in Ultrasound Imaging](https://doi.org/10.1109/icassp49660.2025.10888253) | TU/e Research Portal | NF | Other: Adaptive ultrasound acquisition |  |  |
 | 2025 | [Fundus Image Enhancement With Pyramid Conditional Flow.](https://doi.org/10.1109/jbhi.2025.3600277) | IEEE journal of biomedical and health informatic... | NF | Other: Fundus enhancement |  |  |
-| 2025 | Generating High-Resolution Brain Counterfactuals via Stacked Autoencoders and Causal Autoregressive Flows | Progress in Biomedical Optics and Imaging Procee... | NF | Other: counterfactual brain generation |  |  |
+| 2025 | [Generating High-Resolution Brain Counterfactuals via Stacked Autoencoders and Causal Autoregressive Flows](https://doi.org/10.1117/12.3047018) | Progress in Biomedical Optics and Imaging Procee... | NF | Other: counterfactual brain generation |  |  |
 | 2025 | [MixStyleFlow: Domain Generalization in Medical Image Segmentation Using Normalizing Flows](https://doi.org/10.1007/978-3-032-04947-6_36) | MICCAI | NF | Other: Domain-generalizable segmentation |  |  |
-| 2025 | [Wavelet Fourier Convolution-Based Deep Learning to Reconstruct from Radio Frequency to B-Mode Image](https://doi.org/10.1109/ius62464.2025.11201641) | IEEE International Ultrasonics Symposium | SB | Other: ultrasound restoration |  |  |
 | 2024 | [Dynamical analysis of high-order Hopfield neural network with application in WBANs](https://doi.org/10.1088/1402-4896/ad6361) | Physica Scripta | NF | Other: Medical image security |  |  |
 | 2024 | [Evaluation Metric for Quality Control and Generative Models in Histopathology Images](https://doi.org/10.1109/isbi60581.2025.10981064) | ISBI | NF | Other: Image quality metric |  |  |
 | 2024 | [FLD+: Data-Efficient Evaluation Metric for Generative Models](https://doi.org/10.1109/iccvw69036.2025.00175) | ICCV | NF | Other: Image quality metric |  |  |

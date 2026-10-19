@@ -2,7 +2,7 @@
 
 [Home](../../README.md) · [Modality index](index.md)
 
-Studies by modality; a study with several appears in each. 32 studies, 23 marked ★ (discussed in the paper), 2 with code.
+Studies by modality; a study with several appears in each. 31 studies, 23 marked ★ (discussed in the paper), 2 with code.
 
 | Year | Title | Venue | Family | Task | In paper | Code |
 |--:|:--|:--|:--|:--|:--:|:--:|
@@ -27,7 +27,6 @@ Studies by modality; a study with several appears in each. 32 studies, 23 marked
 | 2025 | [PDF-net: A Flow Matching Network for PSF Deconvolution in Echocardiography](https://doi.org/10.1109/ius62464.2025.11201566) | 2025 IEEE International Ultrasonics Symposium (I... | FM | Multi-modality restoration | ★ |  |
 | 2025 | [R2B-WFC Ultrasound Reconstruction: Wavelet Fourier Convolution-Based Reconstruction from Radio Frequency to Image](https://doi.org/10.1007/978-3-032-05325-1_43) | MICCAI 2025 | SB | Domain harmonization | ★ |  |
 | 2025 | [Super-Resolution Ultrasound Localization Microscopy via Brownian Bridge Diffusion Model for Liver Fibrosis Assessment](https://doi.org/10.1109/ius62464.2025.11201762) | 2025 IEEE International Ultrasonics Symposium (I... | PB | Cross-modality synthesis | ★ |  |
-| 2025 | [Wavelet Fourier Convolution-Based Deep Learning to Reconstruct from Radio Frequency to B-Mode Image](https://doi.org/10.1109/ius62464.2025.11201641) | IEEE International Ultrasonics Symposium | SB | Other: ultrasound restoration |  |  |
 | 2024 | [Direct Diffusion Bridge for High MB-count Image Generation in Ultrasound Localization Microscopy](https://doi.org/10.1109/uffc-js60046.2024.10793898) | 2024 IEEE Ultrasonics, Ferroelectrics, and Frequ... | SB | Microscopy and OCT | ★ |  |
 | 2024 | [HeartBeat: Towards Controllable Echocardiography Video Synthesis with Multimodal Conditions-Guided Diffusion Models](https://doi.org/10.1007/978-3-031-72104-5_35) | MICCAI 2024 | diffusion | Cardiac and brain dynamics | ★ |  |
 | 2024 | [MedSegDiff-V2: Diffusion-Based Medical Image Segmentation with Transformer](https://doi.org/10.1609/aaai.v38i6.28418) | AAAI 2024 | diffusion | Segmentation masks | ★ |  |

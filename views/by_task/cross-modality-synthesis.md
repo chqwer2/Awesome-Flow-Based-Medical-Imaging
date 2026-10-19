@@ -2,12 +2,11 @@
 
 [Home](../../README.md) · [Task index](index.md)
 
-Studies in the clinical task group “Cross-modality synthesis” (task family: Translation and harmonization). 39 studies, 34 marked ★ (discussed in the paper), 5 with code.
+Studies in the clinical task group “Cross-modality synthesis” (task family: Translation and harmonization). 38 studies, 34 marked ★ (discussed in the paper), 5 with code.
 
 | Year | Title | Venue | Family | Task | In paper | Code |
 |--:|:--|:--|:--|:--|:--:|:--:|
-| 2026 | [3D CT-to-PET Translation via Latent Brownian Bridge Diffusion](https://arxiv.org/abs/2609.12860) | arXiv | PB | Cross-modality synthesis | ★ | [code](https://github.com/arco-group/3D-CT2PET-via-Latent-Brownian-Bridge-Diffusion) |
-| 2026 | [3D CT-to-PET Translation via Latent-Guided Contrastive Alignment and Brownian Bridge Diffusion](https://doi.org/10.1145/3807503.3816794) | ACM International Conference on Bioinformatics, ... | PB | Cross-modality synthesis |  |  |
+| 2026 | [3D CT-to-PET Translation via Latent Brownian Bridge Diffusion](https://doi.org/10.1145/3807503.3816794) | arXiv | PB | Cross-modality synthesis | ★ | [code](https://github.com/arco-group/3D-CT2PET-via-Latent-Brownian-Bridge-Diffusion) |
 | 2026 | [Bridging Modalities on the Cortex: Surface-based MRI to PET Translation with a Diffusion Bridge](https://arxiv.org/abs/2609.20147) | arXiv | PB | Cross-modality synthesis | ★ |  |
 | 2026 | [Cross Modality Image Translation In Medical Imaging Using Generative Frameworks](https://arxiv.org/abs/2605.13686) | arXiv | FM | Cross-modality synthesis | ★ |  |
 | 2026 | [DeBoneDiT: Depth-Driven Conditional Bridge Diffusion Transformers for Bone Suppression in Chest X-Ray Images](https://arxiv.org/abs/2610.19466) | arXiv | PB | Cross-modality synthesis | ★ |  |

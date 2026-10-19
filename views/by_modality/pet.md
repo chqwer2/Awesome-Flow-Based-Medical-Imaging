@@ -2,12 +2,11 @@
 
 [Home](../../README.md) · [Modality index](index.md)
 
-Studies by modality; a study with several appears in each. 59 studies, 36 marked ★ (discussed in the paper), 7 with code.
+Studies by modality; a study with several appears in each. 57 studies, 36 marked ★ (discussed in the paper), 7 with code.
 
 | Year | Title | Venue | Family | Task | In paper | Code |
 |--:|:--|:--|:--|:--|:--:|:--:|
-| 2026 | [3D CT-to-PET Translation via Latent Brownian Bridge Diffusion](https://arxiv.org/abs/2609.12860) | arXiv | PB | Cross-modality synthesis | ★ | [code](https://github.com/arco-group/3D-CT2PET-via-Latent-Brownian-Bridge-Diffusion) |
-| 2026 | [3D CT-to-PET Translation via Latent-Guided Contrastive Alignment and Brownian Bridge Diffusion](https://doi.org/10.1145/3807503.3816794) | ACM International Conference on Bioinformatics, ... | PB | Cross-modality synthesis |  |  |
+| 2026 | [3D CT-to-PET Translation via Latent Brownian Bridge Diffusion](https://doi.org/10.1145/3807503.3816794) | arXiv | PB | Cross-modality synthesis | ★ | [code](https://github.com/arco-group/3D-CT2PET-via-Latent-Brownian-Bridge-Diffusion) |
 | 2026 | [A Pilot Study on PET-to-CT Cross-Modal Translation: Systematic Validation of Brownian Bridge Diffusion Models](https://doi.org/10.53941/aim.2026.100009) | AI Medicine | PB | Synthetic CT and dose | ★ |  |
 | 2026 | [AI-augmented thyroid scintigraphy for robust classification of disease](https://doi.org/10.1016/j.ejmp.2026.105854) | Physica Medica | FM | Synthetic training data | ★ |  |
 | 2026 | [Bayesian PET Reconstruction with Learned Flow Matching Priors via Langevin Sampling](https://doi.org/10.1109/ivmsp68335.2026.11618818) | 2026 IEEE 15th Image, Video, and Multidimensiona... | FM | Low-count PET | ★ |  |
@@ -21,7 +20,6 @@ Studies by modality; a study with several appears in each. 59 studies, 36 marked
 | 2026 | [DiffCAS: Inference-time CT-free diffusion model for physics-aware multi-slice attenuation correction in cardiac SPECT](https://doi.org/10.1016/j.artmed.2026.103511) | Artificial Intelligence in Medicine | PB | Synthetic CT and dose | ★ |  |
 | 2026 | [Diffusion-based head-and-neck CT synthesis under limited data](https://hdl.handle.net/2117/463321) | Thesis, Universitat Politècnica de Catalunya | RF | Volume and X-ray synthesis | ★ |  |
 | 2026 | [Efficient 3D Whole-Body PET Image Denoising via Conditional Rectified Flow With Optimized Sampling Strategy](https://arxiv.org/abs/2609.16690) | arXiv | RF | Low-count PET | ★ |  |
-| 2026 | [Enhancing thyroid scintigraphy classification with diffusion‑based augmentation](https://doi.org/10.1117/12.3084119) | SPIE Medical Imaging | FM | Synthetic training data |  |  |
 | 2026 | [Feynman Kac Reweighted Schrödinger Bridge Matching for Surface-Based Tau PET Harmonization](https://arxiv.org/abs/2606.17420) | arXiv | SB | Domain harmonization | ★ | [code](https://github.com/jianweizhang17/FKRSBM) |
 | 2026 | [Flow Matching-Based PET Image Reconstruction](https://arxiv.org/abs/2608.20112) | arXiv | FM | Low-count PET | ★ |  |
 | 2026 | [FlowPET: Physics-Informed Symplectic Flow Matching for Low-Count PET Reconstruction](https://arxiv.org/abs/2607.11104) | ICML 2026 | FM | Low-count PET | ★ | [code](https://github.com/xiaochaorouz/FlowPET) |

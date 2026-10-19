@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Maintainer script: fill missing authors, venues and links in data/authors_cache.csv from Crossref and DataCite.
+"""Maintainer script: fill missing authors, venues and links in data/authors_cache.csv from Crossref, DataCite and the arXiv API.
 
     python3 scripts/ingest_sources.py ...        # first pass, writes data/studies.csv
     python3 scripts/enrich_metadata.py           # looks up rows that lack authors, venue or link
@@ -8,10 +8,11 @@
 Only DOIs and Crossref title matches with similarity >= 0.92 are used; nothing is guessed.
 """
 import csv, difflib, json, os, re, sys, time, urllib.parse, urllib.request
+import xml.etree.ElementTree as ET
 from concurrent.futures import ThreadPoolExecutor
 
 DATA = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "data")
-UA = {"User-Agent": "awesome-flow-medical-imaging/1.0 (mailto:hc666@cam.ac.uk)"}
+UA = {"User-Agent": "awesome-flow-medical-imaging/1.0"}
 
 
 def get(url):
@@ -28,6 +29,24 @@ def norm(t):
     return re.sub(r"[^a-z0-9]+", "", (t or "").lower())
 
 
+def arxiv_title_search(row):
+    """arXiv API title search (one request per 3 s); accepts a hit only at title similarity >= 0.92."""
+    q = urllib.parse.quote('ti:"%s"' % re.sub(r"[^A-Za-z0-9 ]+", " ", row["title"]).strip())
+    try:
+        with urllib.request.urlopen(urllib.request.Request(f"https://export.arxiv.org/api/query?search_query={q}&max_results=3", headers=UA), timeout=30) as r:
+            root = ET.fromstring(r.read())
+    except Exception:
+        return None
+    ns = {"a": "http://www.w3.org/2005/Atom"}
+    for e in root.findall("a:entry", ns):
+        t = " ".join((e.findtext("a:title", "", ns) or "").split())
+        if difflib.SequenceMatcher(None, norm(t), norm(row["title"])).ratio() >= 0.92:
+            link = re.sub(r"v\d+$", "", e.findtext("a:id", "", ns).replace("http://", "https://"))
+            au = ", ".join(a.findtext("a:name", "", ns) for a in e.findall("a:author", ns))
+            return {"authors": au, "venue": "arXiv", "link": link, "year": (e.findtext("a:published", "", ns) or "")[:4]}
+    return None
+
+
 def crossref_item(m):
     au = ", ".join(" ".join(x for x in (a.get("given"), a.get("family")) if x) or a.get("name", "") for a in m.get("author", []))
     ven = (m.get("container-title") or [""])[0]
@@ -42,7 +61,7 @@ def lookup(row):
             if l.startswith("https://doi.org/"):
                 doi = l[16:]
                 break
-    out = {"id": row["id"], "authors": "", "venue": "", "link": ""}
+    out = {"id": row["id"], "authors": "", "venue": "", "link": "", "year": ""}
     if doi and not doi.startswith("10.48550"):
         j = get("https://api.crossref.org/works/" + urllib.parse.quote(doi))
         if j and j.get("message"):
@@ -65,6 +84,7 @@ def lookup(row):
             yr = (m.get("issued", {}).get("date-parts") or [[None]])[0][0]
             if difflib.SequenceMatcher(None, norm(t), norm(row["title"])).ratio() >= 0.92 and (not row["year"] or not yr or abs(int(row["year"]) - yr) <= 1):
                 out["authors"], out["venue"], d = crossref_item(m)
+                out["year"] = str(yr or "")
                 if not row["link"] and d:
                     out["link"] = "https://doi.org/" + d
                 return out
@@ -75,13 +95,23 @@ def main():
     rows = list(csv.DictReader(open(f"{DATA}/studies.csv", encoding="utf-8")))
     cache_p = f"{DATA}/authors_cache.csv"
     cache = {r["id"]: r for r in csv.DictReader(open(cache_p, encoding="utf-8"))} if os.path.exists(cache_p) else {}
-    todo = [r for r in rows if (not r["authors"] or not r["link"] or not r["venue"]) and r["id"] not in cache]
+    todo = [r for r in rows if (not r["authors"] or not r["link"] or not r["venue"] or not r["year"]) and r["id"] not in cache]
     print("lookups:", len(todo))
     with ThreadPoolExecutor(6) as ex:
         for res in ex.map(lookup, todo):
             cache[res["id"]] = res
+    for r in rows:   # still no link: arXiv title search
+        c = cache.get(r["id"])
+        if c is not None and not r["link"] and not c["link"]:
+            time.sleep(3)
+            hit = arxiv_title_search(r)
+            if hit:
+                for k in ("link", "year"):
+                    c[k] = c.get(k) or hit[k]
+                c["authors"] = c["authors"] or hit["authors"]
+                c["venue"] = c["venue"] or hit["venue"]
     with open(cache_p, "w", encoding="utf-8", newline="") as f:
-        w = csv.DictWriter(f, ["id", "authors", "venue", "link"])
+        w = csv.DictWriter(f, ["id", "authors", "venue", "link", "year"], restval="")
         w.writeheader()
         w.writerows(cache.values())
     print("cache rows:", len(cache), "with authors:", sum(bool(r["authors"]) for r in cache.values()))

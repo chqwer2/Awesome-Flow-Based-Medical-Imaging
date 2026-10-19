@@ -2,7 +2,7 @@
 
 [Home](../../README.md) · [Task index](index.md)
 
-Studies in the clinical task group “Domain harmonization” (task family: Translation and harmonization). 27 studies, 14 marked ★ (discussed in the paper), 6 with code.
+Studies in the clinical task group “Domain harmonization” (task family: Translation and harmonization). 26 studies, 14 marked ★ (discussed in the paper), 6 with code.
 
 | Year | Title | Venue | Family | Task | In paper | Code |
 |--:|:--|:--|:--|:--|:--:|:--:|
@@ -26,7 +26,6 @@ Studies in the clinical task group “Domain harmonization” (task family: Tran
 | 2024 | [Reliable Source Approximation: Source-Free Unsupervised Domain Adaptation for Vestibular Schwannoma MRI Segmentation](https://doi.org/10.1007/978-3-031-72117-5_58) | MICCAI 2024 | diffusion | Domain harmonization | ★ |  |
 | 2023 | [BlindHarmony: "Blind" Harmonization for MR Images via Flow Model](https://arxiv.org/abs/2305.10732) | ICCV | NF | Domain harmonization |  |  |
 | 2023 | [CTFlow: Mitigating Effects of Computed Tomography Acquisition and Reconstruction with Normalizing Flows.](https://doi.org/10.1007/978-3-031-43990-2_39) | MICCAI | NF | Domain harmonization |  |  |
-| 2023 | [Harmonizing Flows: Unsupervised MR Harmonization Based on Normalizing Flows](https://doi.org/10.1007/978-3-031-34048-2_27) | Lecture Notes in Computer Science | NF | Domain harmonization |  |  |
 | 2023 | Improved multi-site Parkinson's disease classification using neuroimaging data with counterfactual inference | MIDL | NF | Domain harmonization |  |  |
 | 2023 | [Unsupervised Domain Transfer with Conditional Invertible Neural Networks](https://doi.org/10.1007/978-3-031-43907-0_73) | arXiv | NF | Domain harmonization |  |  |
 | 2023 | [Zero-Shot Medical Image Translation via Frequency-Guided Diffusion Models](https://doi.org/10.1109/tmi.2023.3325703) | IEEE Transactions on Medical Imaging | diffusion | Domain harmonization | ★ |  |

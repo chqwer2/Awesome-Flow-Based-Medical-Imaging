@@ -2,12 +2,11 @@
 
 [Home](../../README.md) · [Modality index](index.md)
 
-Studies by modality; a study with several appears in each. 199 studies, 158 marked ★ (discussed in the paper), 40 with code.
+Studies by modality; a study with several appears in each. 197 studies, 157 marked ★ (discussed in the paper), 40 with code.
 
 | Year | Title | Venue | Family | Task | In paper | Code |
 |--:|:--|:--|:--|:--|:--:|:--:|
-| 2026 | [3D CT-to-PET Translation via Latent Brownian Bridge Diffusion](https://arxiv.org/abs/2609.12860) | arXiv | PB | Cross-modality synthesis | ★ | [code](https://github.com/arco-group/3D-CT2PET-via-Latent-Brownian-Bridge-Diffusion) |
-| 2026 | [3D CT-to-PET Translation via Latent-Guided Contrastive Alignment and Brownian Bridge Diffusion](https://doi.org/10.1145/3807503.3816794) | ACM International Conference on Bioinformatics, ... | PB | Cross-modality synthesis |  |  |
+| 2026 | [3D CT-to-PET Translation via Latent Brownian Bridge Diffusion](https://doi.org/10.1145/3807503.3816794) | arXiv | PB | Cross-modality synthesis | ★ | [code](https://github.com/arco-group/3D-CT2PET-via-Latent-Brownian-Bridge-Diffusion) |
 | 2026 | [3D radiotherapy dose prediction using a vision-language flow-matching stable diffusion model](https://doi.org/10.1117/12.3087897) | Medical Imaging 2026: Imaging Informatics | FM | Synthetic CT and dose | ★ |  |
 | 2026 | [A Denoising Framework for Real-World Ultra-Low-Dose Lung CT Images Based on an Image Purification Strategy](https://doi.org/10.1007/978-981-92-3410-3_7) | ICIC 2026 | FM | CT denoising and artifacts | ★ | [code](https://github.com/MonkeyDadLufy/Image-Purification-Strategy) |
 | 2026 | [A Mean-Reverting Conditional Diffusion Model for Pulmonary LDCT Image Denoising](https://doi.org/10.1109/access.2026.3715887) | IEEE Access | PB | CT denoising and artifacts | ★ |  |
@@ -18,7 +17,6 @@ Studies by modality; a study with several appears in each. 199 studies, 158 mark
 | 2026 | [Beyond Fixed Inference: Quantitative Flow Matching for Adaptive Image Denoising](https://arxiv.org/abs/2604.02392) | arXiv | FM | Multi-modality restoration | ★ |  |
 | 2026 | BioFlow: Conditional Flow Matching for Patient-Specific 3D Medical Image Forecasting from Irregular Histories | NeurIPS | FM | Longitudinal forecasting |  |  |
 | 2026 | [Bridging cone-beam CT and MRI to stopping power ratio maps: a modality-agnostic Brownian bridge approach to support robust adaptive proton therapy](https://arxiv.org/abs/2609.36339) | arXiv | PB | Synthetic CT and dose | ★ |  |
-| 2026 | [CBCT-Based Synthetic CT Generation Using Conditional Flow Matching Model](https://arxiv.org/abs/2603.05796) | arXiv | FM | Synthetic CT and dose | ★ |  |
 | 2026 | [Co-MoCo: Collaborative Learning Enabled Motion Compensation for Weight-Bearing CBCT](https://doi.org/10.1007/978-3-032-38179-8_8) | Lecture Notes in Computer Science | FM | CT denoising and artifacts | ★ |  |
 | 2026 | [Compositional Cross-Modality Translation via Whole-Volume Multitask Latent Flow Matching](https://arxiv.org/abs/2608.08135) | arXiv | FM | Missing sequences and contrast | ★ | [code](https://github.com/arco-group/Whole-Volume-Latent-FM) |
 | 2026 | [Conditional Diffusion for 3D CT Volume Reconstruction from 2D X-rays](https://arxiv.org/abs/2603.26509) | arXiv | FM | Incomplete-data CT | ★ | [code](https://github.com/ai-med/AXON) |
@@ -141,7 +139,6 @@ Studies by modality; a study with several appears in each. 199 studies, 158 mark
 | 2025 | [vesselFM: A Foundation Model for Universal 3D Blood Vessel Segmentation](https://doi.org/10.1109/cvpr52734.2025.01944) | CVPR 2025 | FM | Synthetic training data | ★ | [code](https://github.com/bwittmann/vesselFM) |
 | 2025 | [ViCTr: Vital consistency transfer for pathology aware image synthesis](https://doi.org/10.1109/iccv51701.2025.02114) | ICCV 2025 | RF | Synthetic training data | ★ |  |
 | 2025 | Weakly-Supervised Midline Shift Quantification through Simulating the Reversed Disease Progression | MIDL | FM | Shape and parameter output |  |  |
-| 2024 | [526: Geometry-Preserving MR-based Synthetic CT Generation via Diffusion Schrödinger Bridge Models](https://doi.org/10.1016/s0167-8140(24)01118-6) | Radiotherapy and Oncology | SB | Synthetic CT and dose |  |  |
 | 2024 | [A Dual-Domain Diffusion Model for Sparse-View CT Reconstruction](https://doi.org/10.1109/lsp.2024.3392690) | IEEE Signal Processing Letters | diffusion | Incomplete-data CT | ★ |  |
 | 2024 | [Bi-modality medical images synthesis by a bi-directional discrete process matching method](https://arxiv.org/abs/2409.03977) | arXiv | FM | Cross-modality synthesis | ★ |  |
 | 2024 | [CT-3DFlow : Leveraging 3D Normalizing Flows for Unsupervised Detection of Pathological Pulmonary CT scans](https://arxiv.org/abs/2403.18514) | arXiv | NF | Anomaly and diagnosis |  |  |
@@ -199,6 +196,7 @@ Studies by modality; a study with several appears in each. 199 studies, 158 mark
 | 2022 | [Reconstructing invariances of CT image denoising networks using invertible neural networks](https://doi.org/10.1117/12.2647170) | International Conference on Image Formation in X... | NF | CT denoising and artifacts |  |  |
 | 2021 | [A generative flow-based model for volumetric data augmentation in 3D deep learning for computed tomographic colonography](https://doi.org/10.1007/s11548-020-02275-z) | International Journal of Computer Assisted Radio... | NF | Synthetic training data | ★ |  |
 | 2021 | Apprentissage génératif pour le traitement, l'analyse et la modélisation des données médicales : application à l'imagerie CT de la cochlée | HAL (Le Centre pour la Communication Scientifiqu... | NF | Other: CT representation |  |  |
+| 2021 | [Conditional Invertible Neural Networks for Medical Imaging.](https://doi.org/10.3390/jimaging7110243) | Journal of imaging | NF | CT denoising and artifacts |  |  |
 | 2021 | [Improving Aleatoric Uncertainty Quantification in Multi-Annotated Medical Image Segmentation with Normalizing Flows](https://doi.org/10.1007/978-3-030-87735-4_8) | Lecture Notes in Computer Science | NF | Segmentation uncertainty |  |  |
 | 2021 | [Versatile anomaly detection method for medical images with semi-supervised flow-based generative models.](https://doi.org/10.1007/s11548-021-02480-4) | International journal of computer assisted radio... | NF | Anomaly and diagnosis |  |  |
 | 2021 | [X2CT-FLOW: Reconstruction of multiple volumetric chest computed tomography images with different likelihoods from a uni- or biplanar chest X-ray image using a flow-based generative model.](https://arxiv.org/abs/2104.04179) | arXiv | NF | Volume and X-ray synthesis |  |  |

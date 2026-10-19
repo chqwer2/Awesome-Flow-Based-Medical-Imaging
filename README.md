@@ -1,6 +1,6 @@
 # Awesome Flow-Based Generative Models for Medical Imaging
 
-A database of studies on flow-based generative models for medical imaging (flow matching, rectified flow, Schrödinger and paired bridges, Poisson flows), with diffusion and normalizing-flow studies as comparison samples. It accompanies our survey and holds every study the survey screened in, not only the ones it discusses. Studies the survey discusses are marked ★ (454 of 688).
+A database of studies on flow-based generative models for medical imaging (flow matching, rectified flow, Schrödinger and paired bridges, Poisson flows), with diffusion and normalizing-flow studies as comparison samples. It accompanies our survey and holds every study the survey screened in, not only the ones it discusses. Studies the survey discusses are marked ★ (447 of 671).
 
 ## Citation
 
@@ -26,37 +26,37 @@ The survey is under review. This entry is a placeholder and will be replaced by 
 
 ## Counts
 
-688 distinct works. A work can belong to several lists, so the rows below do not add up to the total.
+671 distinct works. A work can belong to several lists, so the rows below do not add up to the total.
 
 | List | Studies | What it holds |
 |:--|--:|:--|
-| catalogue | 390 | coded on the six design axes (Supplementary Table S3) |
-| related | 606 | passed title and abstract screening (includes the catalogue) |
+| catalogue | 383 | coded on the six design axes (Supplementary Table S3) |
+| related | 592 | passed title and abstract screening (includes the catalogue) |
 | NF sample | 17 | normalizing-flow comparison sample |
 | diffusion sample | 55 | diffusion comparison sample (Supplementary Table S4) |
-| excluded | 72 | recorded as excluded or not drawn into a sample; kept in the database only |
+| excluded | 70 | recorded as excluded or not drawn into a sample; kept in the database only |
 
-Marked ★: 454 studies discussed in the main text (291), Supplementary Note S1 (394), Table S3 (390) or Table S4 (55); a study can appear in several places. 107 studies have a recorded code link.
+Marked ★: 447 studies discussed in the main text (289), Supplementary Note S1 (387), Table S3 (383) or Table S4 (55); a study can appear in several places. 107 studies have a recorded code link.
 
 | Model family | Studies |
 |:--|--:|
-| Flow matching (FM) | 210 |
-| Rectified flow (RF) | 57 |
-| Schrödinger bridge (SB) | 38 |
-| Paired / Brownian bridge (PB) | 114 |
+| Flow matching (FM) | 205 |
+| Rectified flow (RF) | 55 |
+| Schrödinger bridge (SB) | 34 |
+| Paired / Brownian bridge (PB) | 112 |
 | Poisson flow (PF) | 14 |
-| Normalizing flow (NF) | 158 |
+| Normalizing flow (NF) | 154 |
 | Diffusion | 72 |
 | Other | 25 |
 
-Catalogue (390 studies) by task family:
+Catalogue (383 studies) by task family:
 
 | Task family | Studies |
 |:--|--:|
-| Restoration | 116 |
-| Translation and harmonization | 132 |
-| Generation and forecasting | 85 |
-| Analysis and segmentation | 57 |
+| Restoration | 114 |
+| Translation and harmonization | 130 |
+| Generation and forecasting | 83 |
+| Analysis and segmentation | 56 |
 
 ## Views
 
@@ -67,9 +67,9 @@ Catalogue (390 studies) by task family:
 | [By modality](views/by_modality/index.md) | 10 |
 | [By anatomy](views/by_anatomy/index.md) | 14 |
 | [By year](views/by_year.md) | 9 |
-| [Datasets](views/datasets.md) | 423 datasets |
+| [Datasets](views/datasets.md) | 411 datasets |
 
-The views list the 661 studies that belong to the catalogue, the related studies or a comparison sample. The remaining 27 rows of the database are recorded exclusions.
+The views list the 647 studies that belong to the catalogue, the related studies or a comparison sample. The remaining 24 rows of the database are recorded exclusions.
 
 ## Columns of data/studies.csv
 

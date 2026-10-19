@@ -2,11 +2,10 @@
 
 [Home](../../README.md) · [Model index](index.md)
 
-Studies of the catalogue by the probability path that connects the two end states. 225 studies, 17 marked ★ (discussed in the paper), 1 with code.
+Studies of the catalogue by the probability path that connects the two end states. 218 studies, 17 marked ★ (discussed in the paper), 1 with code.
 
 | Year | Title | Venue | Family | Task | In paper | Code |
 |--:|:--|:--|:--|:--|:--:|:--:|
-| 2026 | [3D CT-to-PET Translation via Latent-Guided Contrastive Alignment and Brownian Bridge Diffusion](https://doi.org/10.1145/3807503.3816794) | ACM International Conference on Bioinformatics, ... | PB | Cross-modality synthesis |  |  |
 | 2026 | [A Multi-Contrast MRI Arbitrary-Scale Superresolution Reconstruction Method Based on Normalizing Flow](https://doi.org/10.1109/iotaai70471.2026.11607768) | International Conference on Internet of Things, ... | NF | MRI enhancement |  |  |
 | 2026 | [Alignment-Aware 3D Point Cloud Anomaly Detection with Adversarial Normalizing Flows](https://doi.org/10.20944/preprints202606.0322.v1) | Preprints.org | NF | Anomaly and diagnosis |  |  |
 | 2026 | Autoregressive-based Latent Brownian Bridge Diffusion for 3D Brain MRI Translation | INRIA a CCSD electronic archive server | PB | Missing sequences and contrast |  |  |
@@ -17,12 +16,14 @@ Studies of the catalogue by the probability path that connects the two end state
 | 2026 | [Cellflow: Advancing pathological image augmentation from spatial views to temporal trajectories.](https://doi.org/10.1016/j.media.2026.103995) | Medical image analysis | PB | Synthetic training data |  |  |
 | 2026 | [CineGen: Conditional Flow Matching-based Super-Resolution for High-Quality Free-Breathing Real-Time Cartesian Cine MRI](https://doi.org/10.1016/j.jocmr.2025.102656) | Journal of Cardiovascular Magnetic Resonance | FM | MRI enhancement |  |  |
 | 2026 | [Conditional Normalizing Flows for Likelihood-Based Medical Image Classification](https://doi.org/10.1007/978-3-032-30877-1_68) | Springer eBooks | NF | Anomaly and diagnosis |  |  |
+| 2026 | [DAWN-FM: Data-aware and noise-informed flow matching for solving inverse problems](https://doi.org/10.3934/fods.2026005) | Foundations of Data Science | other | Other |  |  |
 | 2026 | [Deep Computational Anatomy via Latent-Aligned Multiview Normalizing Flows.](https://doi.org/10.64898/2026.05.05.723039) | bioRxiv | NF | Anatomy and device shapes |  |  |
 | 2026 | [DeepBayesFlow: A Bayesian Structured Variational Framework for Generalizable Prostate Segmentation via Expressive Posteriors and SDE-Girsanov Uncertainty Modeling](https://arxiv.org/abs/2603.27263) | arXiv | NF | Segmentation uncertainty |  |  |
+| 2026 | [Dense Temporal Contrast Synthesis via Conditioned Latent Transport](https://arxiv.org/abs/2607.29394) | arXiv | other | Other |  |  |
 | 2026 | [Design, development, and implementation of an artificial intelligence-based expert system for diagnosing, monitoring, and evaluating treatment in patients with metastatic melanoma using whole-body FDG-PET/CT images](https://doi.org/10.12681/eadd/61552) |  | RF | Synthetic training data |  |  |
 | 2026 | [Distribution matching with discrete optimal transport flows: Modeling normative brain aging](https://doi.org/10.1016/j.cmpbup.2026.100250) | Computer Methods and Programs in Biomedicine Upd... | NF | Longitudinal forecasting | ★ |  |
+| 2026 | [EndoLIFT: Language-Disambiguated Latent-Conditioned Rectified Flow for Bidirectional Endoscopic Control](https://arxiv.org/abs/2608.20478) | arXiv | other | Other |  |  |
 | 2026 | [Energyflow: A Physically Consistent Learning Framework for 3D Microscopy Deconvolution](https://doi.org/10.1109/isbi61048.2026.11515930) | ISBI 2026 | FM | Microscopy and OCT | ★ |  |
-| 2026 | [Enhancing thyroid scintigraphy classification with diffusion‑based augmentation](https://doi.org/10.1117/12.3084119) | SPIE Medical Imaging | FM | Synthetic training data |  |  |
 | 2026 | [Flow-based conditional cardiac anatomy generation for virtual cohorts](https://arxiv.org/abs/2608.09460) | arXiv | NF | Anatomy and device shapes |  |  |
 | 2026 | [Flow-based generative models for neuroimaging: Density estimation and data augmentation](https://doi.org/10.1016/b978-0-443-45010-5.00001-0) | Elsevier eBooks | NF | Synthetic training data |  |  |
 | 2026 | Generate Features, Not Frames: Low-Compute Synthetic Priors for Echocardiography Transfer | NeurIPS | RF | Synthetic training data |  |  |
@@ -49,7 +50,7 @@ Studies of the catalogue by the probability path that connects the two end state
 | 2026 | [Shortest-Path Flow Matching with Mixture-Conditioned Bases for OOD Generalization to Unseen Conditions](https://arxiv.org/abs/2601.11827) | arXiv | FM | Other: perturbation response prediction |  |  |
 | 2026 | [Synthetic Cardiac MRI Image Generation using Deep Generative Models](https://arxiv.org/abs/2603.24764) | arXiv | FM | Other: review |  |  |
 | 2026 | [Temporally Consistent and Controllable Video Generation of 2D Cine CMR via Latent Space Motion Modeling](https://doi.org/10.1109/isbi61048.2026.11515893) | ISBI | FM | Cardiac and brain dynamics |  |  |
-| 2026 | Topological Flow Matching | ICLR | FM | Other: graph-signal flow matching |  |  |
+| 2026 | [Topological Flow Matching](https://arxiv.org/abs/2606.15897) | ICLR | FM | Other: graph-signal flow matching |  |  |
 | 2026 | [Toward robust histopathology imaging: An unsupervised framework for artifact detection, localization, and restoration.](https://doi.org/10.1016/j.media.2026.104215) | Medical image analysis | NF | Anomaly and diagnosis |  |  |
 | 2026 | [Trajectory Stitching for Solving Inverse Problems with Flow-Based Models](https://arxiv.org/abs/2602.08538) | ICML | other | Incomplete-data CT |  |  |
 | 2026 | [UIGM: Segmentation-Constrained Flow Matching Model for Ultrasound Data Augmentation](https://doi.org/10.1109/isbi61048.2026.11515412) | ISBI 2026 | FM | Synthetic training data | ★ |  |
@@ -58,7 +59,6 @@ Studies of the catalogue by the probability path that connects the two end state
 | 2025 | [1551 Generating IHC to H&E Whole Slide Images Using Neural Schrodinger Bridge](https://doi.org/10.1016/j.labinv.2024.103793) | Laboratory Investigation | SB | Tissue-image translation |  |  |
 | 2025 | [A Flow Model with Low-Rank Transformers for Incomplete Multimodal Survival Analysis](https://doi.org/10.1109/bibm66473.2025.11356098) | BIBM | NF | Other: Survival prediction |  |  |
 | 2025 | [A Multi-Level Probabilistic Deep Learning Network Augmented With Normalizing Flow for Ambiguous Medical Image Segmentation](https://doi.org/10.1109/access.2025.3650056) | IEEE Access | NF | Segmentation uncertainty |  |  |
-| 2025 | [A Self-Consistent Diffusion Schrodinger Bridge for Multi-Modal Medical Image Translation](https://doi.org/10.58530/2025/0933) | ISMRM | PB | Missing sequences and contrast |  |  |
 | 2025 | Advancing brain MRI assessment using generative models | Espace ÉTS (ETS) | NF | Domain harmonization |  |  |
 | 2025 | [AI-powered 0.3 mm Ultrahigh Resolution MR Brain Imaging](https://doi.org/10.58530/2025/0936) | ISMRM | PB | MRI enhancement |  |  |
 | 2025 | [Alzheimer’s Disease Recognition Based on Adaptive Graph Normalization Flow for Incomplete Multimodal Data Fusion](https://doi.org/10.1007/978-3-032-04984-1_7) | MICCAI | NF | Anomaly and diagnosis |  |  |
@@ -80,7 +80,7 @@ Studies of the catalogue by the probability path that connects the two end state
 | 2025 | [Flow-MIL: Constructing Highly-expressive Latent Feature Space for Whole Slide Image Classification using Normalizing Flow](https://doi.org/10.1109/iccv51701.2025.02187) | ICCV | NF | Anomaly and diagnosis |  |  |
 | 2025 | [Fundus Image Enhancement With Pyramid Conditional Flow.](https://doi.org/10.1109/jbhi.2025.3600277) | IEEE journal of biomedical and health informatic... | NF | Other: Fundus enhancement |  |  |
 | 2025 | [GANs vs. Diffusion Models for Virtual Staining with the HER2match Dataset](https://doi.org/10.1007/978-3-032-05472-2_12) | Lecture Notes in Computer Science | PB | Tissue-image translation |  |  |
-| 2025 | Generating High-Resolution Brain Counterfactuals via Stacked Autoencoders and Causal Autoregressive Flows | Progress in Biomedical Optics and Imaging Procee... | NF | Other: counterfactual brain generation |  |  |
+| 2025 | [Generating High-Resolution Brain Counterfactuals via Stacked Autoencoders and Causal Autoregressive Flows](https://doi.org/10.1117/12.3047018) | Progress in Biomedical Optics and Imaging Procee... | NF | Other: counterfactual brain generation |  |  |
 | 2025 | [GMM-based VAE model with Normalizing Flow for effective stochastic segmentation](https://doi.org/10.52202/085713-2831) | NeurIPS | NF | Segmentation uncertainty |  |  |
 | 2025 | [High-speed high-quality super-resolution diffusion model via flow-matching](https://doi.org/10.58530/2025/3975) | ISMRM | FM | MRI enhancement |  |  |
 | 2025 | [Interpolating Dynamic MRI Images with a Latent Brownian Bridge Diffusion Model](https://doi.org/10.58530/2025/4140) | ISMRM | PB | Cardiac and brain dynamics |  |  |
@@ -104,11 +104,8 @@ Studies of the catalogue by the probability path that connects the two end state
 | 2025 | [Unpaired Synthesis of Contrast-Enhanced Abdominal CT from Non-Contrast Images via Diffusion Models](https://doi.org/10.1109/nss/mic/rtsd57106.2025.11287509) | 2025 IEEE Nuclear Science Symposium (NSS), Medic... | SB | Missing sequences and contrast |  |  |
 | 2025 | [Unsupervised Detection of Post-Stroke Brain Abnormalities](https://doi.org/10.1109/isbi61048.2026.11515504) | ISBI | other | Anomaly and diagnosis |  |  |
 | 2025 | [Unsupervised PET Image Reconstruction using Deep Diffusion Bridge Image Prior](https://doi.org/10.1109/nss/mic/rtsd57106.2025.11287153) | 2025 IEEE Nuclear Science Symposium (NSS), Medic... | PB | Low-count PET |  |  |
-| 2025 | [Wavelet Fourier Convolution-Based Deep Learning to Reconstruct from Radio Frequency to B-Mode Image](https://doi.org/10.1109/ius62464.2025.11201641) | IEEE International Ultrasonics Symposium | SB | Other: ultrasound restoration |  |  |
 | 2025 | Weakly-Supervised Midline Shift Quantification through Simulating the Reversed Disease Progression | MIDL | FM | Shape and parameter output |  |  |
-| 2024 | [526: Geometry-Preserving MR-based Synthetic CT Generation via Diffusion Schrödinger Bridge Models](https://doi.org/10.1016/s0167-8140(24)01118-6) | Radiotherapy and Oncology | SB | Synthetic CT and dose |  |  |
 | 2024 | [A Flow-based Truncated Denoising Diffusion Model for super-resolution Magnetic Resonance Spectroscopic Imaging.](https://doi.org/10.1016/j.media.2024.103358) | Medical image analysis | NF | MRI enhancement |  |  |
-| 2024 | [Accelerated MRI Reconstruction with Fourier-Constrained Diffusion Schrodinger Bridges](https://doi.org/10.58530/2024/0378) | ISMRM | SB | MRI reconstruction |  |  |
 | 2024 | [An Optimal Transport-Based Method For Medical Image Generation](https://doi.org/10.1109/icip51287.2024.10647734) | Proceedings - International Conference on Image ... | other | Synthetic training data |  |  |
 | 2024 | Consistent Direct Diffusion Bridge with Injection for MRI Reconstruction | MIDL | PB | MRI reconstruction |  |  |
 | 2024 | [CT-3DFlow : Leveraging 3D Normalizing Flows for Unsupervised Detection of Pathological Pulmonary CT scans](https://arxiv.org/abs/2403.18514) | arXiv | NF | Anomaly and diagnosis |  |  |
@@ -129,14 +126,11 @@ Studies of the catalogue by the probability path that connects the two end state
 | 2024 | [MACAW: A Causal Generative Model for Medical Imaging](https://arxiv.org/abs/2412.02900) | Trans. Mach. Learn. Res. | NF | Inpainting and editing |  |  |
 | 2024 | [Metodologia de Geração de Dados aplicada à Geração de Imagens de Exames de Colonoscopia](https://doi.org/10.5753/erigo.2024.4797) | Anais da XII Escola Regional de Informática de G... | PF | Synthetic training data |  |  |
 | 2024 | [MRFlow: Flow-based neural network for MR image harmonization](https://doi.org/10.58530/2023/0161) | ISMRM | NF | Domain harmonization |  |  |
-| 2024 | [MRI Joint Superresolution and Denoising Based on Conditional Stochastic Normalizing Flow](https://doi.org/10.1109/tai.2024.3515936) | IEEE Transactions on Artificial Intelligence | NF | MRI enhancement |  |  |
 | 2024 | [Multi-scale tissue fluorescence mapping with fiber optic ultraviolet excitation and generative modeling](https://doi.org/10.1364/optica.515501) | Optica | NF | Microscopy and OCT |  |  |
 | 2024 | [Normalizing flow regularization for photoacoustic tomography](https://doi.org/10.1088/1361-6420/ad7d30) | Inverse Problems | NF | Other: Photoacoustic reconstruction |  |  |
 | 2024 | [PET Image Denoising based on Diffusion Schrodinger Bridge Model](https://doi.org/10.1109/nss/mic/rtsd57108.2024.10657633) | 2024 IEEE Nuclear Science Symposium (NSS), Medic... | SB | Low-count PET |  |  |
-| 2024 | [Pharmacokinetic Parameters’ Distribution Estimation with Normalizing Flow in Dynamic Contrast-Enhanced Magnetic Resonance Imaging](https://doi.org/10.58530/2023/0985) | ISMRM | NF | Shape and parameter output |  |  |
 | 2024 | [Photoacoustic Quantification of Tissue Oxygenation Using Conditional Invertible Neural Networks.](https://doi.org/10.1109/tmi.2024.3403417) | IEEE transactions on medical imaging | NF | Shape and parameter output |  |  |
 | 2024 | [Physics-Inspired Generative Models in Medical Imaging: A Review](https://doi.org/10.1146/annurev-bioeng-102723-013922) | arXiv | PF | Other: review |  |  |
-| 2024 | [Posterior Sampling for Accelerated Multicoil MRI Reconstruction using a Conditional Normalizing Flow](https://doi.org/10.58530/2023/2928) | ISMRM | NF | MRI reconstruction |  |  |
 | 2024 | [Probabilistic Bayesian optimal experimental design using conditional normalizing flows](https://arxiv.org/abs/2402.18337) | arXiv | NF | MRI reconstruction |  |  |
 | 2024 | [Reconstructing and analyzing the invariances of low-dose CT image denoising networks.](https://doi.org/10.1002/mp.17413) | Medical physics | NF | CT denoising and artifacts |  |  |
 | 2024 | [Repeat and Concatenate: 2D to 3D Image Translation with 3D to 3D Generative Modeling](https://doi.org/10.1109/cvprw63382.2024.00237) | CVPR | other | Volume and X-ray synthesis |  |  |
@@ -147,7 +141,6 @@ Studies of the catalogue by the probability path that connects the two end state
 | 2024 | [Unsupervised Multi-modal Medical Image Registration via Invertible Translation](https://doi.org/10.1007/978-3-031-72751-1_2) | ECCV | NF | Cross-modality synthesis |  |  |
 | 2024 | [Vision Intelligence Assisted Lung Function Estimation Based on Transformer Encoder–Decoder Network With Invertible Modeling](https://doi.org/10.1109/tai.2023.3348428) | IEEE Transactions on Artificial Intelligence | NF | Anomaly and diagnosis |  |  |
 | 2023 | [A Conditional Flow Variational Autoencoder for Controllable Synthesis of Virtual Populations of Anatomy](https://doi.org/10.1007/978-3-031-43990-2_14) | MICCAI | NF | Anatomy and device shapes |  |  |
-| 2023 | [A Conditional Normalizing Flow for Accelerated Multi-Coil MR Imaging.](https://arxiv.org/abs/2306.01630) | ICML | NF | MRI reconstruction |  |  |
 | 2023 | [A latent space for unsupervised MR image quality control via artifact assessment](https://doi.org/10.1117/12.2652917) | SPIE Medical Imaging: Image Processing | NF | Anomaly and diagnosis |  |  |
 | 2023 | [A Novel Conditional Medical Image Generation GAN with Latent Space Optimal Transport](https://doi.org/10.1109/medai59581.2023.00067) | IEEE International Conference on Medical Artific... | other | Synthetic training data |  |  |
 | 2023 | [Adjoint operators enable fast and amortized machine learning based Bayesian uncertainty quantification](https://doi.org/10.1117/12.2651691) | Progress in Biomedical Optics and Imaging Procee... | NF | Other: Bayesian uncertainty for acoustic imaging |  |  |
@@ -163,7 +156,6 @@ Studies of the catalogue by the probability path that connects the two end state
 | 2023 | [CTFlow: Mitigating Effects of Computed Tomography Acquisition and Reconstruction with Normalizing Flows.](https://doi.org/10.1007/978-3-031-43990-2_39) | MICCAI | NF | Domain harmonization |  |  |
 | 2023 | [Disentangling Factors of Morphological Variation in an Invertible Brain Aging Model](https://doi.org/10.1007/978-3-031-25046-0_8) | Lecture Notes in Computer Science | NF | Longitudinal forecasting |  |  |
 | 2023 | [Fast light-field 3D microscopy with out-of-distribution detection and adaptation through conditional normalizing flows.](https://doi.org/10.1364/boe.504039) | Biomedical optics express | NF | Microscopy and OCT |  |  |
-| 2023 | [Harmonizing Flows: Unsupervised MR Harmonization Based on Normalizing Flows](https://doi.org/10.1007/978-3-031-34048-2_27) | Lecture Notes in Computer Science | NF | Domain harmonization |  |  |
 | 2023 | Improved multi-site Parkinson's disease classification using neuroimaging data with counterfactual inference | MIDL | NF | Domain harmonization |  |  |
 | 2023 | [MRIFlow: Magnetic resonance image super-resolution based on normalizing flow and frequency prior.](https://doi.org/10.1016/j.jmr.2023.107477) | Journal of magnetic resonance (San Diego, Calif. | NF | MRI enhancement |  |  |
 | 2023 | [NF-ULA: Normalizing flow-based unadjusted Langevin algorithm for imaging inverse problems.](https://doi.org/10.1137/23m1581807) | SIAM journal on imaging sciences | NF | Incomplete-data CT |  |  |
@@ -171,6 +163,7 @@ Studies of the catalogue by the probability path that connects the two end state
 | 2023 | [OCT Image Synthesis through Deep Generative Models](https://doi.org/10.1109/cbms58004.2023.00279) | 2023 IEEE 36th International Symposium on Comput... | NF | Microscopy and OCT |  |  |
 | 2023 | [PatchNR: learning from very few images by patch normalizing flow regularization](https://doi.org/10.1088/1361-6420/acce5e) | Inverse Problems | NF | CT denoising and artifacts | ★ |  |
 | 2023 | [PET-3DFlow: A Normalizing Flow Based Method for 3D PET Anomaly Detection](https://doi.org/10.1007/978-3-031-45087-7_10) | Lecture Notes in Computer Science | NF | Anomaly and diagnosis |  |  |
+| 2023 | [Posterior Sampling for Accelerated Multicoil MRI Reconstruction using a Conditional Normalizing Flow](https://doi.org/10.58530/2023/2928) | ICML | NF | MRI reconstruction |  |  |
 | 2023 | [Probabilistic 3D segmentation for aleatoric uncertainty quantification in full 3D medical data](https://doi.org/10.1117/12.2654255) | SPIE Medical Imaging | NF | Segmentation uncertainty |  |  |
 | 2023 | [Refining Amortized Posterior Approximations using Gradient-Based Summary Statistics](https://arxiv.org/abs/2305.08733) | arXiv | NF | Other: Ultrasound CT reconstruction |  |  |
 | 2023 | [RetinexFlow for CT metal artifact reduction](https://arxiv.org/abs/2306.10520) | arXiv | NF | CT denoising and artifacts |  |  |
@@ -187,7 +180,7 @@ Studies of the catalogue by the probability path that connects the two end state
 | 2022 | [Detecting 3D syndromic faces as outliers using unsupervised normalizing flow models](https://doi.org/10.1016/j.artmed.2022.102425) | Artificial Intelligence in Medicine , 134, 10242... | NF | Anomaly and diagnosis |  |  |
 | 2022 | [Efficient Out-of-Distribution Detection of Melanoma with Wavelet-Based Normalizing Flows](https://doi.org/10.1007/978-3-031-17979-2_10) | Lecture Notes in Computer Science | NF | Anomaly and diagnosis |  |  |
 | 2022 | [EndoBoost: a plug-and-play module for false positive suppression during computer-aided polyp detection in real-world colonoscopy (with dataset)](https://arxiv.org/abs/2212.12204) | arXiv | NF | Anomaly and diagnosis |  |  |
-| 2022 | Flow-Based Visual Quality Enhancer for Super-Resolution Magnetic Resonance Spectroscopic Imaging | Lecture Notes in Computer Science | NF | MRI enhancement |  |  |
+| 2022 | [Flow-Based Visual Quality Enhancer for Super-Resolution Magnetic Resonance Spectroscopic Imaging](https://doi.org/10.1007/978-3-031-18576-2_1) | Lecture Notes in Computer Science | NF | MRI enhancement |  |  |
 | 2022 | [Fusion-Cinn: A Generative Fusion Method for Multimodal Medical Images Based on Conditional Invertible Neural Network](https://doi.org/10.2139/ssrn.4003392) | SSRN | NF | Other: Multimodal image fusion |  |  |
 | 2022 | [Invertible AC-flow: Direct Attenuation Correction Of Pet Images Without Ct Or Mr Images](https://doi.org/10.1109/isbi52829.2022.9761476) | ISBI | NF | Other: PET attenuation correction |  |  |
 | 2022 | [Invertible Modeling of Bidirectional Relationships in Neuroimaging With Normalizing Flows: Application to Brain Aging](https://doi.org/10.1109/tmi.2022.3161947) | IEEE Transactions on Medical Imaging | NF | Shape and parameter output |  |  |
@@ -202,17 +195,17 @@ Studies of the catalogue by the probability path that connects the two end state
 | 2021 | Abnormality Detection in Histopathology via Density Estimation with Normalising Flows | arXiv | NF | Anomaly and diagnosis |  |  |
 | 2021 | Apprentissage génératif pour le traitement, l'analyse et la modélisation des données médicales : application à l'imagerie CT de la cochlée | HAL (Le Centre pour la Communication Scientifiqu... | NF | Other: CT representation |  |  |
 | 2021 | [Compressible Latent-Space Invertible Networks for Generative Model-Constrained Image Reconstruction](https://doi.org/10.1109/tci.2021.3049648) | IEEE Transactions on Computational Imaging | NF | MRI reconstruction | ★ |  |
-| 2021 | [Cytoarchitecture Measurements in Brain Gray Matter Using Likelihood-Free Inference](https://doi.org/10.1007/978-3-030-78191-0_15) | Lecture Notes in Computer Science | NF | Shape and parameter output |  |  |
+| 2021 | [Conditional Invertible Neural Networks for Medical Imaging.](https://doi.org/10.3390/jimaging7110243) | Journal of imaging | NF | CT denoising and artifacts |  |  |
 | 2021 | [Data Augmentation in High Dimensional Low Sample Size Setting Using a Geometry-Based Variational Autoencoder.](https://doi.org/10.1109/tpami.2022.3185773) | IEEE transactions on pattern analysis and machin... | NF | Synthetic training data |  |  |
 | 2021 | [Differentiable Gaussianization Layers for Inverse Problems Regularized by Deep Generative Models](https://arxiv.org/abs/2112.03860) | ICLR | NF | MRI reconstruction |  |  |
 | 2021 | [Flow-based Generative Models for Learning Manifold to Manifold Mappings](https://doi.org/10.1609/aaai.v35i12.17318) | AAAI 2021 | NF | Cross-modality synthesis |  |  |
 | 2021 | [GLOWin: A Flow-based Invertible Generative Framework for Learning Disentangled Feature Representations in Medical Images](https://arxiv.org/abs/2103.10868) | arXiv | NF | Volume and X-ray synthesis |  |  |
 | 2021 | [Harmonization with Flow-Based Causal Inference](https://doi.org/10.1007/978-3-030-87199-4_17) | MICCAI 2021 | NF | Domain harmonization | ★ |  |
 | 2021 | [Improving Aleatoric Uncertainty Quantification in Multi-Annotated Medical Image Segmentation with Normalizing Flows](https://doi.org/10.1007/978-3-030-87735-4_8) | Lecture Notes in Computer Science | NF | Segmentation uncertainty |  |  |
-| 2021 | [Inverting brain grey matter models with likelihood-free inference: a tool for trustable cytoarchitecture measurements](https://doi.org/10.59275/j.melba.2022-a964) | The Journal of Machine Learning for Biomedical I... | NF | Shape and parameter output |  |  |
+| 2021 | [Inverting brain grey matter models with likelihood-free inference: a tool for trustable cytoarchitecture measurements](https://doi.org/10.1007/978-3-030-78191-0_15) | Lecture Notes in Computer Science | NF | Shape and parameter output |  |  |
 | 2021 | Photoacoustic Imaging with Conditional Priors from Normalizing Flows |  | NF | Other: photoacoustic reconstruction |  |  |
 | 2021 | [Spectral imaging enables contrast agent–free real-time ischemia monitoring in laparoscopic surgery](https://doi.org/10.1101/2022.03.08.22271465) | Science Advances | NF | Anomaly and diagnosis |  |  |
-| 2021 | [Towards Self-explainable Classifiers and Regressors in Neuroimaging with Normalizing Flows](https://doi.org/10.1007/978-3-030-87586-2_3) | Lecture Notes in Computer Science | NF | Anomaly and diagnosis |  |  |
+| 2021 | Towards Self-explainable Classifiers and Regressors in Neuroimaging with Normalizing Flows | Lecture Notes in Computer Science | NF | Anomaly and diagnosis |  |  |
 | 2021 | [Ultrasound Speckle Suppression and Denoising using MRI-derived Normalizing Flow Priors](https://arxiv.org/abs/2112.13110) | arXiv | NF | Multi-modality restoration |  |  |
 | 2021 | [Unpaired Stain Style Transfer Using Invertible Neural Networks Based on Channel Attention and Long-Range Residual](https://doi.org/10.1109/access.2021.3051188) | IEEE Access | NF | Tissue-image translation |  |  |
 | 2021 | [Versatile anomaly detection method for medical images with semi-supervised flow-based generative models.](https://doi.org/10.1007/s11548-021-02480-4) | International journal of computer assisted radio... | NF | Anomaly and diagnosis |  |  |
