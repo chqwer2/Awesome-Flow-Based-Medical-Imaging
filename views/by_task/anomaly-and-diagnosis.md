@@ -35,6 +35,7 @@ Studies in the clinical task group “Anomaly and diagnosis” (task family: Ana
 | 2024 | [Efficient slice anomaly detection network for 3D brain MRI Volume.](https://doi.org/10.1371/journal.pdig.0000874) | PLOS digital health | NF | Anomaly and diagnosis |  |  |
 | 2024 | [Localizing Anomalies via Multiscale Score Matching Analysis](https://arxiv.org/abs/2407.00148) | arXiv | NF | Anomaly and diagnosis |  |  |
 | 2024 | [Typicality Excels Likelihood for Unsupervised Out-of-Distribution Detection in Medical Imaging](https://doi.org/10.1007/978-3-031-73158-7_14) | Lecture Notes in Computer Science | NF | Anomaly and diagnosis |  |  |
+| 2024 | [Unsupervised Anomaly Detection in Medical Images Using Masked Diffusion Model](https://doi.org/10.1007/978-3-031-45673-2_37) | Lecture Notes in Computer Science | diffusion | Anomaly and diagnosis | ★ |  |
 | 2024 | [Vision Intelligence Assisted Lung Function Estimation Based on Transformer Encoder–Decoder Network With Invertible Modeling](https://doi.org/10.1109/tai.2023.3348428) | IEEE Transactions on Artificial Intelligence | NF | Anomaly and diagnosis |  |  |
 | 2023 | [A latent space for unsupervised MR image quality control via artifact assessment](https://doi.org/10.1117/12.2652917) | SPIE Medical Imaging: Image Processing | NF | Anomaly and diagnosis |  |  |
 | 2023 | AE-FLOW: Autoencoders with Normalizing Flows for Medical Images Anomaly Detection | ICLR | NF | Anomaly and diagnosis |  |  |
@@ -42,7 +43,6 @@ Studies in the clinical task group “Anomaly and diagnosis” (task family: Ana
 | 2023 | [Diffusion-Based Hierarchical Multi-label Object Detection to Analyze Panoramic Dental X-Rays](https://doi.org/10.1007/978-3-031-43987-2_38) | MICCAI 2023 | diffusion | Anomaly and diagnosis | ★ |  |
 | 2023 | [PET-3DFlow: A Normalizing Flow Based Method for 3D PET Anomaly Detection](https://doi.org/10.1007/978-3-031-45087-7_10) | Lecture Notes in Computer Science | NF | Anomaly and diagnosis |  |  |
 | 2023 | [Unsupervised Abnormality Detection with Normalizing Flow and Neural Network](https://doi.org/10.1109/nnice58320.2023.10105724) | International Conference on Neural Networks, Inf... | NF | Anomaly and diagnosis |  |  |
-| 2023 | [Unsupervised Anomaly Detection in Medical Images Using Masked Diffusion Model](https://doi.org/10.1007/978-3-031-45673-2_37) | Lecture Notes in Computer Science | diffusion | Anomaly and diagnosis | ★ |  |
 | 2023 | [Vector-Quantized Latent Flows for Medical Image Synthesis and Out-Of-Distribution Detection](https://doi.org/10.1109/isbi53787.2023.10230460) | ISBI | NF | Anomaly and diagnosis |  |  |
 | 2022 | [A Deep Invertible 3-D Facial Shape Model for Interpretable Genetic Syndrome Diagnosis.](https://doi.org/10.1109/jbhi.2022.3164848) | IEEE journal of biomedical and health informatic... | NF | Anomaly and diagnosis |  |  |
 | 2022 | [Detecting 3D syndromic faces as outliers using unsupervised normalizing flow models](https://doi.org/10.1016/j.artmed.2022.102425) | Artificial Intelligence in Medicine , 134, 10242... | NF | Anomaly and diagnosis |  |  |

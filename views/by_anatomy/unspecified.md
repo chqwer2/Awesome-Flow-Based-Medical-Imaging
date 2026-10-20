@@ -88,6 +88,7 @@ Studies by anatomy; a study with several appears in each. 201 studies, 73 marked
 | 2025 | [DeFloMat: Detection with Flow Matching for Stable and Efficient Generative Object Localization](https://arxiv.org/abs/2512.22406) | arXiv | FM | Anomaly and diagnosis | ★ |  |
 | 2025 | [Denoising Low-Dose 18F-FBB PET Using Flow Matching with Multimodal Prior Guidance](https://doi.org/10.1109/nss/mic/rtsd57106.2025.11287264) | 2025 IEEE Nuclear Science Symposium (NSS), Medic... | FM | Low-count PET |  |  |
 | 2025 | [Diffusion Models under Group Transformations](https://arxiv.org/abs/2402.19369) | AISTATS 2025 | other | Multi-modality restoration | ★ | [code](https://github.com/watml/SPDM) |
+| 2025 | [Diffusion probabilistic priors for zero-shot low-dose CT image denoising](https://doi.org/10.1002/mp.17431) | Medical Physics | diffusion | CT denoising and artifacts | ★ |  |
 | 2025 | [Diffusion-Based Limited-Angle CT Reconstruction Under Noisy Conditions](https://doi.org/10.1109/icipw68931.2025.11386431) | 2025 IEEE International Conference on Image Proc... | PB | Incomplete-data CT | ★ |  |
 | 2025 | [Efficient Medical Image Segmentation with Rectified Flow-Based Diffusion Transformer](https://doi.org/10.1007/978-981-95-4100-3_1) | Communications in computer and information scien... | RF | Segmentation masks |  |  |
 | 2025 | [Enhancing Mid-Field MR Images for Upright Treatments Using Diffusion Schrödinger Bridge Models](https://doi.org/10.1016/s0167-8140(25)04387-7) | Radiotherapy and Oncology | SB | MRI enhancement |  |  |
@@ -117,6 +118,7 @@ Studies by anatomy; a study with several appears in each. 201 studies, 73 marked
 | 2024 | [A Flow-based Truncated Denoising Diffusion Model for super-resolution Magnetic Resonance Spectroscopic Imaging.](https://doi.org/10.1016/j.media.2024.103358) | Medical image analysis | NF | MRI enhancement |  |  |
 | 2024 | [An Optimal Transport-Based Method For Medical Image Generation](https://doi.org/10.1109/icip51287.2024.10647734) | Proceedings - International Conference on Image ... | other | Synthetic training data |  |  |
 | 2024 | Consistent Direct Diffusion Bridge with Injection for MRI Reconstruction | MIDL | PB | MRI reconstruction |  |  |
+| 2024 | [CoreDiff: Contextual Error-Modulated Generalized Diffusion Model for Low-Dose CT Denoising and Generalization](https://doi.org/10.1109/tmi.2023.3320812) | IEEE Transactions on Medical Imaging | diffusion | CT denoising and artifacts | ★ |  |
 | 2024 | [DiffuseRT: predicting likely anatomical deformations of patients undergoing radiotherapy](https://doi.org/10.1088/1361-6560/ad61b7) | Physics in Medicine & Biology | diffusion | Longitudinal forecasting | ★ |  |
 | 2024 | [Diffusion model based on generalized map for accelerated MRI.](https://doi.org/10.1002/nbm.5232) | NMR in biomedicine | PB | MRI reconstruction |  |  |
 | 2024 | [Dynamical analysis of high-order Hopfield neural network with application in WBANs](https://doi.org/10.1088/1402-4896/ad6361) | Physica Scripta | NF | Other: Medical image security |  |  |
@@ -140,6 +142,7 @@ Studies by anatomy; a study with several appears in each. 201 studies, 73 marked
 | 2024 | [Reliable Source Approximation: Source-Free Unsupervised Domain Adaptation for Vestibular Schwannoma MRI Segmentation](https://doi.org/10.1007/978-3-031-72117-5_58) | MICCAI 2024 | diffusion | Domain harmonization | ★ |  |
 | 2024 | [Repeat and Concatenate: 2D to 3D Image Translation with 3D to 3D Generative Modeling](https://doi.org/10.1109/cvprw63382.2024.00237) | CVPR | other | Volume and X-ray synthesis |  |  |
 | 2024 | [Simultaneous Tri-Modal Medical Image Fusion and Super-Resolution Using Conditional Diffusion Model](https://doi.org/10.1007/978-3-031-72104-5_61) | MICCAI 2024 | diffusion | Multi-modality restoration | ★ |  |
+| 2024 | [Stage-by-Stage Wavelet Optimization Refinement Diffusion Model for Sparse-View CT Reconstruction](https://doi.org/10.1109/tmi.2024.3355455) | IEEE Transactions on Medical Imaging | diffusion | Incomplete-data CT | ★ | [code](https://github.com/yqx7150/SWORD) |
 | 2024 | [Structure-aware diffusion for low-dose CT imaging](https://doi.org/10.1088/1361-6560/ad5d47) | Physics in Medicine & Biology | PB | CT denoising and artifacts | ★ |  |
 | 2024 | [TrIND: Representing Anatomical Trees by Denoising Diffusion of Implicit Neural Fields](https://doi.org/10.1007/978-3-031-72390-2_33) | MICCAI 2024 | diffusion | Anatomy and device shapes | ★ |  |
 | 2024 | [Typicality Excels Likelihood for Unsupervised Out-of-Distribution Detection in Medical Imaging](https://doi.org/10.1007/978-3-031-73158-7_14) | Lecture Notes in Computer Science | NF | Anomaly and diagnosis |  |  |
@@ -155,9 +158,7 @@ Studies by anatomy; a study with several appears in each. 201 studies, 73 marked
 | 2023 | [Arbitrary Distributions Mapping via SyMOT-Flow: A Flow-Based Approach Integrating Maximum Mean Discrepancy and Optimal Transport](https://doi.org/10.1137/24m1674959) | SIAM Journal on Imaging Sciences | NF | Cross-modality synthesis |  |  |
 | 2023 | [Autoencoder-based conditional optimal transport generative adversarial network for medical image generation](https://doi.org/10.1016/j.visinf.2023.11.001) | Visual Informatics | other | Synthetic training data |  |  |
 | 2023 | [BlindHarmony: "Blind" Harmonization for MR Images via Flow Model](https://arxiv.org/abs/2305.10732) | ICCV | NF | Domain harmonization |  |  |
-| 2023 | [CoreDiff: Contextual Error-Modulated Generalized Diffusion Model for Low-Dose CT Denoising and Generalization](https://doi.org/10.1109/tmi.2023.3320812) | IEEE Transactions on Medical Imaging | diffusion | CT denoising and artifacts | ★ |  |
 | 2023 | [CTFlow: Mitigating Effects of Computed Tomography Acquisition and Reconstruction with Normalizing Flows.](https://doi.org/10.1007/978-3-031-43990-2_39) | MICCAI | NF | Domain harmonization |  |  |
-| 2023 | [Diffusion probabilistic priors for zero-shot low-dose CT image denoising](https://doi.org/10.1002/mp.17431) | Medical Physics | diffusion | CT denoising and artifacts | ★ |  |
 | 2023 | [MRIFlow: Magnetic resonance image super-resolution based on normalizing flow and frequency prior.](https://doi.org/10.1016/j.jmr.2023.107477) | Journal of magnetic resonance (San Diego, Calif. | NF | MRI enhancement |  |  |
 | 2023 | [NF-ULA: Normalizing flow-based unadjusted Langevin algorithm for imaging inverse problems.](https://doi.org/10.1137/23m1581807) | SIAM journal on imaging sciences | NF | Incomplete-data CT |  |  |
 | 2023 | [Normalizing Flow-Based Distribution Estimation of Pharmacokinetic Parameters in Dynamic Contrast-Enhanced Magnetic Resonance Imaging.](https://doi.org/10.1109/tbme.2023.3318087) | IEEE transactions on bio-medical engineering | NF | Shape and parameter output |  |  |
@@ -169,7 +170,6 @@ Studies by anatomy; a study with several appears in each. 201 studies, 73 marked
 | 2023 | [RetinexFlow for CT metal artifact reduction](https://arxiv.org/abs/2306.10520) | arXiv | NF | CT denoising and artifacts |  |  |
 | 2023 | [Self-supervised MRI Reconstruction with Unrolled Diffusion Models](https://doi.org/10.1007/978-3-031-43999-5_47) | Lecture Notes in Computer Science | diffusion | MRI reconstruction | ★ |  |
 | 2023 | [Simultaneous Super-Resolution and Denoising on MRI via Conditional Stochastic Normalizing Flow](https://doi.org/10.1109/bibm58861.2023.10385691) | BIBM | NF | MRI enhancement |  |  |
-| 2023 | [Stage-by-Stage Wavelet Optimization Refinement Diffusion Model for Sparse-View CT Reconstruction](https://doi.org/10.1109/tmi.2024.3355455) | IEEE Transactions on Medical Imaging | diffusion | Incomplete-data CT | ★ | [code](https://github.com/yqx7150/SWORD) |
 | 2023 | [Unsupervised Abnormality Detection with Normalizing Flow and Neural Network](https://doi.org/10.1109/nnice58320.2023.10105724) | International Conference on Neural Networks, Inf... | NF | Anomaly and diagnosis |  |  |
 | 2023 | [Vector-Quantized Latent Flows for Medical Image Synthesis and Out-Of-Distribution Detection](https://doi.org/10.1109/isbi53787.2023.10230460) | ISBI | NF | Anomaly and diagnosis |  |  |
 | 2022 | [A Deep Invertible 3-D Facial Shape Model for Interpretable Genetic Syndrome Diagnosis.](https://doi.org/10.1109/jbhi.2022.3164848) | IEEE journal of biomedical and health informatic... | NF | Anomaly and diagnosis |  |  |

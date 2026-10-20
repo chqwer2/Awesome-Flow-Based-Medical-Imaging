@@ -53,7 +53,6 @@ Studies of the catalogue by the state from which sampling begins. 196 studies, 1
 | 2026 | [Generating Joint Transcriptomic and Morphological Responses to Drug Perturbations via Rectified Flow](https://doi.org/10.64898/2026.02.02.703189) | bioRxiv | RF | Tissue-image translation | ★ |  |
 | 2026 | [Generative Flow-Matching Modeling of the Neurodevelopmental Connectome via Dynamic Hypergraphs](https://doi.org/10.1145/3770855.3819022) | 32nd ACM SIGKDD Conference on Knowledge Discover... | FM | Cardiac and brain dynamics | ★ |  |
 | 2026 | [Generative modeling of complex-valued brain MRI data](https://doi.org/10.1088/1361-6560/aeb088) | Physics in Medicine & Biology | FM | Volume and X-ray synthesis | ★ |  |
-| 2026 | [GenTract: Generative Global Tractography](https://arxiv.org/abs/2511.13183) | arXiv | FM | Shape and parameter output | ★ |  |
 | 2026 | [GR-FM: Geometrically Regularized Flow Matching for SDF-Based Medical Image Segmentation](https://arxiv.org/abs/2609.35006) | arXiv | FM | Segmentation masks | ★ |  |
 | 2026 | [HazeMatching: Dehazing Light Microscopy Images with Guided Conditional Flow Matching](https://doi.org/10.1109/cvprf71909.2026.00543) | CVPR Findings 2026 | FM | Microscopy and OCT | ★ | [code](https://github.com/juglab/HazeMatching) |
 | 2026 | [Image-conditioned latent rectified flow models for 3D medical anomaly localisation](https://doi.org/10.3389/fradi.2026.1847193) | Frontiers in Radiology | RF | Anomaly and diagnosis | ★ | [code](https://github.com/matt-baugh/img-cond-latent-rflow-model-ad) |
@@ -69,7 +68,6 @@ Studies of the catalogue by the state from which sampling begins. 196 studies, 1
 | 2026 | [Manifold-Constrained PET Reconstruction with Learned Flow-Matching Priors](https://doi.org/10.1109/cisa67324.2026.11584907) | arXiv | FM | Low-count PET | ★ |  |
 | 2026 | [MC-GenRef: Annotation-free mammography microcalcification segmentation with generative posterior refinement](https://arxiv.org/abs/2604.04470) | arXiv | RF | Segmentation masks | ★ |  |
 | 2026 | [MedFlowSeg: Flow Matching for Medical Image Segmentation with Frequency-Aware Attention](https://arxiv.org/abs/2604.19675) | arXiv | FM | Segmentation masks | ★ |  |
-| 2026 | [MedForj: An open, large-scale foundational generative prior for high-resolution 3D brain MRI](https://arxiv.org/abs/2510.26834) | arXiv | FM | Volume and X-ray synthesis | ★ |  |
 | 2026 | [MedPCFM-TED: One-Step Point Cloud Flow Matching for Implant Generation via Teacher-Guided Endpoint Distillation](https://arxiv.org/abs/2609.16934) | arXiv | FM | Anatomy and device shapes | ★ |  |
 | 2026 | [MedPCFM: Improving Medical Point Cloud Completion by Integrating Point Transformers and Flow Matching](https://arxiv.org/abs/2606.24433) | arXiv | FM | Shape and parameter output | ★ |  |
 | 2026 | [MM-FM: Multi-Modal Flow Matching for Brain MRI Missing Modality Synthesis](https://doi.org/10.1109/ivmsp68335.2026.11618833) | 2026 IEEE 15th Image, Video, and Multidimensiona... | FM | Missing sequences and contrast | ★ |  |
@@ -132,6 +130,7 @@ Studies of the catalogue by the state from which sampling begins. 196 studies, 1
 | 2025 | [CortexGen: A Geometric Generative Framework for Realistic Cortical Surface Generation Using Latent Flow Matching](https://doi.org/10.1007/978-3-032-04937-7_11) | MICCAI 2025 | FM | Anatomy and device shapes | ★ | [code](https://github.com/ladderlab-xjtu/CortexGen) |
 | 2025 | [CTFlow: Video-Inspired Latent Flow Matching for 3D CT Synthesis](https://doi.org/10.1109/iccvw69036.2025.00703) | ICCV Workshops 2025 | FM | Volume and X-ray synthesis | ★ | [code](https://github.com/WongJiayi/CTFlow) |
 | 2025 | [DeFloMat: Detection with Flow Matching for Stable and Efficient Generative Object Localization](https://arxiv.org/abs/2512.22406) | arXiv | FM | Anomaly and diagnosis | ★ |  |
+| 2025 | [Diffusion probabilistic priors for zero-shot low-dose CT image denoising](https://doi.org/10.1002/mp.17431) | Medical Physics | diffusion | CT denoising and artifacts | ★ |  |
 | 2025 | [EchoFlow: A Foundation Model for Cardiac Ultrasound Image and Video Generation](https://arxiv.org/abs/2503.22357) | arXiv | FM | Cardiac and brain dynamics | ★ |  |
 | 2025 | [Efficient and robust 3D blind harmonization for large domain gaps](https://arxiv.org/abs/2505.00133) | arXiv | RF | Domain harmonization | ★ | [code](https://github.com/SNU-LIST/BlindHarmonyDiff) |
 | 2025 | [Fast-DDPM: Fast Denoising Diffusion Probabilistic Models for Medical Image-to-Image Generation](https://doi.org/10.1109/jbhi.2025.3565183) | IEEE Journal of Biomedical and Health Informatic... | diffusion | CT denoising and artifacts | ★ |  |
@@ -140,9 +139,11 @@ Studies of the catalogue by the state from which sampling begins. 196 studies, 1
 | 2025 | [FlowSDF: Flow Matching for Medical Image Segmentation Using Distance Transforms](https://doi.org/10.1007/s11263-025-02373-y) | International Journal of Computer Vision | FM | Segmentation masks | ★ | [code](https://github.com/leabogensperger/FlowSDF) |
 | 2025 | [FMSRdiff: Efficient latent diffusion framework combining consistency model and flow matching for super-resolution](https://doi.org/10.1109/icicm66614.2025.11316051) | 2025 10th International Conference on Integrated... | FM | MRI enhancement | ★ |  |
 | 2025 | [GeneFlow: Translation of Single-cell Gene Expression to Histopathological Images via Rectified Flow](https://doi.org/10.52202/085713-1512) | NeurIPS 2025 | RF | Tissue-image translation | ★ | [code](https://github.com/wangmengbo/GeneFlow) |
+| 2025 | [GenTract: Generative Global Tractography](https://arxiv.org/abs/2511.13183) | arXiv | FM | Shape and parameter output | ★ |  |
 | 2025 | [GRASP: Guided Residual Adapters with Sample-wise Partitioning](https://arxiv.org/abs/2512.01675) | arXiv | FM | Synthetic training data | ★ | [code](https://github.com/Felix-012/GRASP-LT) |
 | 2025 | [LatentFM: A Latent Flow Matching Approach for Generative Medical Image Segmentation](https://arxiv.org/abs/2512.04821) | arXiv | FM | Segmentation masks | ★ | [code](https://github.com/snigdhaghosh/LatentFM-Retina) |
 | 2025 | [MAISI: Medical AI for Synthetic Imaging](https://doi.org/10.1109/wacv61041.2025.00435) | WACV 2025 | diffusion | Volume and X-ray synthesis | ★ |  |
+| 2025 | [MedForj: An open, large-scale foundational generative prior for high-resolution 3D brain MRI](https://arxiv.org/abs/2510.26834) | arXiv | FM | Volume and X-ray synthesis | ★ |  |
 | 2025 | [MedSymmFlow: Bridging Generative Modeling and Classification in Medical Imaging Through Symmetrical Flow Matching](https://doi.org/10.1007/978-3-032-05472-2_4) | MICCAI DGM4MICCAI Workshop 2025 | FM | Anomaly and diagnosis | ★ | [code](https://github.com/caetas/MedSymmFlow) |
 | 2025 | [Micellangelo: a Generative Model of Cell-Topography Interactions](https://doi.org/10.1101/2025.11.24.690184) | bioRxiv | FM | Tissue-image translation | ★ |  |
 | 2025 | [NodMAISI: Nodule-Oriented Medical AI for Synthetic Imaging](https://arxiv.org/abs/2512.18038) | arXiv | RF | Synthetic training data | ★ | [code](https://github.com/fitushar/NoMAISI) |
@@ -151,6 +152,7 @@ Studies of the catalogue by the state from which sampling begins. 196 studies, 1
 | 2025 | [vesselFM: A Foundation Model for Universal 3D Blood Vessel Segmentation](https://doi.org/10.1109/cvpr52734.2025.01944) | CVPR 2025 | FM | Synthetic training data | ★ | [code](https://github.com/bwittmann/vesselFM) |
 | 2025 | [ViCTr: Vital consistency transfer for pathology aware image synthesis](https://doi.org/10.1109/iccv51701.2025.02114) | ICCV 2025 | RF | Synthetic training data | ★ |  |
 | 2024 | [Adaptive Latent Diffusion Model for 3D Medical Image to Image Translation: Multi-modal Magnetic Resonance Imaging Study](https://doi.org/10.1109/wacv57701.2024.00743) | WACV 2024 | diffusion | Missing sequences and contrast | ★ |  |
+| 2024 | [CBCT-Based Synthetic CT Image Generation Using Conditional Denoising Diffusion Probabilistic Model](https://doi.org/10.1002/mp.16704) | Medical Physics | diffusion | Synthetic CT and dose | ★ |  |
 | 2024 | [Conditional Diffusion Models for Semantic 3D Brain MRI Synthesis](https://doi.org/10.1109/jbhi.2024.3385504) | IEEE Journal of Biomedical and Health Informatic... | diffusion | Volume and X-ray synthesis | ★ | [code](https://github.com/mobaidoctor/med-ddpm/) |
 | 2024 | [CorrDiff: Corrective Diffusion Model for Accurate MRI Brain Tumor Segmentation](https://doi.org/10.1109/jbhi.2024.3353272) | IEEE Journal of Biomedical and Health Informatic... | diffusion | Segmentation masks | ★ |  |
 | 2024 | [Cross-conditioned Diffusion Model for Medical Image to Image Translation](https://doi.org/10.1007/978-3-031-72104-5_20) | MICCAI 2024 | diffusion | Missing sequences and contrast | ★ |  |
@@ -168,6 +170,8 @@ Studies of the catalogue by the state from which sampling begins. 196 studies, 1
 | 2024 | [Rethinking Diffusion Model for Multi-Contrast MRI Super-Resolution](https://doi.org/10.1109/cvpr52733.2024.01080) | CVPR 2024 | diffusion | MRI enhancement | ★ |  |
 | 2024 | [Shape-Guided Conditional Latent Diffusion Models for Synthesising Brain Vasculature](https://doi.org/10.1007/978-3-031-53767-7_16) | Deep Generative Models | diffusion | Anatomy and device shapes | ★ |  |
 | 2024 | [Simultaneous Tri-Modal Medical Image Fusion and Super-Resolution Using Conditional Diffusion Model](https://doi.org/10.1007/978-3-031-72104-5_61) | MICCAI 2024 | diffusion | Multi-modality restoration | ★ |  |
+| 2024 | [Stage-by-Stage Wavelet Optimization Refinement Diffusion Model for Sparse-View CT Reconstruction](https://doi.org/10.1109/tmi.2024.3355455) | IEEE Transactions on Medical Imaging | diffusion | Incomplete-data CT | ★ | [code](https://github.com/yqx7150/SWORD) |
+| 2024 | [Synthetic CT generation from MRI using 3D transformer-based denoising diffusion model](https://doi.org/10.1002/mp.16847) | Medical Physics | diffusion | Synthetic CT and dose | ★ |  |
 | 2024 | [TrIND: Representing Anatomical Trees by Denoising Diffusion of Implicit Neural Fields](https://doi.org/10.1007/978-3-031-72390-2_33) | MICCAI 2024 | diffusion | Anatomy and device shapes | ★ |  |
 | 2024 | [Unsupervised CT Metal Artifact Reduction by Plugging Diffusion Priors in Dual Domains](https://doi.org/10.1109/tmi.2024.3351201) | IEEE Transactions on Medical Imaging | diffusion | CT denoising and artifacts | ★ |  |
 | 2024 | [Wavelet-Improved Score-Based Generative Model for Medical Imaging](https://doi.org/10.1109/tmi.2023.3325824) | IEEE Transactions on Medical Imaging | diffusion | CT denoising and artifacts | ★ |  |
@@ -180,10 +184,8 @@ Studies of the catalogue by the state from which sampling begins. 196 studies, 1
 | 2023 | [Ambiguous Medical Image Segmentation Using Diffusion Models](https://doi.org/10.1109/cvpr52729.2023.01110) | CVPR 2023 | diffusion | Segmentation uncertainty | ★ |  |
 | 2023 | [Bayesian MRI reconstruction with joint uncertainty estimation using diffusion models](https://doi.org/10.1002/mrm.29624) | Magnetic Resonance in Medicine | diffusion | MRI reconstruction | ★ |  |
 | 2023 | [BerDiff: Conditional Bernoulli Diffusion Model for Medical Image Segmentation](https://doi.org/10.1007/978-3-031-43901-8_47) | MICCAI 2023 | diffusion | Segmentation uncertainty | ★ |  |
-| 2023 | [CBCT-Based Synthetic CT Image Generation Using Conditional Denoising Diffusion Probabilistic Model](https://doi.org/10.1002/mp.16704) | Medical Physics | diffusion | Synthetic CT and dose | ★ |  |
 | 2023 | [CoLa-Diff: Conditional Latent Diffusion Model for Multi-modal MRI Synthesis](https://doi.org/10.1007/978-3-031-43999-5_38) | MICCAI 2023 | diffusion | Missing sequences and contrast | ★ |  |
 | 2023 | [Denoising diffusion probabilistic models for 3D medical image generation](https://doi.org/10.1038/s41598-023-34341-2) | Scientific Reports | diffusion | Volume and X-ray synthesis | ★ |  |
-| 2023 | [Diffusion probabilistic priors for zero-shot low-dose CT image denoising](https://doi.org/10.1002/mp.17431) | Medical Physics | diffusion | CT denoising and artifacts | ★ |  |
 | 2023 | [Diffusion-Based Hierarchical Multi-label Object Detection to Analyze Panoramic Dental X-Rays](https://doi.org/10.1007/978-3-031-43987-2_38) | MICCAI 2023 | diffusion | Anomaly and diagnosis | ★ |  |
 | 2023 | [DisC-Diff: Disentangled Conditional Diffusion Model for Multi-contrast MRI Super-Resolution](https://doi.org/10.1007/978-3-031-43999-5_37) | MICCAI 2023 | diffusion | MRI enhancement | ★ |  |
 | 2023 | [DOLCE: A Model-Based Probabilistic Diffusion Framework for Limited-Angle CT Reconstruction](https://doi.org/10.1109/iccv51070.2023.00963) | ICCV 2023 | diffusion | Incomplete-data CT | ★ |  |
@@ -191,10 +193,8 @@ Studies of the catalogue by the state from which sampling begins. 196 studies, 1
 | 2023 | [PatchNR: learning from very few images by patch normalizing flow regularization](https://doi.org/10.1088/1361-6420/acce5e) | Inverse Problems | NF | CT denoising and artifacts | ★ |  |
 | 2023 | [SADM: Sequence-Aware Diffusion Model for Longitudinal Medical Image Generation](https://doi.org/10.1007/978-3-031-34048-2_30) | Information Processing in Medical Imaging | diffusion | Longitudinal forecasting | ★ |  |
 | 2023 | [Solving 3D Inverse Problems Using Pre-Trained 2D Diffusion Models](https://doi.org/10.1109/cvpr52729.2023.02159) | CVPR 2023 | diffusion | Incomplete-data CT | ★ |  |
-| 2023 | [Stage-by-Stage Wavelet Optimization Refinement Diffusion Model for Sparse-View CT Reconstruction](https://doi.org/10.1109/tmi.2024.3355455) | IEEE Transactions on Medical Imaging | diffusion | Incomplete-data CT | ★ | [code](https://github.com/yqx7150/SWORD) |
 | 2023 | [Stochastic Segmentation with Conditional Categorical Diffusion Models](https://doi.org/10.1109/iccv51070.2023.00109) | ICCV 2023 | diffusion | Segmentation uncertainty | ★ |  |
 | 2023 | [Super-resolution of brain MRI images based on denoising diffusion probabilistic model](https://doi.org/10.1016/j.bspc.2023.104901) | Biomedical Signal Processing and Control | diffusion | MRI enhancement | ★ |  |
-| 2023 | [Synthetic CT generation from MRI using 3D transformer-based denoising diffusion model](https://doi.org/10.1002/mp.16847) | Medical Physics | diffusion | Synthetic CT and dose | ★ |  |
 | 2023 | [Unsupervised Medical Image Translation With Adversarial Diffusion Models](https://doi.org/10.1109/tmi.2023.3290149) | IEEE Transactions on Medical Imaging | diffusion | Cross-modality synthesis | ★ |  |
 | 2022 | [Invertible Modeling of Bidirectional Relationships in Neuroimaging With Normalizing Flows: Application to Brain Aging](https://doi.org/10.1109/tmi.2022.3161947) | IEEE Transactions on Medical Imaging | NF | Shape and parameter output |  |  |
 | 2021 | [Compressible Latent-Space Invertible Networks for Generative Model-Constrained Image Reconstruction](https://doi.org/10.1109/tci.2021.3049648) | IEEE Transactions on Computational Imaging | NF | MRI reconstruction | ★ |  |

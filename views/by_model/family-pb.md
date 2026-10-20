@@ -33,7 +33,6 @@ Studies by the model family they train. 112 studies, 99 marked ★ (discussed in
 | 2026 | [DoseBridge: Denoising Diffusion Bridge Model for Dose Prediction in Lung Intensity-Modulated Proton Therapy](https://arxiv.org/abs/2608.10173) | arXiv | PB | Synthetic CT and dose | ★ |  |
 | 2026 | [Efficient breast cancer segmentation via Brownian Bridge diffusion with semantic fusion strategy](https://doi.org/10.1016/j.patcog.2025.112993) | Pattern Recognition | PB | Segmentation masks | ★ |  |
 | 2026 | [Efficient Image-to-Image Schrödinger Bridge for CT Field of View Extension](https://doi.org/10.1109/trpms.2026.3705435) | IEEE Trans. Radiation and Plasma Medical Science... | PB | Incomplete-data CT | ★ |  |
-| 2026 | [Elucidating the Design Space of Arbitrary-Noise-Based Diffusion Models](https://arxiv.org/abs/2507.18534) | arXiv | PB | MRI enhancement | ★ |  |
 | 2026 | [Fast Cross-Strength Multi-Contrast Brain MRI Translation using Latent Bridge Matching](https://arxiv.org/abs/2609.20341) | arXiv | PB | Domain harmonization | ★ |  |
 | 2026 | [Fourier Transform Infrared microspectroscopy-based super-resolution virtual staining of unlabeled tissues by pixel Diffusion Transformer](https://arxiv.org/abs/2603.08143) | arXiv | PB | Tissue-image translation | ★ |  |
 | 2026 | [Generative Brownian Bridge Diffusion In Motion Space For Enhanced Myocardial Strain Analysis](https://arxiv.org/abs/2608.01677) | arXiv | PB | Shape and parameter output | ★ | [code](https://github.com/Rishov-MIA/Brownian-Bridge-strain-analysis) |
@@ -61,7 +60,7 @@ Studies by the model family they train. 112 studies, 99 marked ★ (discussed in
 | 2026 | [Residual Diffusion Bridge in Wavelet Space for Medical Image Translation](https://doi.org/10.1007/978-3-032-38189-7_42) | MICCAI 2026 | PB | Missing sequences and contrast | ★ |  |
 | 2026 | [Self-cascade latent Schrödinger bridge for CT field-of-view extension](https://doi.org/10.1088/1361-6560/aea5d0) | Physics in Medicine & Biology | PB | Incomplete-data CT | ★ |  |
 | 2026 | [Spectral Consistent Flow for One-step 3D Medical Image Translation](https://doi.org/10.1007/978-3-032-37550-6_4) | arXiv | PB | Cross-modality synthesis | ★ |  |
-| 2026 | Steering Where to Diffuse: Generative Modeling of Phenotypic Response Simulation with Steered Diffusion Bridge | CVPR 2026 | PB | Tissue-image translation | ★ |  |
+| 2026 | [Steering Where to Diffuse: Generative Modeling of Phenotypic Response Simulation with Steered Diffusion Bridge](https://openaccess.thecvf.com/content/CVPR2026/html/Zhang_Steering_Where_to_Diffuse_Generative_Modeling_of_Phenotypic_Response_Simulation_CVPR_2026_paper.html) | CVPR 2026 | PB | Tissue-image translation | ★ |  |
 | 2026 | [Task-Adapted Brownian Bridge Diffusion with Global-Local Feature Enhancement for Contrast-Agent-Free T1CE MRI Synthesis](https://doi.org/10.1109/access.2026.3742887) | IEEE Access | PB | Missing sequences and contrast | ★ |  |
 | 2026 | [Temporal Diffusion Bridge Model for Vessel Extraction Using Physics-informed Synthetic Data](https://arxiv.org/abs/2610.14105) | arXiv | PB | Segmentation masks | ★ |  |
 | 2026 | [TGH-DB: Template-Guided Heteroscedastic Diffusion Bridge for Brain MRI-to-PET Synthesis](https://doi.org/10.1007/978-3-032-38189-7_51) | MICCAI 2026 | PB | Cross-modality synthesis | ★ |  |
@@ -85,6 +84,7 @@ Studies by the model family they train. 112 studies, 99 marked ★ (discussed in
 | 2025 | [Diffusion Schrödinger bridge models for high-quality MR-to-CT synthesis for proton treatment planning](https://doi.org/10.1002/mp.17898) | Medical Physics | PB | Synthetic CT and dose | ★ |  |
 | 2025 | [Diffusion-Based Limited-Angle CT Reconstruction Under Noisy Conditions](https://doi.org/10.1109/icipw68931.2025.11386431) | 2025 IEEE International Conference on Image Proc... | PB | Incomplete-data CT | ★ |  |
 | 2025 | [Diffusion-Based Virtual Staining from Polarimetric Mueller Matrix Imaging](https://doi.org/10.1007/978-3-032-04927-8_16) | MICCAI 2025 | PB | Tissue-image translation | ★ |  |
+| 2025 | [Elucidating the Design Space of Arbitrary-Noise-Based Diffusion Models](https://arxiv.org/abs/2507.18534) | arXiv | PB | MRI enhancement | ★ |  |
 | 2025 | [Enhanced Photoacoustic Tomography Via Accelerated Mean-Reverting Generative Diffusion Model](https://doi.org/10.2139/ssrn.5223166) | SSRN | PB | Incomplete-data CT | ★ |  |
 | 2025 | [FRGDM: Pre- to Post-Contrast Medical Image Synthesis Based on Diffusion Models](https://doi.org/10.1109/dsis67228.2025.11390639) | 2025 International Conference on Data Science an... | PB | Missing sequences and contrast | ★ |  |
 | 2025 | [GANs vs. Diffusion Models for Virtual Staining with the HER2match Dataset](https://doi.org/10.1007/978-3-032-05472-2_12) | Lecture Notes in Computer Science | PB | Tissue-image translation |  |  |
@@ -97,6 +97,7 @@ Studies by the model family they train. 112 studies, 99 marked ★ (discussed in
 | 2025 | [Projection Embedded Diffusion Bridge for CT Reconstruction from Incomplete Data](https://doi.org/10.1117/12.3048484) | arXiv | PB | Incomplete-data CT | ★ |  |
 | 2025 | [Rethinking Diffusion Bridge Model with Dual Alignments for Medical Image Synthesis](https://doi.org/10.1145/3746027.3754923) | 33rd ACM International Conference on Multimedia | PB | Missing sequences and contrast | ★ |  |
 | 2025 | [RLBCD: Residual-guided Latent Brownian-bridge Co-Diffusion for Anatomical-to-Metabolic Image Synthesis](https://doi.org/10.24963/ijcai.2025/656) | IJCAI 2025 | PB | Cross-modality synthesis | ★ |  |
+| 2025 | [RN-SDEs: Limited-Angle CT Reconstruction with Residual Null-Space Diffusion Stochastic Differential Equations](https://doi.org/10.2139/ssrn.5962861) | SSRN | PB | Incomplete-data CT | ★ |  |
 | 2025 | [Segmentation-Guided Brownian Bridge Diffusion for CBCT-to-CT Translation](https://doi.org/10.1109/nss/mic/rtsd57106.2025.11287233) | 2025 IEEE Nuclear Science Symposium (NSS), Medic... | PB | Synthetic CT and dose |  |  |
 | 2025 | [Self-consistent recursive diffusion bridge for medical image translation](https://doi.org/10.1016/j.media.2025.103747) | Medical Image Analysis | PB | Cross-modality synthesis | ★ | [code](https://github.com/icon-lab/SelfRDB) |
 | 2025 | [Spherical Brownian Bridge Diffusion Models for Conditional Cortical Thickness Forecasting](https://doi.org/10.1007/978-3-032-06774-6_12) | MICCAI ShapeMI Workshop 2025 | PB | Longitudinal forecasting | ★ | [code](https://github.com/ai-med/SBDM) |
@@ -113,7 +114,6 @@ Studies by the model family they train. 112 studies, 99 marked ★ (discussed in
 | 2024 | [Integrating Deep Unfolding with Direct Diffusion Bridges for Computed Tomography Reconstruction](https://arxiv.org/abs/2409.09477) | arXiv | PB | Incomplete-data CT | ★ |  |
 | 2024 | [Large-scale segmentation model facilitates intraoperative histopathology by third harmonic generation microscopy](https://doi.org/10.21203/rs.3.rs-5247308/v1) | Research Square | PB | Tissue-image translation |  |  |
 | 2024 | [Multi-contrast MR image synthesis with a Brownian diffusion model](https://doi.org/10.1109/siu61531.2024.10601086) | SIU 2024 | PB | Missing sequences and contrast | ★ |  |
-| 2024 | [RN-SDEs: Limited-Angle CT Reconstruction with Residual Null-Space Diffusion Stochastic Differential Equations](https://doi.org/10.2139/ssrn.5962861) | SSRN | PB | Incomplete-data CT | ★ |  |
 | 2024 | [Self-Consistent Nested Diffusion Bridge for Accelerated MRI Reconstruction](https://arxiv.org/abs/2412.09998) | arXiv | PB | MRI reconstruction | ★ |  |
 | 2024 | [Slice-consistent 3D volumetric brain CT-to-MRI translation with 2D Brownian bridge diffusion model](https://doi.org/10.1007/978-3-031-72104-5_63) | MICCAI 2024 | PB | Cross-modality synthesis | ★ | [code](https://github.com/MICV-yonsei/CT2MRI) |
 | 2024 | [Structure-aware diffusion for low-dose CT imaging](https://doi.org/10.1088/1361-6560/ad5d47) | Physics in Medicine & Biology | PB | CT denoising and artifacts | ★ |  |

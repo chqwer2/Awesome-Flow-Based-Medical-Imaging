@@ -14,7 +14,6 @@ Studies in the clinical task group “Volume and X-ray synthesis” (task family
 | 2026 | [Generative modeling of complex-valued brain MRI data](https://doi.org/10.1088/1361-6560/aeb088) | Physics in Medicine & Biology | FM | Volume and X-ray synthesis | ★ |  |
 | 2026 | [MAISI-v2: Accelerated 3D High-Resolution Medical Image Synthesis with Rectified Flow and Region-specific Contrastive Loss](https://doi.org/10.1609/aaai.v40i15.38309) | AAAI 2026 | RF | Volume and X-ray synthesis | ★ | [code](https://github.com/NVIDIA-Medtech/NV-Generate-CTMR) |
 | 2026 | [MammoFlow: Multiview Mammogram Synthesis with Anatomically Consistent Flow Matching](https://doi.org/10.1007/978-3-032-38189-7_24) | arXiv | FM | Volume and X-ray synthesis | ★ | [code](https://github.com/XYPB/MammoFlow) |
-| 2026 | [MedForj: An open, large-scale foundational generative prior for high-resolution 3D brain MRI](https://arxiv.org/abs/2510.26834) | arXiv | FM | Volume and X-ray synthesis | ★ |  |
 | 2026 | [MRIComp4Flow: Compression of 3D Brain MRI for Training Multi-Modal Generative Models](https://arxiv.org/abs/2608.10291) | arXiv | PB | Volume and X-ray synthesis | ★ | [code](https://github.com/lisafis/MRIComp4Flow) |
 | 2026 | Optimal transport driven flow matching: an efficient framework for volumetric generation | AMS Degree Thesis (University of Bologna) | FM | Volume and X-ray synthesis |  |  |
 | 2026 | [Scaling Generative Foundation Models for Chest Radiography with Rectified Flow Transformers](https://arxiv.org/abs/2606.19460) | arXiv | RF | Volume and X-ray synthesis | ★ |  |
@@ -22,6 +21,7 @@ Studies in the clinical task group “Volume and X-ray synthesis” (task family
 | 2026 | [WaveDiT: Distribution-Aware Wavelet Flow Matching for Efficient 3D Brain MRI Synthesis](https://doi.org/10.1007/978-3-032-38189-7_59) | arXiv | FM | Volume and X-ray synthesis | ★ | [code](https://github.com/sisinflab/WaveDiT) |
 | 2025 | [CTFlow: Video-Inspired Latent Flow Matching for 3D CT Synthesis](https://doi.org/10.1109/iccvw69036.2025.00703) | ICCV Workshops 2025 | FM | Volume and X-ray synthesis | ★ | [code](https://github.com/WongJiayi/CTFlow) |
 | 2025 | [MAISI: Medical AI for Synthetic Imaging](https://doi.org/10.1109/wacv61041.2025.00435) | WACV 2025 | diffusion | Volume and X-ray synthesis | ★ |  |
+| 2025 | [MedForj: An open, large-scale foundational generative prior for high-resolution 3D brain MRI](https://arxiv.org/abs/2510.26834) | arXiv | FM | Volume and X-ray synthesis | ★ |  |
 | 2025 | [Surf2CT: Cascaded 3D Flow Matching Models for Torso 3D CT Synthesis from Skin Surface](https://arxiv.org/abs/2505.22511) | arXiv | FM | Volume and X-ray synthesis | ★ |  |
 | 2024 | [Conditional Diffusion Models for Semantic 3D Brain MRI Synthesis](https://doi.org/10.1109/jbhi.2024.3385504) | IEEE Journal of Biomedical and Health Informatic... | diffusion | Volume and X-ray synthesis | ★ | [code](https://github.com/mobaidoctor/med-ddpm/) |
 | 2024 | [Repeat and Concatenate: 2D to 3D Image Translation with 3D to 3D Generative Modeling](https://doi.org/10.1109/cvprw63382.2024.00237) | CVPR | other | Volume and X-ray synthesis |  |  |

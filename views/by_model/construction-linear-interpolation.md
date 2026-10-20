@@ -78,7 +78,6 @@ Studies of the catalogue by the probability path that connects the two end state
 | 2026 | [Generating Joint Transcriptomic and Morphological Responses to Drug Perturbations via Rectified Flow](https://doi.org/10.64898/2026.02.02.703189) | bioRxiv | RF | Tissue-image translation | ★ |  |
 | 2026 | [Generative Flow-Matching Modeling of the Neurodevelopmental Connectome via Dynamic Hypergraphs](https://doi.org/10.1145/3770855.3819022) | 32nd ACM SIGKDD Conference on Knowledge Discover... | FM | Cardiac and brain dynamics | ★ |  |
 | 2026 | [Generative modeling of complex-valued brain MRI data](https://doi.org/10.1088/1361-6560/aeb088) | Physics in Medicine & Biology | FM | Volume and X-ray synthesis | ★ |  |
-| 2026 | [GenTract: Generative Global Tractography](https://arxiv.org/abs/2511.13183) | arXiv | FM | Shape and parameter output | ★ |  |
 | 2026 | [GR-FM: Geometrically Regularized Flow Matching for SDF-Based Medical Image Segmentation](https://arxiv.org/abs/2609.35006) | arXiv | FM | Segmentation masks | ★ |  |
 | 2026 | [HazeMatching: Dehazing Light Microscopy Images with Guided Conditional Flow Matching](https://doi.org/10.1109/cvprf71909.2026.00543) | CVPR Findings 2026 | FM | Microscopy and OCT | ★ | [code](https://github.com/juglab/HazeMatching) |
 | 2026 | [Image-conditioned latent rectified flow models for 3D medical anomaly localisation](https://doi.org/10.3389/fradi.2026.1847193) | Frontiers in Radiology | RF | Anomaly and diagnosis | ★ | [code](https://github.com/matt-baugh/img-cond-latent-rflow-model-ad) |
@@ -107,7 +106,7 @@ Studies of the catalogue by the probability path that connects the two end state
 | 2026 | [MedPCFM-TED: One-Step Point Cloud Flow Matching for Implant Generation via Teacher-Guided Endpoint Distillation](https://arxiv.org/abs/2609.16934) | arXiv | FM | Anatomy and device shapes | ★ |  |
 | 2026 | [MedPCFM: Improving Medical Point Cloud Completion by Integrating Point Transformers and Flow Matching](https://arxiv.org/abs/2606.24433) | arXiv | FM | Shape and parameter output | ★ |  |
 | 2026 | [MedSegFM: A Generative Perspective for Lesion Segmentation via Flow Matching](https://doi.org/10.1007/s11263-026-02863-7) | International Journal of Computer Vision | FM | Segmentation masks | ★ |  |
-| 2026 | MicroFM: Physics-guided Flow Matching for Isotropic Microscopy Reconstruction | CVPR 2026 | FM | Microscopy and OCT | ★ |  |
+| 2026 | [MicroFM: Physics-guided Flow Matching for Isotropic Microscopy Reconstruction](https://openaccess.thecvf.com/content/CVPR2026/html/Zhan_MicroFM_Physics-guided_Flow_Matching_for_Isotropic_Microscopy_Reconstruction_CVPR_2026_paper.html) | CVPR 2026 | FM | Microscopy and OCT | ★ |  |
 | 2026 | [MM-FM: Multi-Modal Flow Matching for Brain MRI Missing Modality Synthesis](https://doi.org/10.1109/ivmsp68335.2026.11618833) | 2026 IEEE 15th Image, Video, and Multidimensiona... | FM | Missing sequences and contrast | ★ |  |
 | 2026 | [MoLF: Mixture-of-Latent-Flow for Pan-Cancer Spatial Gene Expression Prediction from Histology](https://arxiv.org/abs/2602.02282) | arXiv | FM | Tissue-image translation | ★ |  |
 | 2026 | [MPFlow: Multi-modal Posterior-Guided Flow Matching for Zero-Shot MRI Reconstruction](https://doi.org/10.1007/978-3-032-38179-8_31) | arXiv | RF | MRI reconstruction | ★ | [code](https://github.com/edshkim98/MPFlow) |
@@ -155,7 +154,6 @@ Studies of the catalogue by the probability path that connects the two end state
 | 2026 | [SliceBridge: context-consistent repair of corrupted slice intervals in T1-weighted MRI](https://arxiv.org/abs/2609.01827) | arXiv | RF | Inpainting and editing | ★ |  |
 | 2026 | [SMLMFlow: Improving Structural Resolution in Single Molecule Localization Microscopy with Flow Matching](https://doi.org/10.64898/2026.06.11.731424) | bioRxiv | FM | Microscopy and OCT | ★ | [code](https://github.com/sebjbauer/SMLMFlow) |
 | 2026 | [SNaP: One-Step Posterior Sampling for Noisy Inverse Problems](https://arxiv.org/abs/2609.34071) | arXiv | FM | MRI reconstruction | ★ |  |
-| 2026 | [SPATIA: Multimodal Generation and Prediction of Spatial Cell Phenotypes](https://arxiv.org/abs/2507.04704) | arXiv | FM | Tissue-image translation | ★ |  |
 | 2026 | [Spatiotemporal Modeling of Tumor Dynamics via Optimal Transport for Enhanced Longitudinal Analysis](https://doi.org/10.1007/978-3-032-38172-9_53) | Lecture Notes in Computer Science | FM | Longitudinal forecasting | ★ |  |
 | 2026 | [SpectraFlow: Unifying Structural Pretraining and Frequency Adaptation for Medical Image Segmentation](https://arxiv.org/abs/2605.14566) | arXiv | FM | Segmentation masks | ★ |  |
 | 2026 | [StimFlow: Synthesizing Brain Activity from Images via Stimulus-conditioned Flow Matching](https://arxiv.org/abs/2610.15341) | arXiv | FM | Cross-modality synthesis | ★ |  |
@@ -207,6 +205,7 @@ Studies of the catalogue by the probability path that connects the two end state
 | 2025 | [Flow Stochastic Segmentation Networks](https://doi.org/10.1109/iccv51701.2025.01369) | ICCV 2025 | FM | Segmentation uncertainty | ★ | [code](https://github.com/biomedia-mira/flow-ssn) |
 | 2025 | [FlowSDF: Flow Matching for Medical Image Segmentation Using Distance Transforms](https://doi.org/10.1007/s11263-025-02373-y) | International Journal of Computer Vision | FM | Segmentation masks | ★ | [code](https://github.com/leabogensperger/FlowSDF) |
 | 2025 | [FMSRdiff: Efficient latent diffusion framework combining consistency model and flow matching for super-resolution](https://doi.org/10.1109/icicm66614.2025.11316051) | 2025 10th International Conference on Integrated... | FM | MRI enhancement | ★ |  |
+| 2025 | [GenTract: Generative Global Tractography](https://arxiv.org/abs/2511.13183) | arXiv | FM | Shape and parameter output | ★ |  |
 | 2025 | [GRASP: Guided Residual Adapters with Sample-wise Partitioning](https://arxiv.org/abs/2512.01675) | arXiv | FM | Synthetic training data | ★ | [code](https://github.com/Felix-012/GRASP-LT) |
 | 2025 | [Inverse Flow and Consistency Models](https://arxiv.org/abs/2502.11333) | ICML 2025 | FM | Multi-modality restoration | ★ | [code](https://github.com/jzhoulab/InverseFlow) |
 | 2025 | [LatentFM: A Latent Flow Matching Approach for Generative Medical Image Segmentation](https://arxiv.org/abs/2512.04821) | arXiv | FM | Segmentation masks | ★ | [code](https://github.com/snigdhaghosh/LatentFM-Retina) |
@@ -217,6 +216,7 @@ Studies of the catalogue by the probability path that connects the two end state
 | 2025 | [PDF-net: A Flow Matching Network for PSF Deconvolution in Echocardiography](https://doi.org/10.1109/ius62464.2025.11201566) | 2025 IEEE International Ultrasonics Symposium (I... | FM | Multi-modality restoration | ★ |  |
 | 2025 | [Reflect: Rectified Flows for Efficient Brain Anomaly Correction Transport](https://doi.org/10.1007/978-3-032-04965-0_43) | MICCAI 2025 | RF | Anomaly and diagnosis | ★ | [code](https://github.com/farzad-bz/REFLECT) |
 | 2025 | [Scalable Generation of Spatial Transcriptomics from Histology Images via Whole-Slide Flow Matching](https://arxiv.org/abs/2506.05361) | ICML 2025 | FM | Tissue-image translation | ★ | [code](https://github.com/Graph-and-Geometric-Learning/STFlow) |
+| 2025 | [SPATIA: Multimodal Generation and Prediction of Spatial Cell Phenotypes](https://arxiv.org/abs/2507.04704) | arXiv | FM | Tissue-image translation | ★ |  |
 | 2025 | [Surf2CT: Cascaded 3D Flow Matching Models for Torso 3D CT Synthesis from Skin Surface](https://arxiv.org/abs/2505.22511) | arXiv | FM | Volume and X-ray synthesis | ★ |  |
 | 2025 | [Synthesizing Accurate and Realistic T1-Weighted Contrast-Enhanced MR Images Using Posterior-Mean Rectified Flow](https://doi.org/10.1007/978-3-032-05573-6_16) | MICCAI SASHIMI Workshop 2025 | RF | Missing sequences and contrast | ★ | [code](https://github.com/bbasti/pmrf-virtual-contrast) |
 | 2025 | [Temporal Flow Matching for Learning Spatio-Temporal Trajectories in 4D Longitudinal Medical Imaging](https://arxiv.org/abs/2508.21580) | arXiv | FM | Longitudinal forecasting | ★ | [code](https://github.com/MIC-DKFZ/Temporal-Flow-Matching) |
@@ -225,5 +225,5 @@ Studies of the catalogue by the probability path that connects the two end state
 | 2025 | [vesselFM: A Foundation Model for Universal 3D Blood Vessel Segmentation](https://doi.org/10.1109/cvpr52734.2025.01944) | CVPR 2025 | FM | Synthetic training data | ★ | [code](https://github.com/bwittmann/vesselFM) |
 | 2025 | [ViCTr: Vital consistency transfer for pathology aware image synthesis](https://doi.org/10.1109/iccv51701.2025.02114) | ICCV 2025 | RF | Synthetic training data | ★ |  |
 | 2024 | [Bi-modality medical images synthesis by a bi-directional discrete process matching method](https://arxiv.org/abs/2409.03977) | arXiv | FM | Cross-modality synthesis | ★ |  |
+| 2024 | [CoreDiff: Contextual Error-Modulated Generalized Diffusion Model for Low-Dose CT Denoising and Generalization](https://doi.org/10.1109/tmi.2023.3320812) | IEEE Transactions on Medical Imaging | diffusion | CT denoising and artifacts | ★ |  |
 | 2024 | [Mutli-modal straight flow matching for accelerated MR imaging](https://doi.org/10.1016/j.compbiomed.2024.108668) | Computers in Biology and Medicine | FM | MRI reconstruction | ★ |  |
-| 2023 | [CoreDiff: Contextual Error-Modulated Generalized Diffusion Model for Low-Dose CT Denoising and Generalization](https://doi.org/10.1109/tmi.2023.3320812) | IEEE Transactions on Medical Imaging | diffusion | CT denoising and artifacts | ★ |  |

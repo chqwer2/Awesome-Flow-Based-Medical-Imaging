@@ -12,7 +12,6 @@ Studies in the clinical task group “MRI enhancement” (task family: Restorati
 | 2026 | [Denoising of ASL Data Using Deep Learning Priors Generated From Distribution Remapping](https://doi.org/10.1002/mrm.70471) | Magnetic Resonance in Medicine | SB | MRI enhancement | ★ |  |
 | 2026 | [DMD-augmented Unpaired Neural Schrödinger Bridge for Ultra-Low Field MRI Enhancement](https://arxiv.org/abs/2603.03769) | arXiv | SB | MRI enhancement | ★ |  |
 | 2026 | [DRIFT: Difficulty-Aware Rectified Flows for Through-Plane MRI Super-Resolution](https://doi.org/10.1007/978-3-032-37035-8_24) | ECCV 2026 | RF | MRI enhancement | ★ | [code](https://github.com/yoonseokchoi-ai/DRIFT) |
-| 2026 | [Elucidating the Design Space of Arbitrary-Noise-Based Diffusion Models](https://arxiv.org/abs/2507.18534) | arXiv | PB | MRI enhancement | ★ |  |
 | 2026 | [Enhancing Ultra-Low-Field to High-Field MRI Using Multi-cycle GAN and Flow Matching Models](https://doi.org/10.1007/978-3-032-23344-8_19) | Enhancing Ultra-Low-Field MRI with Paired High-F... | FM | MRI enhancement | ★ |  |
 | 2026 | [Frequency Schrödinger bridge diffusion model for fast MRI reconstruction in abdominal MR-guided online adaptive radiotherapy](https://doi.org/10.1002/acm2.70831) | Journal of Applied Clinical Medical Physics | SB | MRI enhancement | ★ |  |
 | 2026 | [Learning to Distort: Weakly-Supervised Image Quality Transfer for Prostate DWI Correction](https://doi.org/10.1007/978-3-032-38069-2_33) | arXiv | FM | MRI enhancement | ★ |  |
@@ -23,6 +22,7 @@ Studies in the clinical task group “MRI enhancement” (task family: Restorati
 | 2026 | [Super-Resolution MRI Using Latent Fusion and Flow Matching](https://doi.org/10.1109/isbi61048.2026.11515575) | ISBI 2026 | FM | MRI enhancement | ★ |  |
 | 2026 | [UniField: A Unified Field-Aware MRI Enhancement Framework](https://doi.org/10.1007/978-3-032-38179-8_58) | arXiv | FM | MRI enhancement | ★ | [code](https://github.com/linyiyang98/UniField) |
 | 2025 | [AI-powered 0.3 mm Ultrahigh Resolution MR Brain Imaging](https://doi.org/10.58530/2025/0936) | ISMRM | PB | MRI enhancement |  |  |
+| 2025 | [Elucidating the Design Space of Arbitrary-Noise-Based Diffusion Models](https://arxiv.org/abs/2507.18534) | arXiv | PB | MRI enhancement | ★ |  |
 | 2025 | [Enhancing Mid-Field MR Images for Upright Treatments Using Diffusion Schrödinger Bridge Models](https://doi.org/10.1016/s0167-8140(25)04387-7) | Radiotherapy and Oncology | SB | MRI enhancement |  |  |
 | 2025 | [FMSRdiff: Efficient latent diffusion framework combining consistency model and flow matching for super-resolution](https://doi.org/10.1109/icicm66614.2025.11316051) | 2025 10th International Conference on Integrated... | FM | MRI enhancement | ★ |  |
 | 2025 | [High-speed high-quality super-resolution diffusion model via flow-matching](https://doi.org/10.58530/2025/3975) | ISMRM | FM | MRI enhancement |  |  |

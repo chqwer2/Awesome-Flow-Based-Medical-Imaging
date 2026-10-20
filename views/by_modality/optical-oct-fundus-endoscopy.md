@@ -35,6 +35,7 @@ Studies by modality; a study with several appears in each. 59 studies, 44 marked
 | 2026 | [Zero-Shot Generative De-identification: Inversion-Free Flow for Privacy-Preserving Skin Image Analysis](https://arxiv.org/abs/2602.00821) | arXiv | RF | Inpainting and editing | ★ |  |
 | 2025 | [A flow-matching-based method for retinal vessel segmentation](https://doi.org/10.1117/12.3075554) | Fifth International Conference on Optical Imagin... | FM | Segmentation masks | ★ |  |
 | 2025 | [A New One-Shot Federated Learning Framework for Medical Imaging Classification with Feature-Guided Rectified Flow and Knowledge Distillation](https://doi.org/10.3233/faia250805) | ECAI 2025 | RF | Synthetic training data | ★ | [code](https://github.com/LMIAPC/one-shot-fl-medical) |
+| 2025 | [CUNSB-RFIE: Context-Aware Unpaired Neural Schrödinger Bridge in Retinal Fundus Image Enhancement](https://doi.org/10.1109/wacv61041.2025.00442) | WACV 2025 | SB | Microscopy and OCT | ★ |  |
 | 2025 | [Diffusion model based OCT to OCTA translation](https://doi.org/10.3389/fmed.2025.1655453) | Frontiers in Medicine | PB | Cross-modality synthesis | ★ |  |
 | 2025 | [Enhanced Photoacoustic Tomography Via Accelerated Mean-Reverting Generative Diffusion Model](https://doi.org/10.2139/ssrn.5223166) | SSRN | PB | Incomplete-data CT | ★ |  |
 | 2025 | [Flow Stochastic Segmentation Networks](https://doi.org/10.1109/iccv51701.2025.01369) | ICCV 2025 | FM | Segmentation uncertainty | ★ | [code](https://github.com/biomedia-mira/flow-ssn) |
@@ -47,7 +48,6 @@ Studies by modality; a study with several appears in each. 59 studies, 44 marked
 | 2025 | [Optical Coherence Tomography Harmonization with Anatomy-Guided Latent Metric Schrödinger Bridges](https://doi.org/10.52202/085713-0202) | NeurIPS 2025 | SB | Domain harmonization | ★ | [code](https://github.com/Shuwen-Wei/lmsb) |
 | 2025 | [PolypFlow: Reinforcing Polyp Segmentation with Flow-Driven Dynamics](https://arxiv.org/abs/2502.19037) | arXiv | FM | Segmentation masks | ★ |  |
 | 2025 | [vesselFM: A Foundation Model for Universal 3D Blood Vessel Segmentation](https://doi.org/10.1109/cvpr52734.2025.01944) | CVPR 2025 | FM | Synthetic training data | ★ | [code](https://github.com/bwittmann/vesselFM) |
-| 2024 | [CUNSB-RFIE: Context-Aware Unpaired Neural Schrödinger Bridge in Retinal Fundus Image Enhancement](https://doi.org/10.1109/wacv61041.2025.00442) | WACV 2025 | SB | Microscopy and OCT | ★ |  |
 | 2024 | [Fundus Image Enhancement Through Direct Diffusion Bridges](https://doi.org/10.1109/jbhi.2024.3446866) | IEEE Journal of Biomedical and Health Informatic... | PB | Microscopy and OCT | ★ |  |
 | 2024 | [HiDiff: Hybrid Diffusion Framework for Medical Image Segmentation](https://doi.org/10.1109/tmi.2024.3424471) | IEEE Transactions on Medical Imaging | diffusion | Segmentation masks | ★ | [code](https://github.com/takimailto/HiDiff) |
 | 2024 | [MedSegDiff-V2: Diffusion-Based Medical Image Segmentation with Transformer](https://doi.org/10.1609/aaai.v38i6.28418) | AAAI 2024 | diffusion | Segmentation masks | ★ |  |

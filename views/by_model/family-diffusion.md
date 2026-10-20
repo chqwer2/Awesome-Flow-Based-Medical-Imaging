@@ -6,11 +6,14 @@ Studies by the model family they train. 55 studies, 55 marked ★ (discussed in 
 
 | Year | Title | Venue | Family | Task | In paper | Code |
 |--:|:--|:--|:--|:--|:--:|:--:|
+| 2025 | [Diffusion probabilistic priors for zero-shot low-dose CT image denoising](https://doi.org/10.1002/mp.17431) | Medical Physics | diffusion | CT denoising and artifacts | ★ |  |
 | 2025 | [Fast-DDPM: Fast Denoising Diffusion Probabilistic Models for Medical Image-to-Image Generation](https://doi.org/10.1109/jbhi.2025.3565183) | IEEE Journal of Biomedical and Health Informatic... | diffusion | CT denoising and artifacts | ★ |  |
 | 2025 | [MAISI: Medical AI for Synthetic Imaging](https://doi.org/10.1109/wacv61041.2025.00435) | WACV 2025 | diffusion | Volume and X-ray synthesis | ★ |  |
 | 2024 | [A Dual-Domain Diffusion Model for Sparse-View CT Reconstruction](https://doi.org/10.1109/lsp.2024.3392690) | IEEE Signal Processing Letters | diffusion | Incomplete-data CT | ★ |  |
 | 2024 | [Adaptive Latent Diffusion Model for 3D Medical Image to Image Translation: Multi-modal Magnetic Resonance Imaging Study](https://doi.org/10.1109/wacv57701.2024.00743) | WACV 2024 | diffusion | Missing sequences and contrast | ★ |  |
+| 2024 | [CBCT-Based Synthetic CT Image Generation Using Conditional Denoising Diffusion Probabilistic Model](https://doi.org/10.1002/mp.16704) | Medical Physics | diffusion | Synthetic CT and dose | ★ |  |
 | 2024 | [Conditional Diffusion Models for Semantic 3D Brain MRI Synthesis](https://doi.org/10.1109/jbhi.2024.3385504) | IEEE Journal of Biomedical and Health Informatic... | diffusion | Volume and X-ray synthesis | ★ | [code](https://github.com/mobaidoctor/med-ddpm/) |
+| 2024 | [CoreDiff: Contextual Error-Modulated Generalized Diffusion Model for Low-Dose CT Denoising and Generalization](https://doi.org/10.1109/tmi.2023.3320812) | IEEE Transactions on Medical Imaging | diffusion | CT denoising and artifacts | ★ |  |
 | 2024 | [CorrDiff: Corrective Diffusion Model for Accurate MRI Brain Tumor Segmentation](https://doi.org/10.1109/jbhi.2024.3353272) | IEEE Journal of Biomedical and Health Informatic... | diffusion | Segmentation masks | ★ |  |
 | 2024 | [Cross-conditioned Diffusion Model for Medical Image to Image Translation](https://doi.org/10.1007/978-3-031-72104-5_20) | MICCAI 2024 | diffusion | Missing sequences and contrast | ★ |  |
 | 2024 | [Denoising Diffusion Models for 3D Healthy Brain Tissue Inpainting](https://doi.org/10.1007/978-3-031-72744-3_9) | Deep Generative Models | diffusion | Inpainting and editing | ★ |  |
@@ -29,10 +32,14 @@ Studies by the model family they train. 55 studies, 55 marked ★ (discussed in 
 | 2024 | [Rethinking Diffusion Model for Multi-Contrast MRI Super-Resolution](https://doi.org/10.1109/cvpr52733.2024.01080) | CVPR 2024 | diffusion | MRI enhancement | ★ |  |
 | 2024 | [Shape-Guided Conditional Latent Diffusion Models for Synthesising Brain Vasculature](https://doi.org/10.1007/978-3-031-53767-7_16) | Deep Generative Models | diffusion | Anatomy and device shapes | ★ |  |
 | 2024 | [Simultaneous Tri-Modal Medical Image Fusion and Super-Resolution Using Conditional Diffusion Model](https://doi.org/10.1007/978-3-031-72104-5_61) | MICCAI 2024 | diffusion | Multi-modality restoration | ★ |  |
+| 2024 | [Stage-by-Stage Wavelet Optimization Refinement Diffusion Model for Sparse-View CT Reconstruction](https://doi.org/10.1109/tmi.2024.3355455) | IEEE Transactions on Medical Imaging | diffusion | Incomplete-data CT | ★ | [code](https://github.com/yqx7150/SWORD) |
+| 2024 | [Synthetic CT generation from MRI using 3D transformer-based denoising diffusion model](https://doi.org/10.1002/mp.16847) | Medical Physics | diffusion | Synthetic CT and dose | ★ |  |
 | 2024 | [TrIND: Representing Anatomical Trees by Denoising Diffusion of Implicit Neural Fields](https://doi.org/10.1007/978-3-031-72390-2_33) | MICCAI 2024 | diffusion | Anatomy and device shapes | ★ |  |
+| 2024 | [Unsupervised Anomaly Detection in Medical Images Using Masked Diffusion Model](https://doi.org/10.1007/978-3-031-45673-2_37) | Lecture Notes in Computer Science | diffusion | Anomaly and diagnosis | ★ |  |
 | 2024 | [Unsupervised CT Metal Artifact Reduction by Plugging Diffusion Priors in Dual Domains](https://doi.org/10.1109/tmi.2024.3351201) | IEEE Transactions on Medical Imaging | diffusion | CT denoising and artifacts | ★ |  |
 | 2024 | [Wavelet-Improved Score-Based Generative Model for Medical Imaging](https://doi.org/10.1109/tmi.2023.3325824) | IEEE Transactions on Medical Imaging | diffusion | CT denoising and artifacts | ★ |  |
 | 2024 | [WDM: 3D Wavelet Diffusion Models for High-Resolution Medical Image Synthesis](https://doi.org/10.1007/978-3-031-72744-3_2) | Deep Generative Models | diffusion | Volume and X-ray synthesis | ★ |  |
+| 2024 | [Zero-Shot Medical Image Translation via Frequency-Guided Diffusion Models](https://doi.org/10.1109/tmi.2023.3325703) | IEEE Transactions on Medical Imaging | diffusion | Domain harmonization | ★ |  |
 | 2023 | [2D medical image synthesis using transformer-based denoising diffusion probabilistic model](https://doi.org/10.1088/1361-6560/acca5c) | Physics in Medicine & Biology | diffusion | Synthetic training data | ★ |  |
 | 2023 | [A Diffusion Model Predicts 3D Shapes from 2D Microscopy Images](https://doi.org/10.1109/isbi53787.2023.10230752) | ISBI 2023 | diffusion | Anatomy and device shapes | ★ |  |
 | 2023 | [A multimodal comparison of latent denoising diffusion probabilistic models and generative adversarial networks for medical image synthesis](https://doi.org/10.1038/s41598-023-39278-0) | Scientific Reports | diffusion | Synthetic training data | ★ |  |
@@ -40,13 +47,10 @@ Studies by the model family they train. 55 studies, 55 marked ★ (discussed in 
 | 2023 | [Ambiguous Medical Image Segmentation Using Diffusion Models](https://doi.org/10.1109/cvpr52729.2023.01110) | CVPR 2023 | diffusion | Segmentation uncertainty | ★ |  |
 | 2023 | [Bayesian MRI reconstruction with joint uncertainty estimation using diffusion models](https://doi.org/10.1002/mrm.29624) | Magnetic Resonance in Medicine | diffusion | MRI reconstruction | ★ |  |
 | 2023 | [BerDiff: Conditional Bernoulli Diffusion Model for Medical Image Segmentation](https://doi.org/10.1007/978-3-031-43901-8_47) | MICCAI 2023 | diffusion | Segmentation uncertainty | ★ |  |
-| 2023 | [CBCT-Based Synthetic CT Image Generation Using Conditional Denoising Diffusion Probabilistic Model](https://doi.org/10.1002/mp.16704) | Medical Physics | diffusion | Synthetic CT and dose | ★ |  |
 | 2023 | [CoLa-Diff: Conditional Latent Diffusion Model for Multi-modal MRI Synthesis](https://doi.org/10.1007/978-3-031-43999-5_38) | MICCAI 2023 | diffusion | Missing sequences and contrast | ★ |  |
-| 2023 | [CoreDiff: Contextual Error-Modulated Generalized Diffusion Model for Low-Dose CT Denoising and Generalization](https://doi.org/10.1109/tmi.2023.3320812) | IEEE Transactions on Medical Imaging | diffusion | CT denoising and artifacts | ★ |  |
 | 2023 | [Denoising diffusion probabilistic models for 3D medical image generation](https://doi.org/10.1038/s41598-023-34341-2) | Scientific Reports | diffusion | Volume and X-ray synthesis | ★ |  |
 | 2023 | [DiffMIC: Dual-Guidance Diffusion Network for Medical Image Classification](https://doi.org/10.1007/978-3-031-43987-2_10) | MICCAI 2023 | diffusion | Anomaly and diagnosis | ★ |  |
 | 2023 | [Diffusion Model Based Semi-supervised Learning on Brain Hemorrhage Images for Efficient Midline Shift Quantification](https://doi.org/10.1007/978-3-031-34048-2_6) | Lecture Notes in Computer Science | diffusion | Shape and parameter output | ★ |  |
-| 2023 | [Diffusion probabilistic priors for zero-shot low-dose CT image denoising](https://doi.org/10.1002/mp.17431) | Medical Physics | diffusion | CT denoising and artifacts | ★ |  |
 | 2023 | [Diffusion-Based Hierarchical Multi-label Object Detection to Analyze Panoramic Dental X-Rays](https://doi.org/10.1007/978-3-031-43987-2_38) | MICCAI 2023 | diffusion | Anomaly and diagnosis | ★ |  |
 | 2023 | [DisC-Diff: Disentangled Conditional Diffusion Model for Multi-contrast MRI Super-Resolution](https://doi.org/10.1007/978-3-031-43999-5_37) | MICCAI 2023 | diffusion | MRI enhancement | ★ |  |
 | 2023 | [DOLCE: A Model-Based Probabilistic Diffusion Framework for Limited-Angle CT Reconstruction](https://doi.org/10.1109/iccv51070.2023.00963) | ICCV 2023 | diffusion | Incomplete-data CT | ★ |  |
@@ -54,10 +58,6 @@ Studies by the model family they train. 55 studies, 55 marked ★ (discussed in 
 | 2023 | [SADM: Sequence-Aware Diffusion Model for Longitudinal Medical Image Generation](https://doi.org/10.1007/978-3-031-34048-2_30) | Information Processing in Medical Imaging | diffusion | Longitudinal forecasting | ★ |  |
 | 2023 | [Self-supervised MRI Reconstruction with Unrolled Diffusion Models](https://doi.org/10.1007/978-3-031-43999-5_47) | Lecture Notes in Computer Science | diffusion | MRI reconstruction | ★ |  |
 | 2023 | [Solving 3D Inverse Problems Using Pre-Trained 2D Diffusion Models](https://doi.org/10.1109/cvpr52729.2023.02159) | CVPR 2023 | diffusion | Incomplete-data CT | ★ |  |
-| 2023 | [Stage-by-Stage Wavelet Optimization Refinement Diffusion Model for Sparse-View CT Reconstruction](https://doi.org/10.1109/tmi.2024.3355455) | IEEE Transactions on Medical Imaging | diffusion | Incomplete-data CT | ★ | [code](https://github.com/yqx7150/SWORD) |
 | 2023 | [Stochastic Segmentation with Conditional Categorical Diffusion Models](https://doi.org/10.1109/iccv51070.2023.00109) | ICCV 2023 | diffusion | Segmentation uncertainty | ★ |  |
 | 2023 | [Super-resolution of brain MRI images based on denoising diffusion probabilistic model](https://doi.org/10.1016/j.bspc.2023.104901) | Biomedical Signal Processing and Control | diffusion | MRI enhancement | ★ |  |
-| 2023 | [Synthetic CT generation from MRI using 3D transformer-based denoising diffusion model](https://doi.org/10.1002/mp.16847) | Medical Physics | diffusion | Synthetic CT and dose | ★ |  |
-| 2023 | [Unsupervised Anomaly Detection in Medical Images Using Masked Diffusion Model](https://doi.org/10.1007/978-3-031-45673-2_37) | Lecture Notes in Computer Science | diffusion | Anomaly and diagnosis | ★ |  |
 | 2023 | [Unsupervised Medical Image Translation With Adversarial Diffusion Models](https://doi.org/10.1109/tmi.2023.3290149) | IEEE Transactions on Medical Imaging | diffusion | Cross-modality synthesis | ★ |  |
-| 2023 | [Zero-Shot Medical Image Translation via Frequency-Guided Diffusion Models](https://doi.org/10.1109/tmi.2023.3325703) | IEEE Transactions on Medical Imaging | diffusion | Domain harmonization | ★ |  |

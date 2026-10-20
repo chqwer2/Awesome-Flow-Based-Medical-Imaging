@@ -42,7 +42,6 @@ Studies by anatomy; a study with several appears in each. 70 studies, 68 marked 
 | 2026 | [SD-S 2 B: Structure-Decomposition Schrödinger Bridge for Semi-Supervised Chest X-Ray Bone Suppression](https://doi.org/10.1109/icipai70034.2026.11605565) | 2026 3rd International Conference on Image Proce... | SB | Cross-modality synthesis | ★ |  |
 | 2026 | [Semantic Latent Alignment for Flow Matching with Invertible Bi-Lipschitz Adapters](https://arxiv.org/abs/2610.21332) | arXiv | FM | Synthetic training data | ★ |  |
 | 2026 | [Semantic-Aware Organ-Level Esophageal Tumor Synthesis via Latent Rectified Flow](https://doi.org/10.1007/978-3-032-38189-7_46) | MICCAI 2026 | RF | Synthetic training data | ★ |  |
-| 2026 | [SPATIA: Multimodal Generation and Prediction of Spatial Cell Phenotypes](https://arxiv.org/abs/2507.04704) | arXiv | FM | Tissue-image translation | ★ |  |
 | 2026 | [SymmAdapt: Symmetrical Flow Matching for Source-Free Domain Adaptation in Medical Image Segmentation](https://arxiv.org/abs/2608.22532) | arXiv | FM | Segmentation masks | ★ | [code](https://github.com/tal-grossman/SymmAdapt_public) |
 | 2026 | [SynVA: A Modular Toolkit for Vessel Generation and Aneurysm Editing](https://arxiv.org/abs/2605.17620) | arXiv | FM | Anatomy and device shapes | ★ |  |
 | 2026 | [THA-Flow Generative Model: Prosthesis Geometry Prediction from Preoperative CT](https://arxiv.org/abs/2608.25845) | arXiv | RF | Anatomy and device shapes | ★ | [code](https://github.com/doidio/nonahip) |
@@ -56,6 +55,7 @@ Studies by anatomy; a study with several appears in each. 70 studies, 68 marked 
 | 2025 | [Flow Matching-Based Data Synthesis for Robust Anatomical Landmark Localization](https://doi.org/10.1109/jbhi.2025.3603907) | IEEE Journal of Biomedical and Health Informatic... | FM | Synthetic training data | ★ |  |
 | 2025 | [MedSymmFlow: Bridging Generative Modeling and Classification in Medical Imaging Through Symmetrical Flow Matching](https://doi.org/10.1007/978-3-032-05472-2_4) | MICCAI DGM4MICCAI Workshop 2025 | FM | Anomaly and diagnosis | ★ | [code](https://github.com/caetas/MedSymmFlow) |
 | 2025 | [Poisson Flow Joint Model for Multiphase contrast-enhanced CT](https://arxiv.org/abs/2502.03079) | arXiv | PF | CT denoising and artifacts | ★ |  |
+| 2025 | [SPATIA: Multimodal Generation and Prediction of Spatial Cell Phenotypes](https://arxiv.org/abs/2507.04704) | arXiv | FM | Tissue-image translation | ★ |  |
 | 2025 | [Synthesizing Accurate and Realistic T1-Weighted Contrast-Enhanced MR Images Using Posterior-Mean Rectified Flow](https://doi.org/10.1007/978-3-032-05573-6_16) | MICCAI SASHIMI Workshop 2025 | RF | Missing sequences and contrast | ★ | [code](https://github.com/bbasti/pmrf-virtual-contrast) |
 | 2025 | [Towards Prospective Medical Image Reconstruction via Knowledge-Informed Dynamic Optimal Transport](https://doi.org/10.52202/085713-1368) | NeurIPS 2025 | other | MRI reconstruction | ★ |  |
 | 2025 | [vesselFM: A Foundation Model for Universal 3D Blood Vessel Segmentation](https://doi.org/10.1109/cvpr52734.2025.01944) | CVPR 2025 | FM | Synthetic training data | ★ | [code](https://github.com/bwittmann/vesselFM) |
@@ -65,6 +65,7 @@ Studies by anatomy; a study with several appears in each. 70 studies, 68 marked 
 | 2024 | [Mutli-modal straight flow matching for accelerated MR imaging](https://doi.org/10.1016/j.compbiomed.2024.108668) | Computers in Biology and Medicine | FM | MRI reconstruction | ★ |  |
 | 2024 | [Rethinking Diffusion Model for Multi-Contrast MRI Super-Resolution](https://doi.org/10.1109/cvpr52733.2024.01080) | CVPR 2024 | diffusion | MRI enhancement | ★ |  |
 | 2024 | [Transfer learning for non-parametric prediction of joint distributions of g-ratios and axon diameters from MRI](https://doi.org/10.58530/2024/1232) | ISMRM | NF | Shape and parameter output |  |  |
+| 2024 | [Unsupervised Anomaly Detection in Medical Images Using Masked Diffusion Model](https://doi.org/10.1007/978-3-031-45673-2_37) | Lecture Notes in Computer Science | diffusion | Anomaly and diagnosis | ★ |  |
 | 2024 | [Wavelet-Improved Score-Based Generative Model for Medical Imaging](https://doi.org/10.1109/tmi.2023.3325824) | IEEE Transactions on Medical Imaging | diffusion | CT denoising and artifacts | ★ |  |
 | 2023 | [Adjoint operators enable fast and amortized machine learning based Bayesian uncertainty quantification](https://doi.org/10.1117/12.2651691) | Progress in Biomedical Optics and Imaging Procee... | NF | Other: Bayesian uncertainty for acoustic imaging |  |  |
 | 2023 | [Ambiguous Medical Image Segmentation Using Diffusion Models](https://doi.org/10.1109/cvpr52729.2023.01110) | CVPR 2023 | diffusion | Segmentation uncertainty | ★ |  |
@@ -74,5 +75,4 @@ Studies by anatomy; a study with several appears in each. 70 studies, 68 marked 
 | 2023 | [DisC-Diff: Disentangled Conditional Diffusion Model for Multi-contrast MRI Super-Resolution](https://doi.org/10.1007/978-3-031-43999-5_37) | MICCAI 2023 | diffusion | MRI enhancement | ★ |  |
 | 2023 | [DOLCE: A Model-Based Probabilistic Diffusion Framework for Limited-Angle CT Reconstruction](https://doi.org/10.1109/iccv51070.2023.00963) | ICCV 2023 | diffusion | Incomplete-data CT | ★ |  |
 | 2023 | [JCCS-PFGM: A Novel Circle-Supervision Based Poisson Flow Generative Model for Multiphase CECT Progressive Low-Dose Reconstruction with Joint Condition](https://doi.org/10.1007/978-3-031-43999-5_39) | MICCAI 2023 | PF | CT denoising and artifacts | ★ |  |
-| 2023 | [Unsupervised Anomaly Detection in Medical Images Using Masked Diffusion Model](https://doi.org/10.1007/978-3-031-45673-2_37) | Lecture Notes in Computer Science | diffusion | Anomaly and diagnosis | ★ |  |
 | 2021 | [Compressible Latent-Space Invertible Networks for Generative Model-Constrained Image Reconstruction](https://doi.org/10.1109/tci.2021.3049648) | IEEE Transactions on Computational Imaging | NF | MRI reconstruction | ★ |  |

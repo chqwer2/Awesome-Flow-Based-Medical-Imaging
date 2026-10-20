@@ -222,7 +222,6 @@
 | 2026 | [FlowLet: Conditional 3D brain MRI synthesis using wavelet flow matching](https://doi.org/10.1016/j.media.2026.104161) | Medical Image Analysis | FM | Volume and X-ray synthesis | ★ | [code](https://github.com/sisinflab/FlowLet) |
 | 2026 | [Healthy Counterfactual Generation with Denoising Diffusion Bridge Models](https://doi.org/10.1109/isbi61048.2026.11515608) | ISBI 2026 | PB | Anomaly and diagnosis | ★ |  |
 | 2026 | [Learning Patient-Specific Disease Dynamics with Latent Flow Matching for Longitudinal Imaging Generation](https://arxiv.org/abs/2512.09185) | ICLR 2026 | FM | Longitudinal forecasting | ★ |  |
-| 2026 | [MedForj: An open, large-scale foundational generative prior for high-resolution 3D brain MRI](https://arxiv.org/abs/2510.26834) | arXiv | FM | Volume and X-ray synthesis | ★ |  |
 | 2026 | [PETFlux: Taming Natural Foundation Models for Accurate MRI-to-PET Synthesis](https://doi.org/10.1007/978-3-032-38062-3_44) | MICCAI 2026 | RF | Cross-modality synthesis | ★ |  |
 | 2026 | [Precision Synthesis of Multi-Tracer PET via VLM-Modulated Rectified Flow for Stratifying Mild Cognitive Impairment](https://arxiv.org/abs/2604.11176) | arXiv | RF | Cross-modality synthesis | ★ | [code](https://github.com/ladderlab-xjtu/DIReCT-PLUS) |
 | 2026 | [ProgFormer: Hierarchical Voxel Diffusion Transformer for Longitudinal Brain MRI Prediction](https://arxiv.org/abs/2607.27537) | arXiv | FM | Longitudinal forecasting | ★ |  |
@@ -236,6 +235,7 @@
 | 2025 | [DIReCT: Domain-Informed Rectified Flow for Controllable Brain MRI to PET Translation](https://doi.org/10.1007/978-3-031-96628-6_15) | Information Processing in Medical Imaging | RF | Cross-modality synthesis | ★ |  |
 | 2025 | [Generative super-resolution PET imaging with Fourier diffusion models](https://doi.org/10.1117/12.3048849) | SPIE Medical Imaging 2025 | other | Low-count PET | ★ |  |
 | 2025 | [Longitudinal Flow Matching for Trajectory Modeling](https://arxiv.org/abs/2510.03569) | arXiv | FM | Longitudinal forecasting | ★ |  |
+| 2025 | [MedForj: An open, large-scale foundational generative prior for high-resolution 3D brain MRI](https://arxiv.org/abs/2510.26834) | arXiv | FM | Volume and X-ray synthesis | ★ |  |
 | 2025 | [Riemannian Flow Matching for Brain Connectivity Matrices via Pullback Geometry](https://doi.org/10.52202/085713-1993) | NeurIPS 2025 | other | Cardiac and brain dynamics | ★ | [code](https://github.com/antoinecollas/DiffeoCFM) |
 | 2025 | [Spherical Brownian Bridge Diffusion Models for Conditional Cortical Thickness Forecasting](https://doi.org/10.1007/978-3-032-06774-6_12) | MICCAI ShapeMI Workshop 2025 | PB | Longitudinal forecasting | ★ | [code](https://github.com/ai-med/SBDM) |
 | 2024 | [CT-based brain ventricle segmentation via diffusion Schrödinger Bridge without target domain ground truths](https://doi.org/10.1007/978-3-031-72111-3_13) | MICCAI 2024 | SB | Segmentation masks | ★ | [code](https://github.com/HealthX-Lab/DiffusionSynCTSeg) |
@@ -267,16 +267,16 @@
 |--:|:--|:--|:--|:--|:--:|:--:|
 | 2026 | [Benchmarking GANs, Diffusion Models, and Flow Matching for T1w-to-T2w MRI Translation](https://doi.org/10.1007/978-3-032-11317-7_36) | ICIAP Workshops 2025 | FM | Missing sequences and contrast | ★ | [code](https://github.com/AndreaMoschetto/medical-I2I-benchmark) |
 | 2026 | [DRIFT: Difficulty-Aware Rectified Flows for Through-Plane MRI Super-Resolution](https://doi.org/10.1007/978-3-032-37035-8_24) | ECCV 2026 | RF | MRI enhancement | ★ | [code](https://github.com/yoonseokchoi-ai/DRIFT) |
-| 2026 | [Elucidating the Design Space of Arbitrary-Noise-Based Diffusion Models](https://arxiv.org/abs/2507.18534) | arXiv | PB | MRI enhancement | ★ |  |
 | 2026 | [Flow Matching with In-Context Priors for Out-of-Distribution Brain Dynamics](https://arxiv.org/abs/2606.11833) | arXiv | FM | Cardiac and brain dynamics | ★ | [code](https://github.com/SamGijsen/pinc-flows) |
 | 2026 | [FM-fMRI: Event Conditioned Flow Matching for Rest-to-Task fMRI Time-Series Synthesis](https://arxiv.org/abs/2605.26423) | arXiv | FM | Cross-modality synthesis | ★ |  |
 | 2026 | [Generalizable field of view extension for diffusion MRI via conditional flow matching](https://arxiv.org/abs/2610.17401) | arXiv | RF | Inpainting and editing | ★ |  |
-| 2026 | [GenTract: Generative Global Tractography](https://arxiv.org/abs/2511.13183) | arXiv | FM | Shape and parameter output | ★ |  |
 | 2026 | [Healthy Counterfactual Generation with Denoising Diffusion Bridge Models](https://doi.org/10.1109/isbi61048.2026.11515608) | ISBI 2026 | PB | Anomaly and diagnosis | ★ |  |
 | 2026 | [Image-conditioned latent rectified flow models for 3D medical anomaly localisation](https://doi.org/10.3389/fradi.2026.1847193) | Frontiers in Radiology | RF | Anomaly and diagnosis | ★ | [code](https://github.com/matt-baugh/img-cond-latent-rflow-model-ad) |
 | 2026 | [Low-Field Magnetic Resonance Image Quality Enhancement using a Conditional Flow Matching Model](https://doi.org/10.1109/isbi61048.2026.11516041) | ISBI 2026 | FM | MRI enhancement | ★ |  |
 | 2026 | [MPFlow: Multi-modal Posterior-Guided Flow Matching for Zero-Shot MRI Reconstruction](https://doi.org/10.1007/978-3-032-38179-8_31) | arXiv | RF | MRI reconstruction | ★ | [code](https://github.com/edshkim98/MPFlow) |
 | 2026 | [Structural-Functional Brain Connectivity Generation via Multimodal Hypergraph-based Flow Matching](https://arxiv.org/abs/2610.02722) | arXiv | FM | Synthetic training data | ★ |  |
+| 2025 | [Elucidating the Design Space of Arbitrary-Noise-Based Diffusion Models](https://arxiv.org/abs/2507.18534) | arXiv | PB | MRI enhancement | ★ |  |
+| 2025 | [GenTract: Generative Global Tractography](https://arxiv.org/abs/2511.13183) | arXiv | FM | Shape and parameter output | ★ |  |
 
 ## OASIS
 
@@ -360,7 +360,7 @@
 | 2026 | [Elucidating the Design Space of Flow Matching for Cellular Microscopy](https://arxiv.org/abs/2603.26790) | arXiv | FM | Synthetic training data | ★ | [code](https://github.com/valence-labs/microscopy-flow-matching) |
 | 2026 | [FreeBridge: Variational Schrödinger Bridges for Cellular Transition Dynamics](https://doi.org/10.1007/978-3-032-38224-5_55) | Lecture Notes in Computer Science | SB | Tissue-image translation | ★ |  |
 | 2026 | [PerturbBridge: Direct Phenotypic Supervision for Cellular Perturbation Generation](https://arxiv.org/abs/2610.17066) | arXiv | PB | Tissue-image translation | ★ |  |
-| 2026 | Steering Where to Diffuse: Generative Modeling of Phenotypic Response Simulation with Steered Diffusion Bridge | CVPR 2026 | PB | Tissue-image translation | ★ |  |
+| 2026 | [Steering Where to Diffuse: Generative Modeling of Phenotypic Response Simulation with Steered Diffusion Bridge](https://openaccess.thecvf.com/content/CVPR2026/html/Zhang_Steering_Where_to_Diffuse_Generative_Modeling_of_Phenotypic_Response_Simulation_CVPR_2026_paper.html) | CVPR 2026 | PB | Tissue-image translation | ★ |  |
 | 2026 | [Uncertainty-Aware Distribution-to-Distribution Flow Matching for Scientific Imaging](https://arxiv.org/abs/2603.21717) | arXiv | PB | Segmentation uncertainty | ★ |  |
 | 2025 | [CellFlux: Simulating Cellular Morphology Changes via Flow Matching](https://arxiv.org/abs/2502.09775) | arXiv | FM | Tissue-image translation | ★ |  |
 
@@ -373,8 +373,8 @@
 | 2026 | [MTFlow: Time-Conditioned Flow Matching for Microtubule Segmentation in Noisy Microscopy Images](https://doi.org/10.1109/isbi61048.2026.11516025) | ISBI 2026 | FM | Segmentation masks | ★ |  |
 | 2026 | [Temporal Diffusion Bridge Model for Vessel Extraction Using Physics-informed Synthetic Data](https://arxiv.org/abs/2610.14105) | arXiv | PB | Segmentation masks | ★ |  |
 | 2025 | [A flow-matching-based method for retinal vessel segmentation](https://doi.org/10.1117/12.3075554) | Fifth International Conference on Optical Imagin... | FM | Segmentation masks | ★ |  |
+| 2025 | [CUNSB-RFIE: Context-Aware Unpaired Neural Schrödinger Bridge in Retinal Fundus Image Enhancement](https://doi.org/10.1109/wacv61041.2025.00442) | WACV 2025 | SB | Microscopy and OCT | ★ |  |
 | 2025 | [Generative priors-constraint accelerated iterative reconstruction for extremely sparse photoacoustic tomography boosted by mean-reverting diffusion model: Towards 8 projections](https://doi.org/10.1016/j.pacs.2025.100709) | Photoacoustics | PB | Incomplete-data CT | ★ |  |
-| 2024 | [CUNSB-RFIE: Context-Aware Unpaired Neural Schrödinger Bridge in Retinal Fundus Image Enhancement](https://doi.org/10.1109/wacv61041.2025.00442) | WACV 2025 | SB | Microscopy and OCT | ★ |  |
 
 ## HEST-1k
 
@@ -384,9 +384,9 @@
 | 2026 | [Gene-Selective Morphological Conditioning with Heteroscedastic Flow Matching for Spatial Transcriptomics](https://doi.org/10.1007/978-3-032-38224-5_16) | MICCAI 2026 | FM | Tissue-image translation | ★ |  |
 | 2026 | [MoLF: Mixture-of-Latent-Flow for Pan-Cancer Spatial Gene Expression Prediction from Histology](https://arxiv.org/abs/2602.02282) | arXiv | FM | Tissue-image translation | ★ |  |
 | 2026 | [PSSD: Progressive Spatial-Semantic Decoupling for flow-based gene expression prediction from histology images](https://doi.org/10.1093/bioinformatics/btag598) | Bioinformatics | FM | Tissue-image translation | ★ |  |
-| 2026 | [SPATIA: Multimodal Generation and Prediction of Spatial Cell Phenotypes](https://arxiv.org/abs/2507.04704) | arXiv | FM | Tissue-image translation | ★ |  |
 | 2025 | [GeneFlow: Translation of Single-cell Gene Expression to Histopathological Images via Rectified Flow](https://doi.org/10.52202/085713-1512) | NeurIPS 2025 | RF | Tissue-image translation | ★ | [code](https://github.com/wangmengbo/GeneFlow) |
 | 2025 | [Scalable Generation of Spatial Transcriptomics from Histology Images via Whole-Slide Flow Matching](https://arxiv.org/abs/2506.05361) | ICML 2025 | FM | Tissue-image translation | ★ | [code](https://github.com/Graph-and-Geometric-Learning/STFlow) |
+| 2025 | [SPATIA: Multimodal Generation and Prediction of Spatial Cell Phenotypes](https://arxiv.org/abs/2507.04704) | arXiv | FM | Tissue-image translation | ★ |  |
 
 ## UK Biobank
 
@@ -497,7 +497,7 @@
 | 2026 | [CellFluxV2: An Image Generative Foundation Model for Virtual Cell Modeling](https://doi.org/10.64898/2026.01.19.696785) | bioRxiv | FM | Tissue-image translation | ★ |  |
 | 2026 | [Elucidating the Design Space of Flow Matching for Cellular Microscopy](https://arxiv.org/abs/2603.26790) | arXiv | FM | Synthetic training data | ★ | [code](https://github.com/valence-labs/microscopy-flow-matching) |
 | 2026 | [FreeBridge: Variational Schrödinger Bridges for Cellular Transition Dynamics](https://doi.org/10.1007/978-3-032-38224-5_55) | Lecture Notes in Computer Science | SB | Tissue-image translation | ★ |  |
-| 2026 | Steering Where to Diffuse: Generative Modeling of Phenotypic Response Simulation with Steered Diffusion Bridge | CVPR 2026 | PB | Tissue-image translation | ★ |  |
+| 2026 | [Steering Where to Diffuse: Generative Modeling of Phenotypic Response Simulation with Steered Diffusion Bridge](https://openaccess.thecvf.com/content/CVPR2026/html/Zhang_Steering_Where_to_Diffuse_Generative_Modeling_of_Phenotypic_Response_Simulation_CVPR_2026_paper.html) | CVPR 2026 | PB | Tissue-image translation | ★ |  |
 | 2025 | [CellFlux: Simulating Cellular Morphology Changes via Flow Matching](https://arxiv.org/abs/2502.09775) | arXiv | FM | Tissue-image translation | ★ |  |
 
 ## SkullBreak
@@ -526,17 +526,17 @@
 |--:|:--|:--|:--|:--|:--:|:--:|
 | 2026 | [Healthy Counterfactual Generation with Denoising Diffusion Bridge Models](https://doi.org/10.1109/isbi61048.2026.11515608) | ISBI 2026 | PB | Anomaly and diagnosis | ★ |  |
 | 2026 | [Learning Patient-Specific Disease Dynamics with Latent Flow Matching for Longitudinal Imaging Generation](https://arxiv.org/abs/2512.09185) | ICLR 2026 | FM | Longitudinal forecasting | ★ |  |
-| 2026 | [MedForj: An open, large-scale foundational generative prior for high-resolution 3D brain MRI](https://arxiv.org/abs/2510.26834) | arXiv | FM | Volume and X-ray synthesis | ★ |  |
 | 2026 | [ProgFormer: Hierarchical Voxel Diffusion Transformer for Longitudinal Brain MRI Prediction](https://arxiv.org/abs/2607.27537) | arXiv | FM | Longitudinal forecasting | ★ |  |
+| 2025 | [MedForj: An open, large-scale foundational generative prior for high-resolution 3D brain MRI](https://arxiv.org/abs/2510.26834) | arXiv | FM | Volume and X-ray synthesis | ★ |  |
 
 ## BCI
 
 | Year | Title | Venue | Family | Task | In paper | Code |
 |--:|:--|:--|:--|:--|:--:|:--:|
+| 2026 | [PASB: Pathology-aware Schrödinger bridge for virtual immunohistochemical staining](https://doi.org/10.1016/j.media.2025.103869) | Medical Image Analysis | SB | Tissue-image translation | ★ |  |
 | 2026 | [SheafStain: Sheaf-Theoretic Schrödinger Bridge for Spatially and Biologically Coherent Virtual Staining](https://arxiv.org/abs/2606.11846) | arXiv | SB | Tissue-image translation | ★ | [code](https://github.com/deepnoid-ai/SheafStain) |
 | 2026 | [Topology-Aware Diffusion Schrödinger Bridge for Unpaired H&E-to-IHC Stain Translation](https://doi.org/10.1109/jbhi.2026.3668658) | IEEE Journal of Biomedical and Health Informatic... | SB | Tissue-image translation | ★ |  |
 | 2026 | [Virtual multiplex staining of the pancreatic islets across type 1 diabetes progression using a Schrödinger bridge](https://doi.org/10.64898/2026.04.14.718559) | bioRxiv | PB | Tissue-image translation | ★ |  |
-| 2025 | [PASB: Pathology-aware Schrödinger bridge for virtual immunohistochemical staining](https://doi.org/10.1016/j.media.2025.103869) | Medical Image Analysis | SB | Tissue-image translation | ★ |  |
 
 ## HABS-HD
 
@@ -544,8 +544,8 @@
 |--:|:--|:--|:--|:--|:--:|:--:|
 | 2026 | [Feynman Kac Reweighted Schrödinger Bridge Matching for Surface-Based Tau PET Harmonization](https://arxiv.org/abs/2606.17420) | arXiv | SB | Domain harmonization | ★ | [code](https://github.com/jianweizhang17/FKRSBM) |
 | 2026 | [Generalizable field of view extension for diffusion MRI via conditional flow matching](https://arxiv.org/abs/2610.17401) | arXiv | RF | Inpainting and editing | ★ |  |
-| 2026 | [MedForj: An open, large-scale foundational generative prior for high-resolution 3D brain MRI](https://arxiv.org/abs/2510.26834) | arXiv | FM | Volume and X-ray synthesis | ★ |  |
 | 2026 | [TGH-DB: Template-Guided Heteroscedastic Diffusion Bridge for Brain MRI-to-PET Synthesis](https://doi.org/10.1007/978-3-032-38189-7_51) | MICCAI 2026 | PB | Cross-modality synthesis | ★ |  |
+| 2025 | [MedForj: An open, large-scale foundational generative prior for high-resolution 3D brain MRI](https://arxiv.org/abs/2510.26834) | arXiv | FM | Volume and X-ray synthesis | ★ |  |
 
 ## Kvasir-SEG
 
@@ -588,9 +588,9 @@
 | Year | Title | Venue | Family | Task | In paper | Code |
 |--:|:--|:--|:--|:--|:--:|:--:|
 | 2026 | [PABBDM: A Pathology-Aware Brownian Bridge Diffusion Model for Virtual IHC Staining from H&E Histopathology Image](https://doi.org/10.2139/ssrn.6669641) | SSRN | PB | Tissue-image translation | ★ |  |
+| 2026 | [PASB: Pathology-aware Schrödinger bridge for virtual immunohistochemical staining](https://doi.org/10.1016/j.media.2025.103869) | Medical Image Analysis | SB | Tissue-image translation | ★ |  |
 | 2026 | [SheafStain: Sheaf-Theoretic Schrödinger Bridge for Spatially and Biologically Coherent Virtual Staining](https://arxiv.org/abs/2606.11846) | arXiv | SB | Tissue-image translation | ★ | [code](https://github.com/deepnoid-ai/SheafStain) |
 | 2026 | [Topology-Aware Diffusion Schrödinger Bridge for Unpaired H&E-to-IHC Stain Translation](https://doi.org/10.1109/jbhi.2026.3668658) | IEEE Journal of Biomedical and Health Informatic... | SB | Tissue-image translation | ★ |  |
-| 2025 | [PASB: Pathology-aware Schrödinger bridge for virtual immunohistochemical staining](https://doi.org/10.1016/j.media.2025.103869) | Medical Image Analysis | SB | Tissue-image translation | ★ |  |
 
 ## SkullFix
 
@@ -613,9 +613,9 @@
 
 | Year | Title | Venue | Family | Task | In paper | Code |
 |--:|:--|:--|:--|:--|:--:|:--:|
-| 2026 | [Elucidating the Design Space of Arbitrary-Noise-Based Diffusion Models](https://arxiv.org/abs/2507.18534) | arXiv | PB | MRI enhancement | ★ |  |
 | 2026 | [LSBMAR: Latent Schrödinger Bridge for Metal Artifact Reduction in CT Scans \*](https://doi.org/10.1109/cai68641.2026.11536624) | 2026 IEEE Conference on Artificial Intelligence ... | SB | CT denoising and artifacts | ★ |  |
 | 2026 | [SCMA: Structure-Conditioned and Metal-Aware Flow Matching for CT Metal Artifact Reduction](https://arxiv.org/abs/2607.28759) | arXiv | FM | CT denoising and artifacts | ★ |  |
+| 2025 | [Elucidating the Design Space of Arbitrary-Noise-Based Diffusion Models](https://arxiv.org/abs/2507.18534) | arXiv | PB | MRI enhancement | ★ |  |
 
 ## Duke-Breast-Cancer-MRI
 

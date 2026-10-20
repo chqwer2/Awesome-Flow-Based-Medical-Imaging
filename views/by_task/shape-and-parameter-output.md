@@ -11,13 +11,13 @@ Studies in the clinical task group “Shape and parameter output” (task family
 | 2026 | [Flow Matching-enabled Test-Time Refinement for Unsupervised Cardiac MR Registration](https://arxiv.org/abs/2603.01073) | arXiv | FM | Shape and parameter output | ★ | [code](https://github.com/mathpluscode/FlowReg) |
 | 2026 | [FlowReg: Reconstruction-Guided Flow Matching for Universal Spinal CT/X-Ray Registration](https://doi.org/10.1007/978-3-032-38186-6_8) | MICCAI 2026 | FM | Shape and parameter output | ★ |  |
 | 2026 | [Generative Brownian Bridge Diffusion In Motion Space For Enhanced Myocardial Strain Analysis](https://arxiv.org/abs/2608.01677) | arXiv | PB | Shape and parameter output | ★ | [code](https://github.com/Rishov-MIA/Brownian-Bridge-strain-analysis) |
-| 2026 | [GenTract: Generative Global Tractography](https://arxiv.org/abs/2511.13183) | arXiv | FM | Shape and parameter output | ★ |  |
 | 2026 | [Learned Hemodynamic Coupling Inference in Resting-State Functional MRI](https://arxiv.org/abs/2601.00973) | arXiv | NF | Shape and parameter output |  |  |
 | 2026 | [MedPCFM: Improving Medical Point Cloud Completion by Integrating Point Transformers and Flow Matching](https://arxiv.org/abs/2606.24433) | arXiv | FM | Shape and parameter output | ★ |  |
 | 2026 | [Sequence-Conditioned Flow-Based Models for Digital Phantom Generation in MRI](https://doi.org/10.1007/978-3-032-38260-3_48) | Lecture Notes in Computer Science | NF | Shape and parameter output |  |  |
 | 2026 | [Trackerless Ultrasound Pose Estimation via Correspondence-Aware Tokenization and Flow-Matching Transformers](https://doi.org/10.1007/978-3-032-38236-8_53) | MICCAI 2026 | FM | Shape and parameter output | ★ |  |
 | 2026 | [UBone3D: Physics-Rectified Conditional Flow Matching for Anatomical 3D Shape Completion from Ultrasound](https://doi.org/10.1007/978-3-032-37520-9_28) | arXiv | FM | Shape and parameter output | ★ |  |
 | 2025 | [CardiacFlow: 3D+t Four-Chamber Cardiac Shape Completion and Generation via Flow Matching](https://doi.org/10.1007/978-3-032-04937-7_9) | MICCAI 2025 | FM | Shape and parameter output | ★ | [code](https://github.com/m-qiang/CardiacFlow) |
+| 2025 | [GenTract: Generative Global Tractography](https://arxiv.org/abs/2511.13183) | arXiv | FM | Shape and parameter output | ★ |  |
 | 2025 | [Non-parametric prediction of brain MRI microstructure using transfer learning.](https://doi.org/10.1162/imag_a_00548) | Imaging neuroscience (Cambridge, Mass.) | NF | Shape and parameter output |  |  |
 | 2025 | [PFGM-IQA: CT Image Quality Assessment using Poisson Flow Generative Models](https://doi.org/10.1109/ijcnn64981.2025.11228767) | 2025 International Joint Conference on Neural Ne... | PF | Shape and parameter output | ★ |  |
 | 2025 | [Semi-GDE: generative distribution estimation for semi-supervised medical landmark localization](https://doi.org/10.1016/j.neucom.2025.131095) | Neurocomputing | NF | Shape and parameter output |  |  |

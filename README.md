@@ -36,7 +36,7 @@ The survey is under review. This entry is a placeholder and will be replaced by 
 | diffusion sample | 55 | diffusion comparison sample (Supplementary Table S4) |
 | excluded | 70 | recorded as excluded or not drawn into a sample; kept in the database only |
 
-Marked ★: 447 studies discussed in the main text (289), Supplementary Note S1 (387), Table S3 (383) or Table S4 (55); a study can appear in several places. 107 studies have a recorded code link.
+Marked ★: 447 studies discussed in the main text (301), Supplementary Note S1 (387), Table S3 (383) or Table S4 (55); a study can appear in several places. 107 studies have a recorded code link.
 
 | Model family | Studies |
 |:--|--:|

@@ -39,7 +39,6 @@ Studies by modality; a study with several appears in each. 279 studies, 202 mark
 | 2026 | [DRIFT: Difficulty-Aware Rectified Flows for Through-Plane MRI Super-Resolution](https://doi.org/10.1007/978-3-032-37035-8_24) | ECCV 2026 | RF | MRI enhancement | ★ | [code](https://github.com/yoonseokchoi-ai/DRIFT) |
 | 2026 | [ECGFlowCMR: Pretraining with ECG-Generated Cine CMR Helps Cardiac Disease Classification and Phenotype Prediction](https://doi.org/10.1145/3770855.3818910) | 32nd ACM SIGKDD Conference on Knowledge Discover... | FM | Cardiac and brain dynamics | ★ |  |
 | 2026 | [Efficient breast cancer segmentation via Brownian Bridge diffusion with semantic fusion strategy](https://doi.org/10.1016/j.patcog.2025.112993) | Pattern Recognition | PB | Segmentation masks | ★ |  |
-| 2026 | [Elucidating the Design Space of Arbitrary-Noise-Based Diffusion Models](https://arxiv.org/abs/2507.18534) | arXiv | PB | MRI enhancement | ★ |  |
 | 2026 | [Enhancing Ultra-Low-Field to High-Field MRI Using Multi-cycle GAN and Flow Matching Models](https://doi.org/10.1007/978-3-032-23344-8_19) | Enhancing Ultra-Low-Field MRI with Paired High-F... | FM | MRI enhancement | ★ |  |
 | 2026 | [Fast Cross-Strength Multi-Contrast Brain MRI Translation using Latent Bridge Matching](https://arxiv.org/abs/2609.20341) | arXiv | PB | Domain harmonization | ★ |  |
 | 2026 | [Flow Matching for Conditional MRI-CT and CBCT-CT Image Synthesis](https://doi.org/10.34749/3061-1466.2026.6) | AIRoV 2026 | FM | Synthetic CT and dose | ★ |  |
@@ -62,7 +61,6 @@ Studies by modality; a study with several appears in each. 279 studies, 202 mark
 | 2026 | [Generative Flow-Matching Modeling of the Neurodevelopmental Connectome via Dynamic Hypergraphs](https://doi.org/10.1145/3770855.3819022) | 32nd ACM SIGKDD Conference on Knowledge Discover... | FM | Cardiac and brain dynamics | ★ |  |
 | 2026 | [Generative modeling of complex-valued brain MRI data](https://doi.org/10.1088/1361-6560/aeb088) | Physics in Medicine & Biology | FM | Volume and X-ray synthesis | ★ |  |
 | 2026 | Generative Models for Medical Image Analysis | UCL Discovery (University College London) | FM | Other: registration |  |  |
-| 2026 | [GenTract: Generative Global Tractography](https://arxiv.org/abs/2511.13183) | arXiv | FM | Shape and parameter output | ★ |  |
 | 2026 | [Guided MRI Reconstruction via Schrödinger Bridge](https://doi.org/10.1109/tmi.2026.3725165) | IEEE Trans. Medical Imaging | PB | MRI reconstruction | ★ | [code](https://github.com/zhyjSIAT/I2SB-Inversion) |
 | 2026 | [Healthy Counterfactual Generation with Denoising Diffusion Bridge Models](https://doi.org/10.1109/isbi61048.2026.11515608) | ISBI 2026 | PB | Anomaly and diagnosis | ★ |  |
 | 2026 | [Heterogeneity-Adaptive Diffusion Schrödinger Bridge for PET-Guided Whole-Body MRI Translation](https://doi.org/10.1007/978-3-032-38189-7_21) | arXiv | PB | Missing sequences and contrast | ★ | [code](https://github.com/xyw-medical-research/HADSB) |
@@ -82,7 +80,6 @@ Studies by modality; a study with several appears in each. 279 studies, 202 mark
 | 2026 | [MAMA-FLUX.2: Image-to-Image Synthesis of Post-Contrast Breast DCE-MRI for the MAMA-SYNTH Challenge](https://arxiv.org/abs/2608.25648) | arXiv | RF | Missing sequences and contrast | ★ |  |
 | 2026 | [Maximizing T2-Only Prostate Cancer Localization from Expected Diffusion Weighted Imaging](https://arxiv.org/abs/2604.00985) | arXiv | FM | Anomaly and diagnosis | ★ | [code](https://github.com/wxyi057/T2-GEM) |
 | 2026 | [MedFlowSeg: Flow Matching for Medical Image Segmentation with Frequency-Aware Attention](https://arxiv.org/abs/2604.19675) | arXiv | FM | Segmentation masks | ★ |  |
-| 2026 | [MedForj: An open, large-scale foundational generative prior for high-resolution 3D brain MRI](https://arxiv.org/abs/2510.26834) | arXiv | FM | Volume and X-ray synthesis | ★ |  |
 | 2026 | [MetaDB: Metadata-Guided Diffusion Bridge Model for High-Fidelity Medical Image Synthesis](https://doi.org/10.1145/3805622.3810728) | 2026 International Conference on Multimedia Retr... | PB | Missing sequences and contrast | ★ |  |
 | 2026 | [MM-FM: Multi-Modal Flow Matching for Brain MRI Missing Modality Synthesis](https://doi.org/10.1109/ivmsp68335.2026.11618833) | 2026 IEEE 15th Image, Video, and Multidimensiona... | FM | Missing sequences and contrast | ★ |  |
 | 2026 | [Modeling of Sparse and Irregular Medical Image Time Series](https://doi.org/10.11588/heidok.00038197) | heiDOK (Heidelberg University) | FM | Longitudinal forecasting |  |  |
@@ -169,6 +166,7 @@ Studies by modality; a study with several appears in each. 279 studies, 202 mark
 | 2025 | [DIReCT: Domain-Informed Rectified Flow for Controllable Brain MRI to PET Translation](https://doi.org/10.1007/978-3-031-96628-6_15) | Information Processing in Medical Imaging | RF | Cross-modality synthesis | ★ |  |
 | 2025 | [Distribution-Guided Multi-Tracer Brain PET Synthesis from Structural MRI with Class-Conditioned Weighted Diffusion.](https://doi.org/10.1007/978-3-032-04965-0_15) | MICCAI | NF | Missing sequences and contrast |  |  |
 | 2025 | [Efficient and robust 3D blind harmonization for large domain gaps](https://arxiv.org/abs/2505.00133) | arXiv | RF | Domain harmonization | ★ | [code](https://github.com/SNU-LIST/BlindHarmonyDiff) |
+| 2025 | [Elucidating the Design Space of Arbitrary-Noise-Based Diffusion Models](https://arxiv.org/abs/2507.18534) | arXiv | PB | MRI enhancement | ★ |  |
 | 2025 | [Enhancing Mid-Field MR Images for Upright Treatments Using Diffusion Schrödinger Bridge Models](https://doi.org/10.1016/s0167-8140(25)04387-7) | Radiotherapy and Oncology | SB | MRI enhancement |  |  |
 | 2025 | [Fast-DDPM: Fast Denoising Diffusion Probabilistic Models for Medical Image-to-Image Generation](https://doi.org/10.1109/jbhi.2025.3565183) | IEEE Journal of Biomedical and Health Informatic... | diffusion | CT denoising and artifacts | ★ |  |
 | 2025 | [FLAT: FLow-Aligned Training of Unrolled Networks for MRI Reconstruction](https://arxiv.org/abs/2512.03020) | arXiv | FM | MRI reconstruction | ★ |  |
@@ -178,9 +176,11 @@ Studies by modality; a study with several appears in each. 279 studies, 202 mark
 | 2025 | [FRGDM: Pre- to Post-Contrast Medical Image Synthesis Based on Diffusion Models](https://doi.org/10.1109/dsis67228.2025.11390639) | 2025 International Conference on Data Science an... | PB | Missing sequences and contrast | ★ |  |
 | 2025 | [Fully Guided Neural Schrödinger bridge for Brain MR image synthesis](https://arxiv.org/abs/2501.14171) | arXiv | SB | Missing sequences and contrast | ★ |  |
 | 2025 | [Generating High-Resolution Brain Counterfactuals via Stacked Autoencoders and Causal Autoregressive Flows](https://doi.org/10.1117/12.3047018) | Progress in Biomedical Optics and Imaging Procee... | NF | Other: counterfactual brain generation |  |  |
+| 2025 | [GenTract: Generative Global Tractography](https://arxiv.org/abs/2511.13183) | arXiv | FM | Shape and parameter output | ★ |  |
 | 2025 | [High-speed high-quality super-resolution diffusion model via flow-matching](https://doi.org/10.58530/2025/3975) | ISMRM | FM | MRI enhancement |  |  |
 | 2025 | [Interpolating Dynamic MRI Images with a Latent Brownian Bridge Diffusion Model](https://doi.org/10.58530/2025/4140) | ISMRM | PB | Cardiac and brain dynamics |  |  |
 | 2025 | [Longitudinal Flow Matching for Trajectory Modeling](https://arxiv.org/abs/2510.03569) | arXiv | FM | Longitudinal forecasting | ★ |  |
+| 2025 | [MedForj: An open, large-scale foundational generative prior for high-resolution 3D brain MRI](https://arxiv.org/abs/2510.26834) | arXiv | FM | Volume and X-ray synthesis | ★ |  |
 | 2025 | [Medical images anomaly detection for imbalanced datasets with multi-scale normalizing flow](https://doi.org/10.2298/csis240227001x) | Computer Science and Information Systems | NF | Anomaly and diagnosis |  |  |
 | 2025 | [Non-parametric prediction of brain MRI microstructure using transfer learning.](https://doi.org/10.1162/imag_a_00548) | Imaging neuroscience (Cambridge, Mass.) | NF | Shape and parameter output |  |  |
 | 2025 | [Reflect: Rectified Flows for Efficient Brain Anomaly Correction Transport](https://doi.org/10.1007/978-3-032-04965-0_43) | MICCAI 2025 | RF | Anomaly and diagnosis | ★ | [code](https://github.com/farzad-bz/REFLECT) |
@@ -231,11 +231,14 @@ Studies by modality; a study with several appears in each. 279 studies, 202 mark
 | 2024 | [Simultaneous Tri-Modal Medical Image Fusion and Super-Resolution Using Conditional Diffusion Model](https://doi.org/10.1007/978-3-031-72104-5_61) | MICCAI 2024 | diffusion | Multi-modality restoration | ★ |  |
 | 2024 | [Slice-consistent 3D volumetric brain CT-to-MRI translation with 2D Brownian bridge diffusion model](https://doi.org/10.1007/978-3-031-72104-5_63) | MICCAI 2024 | PB | Cross-modality synthesis | ★ | [code](https://github.com/MICV-yonsei/CT2MRI) |
 | 2024 | [Super Resolution MRI via Upscaling Diffusion Bridges](https://doi.org/10.1109/siu61531.2024.10600909) | 2024 32nd Signal Processing and Communications A... | PB | MRI enhancement | ★ |  |
+| 2024 | [Synthetic CT generation from MRI using 3D transformer-based denoising diffusion model](https://doi.org/10.1002/mp.16847) | Medical Physics | diffusion | Synthetic CT and dose | ★ |  |
 | 2024 | [Transfer learning for non-parametric prediction of joint distributions of g-ratios and axon diameters from MRI](https://doi.org/10.58530/2024/1232) | ISMRM | NF | Shape and parameter output |  |  |
 | 2024 | [TrIND: Representing Anatomical Trees by Denoising Diffusion of Implicit Neural Fields](https://doi.org/10.1007/978-3-031-72390-2_33) | MICCAI 2024 | diffusion | Anatomy and device shapes | ★ |  |
+| 2024 | [Unsupervised Anomaly Detection in Medical Images Using Masked Diffusion Model](https://doi.org/10.1007/978-3-031-45673-2_37) | Lecture Notes in Computer Science | diffusion | Anomaly and diagnosis | ★ |  |
 | 2024 | [Unsupervised Multi-modal Medical Image Registration via Invertible Translation](https://doi.org/10.1007/978-3-031-72751-1_2) | ECCV | NF | Cross-modality synthesis |  |  |
 | 2024 | [Wavelet-Improved Score-Based Generative Model for Medical Imaging](https://doi.org/10.1109/tmi.2023.3325824) | IEEE Transactions on Medical Imaging | diffusion | CT denoising and artifacts | ★ |  |
 | 2024 | [WDM: 3D Wavelet Diffusion Models for High-Resolution Medical Image Synthesis](https://doi.org/10.1007/978-3-031-72744-3_2) | Deep Generative Models | diffusion | Volume and X-ray synthesis | ★ |  |
+| 2024 | [Zero-Shot Medical Image Translation via Frequency-Guided Diffusion Models](https://doi.org/10.1109/tmi.2023.3325703) | IEEE Transactions on Medical Imaging | diffusion | Domain harmonization | ★ |  |
 | 2023 | [2D medical image synthesis using transformer-based denoising diffusion probabilistic model](https://doi.org/10.1088/1361-6560/acca5c) | Physics in Medicine & Biology | diffusion | Synthetic training data | ★ |  |
 | 2023 | [A Conditional Flow Variational Autoencoder for Controllable Synthesis of Virtual Populations of Anatomy](https://doi.org/10.1007/978-3-031-43990-2_14) | MICCAI | NF | Anatomy and device shapes |  |  |
 | 2023 | [A latent space for unsupervised MR image quality control via artifact assessment](https://doi.org/10.1117/12.2652917) | SPIE Medical Imaging: Image Processing | NF | Anomaly and diagnosis |  |  |
@@ -260,10 +263,7 @@ Studies by modality; a study with several appears in each. 279 studies, 202 mark
 | 2023 | [Simultaneous Super-Resolution and Denoising on MRI via Conditional Stochastic Normalizing Flow](https://doi.org/10.1109/bibm58861.2023.10385691) | BIBM | NF | MRI enhancement |  |  |
 | 2023 | [Solving 3D Inverse Problems Using Pre-Trained 2D Diffusion Models](https://doi.org/10.1109/cvpr52729.2023.02159) | CVPR 2023 | diffusion | Incomplete-data CT | ★ |  |
 | 2023 | [Super-resolution of brain MRI images based on denoising diffusion probabilistic model](https://doi.org/10.1016/j.bspc.2023.104901) | Biomedical Signal Processing and Control | diffusion | MRI enhancement | ★ |  |
-| 2023 | [Synthetic CT generation from MRI using 3D transformer-based denoising diffusion model](https://doi.org/10.1002/mp.16847) | Medical Physics | diffusion | Synthetic CT and dose | ★ |  |
-| 2023 | [Unsupervised Anomaly Detection in Medical Images Using Masked Diffusion Model](https://doi.org/10.1007/978-3-031-45673-2_37) | Lecture Notes in Computer Science | diffusion | Anomaly and diagnosis | ★ |  |
 | 2023 | [Unsupervised Medical Image Translation With Adversarial Diffusion Models](https://doi.org/10.1109/tmi.2023.3290149) | IEEE Transactions on Medical Imaging | diffusion | Cross-modality synthesis | ★ |  |
-| 2023 | [Zero-Shot Medical Image Translation via Frequency-Guided Diffusion Models](https://doi.org/10.1109/tmi.2023.3325703) | IEEE Transactions on Medical Imaging | diffusion | Domain harmonization | ★ |  |
 | 2022 | [Applications of a Bayesian Approach with Deep Learning to Solving Inverse Problems](https://doi.org/10.26686/wgtn.20463138) |  | NF | MRI reconstruction |  |  |
 | 2022 | [Flow-Based Visual Quality Enhancer for Super-Resolution Magnetic Resonance Spectroscopic Imaging](https://doi.org/10.1007/978-3-031-18576-2_1) | Lecture Notes in Computer Science | NF | MRI enhancement |  |  |
 | 2022 | [Fusion-Cinn: A Generative Fusion Method for Multimodal Medical Images Based on Conditional Invertible Neural Network](https://doi.org/10.2139/ssrn.4003392) | SSRN | NF | Other: Multimodal image fusion |  |  |

@@ -24,11 +24,11 @@ Studies in the clinical task group “Domain harmonization” (task family: Tran
 | 2024 | [Harmonizing flows: Leveraging normalizing flows for unsupervised and source-free MRI harmonization](https://doi.org/10.1016/j.media.2025.103483) | Medical Image Analysis | NF | Domain harmonization |  | [code](https://github.com/farzad-bz/Harmonizing-Flows) |
 | 2024 | [MRFlow: Flow-based neural network for MR image harmonization](https://doi.org/10.58530/2023/0161) | ISMRM | NF | Domain harmonization |  |  |
 | 2024 | [Reliable Source Approximation: Source-Free Unsupervised Domain Adaptation for Vestibular Schwannoma MRI Segmentation](https://doi.org/10.1007/978-3-031-72117-5_58) | MICCAI 2024 | diffusion | Domain harmonization | ★ |  |
+| 2024 | [Zero-Shot Medical Image Translation via Frequency-Guided Diffusion Models](https://doi.org/10.1109/tmi.2023.3325703) | IEEE Transactions on Medical Imaging | diffusion | Domain harmonization | ★ |  |
 | 2023 | [BlindHarmony: "Blind" Harmonization for MR Images via Flow Model](https://arxiv.org/abs/2305.10732) | ICCV | NF | Domain harmonization |  |  |
 | 2023 | [CTFlow: Mitigating Effects of Computed Tomography Acquisition and Reconstruction with Normalizing Flows.](https://doi.org/10.1007/978-3-031-43990-2_39) | MICCAI | NF | Domain harmonization |  |  |
 | 2023 | Improved multi-site Parkinson's disease classification using neuroimaging data with counterfactual inference | MIDL | NF | Domain harmonization |  |  |
 | 2023 | [Unsupervised Domain Transfer with Conditional Invertible Neural Networks](https://doi.org/10.1007/978-3-031-43907-0_73) | arXiv | NF | Domain harmonization |  |  |
-| 2023 | [Zero-Shot Medical Image Translation via Frequency-Guided Diffusion Models](https://doi.org/10.1109/tmi.2023.3325703) | IEEE Transactions on Medical Imaging | diffusion | Domain harmonization | ★ |  |
 | 2022 | Comparing Normalizing Flow and Generative Adversarial Networks to Mitigate Effects of Variations in CT Acquisition and Reconstruction |  | NF | Domain harmonization |  |  |
 | 2022 | [InvNorm: Domain Generalization for Object Detection in Gastrointestinal Endoscopy](https://arxiv.org/abs/2205.02842) | arXiv | NF | Domain harmonization |  |  |
 | 2021 | [Harmonization with Flow-Based Causal Inference](https://doi.org/10.1007/978-3-030-87199-4_17) | MICCAI 2021 | NF | Domain harmonization | ★ |  |

@@ -52,6 +52,7 @@ Studies of the catalogue by the probability path that connects the two end state
 | 2026 | [Multi-view Fusion-Guided Brownian Bridge Diffusion Model for Ultra-Low-Field MRI Enhancement](https://doi.org/10.1007/978-3-032-23344-8_6) | Enhancing Ultra-Low-Field MRI with Paired High-F... | PB | MRI enhancement | ★ |  |
 | 2026 | [Multimodal Brownian bridge diffusion model for controllable synthetic medical image generation](https://doi.org/10.1016/j.bspc.2026.109584) | Biomedical Signal Processing and Control | PB | Synthetic training data | ★ |  |
 | 2026 | [PABBDM: A Pathology-Aware Brownian Bridge Diffusion Model for Virtual IHC Staining from H&E Histopathology Image](https://doi.org/10.2139/ssrn.6669641) | SSRN | PB | Tissue-image translation | ★ |  |
+| 2026 | [PASB: Pathology-aware Schrödinger bridge for virtual immunohistochemical staining](https://doi.org/10.1016/j.media.2025.103869) | Medical Image Analysis | SB | Tissue-image translation | ★ |  |
 | 2026 | [PerturbBridge: Direct Phenotypic Supervision for Cellular Perturbation Generation](https://arxiv.org/abs/2610.17066) | arXiv | PB | Tissue-image translation | ★ |  |
 | 2026 | [PPDM: Pixel Puzzling Diffusion Model for Speed and Memory Efficient Volumetric Medical Image Translation](https://arxiv.org/abs/2606.15323) | arXiv | PB | Low-count PET | ★ |  |
 | 2026 | [Pre- to Post-Contrast Synthesis of Breast DCE-MRI using Latent Bridge Matching](https://arxiv.org/abs/2608.10000) | arXiv | PB | Missing sequences and contrast | ★ |  |
@@ -65,7 +66,7 @@ Studies of the catalogue by the probability path that connects the two end state
 | 2026 | [Self-cascade latent Schrödinger bridge for CT field-of-view extension](https://doi.org/10.1088/1361-6560/aea5d0) | Physics in Medicine & Biology | PB | Incomplete-data CT | ★ |  |
 | 2026 | [SheafStain: Sheaf-Theoretic Schrödinger Bridge for Spatially and Biologically Coherent Virtual Staining](https://arxiv.org/abs/2606.11846) | arXiv | SB | Tissue-image translation | ★ | [code](https://github.com/deepnoid-ai/SheafStain) |
 | 2026 | [Spectral Consistent Flow for One-step 3D Medical Image Translation](https://doi.org/10.1007/978-3-032-37550-6_4) | arXiv | PB | Cross-modality synthesis | ★ |  |
-| 2026 | Steering Where to Diffuse: Generative Modeling of Phenotypic Response Simulation with Steered Diffusion Bridge | CVPR 2026 | PB | Tissue-image translation | ★ |  |
+| 2026 | [Steering Where to Diffuse: Generative Modeling of Phenotypic Response Simulation with Steered Diffusion Bridge](https://openaccess.thecvf.com/content/CVPR2026/html/Zhang_Steering_Where_to_Diffuse_Generative_Modeling_of_Phenotypic_Response_Simulation_CVPR_2026_paper.html) | CVPR 2026 | PB | Tissue-image translation | ★ |  |
 | 2026 | [Stochastic Perturbations Improve Distribution-to-Distribution Generative Models](https://doi.org/10.1109/cvprf71909.2026.00384) | CVPR 2026 | FM | Tissue-image translation | ★ |  |
 | 2026 | [Task-Adapted Brownian Bridge Diffusion with Global-Local Feature Enhancement for Contrast-Agent-Free T1CE MRI Synthesis](https://doi.org/10.1109/access.2026.3742887) | IEEE Access | PB | Missing sequences and contrast | ★ |  |
 | 2026 | [Temporal Diffusion Bridge Model for Vessel Extraction Using Physics-informed Synthetic Data](https://arxiv.org/abs/2610.14105) | arXiv | PB | Segmentation masks | ★ |  |
@@ -87,6 +88,7 @@ Studies of the catalogue by the probability path that connects the two end state
 | 2025 | [BME^2: A Plug-and-Play Bridge-Based Module for Misalignment Estimation and Elimination in Multi-scan Image Restoration](https://doi.org/10.1007/978-3-032-05169-1_7) | MICCAI 2025 | PB | Multi-modality restoration | ★ | [code](https://github.com/ChenWenxuan2021/BME2) |
 | 2025 | [Coarse-to-Fine Medical Image Translation by Incorporating Deterministic Guidance and Probabilistic Refinement](https://doi.org/10.1007/978-3-032-04984-1_13) | MICCAI 2025 | PB | Missing sequences and contrast | ★ |  |
 | 2025 | [CT Kernel Conversion for Quantitative Assessment in Chronic Obstructive Pulmonary Disease Using an Image-to-Image Schrödinger Bridge Model](https://doi.org/10.2139/ssrn.5348593) | SSRN | SB | Domain harmonization | ★ |  |
+| 2025 | [CUNSB-RFIE: Context-Aware Unpaired Neural Schrödinger Bridge in Retinal Fundus Image Enhancement](https://doi.org/10.1109/wacv61041.2025.00442) | WACV 2025 | SB | Microscopy and OCT | ★ |  |
 | 2025 | [Deterministic Medical Image Translation via High-fidelity Brownian Bridges](https://arxiv.org/abs/2503.22531) | arXiv | PB | Missing sequences and contrast | ★ |  |
 | 2025 | [Diffusion Bridge Models for 3D Medical Image Translation](https://doi.org/10.1109/embc58623.2025.11252839) | EMBC 2025 | PB | Cross-modality synthesis | ★ |  |
 | 2025 | [Diffusion model based OCT to OCTA translation](https://doi.org/10.3389/fmed.2025.1655453) | Frontiers in Medicine | PB | Cross-modality synthesis | ★ |  |
@@ -99,7 +101,6 @@ Studies of the catalogue by the probability path that connects the two end state
 | 2025 | [Implicit Image-to-Image Schrödinger Bridge for image restoration](https://doi.org/10.1016/j.patcog.2025.111627) | Pattern Recognition | PB | CT denoising and artifacts | ★ | [code](https://github.com/wangya22/I3SB) |
 | 2025 | [Longitudinal Flow Matching for Trajectory Modeling](https://arxiv.org/abs/2510.03569) | arXiv | FM | Longitudinal forecasting | ★ |  |
 | 2025 | [Optical Coherence Tomography Harmonization with Anatomy-Guided Latent Metric Schrödinger Bridges](https://doi.org/10.52202/085713-0202) | NeurIPS 2025 | SB | Domain harmonization | ★ | [code](https://github.com/Shuwen-Wei/lmsb) |
-| 2025 | [PASB: Pathology-aware Schrödinger bridge for virtual immunohistochemical staining](https://doi.org/10.1016/j.media.2025.103869) | Medical Image Analysis | SB | Tissue-image translation | ★ |  |
 | 2025 | [Pixel super-resolved virtual staining of label-free tissue using diffusion models](https://doi.org/10.1038/s41467-025-60387-z) | Nature Communications | PB | Tissue-image translation | ★ |  |
 | 2025 | [Projection Embedded Diffusion Bridge for CT Reconstruction from Incomplete Data](https://doi.org/10.1117/12.3048484) | arXiv | PB | Incomplete-data CT | ★ |  |
 | 2025 | [R2B-WFC Ultrasound Reconstruction: Wavelet Fourier Convolution-Based Reconstruction from Radio Frequency to Image](https://doi.org/10.1007/978-3-032-05325-1_43) | MICCAI 2025 | SB | Domain harmonization | ★ |  |
@@ -112,7 +113,6 @@ Studies of the catalogue by the probability path that connects the two end state
 | 2025 | [Super-Resolution Ultrasound Localization Microscopy via Brownian Bridge Diffusion Model for Liver Fibrosis Assessment](https://doi.org/10.1109/ius62464.2025.11201762) | 2025 IEEE International Ultrasonics Symposium (I... | PB | Cross-modality synthesis | ★ |  |
 | 2025 | [T2T-Bridge: Direct Diffusion Bridge Model for Thick-to-Thin Slice Infant MRI Reconstruction](https://doi.org/10.1109/isbi60581.2025.10980952) | ISBI 2025 | PB | MRI enhancement | ★ |  |
 | 2024 | [CT-based brain ventricle segmentation via diffusion Schrödinger Bridge without target domain ground truths](https://doi.org/10.1007/978-3-031-72111-3_13) | MICCAI 2024 | SB | Segmentation masks | ★ | [code](https://github.com/HealthX-Lab/DiffusionSynCTSeg) |
-| 2024 | [CUNSB-RFIE: Context-Aware Unpaired Neural Schrödinger Bridge in Retinal Fundus Image Enhancement](https://doi.org/10.1109/wacv61041.2025.00442) | WACV 2025 | SB | Microscopy and OCT | ★ |  |
 | 2024 | [Direct Diffusion Bridge for High MB-count Image Generation in Ultrasound Localization Microscopy](https://doi.org/10.1109/uffc-js60046.2024.10793898) | 2024 IEEE Ultrasonics, Ferroelectrics, and Frequ... | SB | Microscopy and OCT | ★ |  |
 | 2024 | [Fundus Image Enhancement Through Direct Diffusion Bridges](https://doi.org/10.1109/jbhi.2024.3446866) | IEEE Journal of Biomedical and Health Informatic... | PB | Microscopy and OCT | ★ |  |
 | 2024 | [Improving Cone-Beam CT Image Quality with Knowledge Distillation-Enhanced Diffusion Model in Imbalanced Data Settings](https://doi.org/10.1007/978-3-031-72378-0_12) | MICCAI 2024 | PB | Synthetic CT and dose | ★ |  |
@@ -120,5 +120,5 @@ Studies of the catalogue by the probability path that connects the two end state
 | 2024 | [Multi-contrast MR image synthesis with a Brownian diffusion model](https://doi.org/10.1109/siu61531.2024.10601086) | SIU 2024 | PB | Missing sequences and contrast | ★ |  |
 | 2024 | [Self-Consistent Nested Diffusion Bridge for Accelerated MRI Reconstruction](https://arxiv.org/abs/2412.09998) | arXiv | PB | MRI reconstruction | ★ |  |
 | 2024 | [Slice-consistent 3D volumetric brain CT-to-MRI translation with 2D Brownian bridge diffusion model](https://doi.org/10.1007/978-3-031-72104-5_63) | MICCAI 2024 | PB | Cross-modality synthesis | ★ | [code](https://github.com/MICV-yonsei/CT2MRI) |
+| 2024 | [Stage-by-Stage Wavelet Optimization Refinement Diffusion Model for Sparse-View CT Reconstruction](https://doi.org/10.1109/tmi.2024.3355455) | IEEE Transactions on Medical Imaging | diffusion | Incomplete-data CT | ★ | [code](https://github.com/yqx7150/SWORD) |
 | 2024 | [Structure-aware diffusion for low-dose CT imaging](https://doi.org/10.1088/1361-6560/ad5d47) | Physics in Medicine & Biology | PB | CT denoising and artifacts | ★ |  |
-| 2023 | [Stage-by-Stage Wavelet Optimization Refinement Diffusion Model for Sparse-View CT Reconstruction](https://doi.org/10.1109/tmi.2024.3355455) | IEEE Transactions on Medical Imaging | diffusion | Incomplete-data CT | ★ | [code](https://github.com/yqx7150/SWORD) |
