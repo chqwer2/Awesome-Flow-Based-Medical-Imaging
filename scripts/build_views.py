@@ -25,10 +25,10 @@ FAMILY_NAME = {"FM": "Flow matching (FM)", "RF": "Rectified flow (RF)", "SB": "S
 TASK_ORDER = ["Restoration", "Translation and harmonization", "Generation and forecasting",
               "Analysis and segmentation", "Other"]
 LIST_ORDER = ["catalogue", "related", "NF sample", "diffusion sample", "excluded"]
-LIST_NOTE = {"catalogue": "coded on the six design axes (Supplementary Table S3)",
+LIST_NOTE = {"catalogue": "coded on the six design axes (Supplementary Data 1)",
              "related": "passed title and abstract screening (includes the catalogue)",
              "NF sample": "normalizing-flow comparison sample",
-             "diffusion sample": "diffusion comparison sample (Supplementary Table S4)",
+             "diffusion sample": "diffusion comparison sample (Supplementary Table S3)",
              "excluded": "recorded as excluded or not drawn into a sample; kept in the database only"}
 CITATION = """```bibtex
 @article{xue2026generative,
@@ -279,7 +279,7 @@ def main():
         if lists[l]:
             L.append(f"| {l} | {lists[l]} | {LIST_NOTE[l]} |")
     L += ["", f"Marked ★: {n_star} studies discussed in the main text ({where['main text']}), Supplementary Note S1 ({where['Note S1']}), "
-          f"Table S3 ({where['Table S3']}) or Table S4 ({where['Table S4']}); a study can appear in several places. "
+          f"Supplementary Data 1 ({where['Table S3']}) or Table S3 ({where['Table S4']}); a study can appear in several places. "
           f"{n_code} studies have a recorded code link.", "",
           "| Model family | Studies |", "|:--|--:|"]
     for f in FAMILY_ORDER:
@@ -308,7 +308,7 @@ def main():
           "| representation, dimension | image, latent, wavelet, parameters or geometry; 2D or 3D (catalogue only) |",
           "| clinical_group, task_family | task group and one of the four task families |",
           "| modality, anatomy, datasets | semicolon-separated; anatomy is keyword-derived |",
-          "| in_paper, in_paper_where | yes or no; main text, Note S1, Note S2, Table S3, Table S4 |",
+          "| in_paper, in_paper_where | yes or no; main text, Note S1, Note S2, Supplementary Data 1, Table S3 (diffusion sample) |",
           "| list | catalogue, related, NF sample, diffusion sample, excluded (semicolon-separated) |",
           "| screening_status, merged_from | full-text decision; source ids merged into the row |", ""]
     write(os.path.join(ROOT, "README.md"), L)

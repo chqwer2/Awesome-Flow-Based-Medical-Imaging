@@ -30,13 +30,13 @@ The survey is under review. This entry is a placeholder and will be replaced by 
 
 | List | Studies | What it holds |
 |:--|--:|:--|
-| catalogue | 383 | coded on the six design axes (Supplementary Table S3) |
+| catalogue | 383 | coded on the six design axes (Supplementary Data 1) |
 | related | 592 | passed title and abstract screening (includes the catalogue) |
 | NF sample | 17 | normalizing-flow comparison sample |
-| diffusion sample | 55 | diffusion comparison sample (Supplementary Table S4) |
+| diffusion sample | 55 | diffusion comparison sample (Supplementary Table S3) |
 | excluded | 70 | recorded as excluded or not drawn into a sample; kept in the database only |
 
-Marked ★: 447 studies discussed in the main text (301), Supplementary Note S1 (387), Table S3 (383) or Table S4 (55); a study can appear in several places. 107 studies have a recorded code link.
+Marked ★: 447 studies discussed in the main text (301), Supplementary Note S1 (387), Supplementary Data 1 (383) or Table S3 (55); a study can appear in several places. 107 studies have a recorded code link.
 
 | Model family | Studies |
 |:--|--:|
@@ -84,6 +84,6 @@ The views list the 647 studies that belong to the catalogue, the related studies
 | representation, dimension | image, latent, wavelet, parameters or geometry; 2D or 3D (catalogue only) |
 | clinical_group, task_family | task group and one of the four task families |
 | modality, anatomy, datasets | semicolon-separated; anatomy is keyword-derived |
-| in_paper, in_paper_where | yes or no; main text, Note S1, Note S2, Table S3, Table S4 |
+| in_paper, in_paper_where | yes or no; main text, Note S1, Note S2, Supplementary Data 1, Table S3 (diffusion sample) |
 | list | catalogue, related, NF sample, diffusion sample, excluded (semicolon-separated) |
 | screening_status, merged_from | full-text decision; source ids merged into the row |
